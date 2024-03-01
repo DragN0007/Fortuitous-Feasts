@@ -54,6 +54,36 @@ public class ModConfigFeatures {
             FeatureUtils.register("coconut_spawn", Feature.RANDOM_SELECTOR,
                     new RandomFeatureConfiguration(List.of(
                             new WeightedPlacedFeature(COCONUT_CHECKED, 0.33333334F)), COCONUT_CHECKED));
+
+    //Mango
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> MANGO = FeatureUtils.register("mango",Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+            BlockStateProvider.simple(DFFBlocks.MANGO_LOG.get()),
+            new StraightTrunkPlacer(2, 0, 2),
+            BlockStateProvider.simple(DFFBlocksNoDatagen.MANGO_LEAVES.get()),
+            new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 1),
+            new TwoLayersFeatureSize(1, 0, 2)).ignoreVines().build());
+    public static final Holder<PlacedFeature> MANGO_CHECKED =
+            PlacementUtils.register("mango_checked",
+                    MANGO, PlacementUtils.filteredByBlockSurvival(DFFBlocksNoDatagen.MANGO_LEAVES.get()));
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> MANGO_SPAWN =
+            FeatureUtils.register("mango_spawn", Feature.RANDOM_SELECTOR,
+                    new RandomFeatureConfiguration(List.of(
+                            new WeightedPlacedFeature(MANGO_CHECKED, 0.33333334F)), MANGO_CHECKED));
+
+    //Grapefruit
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> GRAPEFRUIT = FeatureUtils.register("grapefruit",Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+            BlockStateProvider.simple(DFFBlocks.GRAPEFRUIT_LOG.get()),
+            new StraightTrunkPlacer(2, 0, 2),
+            BlockStateProvider.simple(DFFBlocksNoDatagen.GRAPEFRUIT_LEAVES.get()),
+            new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 1),
+            new TwoLayersFeatureSize(1, 0, 2)).ignoreVines().build());
+    public static final Holder<PlacedFeature> GRAPEFRUIT_CHECKED =
+            PlacementUtils.register("grapefruit_checked",
+                    GRAPEFRUIT, PlacementUtils.filteredByBlockSurvival(DFFBlocksNoDatagen.GRAPEFRUIT_LEAVES.get()));
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> GRAPEFRUIT_SPAWN =
+            FeatureUtils.register("grapefruit_spawn", Feature.RANDOM_SELECTOR,
+                    new RandomFeatureConfiguration(List.of(
+                            new WeightedPlacedFeature(GRAPEFRUIT_CHECKED, 0.33333334F)), MANGO_CHECKED));
     
     
     

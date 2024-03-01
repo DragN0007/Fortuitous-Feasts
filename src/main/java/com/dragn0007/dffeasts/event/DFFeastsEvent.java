@@ -45,6 +45,9 @@ public class DFFeastsEvent {
 
 
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.ORANGE_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.MANGO_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.COCONUT_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.GRAPEFRUIT_SAPLING.get(), RenderType.cutout());
 
         //Leaves
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.ORANGE_LEAVES.get(), RenderType.cutout());

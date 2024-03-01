@@ -120,10 +120,14 @@ public class DFFItems {
     //TODO; Seeds
     public static final RegistryObject<Item> ORANGE_SEEDS = ITEMS.register("orange_seeds",
             () -> new ItemNameBlockItem(DFFBlocks.ORANGE_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> GRAPEFRUIT_SEEDS = ITEMS.register("grapefruit_seeds",
+            () -> new ItemNameBlockItem(DFFBlocks.GRAPEFRUIT_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> MANGO_SEED = ITEMS.register("mango_seed",
+            () -> new ItemNameBlockItem(DFFBlocks.MANGO_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
 
 
     public static final RegistryObject<Item> CROP_COIN = ITEMS.register("crop_coin",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(DFFItemGroup.DECOR_GROUP)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

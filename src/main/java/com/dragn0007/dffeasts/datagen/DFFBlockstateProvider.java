@@ -39,6 +39,32 @@ public class DFFBlockstateProvider extends BlockStateProvider {
                 blockTexture(DFFBlocks.COCONUT_PLANKS.get()), blockTexture(DFFBlocks.COCONUT_PLANKS.get()), blockTexture(DFFBlocks.COCONUT_PLANKS.get())));
         simpleBlock(DFFBlocks.COCONUT_SAPLING.get(), models().cross(DFFBlocks.COCONUT_SAPLING.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.COCONUT_SAPLING.get())));
+
+        logBlock(DFFBlocks.MANGO_LOG.get());
+        simpleBlock(DFFBlocks.MANGO_PLANKS.get());
+        simpleBlockItem(DFFBlocks.MANGO_PLANKS.get(), models().cubeAll(DFFBlocks.MANGO_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.MANGO_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.MANGO_STAIRS.get(), blockTexture(DFFBlocks.MANGO_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.MANGO_STAIRS.get(), models().stairs(DFFBlocks.MANGO_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.MANGO_PLANKS.get()), blockTexture(DFFBlocks.MANGO_PLANKS.get()), blockTexture(DFFBlocks.MANGO_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.MANGO_SLAB.get(), blockTexture(DFFBlocks.MANGO_PLANKS.get()), blockTexture(DFFBlocks.MANGO_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.MANGO_SLAB.get(), models().slab(DFFBlocks.MANGO_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.MANGO_PLANKS.get()), blockTexture(DFFBlocks.MANGO_PLANKS.get()), blockTexture(DFFBlocks.MANGO_PLANKS.get())));
+        simpleBlock(DFFBlocks.MANGO_SAPLING.get(), models().cross(DFFBlocks.MANGO_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.MANGO_SAPLING.get())));
+
+        logBlock(DFFBlocks.GRAPEFRUIT_LOG.get());
+        simpleBlock(DFFBlocks.GRAPEFRUIT_PLANKS.get());
+        simpleBlockItem(DFFBlocks.GRAPEFRUIT_PLANKS.get(), models().cubeAll(DFFBlocks.GRAPEFRUIT_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.GRAPEFRUIT_STAIRS.get(), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.GRAPEFRUIT_STAIRS.get(), models().stairs(DFFBlocks.GRAPEFRUIT_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.GRAPEFRUIT_SLAB.get(), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.GRAPEFRUIT_SLAB.get(), models().slab(DFFBlocks.GRAPEFRUIT_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get())));
+        simpleBlock(DFFBlocks.GRAPEFRUIT_SAPLING.get(), models().cross(DFFBlocks.GRAPEFRUIT_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.GRAPEFRUIT_SAPLING.get())));
     }
 
 }

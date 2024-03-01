@@ -65,6 +65,8 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.MINT.get());
 
         simpleItem(DFFItems.ORANGE_SEEDS.get());
+        simpleItem(DFFItems.GRAPEFRUIT_SEEDS.get());
+        simpleItem(DFFItems.MANGO_SEED.get());
 
         simpleItem(DFFItems.CROP_COIN.get());
     }

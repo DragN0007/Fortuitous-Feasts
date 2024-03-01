@@ -32,6 +32,18 @@ public class DFFBlockLootTables extends BlockLoot {
         this.dropSelf(DFFBlocks.COCONUT_STAIRS.get());
         this.dropOther(DFFBlocks.COCONUT_SAPLING.get(), DFFItems.COCONUT.get());
 
+        this.dropSelf(DFFBlocks.GRAPEFRUIT_LOG.get());
+        this.dropSelf(DFFBlocks.GRAPEFRUIT_PLANKS.get());
+        this.dropSelf(DFFBlocks.GRAPEFRUIT_SLAB.get());
+        this.dropSelf(DFFBlocks.GRAPEFRUIT_STAIRS.get());
+        this.dropOther(DFFBlocks.GRAPEFRUIT_SAPLING.get(), DFFItems.GRAPEFRUIT.get());
+
+        this.dropSelf(DFFBlocks.MANGO_LOG.get());
+        this.dropSelf(DFFBlocks.MANGO_PLANKS.get());
+        this.dropSelf(DFFBlocks.MANGO_SLAB.get());
+        this.dropSelf(DFFBlocks.MANGO_STAIRS.get());
+        this.dropOther(DFFBlocks.MANGO_SAPLING.get(), DFFItems.MANGO.get());
+
 
         LootItemCondition.Builder lootitemcondition$builder1 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
                 (DFFBlocks.BELL_PEPPER_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty

@@ -16,10 +16,17 @@ public class ModPlacedFeatures {
             PlacementUtils.register("orange_placed",
                     ModConfigFeatures.ORANGE_SPAWN,
                     treePlacement(PlacementUtils.countExtra(0, 0.05F, 1)));
-
     public static final Holder<PlacedFeature> COCONUT_PLACED =
             PlacementUtils.register("coconut_placed",
                     ModConfigFeatures.COCONUT_SPAWN,
+                    treePlacement(PlacementUtils.countExtra(0, 0.05F, 1)));
+    public static final Holder<PlacedFeature> MANGO_PLACED =
+            PlacementUtils.register("mango_placed",
+                    ModConfigFeatures.MANGO_SPAWN,
+                    treePlacement(PlacementUtils.countExtra(0, 0.05F, 1)));
+    public static final Holder<PlacedFeature> GRAPEFRUIT_PLACED =
+            PlacementUtils.register("grapefruit_placed",
+                    ModConfigFeatures.GRAPEFRUIT_SPAWN,
                     treePlacement(PlacementUtils.countExtra(0, 0.05F, 1)));
 
 

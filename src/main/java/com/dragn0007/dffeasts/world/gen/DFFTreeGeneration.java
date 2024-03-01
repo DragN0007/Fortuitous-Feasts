@@ -35,6 +35,20 @@ public class DFFTreeGeneration {
             base.add(ModPlacedFeatures.COCONUT_PLACED);
         }
 
+        if (types.contains(BiomeDictionary.Type.HOT)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.MANGO_PLACED);
+        }
+
+        if (types.contains(BiomeDictionary.Type.HOT)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.GRAPEFRUIT_PLACED);
+        }
+
 
         }
     }

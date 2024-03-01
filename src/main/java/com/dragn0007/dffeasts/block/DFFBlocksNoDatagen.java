@@ -6,6 +6,9 @@ import com.dragn0007.dffeasts.block.crop.BlueberryBlock;
 import com.dragn0007.dffeasts.block.crop.RaspberryBlock;
 import com.dragn0007.dffeasts.block.crop.WhiteRaspberryBlock;
 import com.dragn0007.dffeasts.block.custom.decorvox.CropBag;
+import com.dragn0007.dffeasts.block.leaves.CoconutLeaves;
+import com.dragn0007.dffeasts.block.leaves.GrapefruitLeaves;
+import com.dragn0007.dffeasts.block.leaves.MangoLeaves;
 import com.dragn0007.dffeasts.block.leaves.OrangeLeaves;
 import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacer;
 import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacerItem;
@@ -38,14 +41,14 @@ public class DFFBlocksNoDatagen {
 
 
     //TODO; Trees/ Leaves
-    public static final RegistryObject<Block> ORANGE_LEAVES = registerPlantBlock("orange_leaves",
+    public static final RegistryObject<Block> ORANGE_LEAVES = registerBlock("orange_leaves",
             () -> new OrangeLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
-    public static final RegistryObject<Block> MANGO_LEAVES = registerPlantBlock("mango_leaves",
-            () -> new OrangeLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
-    public static final RegistryObject<Block> COCONUT_LEAVES = registerPlantBlock("coconut_leaves",
-            () -> new OrangeLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
-    public static final RegistryObject<Block> GRAPEFRUIT_LEAVES = registerPlantBlock("grapefruit_leaves",
-            () -> new OrangeLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> MANGO_LEAVES = registerBlock("mango_leaves",
+            () -> new MangoLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> COCONUT_LEAVES = registerBlock("coconut_leaves",
+            () -> new CoconutLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> GRAPEFRUIT_LEAVES = registerBlock("grapefruit_leaves",
+            () -> new GrapefruitLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
 
 
     //TODO; Bushes
