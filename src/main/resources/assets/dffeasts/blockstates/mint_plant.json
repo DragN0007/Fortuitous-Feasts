@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "age=0": {"model": "dffeasts:block/crop/mint_0" },
+    "age=1": {"model": "dffeasts:block/crop/mint_1" },
+    "age=2": {"model": "dffeasts:block/crop/mint_2" },
+    "age=3": {"model": "dffeasts:block/crop/mint_3" }
+  }
+}

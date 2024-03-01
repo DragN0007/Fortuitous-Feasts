@@ -39,7 +39,14 @@ public class DFFBlocksNoDatagen {
 
     //TODO; Trees/ Leaves
     public static final RegistryObject<Block> ORANGE_LEAVES = registerPlantBlock("orange_leaves",
-            () -> new OrangeLeaves(Block.Properties.of(Material.LEAVES).strength(0.2F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+            () -> new OrangeLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> MANGO_LEAVES = registerPlantBlock("mango_leaves",
+            () -> new OrangeLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> COCONUT_LEAVES = registerPlantBlock("coconut_leaves",
+            () -> new OrangeLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> GRAPEFRUIT_LEAVES = registerPlantBlock("grapefruit_leaves",
+            () -> new OrangeLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+
 
     //TODO; Bushes
     public static final RegistryObject<Block> BLUEBERRY_BUSH = registerBlockWithoutItem("blueberry_bush",

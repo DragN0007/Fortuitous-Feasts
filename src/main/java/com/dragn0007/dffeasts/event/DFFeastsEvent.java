@@ -38,11 +38,20 @@ public class DFFeastsEvent {
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.RED_GRAPE_PLANT.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.PURPLE_GRAPE_PLANT.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WHITE_GRAPE_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.OREGANO_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.ROSEMARY_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.MINT_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.CILANTRO_PLANT.get(), RenderType.cutout());
+
 
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.ORANGE_SAPLING.get(), RenderType.cutout());
 
         //Leaves
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.ORANGE_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.MANGO_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.GRAPEFRUIT_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.COCONUT_LEAVES.get(), RenderType.cutout());
+
 
     }
 

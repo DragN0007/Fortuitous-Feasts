@@ -39,6 +39,21 @@ public class ModConfigFeatures {
             FeatureUtils.register("orange_spawn", Feature.RANDOM_SELECTOR,
                     new RandomFeatureConfiguration(List.of(
                             new WeightedPlacedFeature(ORANGE_CHECKED, 0.33333334F)), ORANGE_CHECKED));
+
+    //Coconut
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> COCONUT = FeatureUtils.register("coconut",Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+            BlockStateProvider.simple(DFFBlocks.COCONUT_LOG.get()),
+            new StraightTrunkPlacer(2, 0, 2),
+            BlockStateProvider.simple(DFFBlocksNoDatagen.COCONUT_LEAVES.get()),
+            new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 1),
+            new TwoLayersFeatureSize(1, 0, 2)).ignoreVines().build());
+    public static final Holder<PlacedFeature> COCONUT_CHECKED =
+            PlacementUtils.register("coconut_checked",
+                    COCONUT, PlacementUtils.filteredByBlockSurvival(DFFBlocksNoDatagen.COCONUT_LEAVES.get()));
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> COCONUT_SPAWN =
+            FeatureUtils.register("coconut_spawn", Feature.RANDOM_SELECTOR,
+                    new RandomFeatureConfiguration(List.of(
+                            new WeightedPlacedFeature(COCONUT_CHECKED, 0.33333334F)), COCONUT_CHECKED));
     
     
     

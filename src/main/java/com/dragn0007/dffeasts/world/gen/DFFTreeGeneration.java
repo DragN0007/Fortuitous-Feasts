@@ -21,11 +21,18 @@ public class DFFTreeGeneration {
         Set<BiomeDictionary.Type> types = BiomeDictionary.getTypes(key);
 
 
-        if (types.contains(BiomeDictionary.Type.PLAINS)) {
+        if (types.contains(BiomeDictionary.Type.HOT)) {
             List<Holder<PlacedFeature>> base =
                     event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
 
             base.add(ModPlacedFeatures.ORANGE_PLACED);
+        }
+
+        if (types.contains(BiomeDictionary.Type.HOT)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.COCONUT_PLACED);
         }
 
 

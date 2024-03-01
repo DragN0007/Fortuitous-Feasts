@@ -41,7 +41,7 @@ public class DFFItems {
     public static final RegistryObject<Item> CHILI_PEPPER = ITEMS.register("chili_pepper",
             () -> new ItemNameBlockItem(DFFBlocks.CHILI_PEPPER_PLANT.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
     public static final RegistryObject<Item> COCONUT = ITEMS.register("coconut",
-            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP)));
+            () -> new ItemNameBlockItem(DFFBlocks.COCONUT_SAPLING.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
     public static final RegistryObject<Item> CORN = ITEMS.register("corn",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP)));
     public static final RegistryObject<Item> CRANBERRIES = ITEMS.register("cranberries",
@@ -103,13 +103,13 @@ public class DFFItems {
 
     // Herbs
     public static final RegistryObject<Item> CILANTRO = ITEMS.register("cilantro",
-            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP)));
+            () -> new ItemNameBlockItem(DFFBlocks.CILANTRO_PLANT.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
     public static final RegistryObject<Item> MINT = ITEMS.register("mint",
-            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP)));
+            () -> new ItemNameBlockItem(DFFBlocks.MINT_PLANT.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
     public static final RegistryObject<Item> OREGANO = ITEMS.register("oregano",
-            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP)));
+            () -> new ItemNameBlockItem(DFFBlocks.OREGANO_PLANT.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
     public static final RegistryObject<Item> ROSEMARY = ITEMS.register("rosemary",
-            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP)));
+            () -> new ItemNameBlockItem(DFFBlocks.ROSEMARY_PLANT.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(1).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
 
     //TODO; Food
 

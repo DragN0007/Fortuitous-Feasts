@@ -8,6 +8,7 @@ import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacerEntity;
 import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacerItem;
 import com.dragn0007.dffeasts.item.DFFItemGroup;
 import com.dragn0007.dffeasts.item.DFFItems;
+import com.dragn0007.dffeasts.world.feature.tree.CoconutTreeGrower;
 import com.dragn0007.dffeasts.world.feature.tree.OrangeTreeGrower;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -27,6 +28,11 @@ public class DFFBlocks {
             = DeferredRegister.create(ForgeRegistries.BLOCKS, DFFeastsMain.MODID);
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES
             = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES, DFFeastsMain.MODID);
+
+    /*
+    public static final RegistryObject<Block> _PLANT = registerBlockWithoutItem("_plant",
+            () -> new PlantBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    */
 
 
 
@@ -53,17 +59,38 @@ public class DFFBlocks {
             () -> new PurpleGrapeBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
     public static final RegistryObject<Block> WHITE_GRAPE_PLANT = registerBlockWithoutItem("white_grape_plant",
             () -> new WhiteGrapeBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> CILANTRO_PLANT = registerBlockWithoutItem("cilantro_plant",
+            () -> new CilantroBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> OREGANO_PLANT = registerBlockWithoutItem("oregano_plant",
+            () -> new OreganoBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> ROSEMARY_PLANT = registerBlockWithoutItem("rosemary_plant",
+            () -> new RosemaryBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> MINT_PLANT = registerBlockWithoutItem("mint_plant",
+            () -> new MintBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
 
 
     //TODO; Trees
     public static final RegistryObject<RotatedPillarBlock> ORANGE_LOG = registerBlock("orange_log",
-            () -> new RotatedPillarBlock(Block.Properties.of(Material.WOOD)
-                    .strength(2.0F, 3.0F)));
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
     public static final RegistryObject<Block> ORANGE_PLANKS = registerBlock("orange_planks",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-                    .strength(2.0F, 3.0F)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> ORANGE_STAIRS = registerBlock("orange_stairs",
+            () -> new StairBlock(ORANGE_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> ORANGE_SLAB = registerBlock("orange_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
     public static final RegistryObject<Block> ORANGE_SAPLING = registerBlockWithoutItem("orange_sapling",
-            () -> new SaplingBlock(new OrangeTreeGrower(), Block.Properties.of(Material.PLANT).noCollission().randomTicks().instabreak().sound(SoundType.GRASS)));
+            () -> new SaplingBlock(new OrangeTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
+    public static final RegistryObject<RotatedPillarBlock> COCONUT_LOG = registerBlock("coconut_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> COCONUT_PLANKS = registerBlock("coconut_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> COCONUT_STAIRS = registerBlock("coconut_stairs",
+            () -> new StairBlock(COCONUT_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> COCONUT_SLAB = registerBlock("coconut_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> COCONUT_SAPLING = registerBlockWithoutItem("coconut_sapling",
+            () -> new SaplingBlock(new CoconutTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
 
 

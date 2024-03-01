@@ -22,8 +22,15 @@ public class DFFBlockLootTables extends BlockLoot {
 
         this.dropSelf(DFFBlocks.ORANGE_LOG.get());
         this.dropSelf(DFFBlocks.ORANGE_PLANKS.get());
+        this.dropSelf(DFFBlocks.ORANGE_SLAB.get());
+        this.dropSelf(DFFBlocks.ORANGE_STAIRS.get());
         this.dropOther(DFFBlocks.ORANGE_SAPLING.get(), DFFItems.ORANGE_SEEDS.get());
 
+        this.dropSelf(DFFBlocks.COCONUT_LOG.get());
+        this.dropSelf(DFFBlocks.COCONUT_PLANKS.get());
+        this.dropSelf(DFFBlocks.COCONUT_SLAB.get());
+        this.dropSelf(DFFBlocks.COCONUT_STAIRS.get());
+        this.dropOther(DFFBlocks.COCONUT_SAPLING.get(), DFFItems.COCONUT.get());
 
 
         LootItemCondition.Builder lootitemcondition$builder1 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
@@ -102,6 +109,34 @@ public class DFFBlockLootTables extends BlockLoot {
                 (DFFBlocks.WHITE_GRAPE_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
                         (DFFItems.WHITE_GRAPES.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder11).add(LootItem.lootTableItem
                         (DFFItems.WHITE_GRAPES.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder12 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.OREGANO_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.OREGANO_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.OREGANO.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder12).add(LootItem.lootTableItem
+                        (DFFItems.OREGANO.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder13 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.MINT_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.MINT_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.MINT.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder13).add(LootItem.lootTableItem
+                        (DFFItems.MINT.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder14 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.ROSEMARY_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.ROSEMARY_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.ROSEMARY.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder14).add(LootItem.lootTableItem
+                        (DFFItems.ROSEMARY.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder15 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.CILANTRO_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.CILANTRO_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.CILANTRO.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder15).add(LootItem.lootTableItem
+                        (DFFItems.CILANTRO.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
 
     }
 

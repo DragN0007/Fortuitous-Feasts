@@ -17,6 +17,12 @@ public class ModPlacedFeatures {
                     ModConfigFeatures.ORANGE_SPAWN,
                     treePlacement(PlacementUtils.countExtra(0, 0.05F, 1)));
 
+    public static final Holder<PlacedFeature> COCONUT_PLACED =
+            PlacementUtils.register("coconut_placed",
+                    ModConfigFeatures.COCONUT_SPAWN,
+                    treePlacement(PlacementUtils.countExtra(0, 0.05F, 1)));
+
+
 
     //BUSHES
     public static final Holder<PlacedFeature> BLUEBERRY_PLACED =
