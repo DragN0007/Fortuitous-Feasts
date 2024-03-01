@@ -1,7 +1,6 @@
 package com.dragn0007.dffeasts.entity.villager;
 
 import com.dragn0007.dffeasts.DFFeastsMain;
-import com.dragn0007.dffeasts.block.DFFBlocks;
 import com.dragn0007.dffeasts.block.DFFBlocksNoDatagen;
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.sounds.SoundEvents;

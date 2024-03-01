@@ -1,12 +1,17 @@
 package com.dragn0007.dffeasts.world.gen;
 
 
+import com.dragn0007.dffeasts.world.feature.ModPlacedFeatures;
+import net.minecraft.core.Holder;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.biome.Biome;
+import net.minecraft.world.level.levelgen.GenerationStep;
+import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraftforge.common.BiomeDictionary;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.registries.ForgeRegistries;
 
+import java.util.List;
 import java.util.Set;
 
 public class DFFTreeGeneration {
@@ -16,6 +21,12 @@ public class DFFTreeGeneration {
         Set<BiomeDictionary.Type> types = BiomeDictionary.getTypes(key);
 
 
+        if (types.contains(BiomeDictionary.Type.PLAINS)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.ORANGE_PLACED);
+        }
 
 
         }

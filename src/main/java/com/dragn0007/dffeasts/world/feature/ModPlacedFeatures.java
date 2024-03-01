@@ -7,7 +7,16 @@ import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.placement.RarityFilter;
 
+import static net.minecraft.data.worldgen.placement.VegetationPlacements.treePlacement;
+
 public class ModPlacedFeatures {
+
+    //TREE
+    public static final Holder<PlacedFeature> ORANGE_PLACED =
+            PlacementUtils.register("orange_placed",
+                    ModConfigFeatures.ORANGE_SPAWN,
+                    treePlacement(PlacementUtils.countExtra(0, 0.05F, 1)));
+
 
     //BUSHES
     public static final Holder<PlacedFeature> BLUEBERRY_PLACED =

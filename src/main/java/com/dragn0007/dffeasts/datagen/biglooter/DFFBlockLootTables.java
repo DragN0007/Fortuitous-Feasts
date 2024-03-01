@@ -20,6 +20,10 @@ public class DFFBlockLootTables extends BlockLoot {
     protected void addTables() {
         this.dropSelf(DFFBlocks.PIXEL_PLACER_CONTAINER.get());
 
+        this.dropSelf(DFFBlocks.ORANGE_LOG.get());
+        this.dropSelf(DFFBlocks.ORANGE_PLANKS.get());
+        this.dropOther(DFFBlocks.ORANGE_SAPLING.get(), DFFItems.ORANGE_SEEDS.get());
+
 
 
         LootItemCondition.Builder lootitemcondition$builder1 = LootItemBlockStatePropertyCondition.hasBlockStateProperties

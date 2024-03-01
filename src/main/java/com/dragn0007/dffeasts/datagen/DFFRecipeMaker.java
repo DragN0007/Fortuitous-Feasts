@@ -1,5 +1,6 @@
 package com.dragn0007.dffeasts.datagen;
 
+import com.dragn0007.dffeasts.block.DFFBlocks;
 import com.dragn0007.dffeasts.block.DFFBlocksNoDatagen;
 import com.dragn0007.dffeasts.item.DFFItems;
 import com.dragn0007.dffeasts.util.DFFTags;
@@ -22,6 +23,14 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.ORANGE_SEEDS.get())
+                .requires(DFFItems.ORANGE.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
 
         ShapedRecipeBuilder.shaped(DFFBlocksNoDatagen.CROP_BARREL.get())
                 .define('A', Blocks.BARREL)

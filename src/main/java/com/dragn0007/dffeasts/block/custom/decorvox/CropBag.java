@@ -1,6 +1,5 @@
 package com.dragn0007.dffeasts.block.custom.decorvox;
 
-import com.dragn0007.dffeasts.block.custom.DecorRotator;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.Shapes;

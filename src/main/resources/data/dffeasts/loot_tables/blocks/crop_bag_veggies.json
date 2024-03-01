@@ -210,6 +210,102 @@
               "function": "minecraft:explosion_decay"
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dffeasts:rye",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dffeasts:peanuts",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dffeasts:ginger",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dffeasts:black_beans",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dffeasts:kidney_beans",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dffeasts:soybeans",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
         }
       ]
     }

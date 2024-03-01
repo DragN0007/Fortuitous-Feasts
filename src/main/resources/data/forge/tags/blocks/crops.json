@@ -33,6 +33,17 @@
     "dffeasts:jalepeno_pepper_plant",
     "dffeasts:onion_plant",
     "dffeasts:radish_plant",
-    "dffeasts:zucchini_plant"
+    "dffeasts:zucchini_plant",
+    "dffeasts:ginger_plant",
+    "dffeasts:kidney_bean_plant",
+    "dffeasts:black_bean_plant",
+    "dffeasts:soybean_plant",
+
+    "dffeasts:rye_plant",
+
+    "dffeasts:oregano_plant",
+    "dffeasts:rosemary_plant",
+    "dffeasts:cilantro_plant",
+    "dffeasts:mint_plant"
   ]
 }

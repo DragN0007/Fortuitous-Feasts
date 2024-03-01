@@ -3,6 +3,7 @@
   "itemGroup.cropmodtab": "Fortuitous Feasts Crops",
   "itemGroup.foodmodtab": "Fortuitous Feasts Food",
 
+
   "item.dffeasts.avocado": "Avocado",
   "item.dffeasts.bell_pepper": "Bell Pepper",
   "item.dffeasts.blackberry": "Blackberry",
@@ -95,6 +96,18 @@
   "item.dffeasts.pear_leaves": "Pear Leaves",
   "item.dffeasts.pomegranate_leaves": "Pomegranate Leaves",
   "item.dffeasts.walnut_leaves": "Walnut Leaves",
+
+
+  "block.dffeasts.avocado_log": "Avocado Log",
+  "block.dffeasts.avocado_planks": "Avocado Planks",
+  "block.dffeasts.avocado_sapling": "Avocado Sapling",
+  "item.dffeasts.avocado_pit": "Avocado Pit",
+
+  "block.dffeasts.orange_log": "Orange Log",
+  "block.dffeasts.orange_planks": "Orange Planks",
+  "block.dffeasts.orange_sapling": "Orange Sapling",
+  "item.dffeasts.orange_seeds": "Orange Seeds",
+
 
   "block.dffeasts.crop_bag_veggies": "Fortuitous Feasts Veggies Crop Bag",
   "block.dffeasts.crop_bag_fruits": "Fortuitous Feasts Fruits Crop Bag",

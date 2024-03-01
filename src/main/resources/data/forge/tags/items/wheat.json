@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:wheat",
-    "dffeasts:flour"
+    "dffeasts:flour",
+    "dffeasts:rye"
   ]
 }

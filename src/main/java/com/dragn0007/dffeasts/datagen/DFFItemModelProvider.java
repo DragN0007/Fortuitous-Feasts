@@ -1,6 +1,7 @@
 package com.dragn0007.dffeasts.datagen;
 
 import com.dragn0007.dffeasts.DFFeastsMain;
+import com.dragn0007.dffeasts.block.DFFBlocks;
 import com.dragn0007.dffeasts.item.DFFItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
@@ -38,6 +39,32 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.MANGO.get());
         simpleItem(DFFItems.TOMATO.get());
         simpleItem(DFFItems.RADISH.get());
+        simpleItem(DFFItems.COCONUT.get());
+        simpleItem(DFFItems.SOYBEANS.get());
+        simpleItem(DFFItems.AVOCADO.get());
+        simpleItem(DFFItems.BRUSSELS_SPROUTS.get());
+        simpleItem(DFFItems.BUTTERNUT_SQUASH.get());
+        simpleItem(DFFItems.CELERY.get());
+        simpleItem(DFFItems.CHERRIES.get());
+        simpleItem(DFFItems.CUCUMBER.get());
+        simpleItem(DFFItems.GINGER.get());
+        simpleItem(DFFItems.KIDNEY_BEANS.get());
+        simpleItem(DFFItems.BLACK_BEANS.get());
+        simpleItem(DFFItems.KIWI.get());
+        simpleItem(DFFItems.LYCHEE.get());
+        simpleItem(DFFItems.PEANUTS.get());
+        simpleItem(DFFItems.PEAR.get());
+        simpleItem(DFFItems.POMEGRANATE.get());
+        simpleItem(DFFItems.RYE.get());
+        simpleItem(DFFItems.WALNUT.get());
+        simpleItem(DFFItems.ZUCCHINI.get());
+
+        simpleItem(DFFItems.OREGANO.get());
+        simpleItem(DFFItems.ROSEMARY.get());
+        simpleItem(DFFItems.CILANTRO.get());
+        simpleItem(DFFItems.MINT.get());
+
+        simpleItem(DFFItems.ORANGE_SEEDS.get());
 
         simpleItem(DFFItems.CROP_COIN.get());
     }
