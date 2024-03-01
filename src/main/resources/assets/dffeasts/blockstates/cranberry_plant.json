@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "age=0": {"model": "dffeasts:block/base/short_plant_base_0" },
+    "age=1": {"model": "dffeasts:block/base/short_plant_base_1" },
+    "age=2": {"model": "dffeasts:block/crop/cranberry_plant_2" },
+    "age=3": {"model": "dffeasts:block/crop/cranberry_plant_3" }
+  }
+}

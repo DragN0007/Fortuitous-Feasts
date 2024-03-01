@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dffeasts:blocks/tropical_base_leaves"
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/crop",
+	"textures": {
+		"crop": "dffeasts:blocks/short_plant_base_1"
+	}
+}

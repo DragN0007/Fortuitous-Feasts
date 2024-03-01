@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dffeasts:items/crop_bag_fruits"
+  }
+}

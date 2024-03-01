@@ -1,0 +1,6 @@
+{
+	"parent": "dffeasts:block/parent/supported_base_parent",
+	"textures": {
+		"stage": "dffeasts:blocks/vined_base_2"
+	}
+}

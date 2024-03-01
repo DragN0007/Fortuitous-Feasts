@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:barrel"
+    },
+    "B": {
+      "tag": "forge:crop_item"
+    }
+  },
+  "result": {
+    "item": "dffeasts:crop_barrel"
+  }
+}

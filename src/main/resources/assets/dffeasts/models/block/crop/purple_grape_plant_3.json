@@ -1,0 +1,6 @@
+{
+	"parent": "dffeasts:block/base/grape_base_3",
+	"textures": {
+		"grape": "dffeasts:blocks/purple_grape"
+	}
+}

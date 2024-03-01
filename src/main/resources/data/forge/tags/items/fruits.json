@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:apple",
+    "minecraft:melon_slice",
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries",
+    "dffeasts:avocado",
+    "dffeasts:blackberry",
+    "dffeasts:blueberries",
+    "dffeasts:cherries",
+    "dffeasts:cranberries",
+    "dffeasts:grapefruit",
+    "dffeasts:kiwi",
+    "dffeasts:lychee",
+    "dffeasts:mango",
+    "dffeasts:orange",
+    "dffeasts:pear",
+    "dffeasts:purple_grapes",
+    "dffeasts:raspberry",
+    "dffeasts:red_grapes",
+    "dffeasts:strawberry",
+    "dffeasts:tomato",
+    "dffeasts:white_grapes",
+    "dffeasts:white_raspberry"
+  ]
+}

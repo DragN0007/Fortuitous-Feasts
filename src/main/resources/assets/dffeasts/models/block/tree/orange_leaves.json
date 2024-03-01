@@ -1,0 +1,7 @@
+{
+	"parent": "dffeasts:block/parent/generic_fruit_leaves_parent",
+	"textures": {
+		"fruit": "dffeasts:blocks/oranges",
+		"leaves": "dffeasts:blocks/tropical_base_leaves"
+	}
+}

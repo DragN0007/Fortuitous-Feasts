@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved, DragN0007"
+issueTrackerURL="https://discord.gg/jubppqCzXj"
+[[mods]]
+modId="dffeasts"
+version="${1.18.2-0.1-BETA}"
+displayName="DragN’s Fortuitous Feasts"
+logoFile="dffeasts.png"
+#credits="DragN0007"
+authors="DragN0007"
+description='''
+Diverse crops and food!
+'''
+[[dependencies.dffeasts]]
+modId="forge"
+mandatory=true
+versionRange="[40,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.dffeasts]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2,1.19.0)"
+ordering="NONE"
+side="BOTH"

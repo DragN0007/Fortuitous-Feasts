@@ -1,0 +1,6 @@
+{
+	"parent": "dffeasts:block/parent/crop_bag_parent",
+	"textures": {
+		"bag": "dffeasts:blocks/crop_bag_fruits"
+	}
+}

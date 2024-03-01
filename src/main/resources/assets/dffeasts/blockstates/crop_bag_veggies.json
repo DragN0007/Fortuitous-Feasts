@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dffeasts:block/crop_bag_veggies",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "dffeasts:block/crop_bag_veggies"
+    },
+    "facing=south": {
+      "model": "dffeasts:block/crop_bag_veggies",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dffeasts:block/crop_bag_veggies",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries",
+    "dffeasts:blackberry",
+    "dffeasts:blueberries",
+    "dffeasts:cranberries",
+    "dffeasts:purple_grapes",
+    "dffeasts:raspberry",
+    "dffeasts:red_grapes",
+    "dffeasts:strawberry",
+    "dffeasts:white_grapes",
+    "dffeasts:white_raspberry"
+  ]
+}

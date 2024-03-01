@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:apple",
+    "dffeasts:avocado",
+    "dffeasts:cherries",
+    "dffeasts:coconut",
+    "dffeasts:grapefruit",
+    "dffeasts:lychee",
+    "dffeasts:mango",
+    "dffeasts:orange",
+    "dffeasts:pear"
+  ]
+}
