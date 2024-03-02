@@ -1,0 +1,6 @@
+{
+	"parent": "dffeasts:block/parent/large_cheese_wheel",
+	"textures": {
+		"cheese": "dffeasts:blocks/cheddar_0"
+	}
+}

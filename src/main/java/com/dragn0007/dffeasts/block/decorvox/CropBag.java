@@ -1,5 +1,6 @@
-package com.dragn0007.dffeasts.block.custom.decorvox;
+package com.dragn0007.dffeasts.block.decorvox;
 
+import com.dragn0007.dffeasts.block.custom.DecorRotatorCropBag;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.Shapes;

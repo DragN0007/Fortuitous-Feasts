@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "dffeasts:block/orange_slab_top"
+    },
+    "type=bottom": {
+      "model": "dffeasts:block/orange_slab"
+    },
+    "type=double": {
+      "model": "dffeasts:block/orange_planks"
+    }
+  }
+}

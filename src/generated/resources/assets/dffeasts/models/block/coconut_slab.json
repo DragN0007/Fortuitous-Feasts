@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "side": "dffeasts:block/coconut_planks",
+    "bottom": "dffeasts:block/coconut_planks",
+    "top": "dffeasts:block/coconut_planks"
+  }
+}

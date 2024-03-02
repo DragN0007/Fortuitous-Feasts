@@ -1,4 +1,4 @@
-package com.dragn0007.dffeasts.block.custom.decorvox;
+package com.dragn0007.dffeasts.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

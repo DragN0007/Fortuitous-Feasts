@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:coconut_log"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:coconut_planks",
+    "count": 4
+  }
+}

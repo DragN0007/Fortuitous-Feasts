@@ -1,7 +1,6 @@
 package com.dragn0007.dffeasts.datagen;
 
 import com.dragn0007.dffeasts.DFFeastsMain;
-import com.dragn0007.dffeasts.block.DFFBlocks;
 import com.dragn0007.dffeasts.item.DFFItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;

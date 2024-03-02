@@ -22,6 +22,8 @@ public class DFFeastsEvent {
         ResourceLocation resourceLocation = new ResourceLocation(DFFeastsMain.MODID, "null");
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.PIXEL_PLACER_CONTAINER.get(), RenderType.lineStrip());
 
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.CHEDDAR_CHEESE_BLOCK.get(), RenderType.cutout());
+
         //Crops
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.BELL_PEPPER_PLANT.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.JALEPENO_PEPPER_PLANT.get(), RenderType.cutout());
@@ -42,7 +44,6 @@ public class DFFeastsEvent {
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.ROSEMARY_PLANT.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.MINT_PLANT.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.CILANTRO_PLANT.get(), RenderType.cutout());
-
 
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.ORANGE_SAPLING.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.MANGO_SAPLING.get(), RenderType.cutout());

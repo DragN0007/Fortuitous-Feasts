@@ -5,7 +5,8 @@ import com.dragn0007.dffeasts.block.crop.BlackberryBlock;
 import com.dragn0007.dffeasts.block.crop.BlueberryBlock;
 import com.dragn0007.dffeasts.block.crop.RaspberryBlock;
 import com.dragn0007.dffeasts.block.crop.WhiteRaspberryBlock;
-import com.dragn0007.dffeasts.block.custom.decorvox.CropBag;
+import com.dragn0007.dffeasts.block.custom.AgeableCheeseBlock;
+import com.dragn0007.dffeasts.block.decorvox.CropBag;
 import com.dragn0007.dffeasts.block.leaves.CoconutLeaves;
 import com.dragn0007.dffeasts.block.leaves.GrapefruitLeaves;
 import com.dragn0007.dffeasts.block.leaves.MangoLeaves;
@@ -38,6 +39,12 @@ public class DFFBlocksNoDatagen {
 
     public static final RegistryObject<Block> CROP_BARREL = registerBlock("crop_barrel",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
+
+
+    //TODO; CHEESE
+    public static final RegistryObject<Block> CHEDDAR_CHEESE_BLOCK = registerBlock("cheddar_cheese_block",
+            () -> new AgeableCheeseBlock(Block.Properties.of(Material.CAKE)));
+
 
 
     //TODO; Trees/ Leaves

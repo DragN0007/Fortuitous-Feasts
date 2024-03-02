@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "dffeasts:block/mango_sapling"
+  }
+}
