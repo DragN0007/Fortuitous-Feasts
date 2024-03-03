@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:sugar"
+    ]
+  },
+  "criteria": {
+    "has_sugar_beet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dffeasts:sugar_beet"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:sugar"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sugar_beet",
+      "has_the_recipe"
+    ]
+  ]
+}
