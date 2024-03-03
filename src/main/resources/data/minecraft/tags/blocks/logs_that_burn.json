@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "dffeasts:orange_log",
+    "dffeasts:coconut_log",
+    "dffeasts:mango_log",
     "dffeasts:orange_log"
   ]
 }

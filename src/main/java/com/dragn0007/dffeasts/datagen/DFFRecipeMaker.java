@@ -6,10 +6,9 @@ import com.dragn0007.dffeasts.item.DFFItems;
 import com.dragn0007.dffeasts.util.DFFTags;
 import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.data.recipes.FinishedRecipe;
-import net.minecraft.data.recipes.RecipeProvider;
-import net.minecraft.data.recipes.ShapedRecipeBuilder;
-import net.minecraft.data.recipes.ShapelessRecipeBuilder;
+import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
@@ -22,6 +21,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
+
 
         ShapelessRecipeBuilder.shapeless(DFFItems.ORANGE_SEEDS.get())
                 .requires(DFFItems.ORANGE.get())
@@ -141,6 +141,25 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
 
 
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Items.ROTTEN_FLESH), Items.LEATHER, 0.35F, 200)
+                .unlockedBy("has_rotten_flesh", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.ROTTEN_FLESH).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(Items.PAPER, 12)
+                .requires(DFFTags.Items.PAPERABLE_LOGS)
+                .requires(DFFTags.Items.PAPERABLE_LOGS)
+                .unlockedBy("has_paperable_log", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.PAPERABLE_LOGS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(Items.SUGAR, 4)
+                .requires(DFFItems.SUGAR_BEET.get())
+                .unlockedBy("has_sugar_beet", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFItems.SUGAR_BEET.get())
+                        .build()))
+                .save(pFinishedRecipeConsumer);
 
         ShapedRecipeBuilder.shaped(DFFBlocksNoDatagen.CROP_BARREL.get())
                 .define('A', Blocks.BARREL)

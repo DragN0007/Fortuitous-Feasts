@@ -24,6 +24,7 @@ public class DFFTags {
         public static final TagKey<Item> NUTS = forgeTag("nuts");
         public static final TagKey<Item> TREE_FRUITS = forgeTag("tree_fruits");
         public static final TagKey<Item> CROP_ITEM = forgeTag("crop_item");
+        public static final TagKey<Item> PAPERABLE_LOGS = forgeTag("paperable_logs");
 
         private static TagKey<Item> tag (String name) {
             return ItemTags.create(new ResourceLocation(DFFeastsMain.MODID, name));

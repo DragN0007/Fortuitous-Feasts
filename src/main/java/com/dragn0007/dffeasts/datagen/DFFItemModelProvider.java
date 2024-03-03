@@ -57,6 +57,7 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.RYE.get());
         simpleItem(DFFItems.WALNUT.get());
         simpleItem(DFFItems.ZUCCHINI.get());
+        simpleItem(DFFItems.SUGAR_BEET.get());
 
         simpleItem(DFFItems.OREGANO.get());
         simpleItem(DFFItems.ROSEMARY.get());

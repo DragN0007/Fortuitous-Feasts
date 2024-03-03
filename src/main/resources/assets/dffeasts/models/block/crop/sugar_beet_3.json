@@ -1,0 +1,6 @@
+{
+	"parent": "dffeasts:block/base/root_base_3",
+	"textures": {
+		"root": "dffeasts:blocks/sugar_beet"
+	}
+}

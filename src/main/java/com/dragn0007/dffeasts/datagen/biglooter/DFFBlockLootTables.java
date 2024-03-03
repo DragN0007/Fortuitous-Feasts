@@ -150,6 +150,111 @@ public class DFFBlockLootTables extends BlockLoot {
                         (DFFItems.CILANTRO.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder15).add(LootItem.lootTableItem
                         (DFFItems.CILANTRO.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
 
+        LootItemCondition.Builder lootitemcondition$builder16 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.BRUSSELS_SPROUTS_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.BRUSSELS_SPROUTS_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.BRUSSELS_SPROUTS.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder16).add(LootItem.lootTableItem
+                        (DFFItems.BRUSSELS_SPROUTS.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder17 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.BLACK_BEAN_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.BLACK_BEAN_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.BLACK_BEANS.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder17).add(LootItem.lootTableItem
+                        (DFFItems.BLACK_BEANS.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder18 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.BUTTERNUT_SQUASH_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.BUTTERNUT_SQUASH_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.BUTTERNUT_SQUASH.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder18).add(LootItem.lootTableItem
+                        (DFFItems.BUTTERNUT_SQUASH.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder19 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.CELERY_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.CELERY_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.CELERY.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder19).add(LootItem.lootTableItem
+                        (DFFItems.CELERY.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder20 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.CORN_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.CORN_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.CORN.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder20).add(LootItem.lootTableItem
+                        (DFFItems.CORN.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder21 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.CUCUMBER_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.CUCUMBER_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.CUCUMBER.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder21).add(LootItem.lootTableItem
+                        (DFFItems.CUCUMBER.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder22 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.GINGER_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.GINGER_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.GINGER.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder22).add(LootItem.lootTableItem
+                        (DFFItems.GINGER.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder23 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.GREEN_BEAN_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.GREEN_BEAN_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.GREEN_BEANS.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder23).add(LootItem.lootTableItem
+                        (DFFItems.GREEN_BEANS.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder24 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.KIDNEY_BEAN_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.KIDNEY_BEAN_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.KIDNEY_BEANS.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder24).add(LootItem.lootTableItem
+                        (DFFItems.KIDNEY_BEANS.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder25 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.PEANUT_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.PEANUT_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.PEANUTS.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder25).add(LootItem.lootTableItem
+                        (DFFItems.PEANUTS.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder26 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.RYE_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.RYE_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.RYE.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder26).add(LootItem.lootTableItem
+                        (DFFItems.RYE.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder27 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.SOYBEAN_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.SOYBEAN_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.SOYBEANS.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder27).add(LootItem.lootTableItem
+                        (DFFItems.SOYBEANS.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder28 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.STRAWBERRY_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.STRAWBERRY_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.STRAWBERRY.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder28).add(LootItem.lootTableItem
+                        (DFFItems.STRAWBERRY.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder29 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.ZUCCHINI_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.ZUCCHINI_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.ZUCCHINI.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder29).add(LootItem.lootTableItem
+                        (DFFItems.ZUCCHINI.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
+        LootItemCondition.Builder lootitemcondition$builder30 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
+                (DFFBlocks.SUGAR_BEET_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
+                (BellPepperBlock.AGE, 3));    this.add
+                (DFFBlocks.SUGAR_BEET_PLANT.get(),   LootTable.lootTable().withPool(LootPool.lootPool().add(LootItem.lootTableItem
+                        (DFFItems.SUGAR_BEET.get())))       .withPool(LootPool.lootPool().when(lootitemcondition$builder30).add(LootItem.lootTableItem
+                        (DFFItems.SUGAR_BEET.get())         .apply(ApplyBonusCount.addBonusBinomialDistributionCount(Enchantments.BLOCK_FORTUNE, 0.5714286F, 2)))));
+
     }
 
     @Override

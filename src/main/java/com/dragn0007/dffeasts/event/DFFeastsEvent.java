@@ -44,6 +44,22 @@ public class DFFeastsEvent {
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.ROSEMARY_PLANT.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.MINT_PLANT.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.CILANTRO_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.BLACK_BEAN_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.BRUSSELS_SPROUTS_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.BUTTERNUT_SQUASH_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.CELERY_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.CORN_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.CUCUMBER_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.GREEN_BEAN_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.KIDNEY_BEAN_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.PEANUT_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.GINGER_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.RYE_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.SOYBEAN_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.STRAWBERRY_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.SUGAR_BEET_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.ZUCCHINI_PLANT.get(), RenderType.cutout());
+
 
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.ORANGE_SAPLING.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.MANGO_SAPLING.get(), RenderType.cutout());

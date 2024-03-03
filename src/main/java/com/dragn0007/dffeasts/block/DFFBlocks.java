@@ -61,6 +61,37 @@ public class DFFBlocks {
             () -> new PurpleGrapeBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
     public static final RegistryObject<Block> WHITE_GRAPE_PLANT = registerBlockWithoutItem("white_grape_plant",
             () -> new WhiteGrapeBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> BLACK_BEAN_PLANT = registerBlockWithoutItem("black_bean_plant",
+            () -> new BlackBeanBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> BRUSSELS_SPROUTS_PLANT = registerBlockWithoutItem("brussels_sprouts_plant",
+            () -> new BrusselsSproutsBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> BUTTERNUT_SQUASH_PLANT = registerBlockWithoutItem("butternut_squash_plant",
+            () -> new ButternutSquashBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> CELERY_PLANT = registerBlockWithoutItem("celery_plant",
+            () -> new CeleryBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> CORN_PLANT = registerBlockWithoutItem("corn_plant",
+            () -> new CornBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> CUCUMBER_PLANT = registerBlockWithoutItem("cucumber_plant",
+            () -> new CucumberBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> GINGER_PLANT = registerBlockWithoutItem("ginger_plant",
+            () -> new GingerBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> GREEN_BEAN_PLANT = registerBlockWithoutItem("green_bean_plant",
+            () -> new GreenBeanBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> KIDNEY_BEAN_PLANT = registerBlockWithoutItem("kidney_bean_plant",
+            () -> new KidneyBeanBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> PEANUT_PLANT = registerBlockWithoutItem("peanut_plant",
+            () -> new PeanutBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> RYE_PLANT = registerBlockWithoutItem("rye_plant",
+            () -> new RyeBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> SOYBEAN_PLANT = registerBlockWithoutItem("soybean_plant",
+            () -> new SoybeanBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> STRAWBERRY_PLANT = registerBlockWithoutItem("strawberry_plant",
+            () -> new StrawberryBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> SUGAR_BEET_PLANT = registerBlockWithoutItem("sugar_beet_plant",
+            () -> new SugarBeetBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+    public static final RegistryObject<Block> ZUCCHINI_PLANT = registerBlockWithoutItem("zucchini_plant",
+            () -> new ZucchiniBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+
     public static final RegistryObject<Block> CILANTRO_PLANT = registerBlockWithoutItem("cilantro_plant",
             () -> new CilantroBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
     public static final RegistryObject<Block> OREGANO_PLANT = registerBlockWithoutItem("oregano_plant",
