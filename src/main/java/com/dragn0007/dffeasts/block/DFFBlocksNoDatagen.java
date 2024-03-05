@@ -7,10 +7,7 @@ import com.dragn0007.dffeasts.block.crop.RaspberryBlock;
 import com.dragn0007.dffeasts.block.crop.WhiteRaspberryBlock;
 import com.dragn0007.dffeasts.block.custom.AgeableCheeseBlock;
 import com.dragn0007.dffeasts.block.decorvox.CropBag;
-import com.dragn0007.dffeasts.block.leaves.CoconutLeaves;
-import com.dragn0007.dffeasts.block.leaves.GrapefruitLeaves;
-import com.dragn0007.dffeasts.block.leaves.MangoLeaves;
-import com.dragn0007.dffeasts.block.leaves.OrangeLeaves;
+import com.dragn0007.dffeasts.block.leaves.*;
 import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacer;
 import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacerItem;
 import com.dragn0007.dffeasts.item.DFFItemGroup;
@@ -56,6 +53,18 @@ public class DFFBlocksNoDatagen {
             () -> new CoconutLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
     public static final RegistryObject<Block> GRAPEFRUIT_LEAVES = registerBlock("grapefruit_leaves",
             () -> new GrapefruitLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> LYCHEE_LEAVES = registerBlock("lychee_leaves",
+            () -> new LycheeLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> AVOCADO_LEAVES = registerBlock("avocado_leaves",
+            () -> new AvocadoLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> KIWI_LEAVES = registerBlock("kiwi_leaves",
+            () -> new KiwiLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> CHERRY_LEAVES = registerBlock("cherry_leaves",
+            () -> new CherryLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> PEAR_LEAVES = registerBlock("pear_leaves",
+            () -> new PearLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> POMEGRANATE_LEAVES = registerBlock("pomegranate_leaves",
+            () -> new PomegranateLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
 
 
     //TODO; Bushes

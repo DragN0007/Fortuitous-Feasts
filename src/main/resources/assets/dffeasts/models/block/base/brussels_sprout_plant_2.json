@@ -1,0 +1,6 @@
+{
+	"parent": "dffeasts:block/parent/cross_crop",
+	"textures": {
+		"cross_crop": "dffeasts:blocks/brussels_sprout_2"
+	}
+}

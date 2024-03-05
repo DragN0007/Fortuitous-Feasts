@@ -1,0 +1,6 @@
+{
+	"parent": "dffeasts:block/base/bean_base_3",
+	"textures": {
+		"bean": "dffeasts:blocks/green_bean"
+	}
+}

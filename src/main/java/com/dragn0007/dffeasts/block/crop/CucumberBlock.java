@@ -20,6 +20,6 @@ public class CucumberBlock extends CropBlock {
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return DFFItems.CORN.get();
+        return DFFItems.CUCUMBER.get();
     }
 }
