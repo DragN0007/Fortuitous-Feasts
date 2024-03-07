@@ -65,6 +65,84 @@ public class DFFBlockstateProvider extends BlockStateProvider {
                 blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get())));
         simpleBlock(DFFBlocks.GRAPEFRUIT_SAPLING.get(), models().cross(DFFBlocks.GRAPEFRUIT_SAPLING.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.GRAPEFRUIT_SAPLING.get())));
+
+        logBlock(DFFBlocks.AVOCADO_LOG.get());
+        simpleBlock(DFFBlocks.AVOCADO_PLANKS.get());
+        simpleBlockItem(DFFBlocks.AVOCADO_PLANKS.get(), models().cubeAll(DFFBlocks.AVOCADO_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.AVOCADO_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.AVOCADO_STAIRS.get(), blockTexture(DFFBlocks.AVOCADO_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.AVOCADO_STAIRS.get(), models().stairs(DFFBlocks.AVOCADO_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.AVOCADO_PLANKS.get()), blockTexture(DFFBlocks.AVOCADO_PLANKS.get()), blockTexture(DFFBlocks.AVOCADO_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.AVOCADO_SLAB.get(), blockTexture(DFFBlocks.AVOCADO_PLANKS.get()), blockTexture(DFFBlocks.AVOCADO_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.AVOCADO_SLAB.get(), models().slab(DFFBlocks.AVOCADO_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.AVOCADO_PLANKS.get()), blockTexture(DFFBlocks.AVOCADO_PLANKS.get()), blockTexture(DFFBlocks.AVOCADO_PLANKS.get())));
+        simpleBlock(DFFBlocks.AVOCADO_SAPLING.get(), models().cross(DFFBlocks.AVOCADO_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.AVOCADO_SAPLING.get())));
+
+        logBlock(DFFBlocks.KIWI_LOG.get());
+        simpleBlock(DFFBlocks.KIWI_PLANKS.get());
+        simpleBlockItem(DFFBlocks.KIWI_PLANKS.get(), models().cubeAll(DFFBlocks.KIWI_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.KIWI_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.KIWI_STAIRS.get(), blockTexture(DFFBlocks.KIWI_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.KIWI_STAIRS.get(), models().stairs(DFFBlocks.KIWI_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.KIWI_PLANKS.get()), blockTexture(DFFBlocks.KIWI_PLANKS.get()), blockTexture(DFFBlocks.KIWI_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.KIWI_SLAB.get(), blockTexture(DFFBlocks.KIWI_PLANKS.get()), blockTexture(DFFBlocks.KIWI_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.KIWI_SLAB.get(), models().slab(DFFBlocks.KIWI_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.KIWI_PLANKS.get()), blockTexture(DFFBlocks.KIWI_PLANKS.get()), blockTexture(DFFBlocks.KIWI_PLANKS.get())));
+        simpleBlock(DFFBlocks.KIWI_SAPLING.get(), models().cross(DFFBlocks.KIWI_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.KIWI_SAPLING.get())));
+
+        logBlock(DFFBlocks.LYCHEE_LOG.get());
+        simpleBlock(DFFBlocks.LYCHEE_PLANKS.get());
+        simpleBlockItem(DFFBlocks.LYCHEE_PLANKS.get(), models().cubeAll(DFFBlocks.LYCHEE_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.LYCHEE_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.LYCHEE_STAIRS.get(), blockTexture(DFFBlocks.LYCHEE_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.LYCHEE_STAIRS.get(), models().stairs(DFFBlocks.LYCHEE_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.LYCHEE_PLANKS.get()), blockTexture(DFFBlocks.LYCHEE_PLANKS.get()), blockTexture(DFFBlocks.LYCHEE_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.LYCHEE_SLAB.get(), blockTexture(DFFBlocks.LYCHEE_PLANKS.get()), blockTexture(DFFBlocks.LYCHEE_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.LYCHEE_SLAB.get(), models().slab(DFFBlocks.LYCHEE_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.LYCHEE_PLANKS.get()), blockTexture(DFFBlocks.LYCHEE_PLANKS.get()), blockTexture(DFFBlocks.LYCHEE_PLANKS.get())));
+        simpleBlock(DFFBlocks.LYCHEE_SAPLING.get(), models().cross(DFFBlocks.LYCHEE_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.LYCHEE_SAPLING.get())));
+
+        logBlock(DFFBlocks.PEAR_LOG.get());
+        simpleBlock(DFFBlocks.PEAR_PLANKS.get());
+        simpleBlockItem(DFFBlocks.PEAR_PLANKS.get(), models().cubeAll(DFFBlocks.PEAR_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.PEAR_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.PEAR_STAIRS.get(), blockTexture(DFFBlocks.PEAR_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.PEAR_STAIRS.get(), models().stairs(DFFBlocks.PEAR_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.PEAR_PLANKS.get()), blockTexture(DFFBlocks.PEAR_PLANKS.get()), blockTexture(DFFBlocks.PEAR_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.PEAR_SLAB.get(), blockTexture(DFFBlocks.PEAR_PLANKS.get()), blockTexture(DFFBlocks.PEAR_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.PEAR_SLAB.get(), models().slab(DFFBlocks.PEAR_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.PEAR_PLANKS.get()), blockTexture(DFFBlocks.PEAR_PLANKS.get()), blockTexture(DFFBlocks.PEAR_PLANKS.get())));
+        simpleBlock(DFFBlocks.PEAR_SAPLING.get(), models().cross(DFFBlocks.PEAR_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.PEAR_SAPLING.get())));
+
+        logBlock(DFFBlocks.POMEGRANATE_LOG.get());
+        simpleBlock(DFFBlocks.POMEGRANATE_PLANKS.get());
+        simpleBlockItem(DFFBlocks.POMEGRANATE_PLANKS.get(), models().cubeAll(DFFBlocks.POMEGRANATE_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.POMEGRANATE_STAIRS.get(), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.POMEGRANATE_STAIRS.get(), models().stairs(DFFBlocks.POMEGRANATE_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.POMEGRANATE_SLAB.get(), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.POMEGRANATE_SLAB.get(), models().slab(DFFBlocks.POMEGRANATE_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get())));
+        simpleBlock(DFFBlocks.POMEGRANATE_SAPLING.get(), models().cross(DFFBlocks.POMEGRANATE_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.POMEGRANATE_SAPLING.get())));
+
+        logBlock(DFFBlocks.CHERRY_LOG.get());
+        simpleBlock(DFFBlocks.CHERRY_PLANKS.get());
+        simpleBlockItem(DFFBlocks.CHERRY_PLANKS.get(), models().cubeAll(DFFBlocks.CHERRY_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.CHERRY_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.CHERRY_STAIRS.get(), blockTexture(DFFBlocks.CHERRY_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.CHERRY_STAIRS.get(), models().stairs(DFFBlocks.CHERRY_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.CHERRY_PLANKS.get()), blockTexture(DFFBlocks.CHERRY_PLANKS.get()), blockTexture(DFFBlocks.CHERRY_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.CHERRY_SLAB.get(), blockTexture(DFFBlocks.CHERRY_PLANKS.get()), blockTexture(DFFBlocks.CHERRY_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.CHERRY_SLAB.get(), models().slab(DFFBlocks.CHERRY_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.CHERRY_PLANKS.get()), blockTexture(DFFBlocks.CHERRY_PLANKS.get()), blockTexture(DFFBlocks.CHERRY_PLANKS.get())));
+        simpleBlock(DFFBlocks.CHERRY_SAPLING.get(), models().cross(DFFBlocks.CHERRY_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.CHERRY_SAPLING.get())));
     }
 
 }

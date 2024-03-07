@@ -49,6 +49,48 @@ public class DFFTreeGeneration {
             base.add(ModPlacedFeatures.GRAPEFRUIT_PLACED);
         }
 
+        if (types.contains(BiomeDictionary.Type.JUNGLE)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.AVOCADO_PLACE);
+        }
+
+        if (types.contains(BiomeDictionary.Type.JUNGLE)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.LYCHEE_PLACED);
+        }
+
+        if (types.contains(BiomeDictionary.Type.JUNGLE)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.POMEGRANATE_PLACED);
+        }
+
+        if (types.contains(BiomeDictionary.Type.PLAINS)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.KIWI_PLACED);
+        }
+
+        if (types.contains(BiomeDictionary.Type.PLAINS)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.CHERRY_PLACED);
+        }
+
+        if (types.contains(BiomeDictionary.Type.PLAINS)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.PEAR_PLACED);
+        }
+
 
         }
     }

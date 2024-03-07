@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dffeasts:mango"
+          "name": "dffeasts:mango_seed"
         }
       ],
       "conditions": [

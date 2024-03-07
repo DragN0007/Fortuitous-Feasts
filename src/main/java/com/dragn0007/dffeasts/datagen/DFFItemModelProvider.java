@@ -55,7 +55,7 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.PEAR.get());
         simpleItem(DFFItems.POMEGRANATE.get());
         simpleItem(DFFItems.RYE.get());
-        simpleItem(DFFItems.WALNUT.get());
+//        simpleItem(DFFItems.WALNUT.get());
         simpleItem(DFFItems.ZUCCHINI.get());
         simpleItem(DFFItems.SUGAR_BEET.get());
 
@@ -67,6 +67,12 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.ORANGE_SEEDS.get());
         simpleItem(DFFItems.GRAPEFRUIT_SEEDS.get());
         simpleItem(DFFItems.MANGO_SEED.get());
+        simpleItem(DFFItems.AVOCADO_PIT.get());
+        simpleItem(DFFItems.CHERRY_PIT.get());
+        simpleItem(DFFItems.KIWI_SEEDS.get());
+        simpleItem(DFFItems.LYCHEE_SEED.get());
+        simpleItem(DFFItems.PEAR_SEEDS.get());
+        simpleItem(DFFItems.POMEGRANATE_SEEDS.get());
 
         simpleItem(DFFItems.CROP_COIN.get());
     }

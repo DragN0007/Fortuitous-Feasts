@@ -8,10 +8,7 @@ import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacerEntity;
 import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacerItem;
 import com.dragn0007.dffeasts.item.DFFItemGroup;
 import com.dragn0007.dffeasts.item.DFFItems;
-import com.dragn0007.dffeasts.world.feature.tree.CoconutTreeGrower;
-import com.dragn0007.dffeasts.world.feature.tree.GrapefruitTreeGrower;
-import com.dragn0007.dffeasts.world.feature.tree.MangoTreeGrower;
-import com.dragn0007.dffeasts.world.feature.tree.OrangeTreeGrower;
+import com.dragn0007.dffeasts.world.feature.tree.*;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -146,6 +143,72 @@ public class DFFBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
     public static final RegistryObject<Block> GRAPEFRUIT_SAPLING = registerBlockWithoutItem("grapefruit_sapling",
             () -> new SaplingBlock(new GrapefruitTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
+    public static final RegistryObject<RotatedPillarBlock> AVOCADO_LOG = registerBlock("avocado_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> AVOCADO_PLANKS = registerBlock("avocado_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> AVOCADO_STAIRS = registerBlock("avocado_stairs",
+            () -> new StairBlock(AVOCADO_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> AVOCADO_SLAB = registerBlock("avocado_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> AVOCADO_SAPLING = registerBlockWithoutItem("avocado_sapling",
+            () -> new SaplingBlock(new AvocadoTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
+    public static final RegistryObject<RotatedPillarBlock> POMEGRANATE_LOG = registerBlock("pomegranate_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> POMEGRANATE_PLANKS = registerBlock("pomegranate_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> POMEGRANATE_STAIRS = registerBlock("pomegranate_stairs",
+            () -> new StairBlock(POMEGRANATE_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> POMEGRANATE_SLAB = registerBlock("pomegranate_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> POMEGRANATE_SAPLING = registerBlockWithoutItem("pomegranate_sapling",
+            () -> new SaplingBlock(new PomegranateTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
+    public static final RegistryObject<RotatedPillarBlock> PEAR_LOG = registerBlock("pear_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> PEAR_PLANKS = registerBlock("pear_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> PEAR_STAIRS = registerBlock("pear_stairs",
+            () -> new StairBlock(PEAR_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> PEAR_SLAB = registerBlock("pear_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> PEAR_SAPLING = registerBlockWithoutItem("pear_sapling",
+            () -> new SaplingBlock(new PearTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
+    public static final RegistryObject<RotatedPillarBlock> CHERRY_LOG = registerBlock("cherry_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> CHERRY_PLANKS = registerBlock("cherry_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> CHERRY_STAIRS = registerBlock("cherry_stairs",
+            () -> new StairBlock(CHERRY_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> CHERRY_SLAB = registerBlock("cherry_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> CHERRY_SAPLING = registerBlockWithoutItem("cherry_sapling",
+            () -> new SaplingBlock(new CherryTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
+    public static final RegistryObject<RotatedPillarBlock> LYCHEE_LOG = registerBlock("lychee_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> LYCHEE_PLANKS = registerBlock("lychee_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> LYCHEE_STAIRS = registerBlock("lychee_stairs",
+            () -> new StairBlock(LYCHEE_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> LYCHEE_SLAB = registerBlock("lychee_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> LYCHEE_SAPLING = registerBlockWithoutItem("lychee_sapling",
+            () -> new SaplingBlock(new LycheeTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
+    public static final RegistryObject<RotatedPillarBlock> KIWI_LOG = registerBlock("kiwi_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> KIWI_PLANKS = registerBlock("kiwi_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> KIWI_STAIRS = registerBlock("kiwi_stairs",
+            () -> new StairBlock(KIWI_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> KIWI_SLAB = registerBlock("kiwi_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> KIWI_SAPLING = registerBlockWithoutItem("kiwi_sapling",
+            () -> new SaplingBlock(new KiwiTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
 
 

@@ -22,6 +22,191 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
+        ShapelessRecipeBuilder.shapeless(DFFItems.CHERRY_PIT.get())
+                .requires(DFFItems.CHERRIES.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFBlocks.CHERRY_PLANKS.get(), 4)
+                .requires(DFFBlocks.CHERRY_LOG.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.CHERRY_STAIRS.get(), 4)
+                .define('A', DFFBlocks.CHERRY_PLANKS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.CHERRY_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.CHERRY_SLAB.get(), 3)
+                .define('A', DFFBlocks.CHERRY_PLANKS.get())
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.CHERRY_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.AVOCADO_PIT.get())
+                .requires(DFFItems.AVOCADO.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFBlocks.AVOCADO_PLANKS.get(), 4)
+                .requires(DFFBlocks.AVOCADO_LOG.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.AVOCADO_STAIRS.get(), 4)
+                .define('A', DFFBlocks.AVOCADO_PLANKS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.AVOCADO_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.AVOCADO_SLAB.get(), 3)
+                .define('A', DFFBlocks.AVOCADO_PLANKS.get())
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.AVOCADO_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.LYCHEE_SEED.get())
+                .requires(DFFItems.LYCHEE.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFBlocks.LYCHEE_PLANKS.get(), 4)
+                .requires(DFFBlocks.LYCHEE_LOG.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.LYCHEE_STAIRS.get(), 4)
+                .define('A', DFFBlocks.LYCHEE_PLANKS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.LYCHEE_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.LYCHEE_SLAB.get(), 3)
+                .define('A', DFFBlocks.LYCHEE_PLANKS.get())
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.LYCHEE_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.KIWI_SEEDS.get())
+                .requires(DFFItems.KIWI.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFBlocks.KIWI_PLANKS.get(), 4)
+                .requires(DFFBlocks.KIWI_LOG.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.KIWI_STAIRS.get(), 4)
+                .define('A', DFFBlocks.KIWI_PLANKS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.KIWI_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.KIWI_SLAB.get(), 3)
+                .define('A', DFFBlocks.KIWI_PLANKS.get())
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.KIWI_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PEAR_SEEDS.get())
+                .requires(DFFItems.PEAR.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFBlocks.PEAR_PLANKS.get(), 4)
+                .requires(DFFBlocks.PEAR_LOG.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.PEAR_STAIRS.get(), 4)
+                .define('A', DFFBlocks.PEAR_PLANKS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.PEAR_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.PEAR_SLAB.get(), 3)
+                .define('A', DFFBlocks.PEAR_PLANKS.get())
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.PEAR_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.POMEGRANATE_SEEDS.get())
+                .requires(DFFItems.POMEGRANATE.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFBlocks.POMEGRANATE_PLANKS.get(), 4)
+                .requires(DFFBlocks.POMEGRANATE_LOG.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.POMEGRANATE_STAIRS.get(), 4)
+                .define('A', DFFBlocks.POMEGRANATE_PLANKS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.POMEGRANATE_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.POMEGRANATE_SLAB.get(), 3)
+                .define('A', DFFBlocks.POMEGRANATE_PLANKS.get())
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.POMEGRANATE_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
 
         ShapelessRecipeBuilder.shapeless(DFFItems.ORANGE_SEEDS.get())
                 .requires(DFFItems.ORANGE.get())

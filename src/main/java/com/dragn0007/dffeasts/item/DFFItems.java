@@ -98,8 +98,8 @@ public class DFFItems {
             () -> new ItemNameBlockItem(DFFBlocks.SUGAR_BEET_PLANT.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
     public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",
             () -> new ItemNameBlockItem(DFFBlocks.TOMATO_PLANT.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
-    public static final RegistryObject<Item> WALNUT = ITEMS.register("walnut",
-            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP)));
+//    public static final RegistryObject<Item> WALNUT = ITEMS.register("walnut",
+//            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP)));
     public static final RegistryObject<Item> ZUCCHINI = ITEMS.register("zucchini",
             () -> new ItemNameBlockItem(DFFBlocks.ZUCCHINI_PLANT.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
 
@@ -126,6 +126,18 @@ public class DFFItems {
             () -> new ItemNameBlockItem(DFFBlocks.GRAPEFRUIT_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
     public static final RegistryObject<Item> MANGO_SEED = ITEMS.register("mango_seed",
             () -> new ItemNameBlockItem(DFFBlocks.MANGO_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> AVOCADO_PIT = ITEMS.register("avocado_pit",
+            () -> new ItemNameBlockItem(DFFBlocks.AVOCADO_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> KIWI_SEEDS = ITEMS.register("kiwi_seeds",
+            () -> new ItemNameBlockItem(DFFBlocks.KIWI_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> PEAR_SEEDS = ITEMS.register("pear_seeds",
+            () -> new ItemNameBlockItem(DFFBlocks.PEAR_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> LYCHEE_SEED = ITEMS.register("lychee_seed",
+            () -> new ItemNameBlockItem(DFFBlocks.LYCHEE_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> CHERRY_PIT = ITEMS.register("cherry_pit",
+            () -> new ItemNameBlockItem(DFFBlocks.CHERRY_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> POMEGRANATE_SEEDS = ITEMS.register("pomegranate_seeds",
+            () -> new ItemNameBlockItem(DFFBlocks.POMEGRANATE_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
 
 
     public static final RegistryObject<Item> CROP_COIN = ITEMS.register("crop_coin",

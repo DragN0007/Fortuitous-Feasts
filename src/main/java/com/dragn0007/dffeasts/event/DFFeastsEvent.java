@@ -22,7 +22,6 @@ public class DFFeastsEvent {
         ResourceLocation resourceLocation = new ResourceLocation(DFFeastsMain.MODID, "null");
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.PIXEL_PLACER_CONTAINER.get(), RenderType.lineStrip());
 
-        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.CHEDDAR_CHEESE_BLOCK.get(), RenderType.cutout());
 
         //Crops
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.BELL_PEPPER_PLANT.get(), RenderType.cutout());
@@ -65,14 +64,24 @@ public class DFFeastsEvent {
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.MANGO_SAPLING.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.COCONUT_SAPLING.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.GRAPEFRUIT_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.POMEGRANATE_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.AVOCADO_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.CHERRY_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.PEAR_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.KIWI_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.LYCHEE_SAPLING.get(), RenderType.cutout());
 
         //Leaves
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.ORANGE_LEAVES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.MANGO_LEAVES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.GRAPEFRUIT_LEAVES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.COCONUT_LEAVES.get(), RenderType.cutout());
-
-
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.POMEGRANATE_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.AVOCADO_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.CHERRY_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.PEAR_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.KIWI_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.LYCHEE_LEAVES.get(), RenderType.cutout());
     }
 
     @SubscribeEvent

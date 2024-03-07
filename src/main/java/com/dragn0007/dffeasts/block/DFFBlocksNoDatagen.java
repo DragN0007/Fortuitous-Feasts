@@ -38,9 +38,9 @@ public class DFFBlocksNoDatagen {
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
 
 
-    //TODO; CHEESE
-    public static final RegistryObject<Block> CHEDDAR_CHEESE_BLOCK = registerBlock("cheddar_cheese_block",
-            () -> new AgeableCheeseBlock(Block.Properties.of(Material.CAKE)));
+//    //TODO; CHEESE
+//    public static final RegistryObject<Block> CHEDDAR_CHEESE_BLOCK = registerBlock("cheddar_cheese_block",
+//            () -> new AgeableCheeseBlock(Block.Properties.of(Material.CAKE)));
 
 
 

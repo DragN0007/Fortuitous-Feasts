@@ -1,6 +1,14 @@
 {
   "replace": false,
   "values": [
-    "dffeasts:orange_planks"
+    "dffeasts:orange_planks",
+    "dffeasts:avocado_planks",
+    "dffeasts:cherry_planks",
+    "dffeasts:coconut_planks",
+    "dffeasts:grapefruit_planks",
+    "dffeasts:kiwi_planks",
+    "dffeasts:lychee_planks",
+    "dffeasts:pear_planks",
+    "dffeasts:pomegranate_planks"
   ]
 }
