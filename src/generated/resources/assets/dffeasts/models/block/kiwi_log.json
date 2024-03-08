@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "dffeasts:block/kiwi_log",
+    "end": "dffeasts:block/kiwi_log_top"
+  }
+}

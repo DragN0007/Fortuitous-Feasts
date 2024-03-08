@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "side": "dffeasts:block/pear_planks",
+    "bottom": "dffeasts:block/pear_planks",
+    "top": "dffeasts:block/pear_planks"
+  }
+}

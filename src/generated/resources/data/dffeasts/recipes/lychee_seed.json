@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:lychee"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:lychee_seed"
+  }
+}

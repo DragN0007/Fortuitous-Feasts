@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "dffeasts:items/walnut"
+    "layer0": "dffeasts:items/grapefruit_wine"
   }
 }

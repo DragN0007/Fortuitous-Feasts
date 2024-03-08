@@ -4,9 +4,15 @@ package com.dragn0007.dffeasts.item;
 import com.dragn0007.dffeasts.DFFeastsMain;
 import com.dragn0007.dffeasts.block.DFFBlocks;
 import com.dragn0007.dffeasts.block.DFFBlocksNoDatagen;
+import com.dragn0007.dffeasts.item.custom.JuiceItem;
+import com.dragn0007.dffeasts.item.custom.TeaItem;
+import com.dragn0007.dffeasts.item.custom.WineItem;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -17,6 +23,581 @@ public class DFFItems {
 
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, DFFeastsMain.MODID);
+
+    //TODO; Food
+
+    //Pie
+    public static final RegistryObject<Item> LYCHEE_PIE = ITEMS.register("lychee_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> MANGO_PIE = ITEMS.register("mango_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ORANGE_PIE = ITEMS.register("orange_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PEAR_PIE = ITEMS.register("pear_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> POMEGRANATE_PIE = ITEMS.register("pomegranate_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> RASPBERRY_PIE = ITEMS.register("raspberry_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> RED_GRAPE_PIE = ITEMS.register("red_grape_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PURPLE_GRAPE_PIE = ITEMS.register("purple_grape_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> STRAWBERRY_PIE = ITEMS.register("strawberry_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> WHITE_RASPBERRY_PIE = ITEMS.register("white_raspberry_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> BLACKBERRY_PIE = ITEMS.register("blackberry_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> BLUEBERRY_PIE = ITEMS.register("blueberry_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CHERRY_PIE = ITEMS.register("cherry_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CRANBERRY_PIE = ITEMS.register("cranberry_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> GRAPEFRUIT_PIE = ITEMS.register("grapefruit_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> GREEN_GRAPE_PIE = ITEMS.register("green_grape_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> KIWI_PIE = ITEMS.register("kiwi_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
+    //Smoothie
+    public static final RegistryObject<Item> LYCHEE_SMOOTHIE = ITEMS.register("lychee_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> MANGO_SMOOTHIE = ITEMS.register("mango_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ORANGE_SMOOTHIE = ITEMS.register("orange_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PEAR_SMOOTHIE = ITEMS.register("pear_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> POMEGRANATE_SMOOTHIE = ITEMS.register("pomegranate_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> RASPBERRY_SMOOTHIE = ITEMS.register("raspberry_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> RED_GRAPE_SMOOTHIE = ITEMS.register("red_grape_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PURPLE_GRAPE_SMOOTHIE = ITEMS.register("purple_grape_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> STRAWBERRY_SMOOTHIE = ITEMS.register("strawberry_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> WHITE_RASPBERRY_SMOOTHIE = ITEMS.register("white_raspberry_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> BLACKBERRY_SMOOTHIE = ITEMS.register("blackberry_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> BLUEBERRY_SMOOTHIE = ITEMS.register("blueberry_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CHERRY_SMOOTHIE = ITEMS.register("cherry_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CRANBERRY_SMOOTHIE = ITEMS.register("cranberry_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> GRAPEFRUIT_SMOOTHIE = ITEMS.register("grapefruit_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> GREEN_GRAPE_SMOOTHIE = ITEMS.register("green_grape_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> KIWI_SMOOTHIE = ITEMS.register("kiwi_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
+    //Jam
+    public static final RegistryObject<Item> LYCHEE_JAM = ITEMS.register("lychee_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> MANGO_JAM = ITEMS.register("mango_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ORANGE_JAM = ITEMS.register("orange_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PEAR_JAM = ITEMS.register("pear_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> POMEGRANATE_JAM = ITEMS.register("pomegranate_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> RASPBERRY_JAM = ITEMS.register("raspberry_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> RED_GRAPE_JAM = ITEMS.register("red_grape_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PURPLE_GRAPE_JAM = ITEMS.register("purple_grape_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> STRAWBERRY_JAM = ITEMS.register("strawberry_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> WHITE_RASPBERRY_JAM = ITEMS.register("white_raspberry_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> BLACKBERRY_JAM = ITEMS.register("blackberry_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> BLUEBERRY_JAM = ITEMS.register("blueberry_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CHERRY_JAM = ITEMS.register("cherry_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CRANBERRY_JAM = ITEMS.register("cranberry_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> GRAPEFRUIT_JAM = ITEMS.register("grapefruit_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> GREEN_GRAPE_JAM = ITEMS.register("green_grape_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> KIWI_JAM = ITEMS.register("kiwi_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
+    //Cake
+//    public static final RegistryObject<Item> _CAKE = ITEMS.register("_cake",
+//            () -> new ItemNameBlockItem(DFFBlocks._CAKE.get(), (new Item.Properties().tab(DFFItemGroup.FOOD_GROUP))));
+
+    //Pastry
+    public static final RegistryObject<Item> _PASTRY = ITEMS.register("_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
+    //Roasted Veggie
+    public static final RegistryObject<Item> ROASTED_ = ITEMS.register("roasted_",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
+    //Dried Fruit
+     public static final RegistryObject<Item> DRIED_LYCHEE = ITEMS.register("dried_lychee",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_MANGO = ITEMS.register("dried_mango",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_ORANGE = ITEMS.register("dried_orange",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_PEAR = ITEMS.register("dried_pear",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_POMEGRANATE = ITEMS.register("dried_pomegranate",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_RASPBERRY = ITEMS.register("dried_raspberry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_RED_GRAPES = ITEMS.register("dried_red_grapes",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_PURPLE_GRAPES = ITEMS.register("dried_purple_grapes",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_STRAWBERRY = ITEMS.register("dried_strawberry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_WHITE_RASPBERRY = ITEMS.register("dried_white_raspberry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_BLACKBERRY = ITEMS.register("dried_blackberry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_BLUEBERRIES = ITEMS.register("dried_blueberries",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_CHERRIES = ITEMS.register("dried_cherries",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_CRANBERRIES = ITEMS.register("dried_cranberries",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_GRAPEFRUIT = ITEMS.register("dried_grapefruit",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_GREEN_GRAPES = ITEMS.register("dried_green_grapes",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRIED_KIWI = ITEMS.register("dried_kiwi",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
+    //Pickled
+    public static final RegistryObject<Item> PICKLED_ = ITEMS.register("pickled_",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
+    //Wrap
+    public static final RegistryObject<Item> _WRAP = ITEMS.register("_wrap",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(10).saturationMod(1).effect(new MobEffectInstance(MobEffects.ABSORPTION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
+    //Donut
+    public static final RegistryObject<Item> _DONUT = ITEMS.register("_donut",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
+    //Sausage
+    public static final RegistryObject<Item> _SAUSAGE = ITEMS.register("_sausage",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
+    //Juice
+    public static final RegistryObject<Item> LYCHEE_JUICE = ITEMS.register("lychee_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> MANGO_JUICE = ITEMS.register("mango_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> ORANGE_JUICE = ITEMS.register("orange_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> PEAR_JUICE = ITEMS.register("pear_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> POMEGRANATE_JUICE = ITEMS.register("pomegranate_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> RASPBERRY_JUICE = ITEMS.register("raspberry_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> RED_GRAPE_JUICE = ITEMS.register("red_grape_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> PURPLE_GRAPE_JUICE = ITEMS.register("purple_grape_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> STRAWBERRY_JUICE = ITEMS.register("strawberry_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> WHITE_RASPBERRY_JUICE = ITEMS.register("white_raspberry_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> BLACKBERRY_JUICE = ITEMS.register("blackberry_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> BLUEBERRY_JUICE = ITEMS.register("blueberry_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> CHERRY_JUICE = ITEMS.register("cherry_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> CRANBERRY_JUICE = ITEMS.register("cranberry_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> GRAPEFRUIT_JUICE = ITEMS.register("grapefruit_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> GREEN_GRAPE_JUICE = ITEMS.register("green_grape_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> KIWI_JUICE = ITEMS.register("kiwi_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+
+    //Tea
+    public static final RegistryObject<Item> LYCHEE_TEA = ITEMS.register("lychee_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> MANGO_TEA = ITEMS.register("mango_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> ORANGE_TEA = ITEMS.register("orange_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> PEAR_TEA = ITEMS.register("pear_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> POMEGRANATE_TEA = ITEMS.register("pomegranate_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> RASPBERRY_TEA = ITEMS.register("raspberry_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> RED_GRAPE_TEA = ITEMS.register("red_grape_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> PURPLE_GRAPE_TEA = ITEMS.register("purple_grape_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> STRAWBERRY_TEA = ITEMS.register("strawberry_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> WHITE_RASPBERRY_TEA = ITEMS.register("white_raspberry_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> BLACKBERRY_TEA = ITEMS.register("blackberry_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> BLUEBERRY_TEA = ITEMS.register("blueberry_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> CHERRY_TEA = ITEMS.register("cherry_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> CRANBERRY_TEA = ITEMS.register("cranberry_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> GRAPEFRUIT_TEA = ITEMS.register("grapefruit_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> GREEN_GRAPE_TEA = ITEMS.register("green_grape_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> KIWI_TEA = ITEMS.register("kiwi_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+
+    //Wine
+    public static final RegistryObject<Item> LYCHEE_WINE = ITEMS.register("lychee_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> MANGO_WINE = ITEMS.register("mango_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> ORANGE_WINE = ITEMS.register("orange_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> PEAR_WINE = ITEMS.register("pear_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> POMEGRANATE_WINE = ITEMS.register("pomegranate_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> RASPBERRY_WINE = ITEMS.register("raspberry_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> RED_GRAPE_WINE = ITEMS.register("red_grape_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> PURPLE_GRAPE_WINE = ITEMS.register("purple_grape_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> STRAWBERRY_WINE = ITEMS.register("strawberry_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> WHITE_RASPBERRY_WINE = ITEMS.register("white_raspberry_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> BLACKBERRY_WINE = ITEMS.register("blackberry_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> BLUEBERRY_WINE = ITEMS.register("blueberry_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> CHERRY_WINE = ITEMS.register("cherry_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> CRANBERRY_WINE = ITEMS.register("cranberry_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> GRAPEFRUIT_WINE = ITEMS.register("grapefruit_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> GREEN_GRAPE_WINE = ITEMS.register("green_grape_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> KIWI_WINE = ITEMS.register("kiwi_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+
+
+
+    //TODO; Ingredients
+    public static final RegistryObject<Item> BUTTER = ITEMS.register("butter",
+            () -> new Item(new Item.Properties().tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CHEESE_CURDS = ITEMS.register("cheese_curds",
+            () -> new Item(new Item.Properties().tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> MILK_BOTTLE = ITEMS.register("milk_bottle",
+            () -> new Item(new Item.Properties().tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> FLOUR = ITEMS.register("flour",
+            () -> new Item(new Item.Properties().tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DOUGH = ITEMS.register("dough",
+            () -> new Item(new Item.Properties().tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PANKO = ITEMS.register("panko",
+            () -> new Item(new Item.Properties().tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PASTA = ITEMS.register("pasta",
+            () -> new Item(new Item.Properties().tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PURIFIED_WATER = ITEMS.register("purified_water",
+            () -> new Item(new Item.Properties().tab(DFFItemGroup.FOOD_GROUP)));
+
 
 
     //TODO; Crops

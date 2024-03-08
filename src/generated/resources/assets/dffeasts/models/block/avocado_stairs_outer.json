@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "side": "dffeasts:block/avocado_planks",
+    "bottom": "dffeasts:block/avocado_planks",
+    "top": "dffeasts:block/avocado_planks"
+  }
+}

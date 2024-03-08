@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:pear_log"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:pear_planks",
+    "count": 4
+  }
+}

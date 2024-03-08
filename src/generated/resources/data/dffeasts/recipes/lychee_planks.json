@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:lychee_log"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:lychee_planks",
+    "count": 4
+  }
+}

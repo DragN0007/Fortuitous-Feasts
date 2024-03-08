@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:pomegranate"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:pomegranate_seeds"
+  }
+}

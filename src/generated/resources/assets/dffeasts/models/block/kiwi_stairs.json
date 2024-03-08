@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "side": "dffeasts:block/kiwi_planks",
+    "bottom": "dffeasts:block/kiwi_planks",
+    "top": "dffeasts:block/kiwi_planks"
+  }
+}

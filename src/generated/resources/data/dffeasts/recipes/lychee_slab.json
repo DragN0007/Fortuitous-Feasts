@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "dffeasts:lychee_planks"
+    }
+  },
+  "result": {
+    "item": "dffeasts:lychee_slab",
+    "count": 3
+  }
+}

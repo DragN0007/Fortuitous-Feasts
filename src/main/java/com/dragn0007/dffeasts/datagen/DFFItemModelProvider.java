@@ -17,6 +17,134 @@ public class DFFItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+
+        simpleItem(DFFItems.BLACKBERRY_PIE.get());
+        simpleItem(DFFItems.BLUEBERRY_PIE.get());
+        simpleItem(DFFItems.CRANBERRY_PIE.get());
+        simpleItem(DFFItems.GRAPEFRUIT_PIE.get());
+        simpleItem(DFFItems.ORANGE_PIE.get());
+        simpleItem(DFFItems.PURPLE_GRAPE_PIE.get());
+        simpleItem(DFFItems.RASPBERRY_PIE.get());
+        simpleItem(DFFItems.RED_GRAPE_PIE.get());
+        simpleItem(DFFItems.STRAWBERRY_PIE.get());
+        simpleItem(DFFItems.GREEN_GRAPE_PIE.get());
+        simpleItem(DFFItems.WHITE_RASPBERRY_PIE.get());
+        simpleItem(DFFItems.MANGO_PIE.get());
+        simpleItem(DFFItems.CHERRY_PIE.get());
+        simpleItem(DFFItems.KIWI_PIE.get());
+        simpleItem(DFFItems.LYCHEE_PIE.get());
+        simpleItem(DFFItems.PEAR_PIE.get());
+        simpleItem(DFFItems.POMEGRANATE_PIE.get());
+
+        simpleItem(DFFItems.BLACKBERRY_JAM.get());
+        simpleItem(DFFItems.BLUEBERRY_JAM.get());
+        simpleItem(DFFItems.CRANBERRY_JAM.get());
+        simpleItem(DFFItems.GRAPEFRUIT_JAM.get());
+        simpleItem(DFFItems.ORANGE_JAM.get());
+        simpleItem(DFFItems.PURPLE_GRAPE_JAM.get());
+        simpleItem(DFFItems.RASPBERRY_JAM.get());
+        simpleItem(DFFItems.RED_GRAPE_JAM.get());
+        simpleItem(DFFItems.STRAWBERRY_JAM.get());
+        simpleItem(DFFItems.GREEN_GRAPE_JAM.get());
+        simpleItem(DFFItems.WHITE_RASPBERRY_JAM.get());
+        simpleItem(DFFItems.MANGO_JAM.get());
+        simpleItem(DFFItems.CHERRY_JAM.get());
+        simpleItem(DFFItems.KIWI_JAM.get());
+        simpleItem(DFFItems.LYCHEE_JAM.get());
+        simpleItem(DFFItems.PEAR_JAM.get());
+        simpleItem(DFFItems.POMEGRANATE_JAM.get());
+
+        simpleItem(DFFItems.BLACKBERRY_SMOOTHIE.get());
+        simpleItem(DFFItems.BLUEBERRY_SMOOTHIE.get());
+        simpleItem(DFFItems.CRANBERRY_SMOOTHIE.get());
+        simpleItem(DFFItems.GRAPEFRUIT_SMOOTHIE.get());
+        simpleItem(DFFItems.ORANGE_SMOOTHIE.get());
+        simpleItem(DFFItems.PURPLE_GRAPE_SMOOTHIE.get());
+        simpleItem(DFFItems.RASPBERRY_SMOOTHIE.get());
+        simpleItem(DFFItems.RED_GRAPE_SMOOTHIE.get());
+        simpleItem(DFFItems.STRAWBERRY_SMOOTHIE.get());
+        simpleItem(DFFItems.GREEN_GRAPE_SMOOTHIE.get());
+        simpleItem(DFFItems.WHITE_RASPBERRY_SMOOTHIE.get());
+        simpleItem(DFFItems.MANGO_SMOOTHIE.get());
+        simpleItem(DFFItems.CHERRY_SMOOTHIE.get());
+        simpleItem(DFFItems.KIWI_SMOOTHIE.get());
+        simpleItem(DFFItems.LYCHEE_SMOOTHIE.get());
+        simpleItem(DFFItems.PEAR_SMOOTHIE.get());
+        simpleItem(DFFItems.POMEGRANATE_SMOOTHIE.get());
+
+        simpleItem(DFFItems.DRIED_BLACKBERRY.get());
+        simpleItem(DFFItems.DRIED_BLUEBERRIES.get());
+        simpleItem(DFFItems.DRIED_CRANBERRIES.get());
+        simpleItem(DFFItems.DRIED_GRAPEFRUIT.get());
+        simpleItem(DFFItems.DRIED_ORANGE.get());
+        simpleItem(DFFItems.DRIED_PURPLE_GRAPES.get());
+        simpleItem(DFFItems.DRIED_RASPBERRY.get());
+        simpleItem(DFFItems.DRIED_RED_GRAPES.get());
+        simpleItem(DFFItems.DRIED_STRAWBERRY.get());
+        simpleItem(DFFItems.DRIED_GREEN_GRAPES.get());
+        simpleItem(DFFItems.DRIED_WHITE_RASPBERRY.get());
+        simpleItem(DFFItems.DRIED_MANGO.get());
+        simpleItem(DFFItems.DRIED_CHERRIES.get());
+        simpleItem(DFFItems.DRIED_KIWI.get());
+        simpleItem(DFFItems.DRIED_LYCHEE.get());
+        simpleItem(DFFItems.DRIED_PEAR.get());
+        simpleItem(DFFItems.DRIED_POMEGRANATE.get());
+
+        simpleItem(DFFItems.BLACKBERRY_JUICE.get());
+        simpleItem(DFFItems.BLUEBERRY_JUICE.get());
+        simpleItem(DFFItems.CRANBERRY_JUICE.get());
+        simpleItem(DFFItems.GRAPEFRUIT_JUICE.get());
+        simpleItem(DFFItems.ORANGE_JUICE.get());
+        simpleItem(DFFItems.PURPLE_GRAPE_JUICE.get());
+        simpleItem(DFFItems.RASPBERRY_JUICE.get());
+        simpleItem(DFFItems.RED_GRAPE_JUICE.get());
+        simpleItem(DFFItems.STRAWBERRY_JUICE.get());
+        simpleItem(DFFItems.GREEN_GRAPE_JUICE.get());
+        simpleItem(DFFItems.WHITE_RASPBERRY_JUICE.get());
+        simpleItem(DFFItems.MANGO_JUICE.get());
+        simpleItem(DFFItems.CHERRY_JUICE.get());
+        simpleItem(DFFItems.KIWI_JUICE.get());
+        simpleItem(DFFItems.LYCHEE_JUICE.get());
+        simpleItem(DFFItems.PEAR_JUICE.get());
+        simpleItem(DFFItems.POMEGRANATE_JUICE.get());
+
+        simpleItem(DFFItems.BLACKBERRY_TEA.get());
+        simpleItem(DFFItems.BLUEBERRY_TEA.get());
+        simpleItem(DFFItems.CRANBERRY_TEA.get());
+        simpleItem(DFFItems.GRAPEFRUIT_TEA.get());
+        simpleItem(DFFItems.ORANGE_TEA.get());
+        simpleItem(DFFItems.PURPLE_GRAPE_TEA.get());
+        simpleItem(DFFItems.RASPBERRY_TEA.get());
+        simpleItem(DFFItems.RED_GRAPE_TEA.get());
+        simpleItem(DFFItems.STRAWBERRY_TEA.get());
+        simpleItem(DFFItems.GREEN_GRAPE_TEA.get());
+        simpleItem(DFFItems.WHITE_RASPBERRY_TEA.get());
+        simpleItem(DFFItems.MANGO_TEA.get());
+        simpleItem(DFFItems.CHERRY_TEA.get());
+        simpleItem(DFFItems.KIWI_TEA.get());
+        simpleItem(DFFItems.LYCHEE_TEA.get());
+        simpleItem(DFFItems.PEAR_TEA.get());
+        simpleItem(DFFItems.POMEGRANATE_TEA.get());
+
+        simpleItem(DFFItems.BLACKBERRY_WINE.get());
+        simpleItem(DFFItems.BLUEBERRY_WINE.get());
+        simpleItem(DFFItems.CRANBERRY_WINE.get());
+        simpleItem(DFFItems.GRAPEFRUIT_WINE.get());
+        simpleItem(DFFItems.ORANGE_WINE.get());
+        simpleItem(DFFItems.PURPLE_GRAPE_WINE.get());
+        simpleItem(DFFItems.RASPBERRY_WINE.get());
+        simpleItem(DFFItems.RED_GRAPE_WINE.get());
+        simpleItem(DFFItems.STRAWBERRY_WINE.get());
+        simpleItem(DFFItems.GREEN_GRAPE_WINE.get());
+        simpleItem(DFFItems.WHITE_RASPBERRY_WINE.get());
+        simpleItem(DFFItems.MANGO_WINE.get());
+        simpleItem(DFFItems.CHERRY_WINE.get());
+        simpleItem(DFFItems.KIWI_WINE.get());
+        simpleItem(DFFItems.LYCHEE_WINE.get());
+        simpleItem(DFFItems.PEAR_WINE.get());
+        simpleItem(DFFItems.POMEGRANATE_WINE.get());
+
+
         simpleItem(DFFItems.BELL_PEPPER.get());
         simpleItem(DFFItems.BLACKBERRY.get());
         simpleItem(DFFItems.BLUEBERRIES.get());

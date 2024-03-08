@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "dffeasts:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "dffeasts:cherry_slab",
+    "count": 3
+  }
+}

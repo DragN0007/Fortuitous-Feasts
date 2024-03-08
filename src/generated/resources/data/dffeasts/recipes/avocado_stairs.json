@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A  ",
+    "AA ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "dffeasts:avocado_planks"
+    }
+  },
+  "result": {
+    "item": "dffeasts:avocado_stairs",
+    "count": 4
+  }
+}

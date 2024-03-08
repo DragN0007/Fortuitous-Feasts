@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "dffeasts:block/kiwi_slab_top"
+    },
+    "type=bottom": {
+      "model": "dffeasts:block/kiwi_slab"
+    },
+    "type=double": {
+      "model": "dffeasts:block/kiwi_planks"
+    }
+  }
+}

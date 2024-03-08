@@ -22,6 +22,17 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
+
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PURIFIED_WATER.get(), 16)
+                .requires(Items.WATER_BUCKET)
+                .unlockedBy("has_water", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.WATER_BUCKET)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+
+
         ShapelessRecipeBuilder.shapeless(DFFItems.CHERRY_PIT.get())
                 .requires(DFFItems.CHERRIES.get())
                 .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()

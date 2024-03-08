@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "dffeasts:block/lychee_log",
+    "end": "dffeasts:block/lychee_log_top"
+  }
+}
