@@ -1,6 +1,51 @@
 {
   "replace": false,
   "values": [
+    "dffeasts:blackberry",
+    "dffeasts:blueberries",
+    "dffeasts:cranberries",
+    "dffeasts:purple_grapes",
+    "dffeasts:raspberry",
+    "dffeasts:red_grapes",
+    "dffeasts:tomato",
+    "dffeasts:strawberry",
+    "dffeasts:white_grapes",
+    "dffeasts:white_raspberry",
 
+    "dffeasts:peanuts",
+
+    "dffeasts:bell_pepper",
+    "dffeasts:brussels_sprouts",
+    "dffeasts:butternut_squash",
+    "dffeasts:chili_pepper",
+    "dffeasts:corn",
+    "dffeasts:cucumber",
+    "dffeasts:celery",
+    "dffeasts:garlic",
+    "dffeasts:green_beans",
+    "dffeasts:jalepeno_pepper",
+    "dffeasts:onion",
+    "dffeasts:radish",
+    "dffeasts:zucchini",
+    "dffeasts:ginger",
+    "dffeasts:kidney_beans",
+    "dffeasts:black_beans",
+    "dffeasts:soybeans",
+    "dffeasts:sugar_beet",
+
+    "dffeasts:rye",
+
+    "dffeasts:oregano",
+    "dffeasts:rosemary",
+    "dffeasts:cilantro",
+    "dffeasts:mint",
+
+    "dffeasts:cherry_leaves",
+    "dffeasts:kiwi_leaves",
+    "dffeasts:pear_leaves",
+
+    "dffeasts:cherry_pit",
+    "dffeasts:kiwi_seeds",
+    "dffeasts:pear_seeds"
   ]
 }

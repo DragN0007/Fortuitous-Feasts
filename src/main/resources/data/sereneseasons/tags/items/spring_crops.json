@@ -1,6 +1,52 @@
 {
   "replace": false,
   "values": [
+    "dffeasts:blackberry",
+    "dffeasts:blueberries",
+    "dffeasts:raspberry",
+    "dffeasts:white_raspberry",
 
+    "dffeasts:peanuts",
+
+    "dffeasts:bell_pepper",
+    "dffeasts:brussels_sprouts",
+    "dffeasts:butternut_squash",
+    "dffeasts:chili_pepper",
+    "dffeasts:corn",
+    "dffeasts:cucumber",
+    "dffeasts:garlic",
+    "dffeasts:jalepeno_pepper",
+    "dffeasts:onion",
+    "dffeasts:radish",
+    "dffeasts:ginger",
+    "dffeasts:sugar_beet",
+
+    "dffeasts:rye",
+
+    "dffeasts:oregano",
+    "dffeasts:rosemary",
+    "dffeasts:cilantro",
+    "dffeasts:mint",
+
+    "dffeasts:orange_leaves",
+    "dffeasts:coconut_leaves",
+    "dffeasts:mango_leaves",
+    "dffeasts:avocado_leaves",
+    "dffeasts:cherry_leaves",
+    "dffeasts:coconut_leaves",
+    "dffeasts:grapefruit_leaves",
+    "dffeasts:kiwi_leaves",
+    "dffeasts:lychee_leaves",
+    "dffeasts:pear_leaves",
+
+    "dffeasts:orange_seeds",
+    "dffeasts:coconut",
+    "dffeasts:mango_seed",
+    "dffeasts:avocado_pit",
+    "dffeasts:cherry_pit",
+    "dffeasts:grapefruit_seeds",
+    "dffeasts:kiwi_seeds",
+    "dffeasts:lychee_seed",
+    "dffeasts:pear_seeds"
   ]
 }

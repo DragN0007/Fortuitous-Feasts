@@ -45,9 +45,10 @@ public class DFFeastsMain
     }
 
 
-    private void setup(final FMLCommonSetupEvent event)
-    {
-        FeastsFarmer.registerPOIs();
+    private void setup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            FeastsFarmer.registerPOIs();
+        });
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)

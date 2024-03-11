@@ -1,6 +1,52 @@
 {
   "replace": false,
   "values": [
+    "dffeasts:blackberry",
+    "dffeasts:blueberries",
+    "dffeasts:cranberries",
+    "dffeasts:purple_grapes",
+    "dffeasts:raspberry",
+    "dffeasts:red_grapes",
+    "dffeasts:tomato",
+    "dffeasts:strawberry",
+    "dffeasts:white_grapes",
+    "dffeasts:white_raspberry",
 
+    "dffeasts:peanuts",
+
+    "dffeasts:bell_pepper",
+    "dffeasts:brussels_sprouts",
+    "dffeasts:chili_pepper",
+    "dffeasts:corn",
+    "dffeasts:cucumber",
+    "dffeasts:celery",
+    "dffeasts:garlic",
+    "dffeasts:green_beans",
+    "dffeasts:jalepeno_pepper",
+    "dffeasts:onion",
+    "dffeasts:radish",
+    "dffeasts:zucchini",
+    "dffeasts:ginger",
+    "dffeasts:kidney_beans",
+    "dffeasts:black_beans",
+    "dffeasts:soybeans",
+
+    "dffeasts:rye",
+
+    "dffeasts:oregano",
+    "dffeasts:rosemary",
+    "dffeasts:cilantro",
+    "dffeasts:mint",
+
+    "dffeasts:orange_seeds",
+    "dffeasts:coconut",
+    "dffeasts:mango_seed",
+    "dffeasts:avocado_pit",
+    "dffeasts:cherry_pit",
+    "dffeasts:grapefruit_seeds",
+    "dffeasts:kiwi_seeds",
+    "dffeasts:lychee_seed",
+    "dffeasts:pear_seeds",
+    "dffeasts:pomegranate_seeds"
   ]
 }

@@ -1,6 +1,14 @@
 {
   "replace": false,
   "values": [
+    "dffeasts:blackberry_bush",
+    "dffeasts:blueberry_bush",
+    "dffeasts:raspberry_bush",
+    "dffeasts:white_raspberry_bush",
 
+    "dffeasts:butternut_squash_plant",
+    "dffeasts:sugar_beet_plant",
+
+    "dffeasts:rye_plant"
   ]
 }

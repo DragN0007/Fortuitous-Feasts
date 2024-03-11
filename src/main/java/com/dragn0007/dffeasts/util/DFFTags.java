@@ -9,13 +9,17 @@ import net.minecraft.world.item.Item;
 public class DFFTags {
 
     public static class Items {
+
         public static final TagKey<Item> MILK = forgeTag("milk");
+        public static final TagKey<Item> WATER = forgeTag("water");
+        public static final TagKey<Item> LEAVES = forgeTag("leaves");
+        public static final TagKey<Item> CROP_ITEM = forgeTag("crop_item");
+        public static final TagKey<Item> PAPERABLE_LOGS = forgeTag("paperable_logs");
+
+        public static final TagKey<Item> WHEAT = forgeTag("wheat");
         public static final TagKey<Item> BERRIES = forgeTag("berries");
         public static final TagKey<Item> FRUITS = forgeTag("fruits");
-        public static final TagKey<Item> WHEAT = forgeTag("wheat");
-        public static final TagKey<Item> WATER = forgeTag("water");
         public static final TagKey<Item> HERBS = forgeTag("herbs");
-        public static final TagKey<Item> LEAVES = forgeTag("leaves");
         public static final TagKey<Item> VEGETABLES = forgeTag("vegetables");
         public static final TagKey<Item> COOKED_VEGETABLES = forgeTag("cooked_vegetables");
         public static final TagKey<Item> RAW_MEATS = forgeTag("raw_meats");
@@ -23,8 +27,6 @@ public class DFFTags {
         public static final TagKey<Item> JAMS = forgeTag("jams");
         public static final TagKey<Item> NUTS = forgeTag("nuts");
         public static final TagKey<Item> TREE_FRUITS = forgeTag("tree_fruits");
-        public static final TagKey<Item> CROP_ITEM = forgeTag("crop_item");
-        public static final TagKey<Item> PAPERABLE_LOGS = forgeTag("paperable_logs");
 
         private static TagKey<Item> tag (String name) {
             return ItemTags.create(new ResourceLocation(DFFeastsMain.MODID, name));

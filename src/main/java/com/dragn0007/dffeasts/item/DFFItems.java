@@ -134,17 +134,109 @@ public class DFFItems {
     public static final RegistryObject<Item> KIWI_JAM = ITEMS.register("kiwi_jam",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
+    //Soda
+    public static final RegistryObject<Item> LYCHEE_SODA = ITEMS.register("lychee_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> MANGO_SODA = ITEMS.register("mango_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ORANGE_SODA = ITEMS.register("orange_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PEAR_SODA = ITEMS.register("pear_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> POMEGRANATE_SODA = ITEMS.register("pomegranate_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> RASPBERRY_SODA = ITEMS.register("raspberry_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> RED_GRAPE_SODA = ITEMS.register("red_grape_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PURPLE_GRAPE_SODA = ITEMS.register("purple_grape_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> STRAWBERRY_SODA = ITEMS.register("strawberry_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> WHITE_RASPBERRY_SODA = ITEMS.register("white_raspberry_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> BLACKBERRY_SODA = ITEMS.register("blackberry_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> BLUEBERRY_SODA = ITEMS.register("blueberry_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CHERRY_SODA = ITEMS.register("cherry_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CRANBERRY_SODA = ITEMS.register("cranberry_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> GRAPEFRUIT_SODA = ITEMS.register("grapefruit_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> GREEN_GRAPE_SODA = ITEMS.register("green_grape_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> KIWI_SODA = ITEMS.register("kiwi_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> GINGER_SODA = ITEMS.register("ginger_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
     //Cake
 //    public static final RegistryObject<Item> _CAKE = ITEMS.register("_cake",
 //            () -> new ItemNameBlockItem(DFFBlocks._CAKE.get(), (new Item.Properties().tab(DFFItemGroup.FOOD_GROUP))));
 
     //Pastry
-    public static final RegistryObject<Item> _PASTRY = ITEMS.register("_pastry",
+    public static final RegistryObject<Item> LYCHEE_PASTRY = ITEMS.register("lychee_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> MANGO_PASTRY = ITEMS.register("mango_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ORANGE_PASTRY = ITEMS.register("orange_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PEAR_PASTRY = ITEMS.register("pear_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> POMEGRANATE_PASTRY = ITEMS.register("pomegranate_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> RASPBERRY_PASTRY = ITEMS.register("raspberry_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> RED_GRAPE_PASTRY = ITEMS.register("red_grape_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PURPLE_GRAPE_PASTRY = ITEMS.register("purple_grape_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> STRAWBERRY_PASTRY = ITEMS.register("strawberry_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> WHITE_RASPBERRY_PASTRY = ITEMS.register("white_raspberry_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> BLACKBERRY_PASTRY = ITEMS.register("blackberry_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> BLUEBERRY_PASTRY = ITEMS.register("blueberry_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CHERRY_PASTRY = ITEMS.register("cherry_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CRANBERRY_PASTRY = ITEMS.register("cranberry_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> GRAPEFRUIT_PASTRY = ITEMS.register("grapefruit_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> GREEN_GRAPE_PASTRY = ITEMS.register("green_grape_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> KIWI_PASTRY = ITEMS.register("kiwi_pastry",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Roasted Veggie
-    public static final RegistryObject<Item> ROASTED_ = ITEMS.register("roasted_",
+    public static final RegistryObject<Item> ROASTED_BRUSSELS_SPROUTS = ITEMS.register("roasted_brussels_sprouts",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ROASTED_BUTTERNUT_SQUASH = ITEMS.register("roasted_butternut_squash",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ROASTED_CHILI_PEPPER = ITEMS.register("roasted_chili_pepper",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ROASTED_CORN = ITEMS.register("roasted_corn",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ROASTED_JALEPENO_PEPPER = ITEMS.register("roasted_jalepeno_pepper",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ROASTED_CUCUMBER = ITEMS.register("roasted_cucumber",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ROASTED_GREEN_BEANS = ITEMS.register("roasted_green_beans",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ROASTED_PEANUTS = ITEMS.register("roasted_peanuts",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ROASTED_RADISH = ITEMS.register("roasted_radish",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ROASTED_TOMATO = ITEMS.register("roasted_tomato",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ROASTED_ZUCCHINI = ITEMS.register("roasted_zucchini",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ROASTED_GARLIC = ITEMS.register("roasted_garlic",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Dried Fruit
      public static final RegistryObject<Item> DRIED_LYCHEE = ITEMS.register("dried_lychee",
@@ -191,8 +283,29 @@ public class DFFItems {
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(10).saturationMod(1).effect(new MobEffectInstance(MobEffects.ABSORPTION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Donut
-    public static final RegistryObject<Item> _DONUT = ITEMS.register("_donut",
-            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PLAIN_DONUT = ITEMS.register("plain_donut",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.HEAL, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CHOCOLATE_DONUT = ITEMS.register("chocolate_donut",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.HEAL, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> POWDERED_DONUT = ITEMS.register("powdered_donut",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.HEAL, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CHOCOLATE_POWDERED_DONUT = ITEMS.register("chocolate_powdered_donut",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.HEAL, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+     public static final RegistryObject<Item> GLAZED_DONUT = ITEMS.register("glazed_donut",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.HEAL, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ICED_CHOCOLATE_DONUT = ITEMS.register("iced_chocolate_donut",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.HEAL, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CHOCOLATE_GLAZED_DONUT = ITEMS.register("chocolate_glazed_donut",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.HEAL, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DOUBLE_CHOCOLATE_DONUT = ITEMS.register("double_chocolate_donut",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.HEAL, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> STRAWBERRY_GLAZED_DONUT = ITEMS.register("strawberry_glazed_donut",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.HEAL, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> STRAWBERRY_CHOCOLATE_DONUT = ITEMS.register("strawberry_chocolate_donut",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.HEAL, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> JELLY_DONUT = ITEMS.register("jelly_donut",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.HEAL, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
 
     //Sausage
     public static final RegistryObject<Item> _SAUSAGE = ITEMS.register("_sausage",
@@ -595,7 +708,13 @@ public class DFFItems {
             () -> new Item(new Item.Properties().tab(DFFItemGroup.FOOD_GROUP)));
     public static final RegistryObject<Item> PASTA = ITEMS.register("pasta",
             () -> new Item(new Item.Properties().tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> COCOA_POWDER = ITEMS.register("cocoa_powder",
+            () -> new Item(new Item.Properties().tab(DFFItemGroup.FOOD_GROUP)));
     public static final RegistryObject<Item> PURIFIED_WATER = ITEMS.register("purified_water",
+            () -> new Item(new Item.Properties().tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> TOFU = ITEMS.register("tofu",
+            () -> new Item(new Item.Properties().tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> COOKED_TOFU = ITEMS.register("cooked_tofu",
             () -> new Item(new Item.Properties().tab(DFFItemGroup.FOOD_GROUP)));
 
 

@@ -18,6 +18,32 @@ public class DFFItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
 
+        simpleItem(DFFItems.DOUGH.get());
+        simpleItem(DFFItems.COCOA_POWDER.get());
+        simpleItem(DFFItems.MILK_BOTTLE.get());
+        simpleItem(DFFItems.FLOUR.get());
+        simpleItem(DFFItems.PASTA.get());
+        simpleItem(DFFItems.PANKO.get());
+        simpleItem(DFFItems.PURIFIED_WATER.get());
+        simpleItem(DFFItems.BUTTER.get());
+        simpleItem(DFFItems.CHEESE_CURDS.get());
+        simpleItem(DFFItems.TOFU.get());
+        simpleItem(DFFItems.COOKED_TOFU.get());
+
+
+        simpleItem(DFFItems.ROASTED_BRUSSELS_SPROUTS.get());
+        simpleItem(DFFItems.ROASTED_BUTTERNUT_SQUASH.get());
+        simpleItem(DFFItems.ROASTED_CORN.get());
+        simpleItem(DFFItems.ROASTED_CHILI_PEPPER.get());
+        simpleItem(DFFItems.ROASTED_CUCUMBER.get());
+        simpleItem(DFFItems.ROASTED_PEANUTS.get());
+        simpleItem(DFFItems.ROASTED_JALEPENO_PEPPER.get());
+        simpleItem(DFFItems.ROASTED_RADISH.get());
+        simpleItem(DFFItems.ROASTED_ZUCCHINI.get());
+        simpleItem(DFFItems.ROASTED_TOMATO.get());
+        simpleItem(DFFItems.ROASTED_GREEN_BEANS.get());
+        simpleItem(DFFItems.ROASTED_GARLIC.get());
+
         simpleItem(DFFItems.BLACKBERRY_PIE.get());
         simpleItem(DFFItems.BLUEBERRY_PIE.get());
         simpleItem(DFFItems.CRANBERRY_PIE.get());
@@ -53,6 +79,43 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.LYCHEE_JAM.get());
         simpleItem(DFFItems.PEAR_JAM.get());
         simpleItem(DFFItems.POMEGRANATE_JAM.get());
+
+        simpleItem(DFFItems.BLACKBERRY_PASTRY.get());
+        simpleItem(DFFItems.BLUEBERRY_PASTRY.get());
+        simpleItem(DFFItems.CRANBERRY_PASTRY.get());
+        simpleItem(DFFItems.GRAPEFRUIT_PASTRY.get());
+        simpleItem(DFFItems.ORANGE_PASTRY.get());
+        simpleItem(DFFItems.PURPLE_GRAPE_PASTRY.get());
+        simpleItem(DFFItems.RASPBERRY_PASTRY.get());
+        simpleItem(DFFItems.RED_GRAPE_PASTRY.get());
+        simpleItem(DFFItems.STRAWBERRY_PASTRY.get());
+        simpleItem(DFFItems.GREEN_GRAPE_PASTRY.get());
+        simpleItem(DFFItems.WHITE_RASPBERRY_PASTRY.get());
+        simpleItem(DFFItems.MANGO_PASTRY.get());
+        simpleItem(DFFItems.CHERRY_PASTRY.get());
+        simpleItem(DFFItems.KIWI_PASTRY.get());
+        simpleItem(DFFItems.LYCHEE_PASTRY.get());
+        simpleItem(DFFItems.PEAR_PASTRY.get());
+        simpleItem(DFFItems.POMEGRANATE_PASTRY.get());
+
+        simpleItem(DFFItems.BLACKBERRY_SODA.get());
+        simpleItem(DFFItems.BLUEBERRY_SODA.get());
+        simpleItem(DFFItems.CRANBERRY_SODA.get());
+        simpleItem(DFFItems.GRAPEFRUIT_SODA.get());
+        simpleItem(DFFItems.ORANGE_SODA.get());
+        simpleItem(DFFItems.PURPLE_GRAPE_SODA.get());
+        simpleItem(DFFItems.RASPBERRY_SODA.get());
+        simpleItem(DFFItems.RED_GRAPE_SODA.get());
+        simpleItem(DFFItems.STRAWBERRY_SODA.get());
+        simpleItem(DFFItems.GREEN_GRAPE_SODA.get());
+        simpleItem(DFFItems.WHITE_RASPBERRY_SODA.get());
+        simpleItem(DFFItems.MANGO_SODA.get());
+        simpleItem(DFFItems.CHERRY_SODA.get());
+        simpleItem(DFFItems.KIWI_SODA.get());
+        simpleItem(DFFItems.LYCHEE_SODA.get());
+        simpleItem(DFFItems.PEAR_SODA.get());
+        simpleItem(DFFItems.POMEGRANATE_SODA.get());
+        simpleItem(DFFItems.GINGER_SODA.get());
 
         simpleItem(DFFItems.BLACKBERRY_SMOOTHIE.get());
         simpleItem(DFFItems.BLUEBERRY_SMOOTHIE.get());
@@ -143,6 +206,18 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.LYCHEE_WINE.get());
         simpleItem(DFFItems.PEAR_WINE.get());
         simpleItem(DFFItems.POMEGRANATE_WINE.get());
+
+        simpleItem(DFFItems.PLAIN_DONUT.get());
+        simpleItem(DFFItems.CHOCOLATE_DONUT.get());
+        simpleItem(DFFItems.POWDERED_DONUT.get());
+        simpleItem(DFFItems.CHOCOLATE_POWDERED_DONUT.get());
+        simpleItem(DFFItems.GLAZED_DONUT.get());
+        simpleItem(DFFItems.ICED_CHOCOLATE_DONUT.get());
+        simpleItem(DFFItems.CHOCOLATE_GLAZED_DONUT.get());
+        simpleItem(DFFItems.DOUBLE_CHOCOLATE_DONUT.get());
+        simpleItem(DFFItems.STRAWBERRY_GLAZED_DONUT.get());
+        simpleItem(DFFItems.STRAWBERRY_CHOCOLATE_DONUT.get());
+        simpleItem(DFFItems.JELLY_DONUT.get());
 
 
         simpleItem(DFFItems.BELL_PEPPER.get());

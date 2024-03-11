@@ -23,6 +23,13 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
 
+        ShapelessRecipeBuilder.shapeless(DFFItems.COCOA_POWDER.get(), 4)
+                .requires(Items.COCOA_BEANS)
+                .unlockedBy("has_cocoa_beans", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.COCOA_BEANS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
 
         ShapelessRecipeBuilder.shapeless(DFFItems.PURIFIED_WATER.get(), 16)
                 .requires(Items.WATER_BUCKET)

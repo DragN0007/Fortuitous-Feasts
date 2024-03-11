@@ -1,6 +1,53 @@
 {
   "replace": false,
   "values": [
+    "dffeasts:blackberry_bush",
+    "dffeasts:blueberry_bush",
+    "dffeasts:raspberry_bush",
+    "dffeasts:white_raspberry_bush",
 
+    "dffeasts:peanut_plant",
+
+    "dffeasts:bell_pepper_plant",
+    "dffeasts:brussels_sprouts_plant",
+    "dffeasts:butternut_squash_plant",
+    "dffeasts:chili_pepper_plant",
+    "dffeasts:corn_plant",
+    "dffeasts:cucumber_plant",
+    "dffeasts:garlic_plant",
+    "dffeasts:jalepeno_pepper_plant",
+    "dffeasts:onion_plant",
+    "dffeasts:radish_plant",
+    "dffeasts:ginger_plant",
+    "dffeasts:sugar_beet_plant",
+
+    "dffeasts:rye_plant",
+
+    "dffeasts:oregano_plant",
+    "dffeasts:rosemary_plant",
+    "dffeasts:cilantro_plant",
+    "dffeasts:mint_plant",
+
+    "dffeasts:orange_leaves",
+    "dffeasts:coconut_leaves",
+    "dffeasts:mango_leaves",
+    "dffeasts:avocado_leaves",
+    "dffeasts:cherry_leaves",
+    "dffeasts:coconut_leaves",
+    "dffeasts:grapefruit_leaves",
+    "dffeasts:kiwi_leaves",
+    "dffeasts:lychee_leaves",
+    "dffeasts:pear_leaves",
+
+    "dffeasts:orange_sapling",
+    "dffeasts:coconut_sapling",
+    "dffeasts:mango_sapling",
+    "dffeasts:avocado_sapling",
+    "dffeasts:cherry_sapling",
+    "dffeasts:coconut_sapling",
+    "dffeasts:grapefruit_sapling",
+    "dffeasts:kiwi_sapling",
+    "dffeasts:lychee_sapling",
+    "dffeasts:pear_sapling"
   ]
 }

@@ -1,6 +1,14 @@
 {
   "replace": false,
   "values": [
+    "dffeasts:blackberry",
+    "dffeasts:blueberries",
+    "dffeasts:raspberry",
+    "dffeasts:white_raspberry",
 
+    "dffeasts:butternut_squash",
+    "dffeasts:sugar_beet",
+
+    "dffeasts:rye"
   ]
 }
