@@ -11,3 +11,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+This license is only applicable to non-addon mods. If you wish to create a true addon
+(a mod that requires Fortuitous Feasts as a dependency in order to run), you hereby
+have my permission to use Fortuitous Feasts assets in your addon. If your mod is stand-
+alone, the All Rights Reserve license still applies as stated above.
