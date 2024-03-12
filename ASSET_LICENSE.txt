@@ -14,5 +14,5 @@ THE SOFTWARE.
 
 This license is only applicable to non-addon mods. If you wish to create a true addon
 (a mod that requires Fortuitous Feasts as a dependency in order to run), you hereby
-have my permission to use Fortuitous Feasts assets in your addon. If your mod 
-is stand-alone, the All Rights Reserved license still applies as stated above.
+have my permission to use Fortuitous Feasts assets in your addon, with credits. 
+If your mod is stand-alone, the All Rights Reserved license still applies as stated above.
