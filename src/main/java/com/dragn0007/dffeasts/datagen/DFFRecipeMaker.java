@@ -30,7 +30,6 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .build()))
                 .save(pFinishedRecipeConsumer);
 
-
         ShapelessRecipeBuilder.shapeless(DFFItems.PURIFIED_WATER.get(), 16)
                 .requires(Items.WATER_BUCKET)
                 .unlockedBy("has_water", inventoryTrigger(ItemPredicate.Builder.item()

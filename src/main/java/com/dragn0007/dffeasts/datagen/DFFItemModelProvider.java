@@ -31,6 +31,36 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.COOKED_TOFU.get());
 
 
+        simpleItem(DFFItems.CHICKEN_PARM.get());
+        simpleItem(DFFItems.MAC_N_CHEESE.get());
+        simpleItem(DFFItems.PEANUT_BUTTER.get());
+        simpleItem(DFFItems.PEANUT_BUTTER_JELLY.get());
+        simpleItem(DFFItems.POT_ROAST.get());
+        simpleItem(DFFItems.SAUSAGE_MAC.get());
+        simpleItem(DFFItems.SPAGHETTI.get());
+        simpleItem(DFFItems.SPAGHETTI_AND_MEATBALLS.get());
+        simpleItem(DFFItems.TOMATO_SOUP.get());
+
+        simpleItem(DFFItems.PICKLES.get());
+        simpleItem(DFFItems.PICKLED_GARLIC.get());
+        simpleItem(DFFItems.PICKLED_GINGER.get());
+        simpleItem(DFFItems.PICKLED_PEPPERS.get());
+        simpleItem(DFFItems.PICKLED_RADISH.get());
+
+        simpleItem(DFFItems.MEAT_WRAP.get());
+        simpleItem(DFFItems.MEAT_CHEESE_WRAP.get());
+        simpleItem(DFFItems.MEAT_VEGGIE_WRAP.get());
+        simpleItem(DFFItems.VEGGIE_WRAP.get());
+
+        simpleItem(DFFItems.BEEF_SAUSAGE.get());
+        simpleItem(DFFItems.CHICKEN_SAUSAGE.get());
+        simpleItem(DFFItems.MUTTON_SAUSAGE.get());
+        simpleItem(DFFItems.PORK_SAUSAGE.get());
+        simpleItem(DFFItems.COOKED_BEEF_SAUSAGE.get());
+        simpleItem(DFFItems.COOKED_CHICKEN_SAUSAGE.get());
+        simpleItem(DFFItems.COOKED_MUTTON_SAUSAGE.get());
+        simpleItem(DFFItems.COOKED_PORK_SAUSAGE.get());
+
         simpleItem(DFFItems.ROASTED_BRUSSELS_SPROUTS.get());
         simpleItem(DFFItems.ROASTED_BUTTERNUT_SQUASH.get());
         simpleItem(DFFItems.ROASTED_CORN.get());

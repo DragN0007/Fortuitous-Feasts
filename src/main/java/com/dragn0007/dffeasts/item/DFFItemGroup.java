@@ -10,7 +10,7 @@ public class DFFItemGroup {
     {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(DFFItems.CRANBERRIES.get());
+            return new ItemStack(DFFItems.RED_GRAPES.get());
         }
     };
 
@@ -18,7 +18,7 @@ public class DFFItemGroup {
     {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(DFFItems.GRAPEFRUIT.get());
+            return new ItemStack(DFFItems.STRAWBERRY_PASTRY.get());
         }
     };
 
@@ -26,7 +26,7 @@ public class DFFItemGroup {
     {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(DFFItems.RED_GRAPES.get());
+            return new ItemStack(DFFItems.CROP_COIN.get());
         }
     };
 
