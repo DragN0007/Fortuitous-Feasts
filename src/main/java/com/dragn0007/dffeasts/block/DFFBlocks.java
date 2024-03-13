@@ -210,7 +210,6 @@ public class DFFBlocks {
     public static final RegistryObject<Block> KIWI_SAPLING = registerBlockWithoutItem("kiwi_sapling",
             () -> new SaplingBlock(new KiwiTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
-//merge my shit
 
     //TODO; Decor
 
