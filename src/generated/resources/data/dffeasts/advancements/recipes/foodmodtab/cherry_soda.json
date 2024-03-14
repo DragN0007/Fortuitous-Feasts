@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:cherry_soda"
+    ]
+  },
+  "criteria": {
+    "has_water": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:water"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:cherry_soda"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_water",
+      "has_the_recipe"
+    ]
+  ]
+}

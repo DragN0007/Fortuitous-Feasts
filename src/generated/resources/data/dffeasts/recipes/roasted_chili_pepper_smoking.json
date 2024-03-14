@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:chili_pepper"
+  },
+  "result": "dffeasts:roasted_chili_pepper",
+  "experience": 0.35,
+  "cookingtime": 100
+}

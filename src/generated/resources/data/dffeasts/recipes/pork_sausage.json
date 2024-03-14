@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:herbs"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:porkchop"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:pork_sausage"
+  }
+}

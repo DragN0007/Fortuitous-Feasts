@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:soybeans"
+    },
+    {
+      "item": "dffeasts:soybeans"
+    },
+    {
+      "item": "dffeasts:soybeans"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:tofu",
+    "count": 3
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "dffeasts:purple_grapes"
+  },
+  "result": "dffeasts:dried_purple_grapes",
+  "experience": 0.35,
+  "cookingtime": 600
+}

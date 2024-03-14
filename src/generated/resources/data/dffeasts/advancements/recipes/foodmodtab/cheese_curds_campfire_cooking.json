@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:cheese_curds_campfire_cooking"
+    ]
+  },
+  "criteria": {
+    "has_milk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:milk"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:cheese_curds_campfire_cooking"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_milk",
+      "has_the_recipe"
+    ]
+  ]
+}

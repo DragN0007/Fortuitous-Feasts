@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "dffeasts:white_grapes"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:green_grape_juice"
+  }
+}

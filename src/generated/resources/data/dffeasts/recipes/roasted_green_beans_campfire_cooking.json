@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "dffeasts:green_beans"
+  },
+  "result": "dffeasts:roasted_green_beans",
+  "experience": 0.35,
+  "cookingtime": 600
+}

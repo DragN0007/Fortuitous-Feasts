@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "dffeasts:blackberry_jam",
+    "dffeasts:blueberry_jam",
+    "dffeasts:cherry_jam",
+    "dffeasts:cranberry_jam",
+    "dffeasts:grapefruit_jam",
+    "dffeasts:kiwi_jam",
+    "dffeasts:lychee_jam",
+    "dffeasts:mango_jam",
+    "dffeasts:orange_jam",
+    "dffeasts:pear_jam",
+    "dffeasts:purple_grape_jam",
+    "dffeasts:raspberry_jam",
+    "dffeasts:red_grape_jam",
+    "dffeasts:strawberry_jam",
+    "dffeasts:green_grape_jam",
+    "dffeasts:white_raspberry_jam"
+  ]
+}

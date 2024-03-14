@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:leaves"
+    },
+    {
+      "item": "dffeasts:raspberry_juice"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:raspberry_tea"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:herbs"
+    },
+    {
+      "tag": "forge:water"
+    },
+    {
+      "item": "dffeasts:garlic"
+    },
+    {
+      "item": "dffeasts:garlic"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:pickled_garlic",
+    "count": 2
+  }
+}

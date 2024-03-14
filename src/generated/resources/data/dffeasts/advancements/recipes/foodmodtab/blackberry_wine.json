@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:blackberry_wine"
+    ]
+  },
+  "criteria": {
+    "has_flour": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:flour"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:blackberry_wine"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_flour",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -31,6 +31,11 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.COOKED_TOFU.get());
 
 
+        simpleItem(DFFItems.PARMESAN_CHEESE.get());
+        simpleItem(DFFItems.CHEDDAR_CHEESE.get());
+        simpleItem(DFFItems.MOZZARELLA_CHEESE.get());
+
+        simpleItem(DFFItems.DUMPLINGS.get());
         simpleItem(DFFItems.CHICKEN_PARM.get());
         simpleItem(DFFItems.MAC_N_CHEESE.get());
         simpleItem(DFFItems.PEANUT_BUTTER.get());

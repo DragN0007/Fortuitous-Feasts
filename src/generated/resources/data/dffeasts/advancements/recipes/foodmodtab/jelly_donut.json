@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:jelly_donut"
+    ]
+  },
+  "criteria": {
+    "has_donut": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dffeasts:plain_donut"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:jelly_donut"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_donut",
+      "has_the_recipe"
+    ]
+  ]
+}

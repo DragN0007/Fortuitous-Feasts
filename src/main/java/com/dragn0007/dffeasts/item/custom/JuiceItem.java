@@ -9,10 +9,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.ItemUtils;
-import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 
 public class JuiceItem extends Item {
@@ -20,7 +17,7 @@ public class JuiceItem extends Item {
     public MobEffectInstance[] effectInstances;
 
     public JuiceItem(MobEffectInstance... effectInstances) {
-        super(new Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP));
+        super(new Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(1).build()).craftRemainder(Items.GLASS_BOTTLE).tab(DFFItemGroup.FOOD_GROUP));
         this.effectInstances = effectInstances;
     }
 

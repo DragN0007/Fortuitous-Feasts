@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:veggie_wrap"
+    ]
+  },
+  "criteria": {
+    "has_herbs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:herbs"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:veggie_wrap"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_herbs",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dffeasts:dough"
+  },
+  "result": "dffeasts:pasta",
+  "experience": 0.35,
+  "cookingtime": 200
+}

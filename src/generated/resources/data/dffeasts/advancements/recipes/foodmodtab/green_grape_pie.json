@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:green_grape_pie"
+    ]
+  },
+  "criteria": {
+    "has_flour": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:flour"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:green_grape_pie"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_flour",
+      "has_the_recipe"
+    ]
+  ]
+}

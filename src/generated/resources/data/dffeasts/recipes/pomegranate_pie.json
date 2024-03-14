@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "dffeasts:butter"
+    },
+    {
+      "item": "dffeasts:pomegranate"
+    },
+    {
+      "item": "dffeasts:pomegranate"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:pomegranate_pie"
+  }
+}

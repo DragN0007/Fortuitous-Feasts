@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "dffeasts:butter"
+    },
+    {
+      "item": "dffeasts:dough"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:plain_donut",
+    "count": 2
+  }
+}

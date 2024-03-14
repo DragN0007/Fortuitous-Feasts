@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:jalepeno_pepper"
+  },
+  "result": "dffeasts:roasted_jalepeno_pepper",
+  "experience": 0.35,
+  "cookingtime": 100
+}

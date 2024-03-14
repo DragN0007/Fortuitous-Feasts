@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:kiwi_tea"
+    ]
+  },
+  "criteria": {
+    "has_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:leaves"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:kiwi_tea"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_leaves",
+      "has_the_recipe"
+    ]
+  ]
+}

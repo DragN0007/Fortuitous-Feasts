@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:herbs"
+    },
+    {
+      "tag": "forge:dumpling_filling"
+    },
+    {
+      "tag": "forge:dumpling_filling"
+    },
+    {
+      "tag": "forge:dumpling_filling"
+    },
+    {
+      "item": "dffeasts:dough"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:dumplings",
+    "count": 2
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "tag": "forge:milk"
+  },
+  "result": "dffeasts:cheese_curds",
+  "experience": 0.35,
+  "cookingtime": 600
+}

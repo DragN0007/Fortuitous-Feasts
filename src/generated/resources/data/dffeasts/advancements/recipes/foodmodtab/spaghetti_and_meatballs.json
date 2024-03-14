@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:spaghetti_and_meatballs"
+    ]
+  },
+  "criteria": {
+    "has_pasta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dffeasts:pasta"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:spaghetti_and_meatballs"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pasta",
+      "has_the_recipe"
+    ]
+  ]
+}

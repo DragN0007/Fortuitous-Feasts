@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:pear"
+  },
+  "result": "dffeasts:dried_pear",
+  "experience": 0.35,
+  "cookingtime": 100
+}

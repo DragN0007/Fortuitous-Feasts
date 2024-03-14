@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:cucumber"
+  },
+  "result": "dffeasts:roasted_cucumber",
+  "experience": 0.35,
+  "cookingtime": 100
+}

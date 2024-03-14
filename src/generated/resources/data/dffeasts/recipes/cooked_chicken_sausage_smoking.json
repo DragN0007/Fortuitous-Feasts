@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:chicken_sausage"
+  },
+  "result": "dffeasts:cooked_chicken_sausage",
+  "experience": 0.35,
+  "cookingtime": 100
+}

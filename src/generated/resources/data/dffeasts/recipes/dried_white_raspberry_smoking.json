@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:white_raspberry"
+  },
+  "result": "dffeasts:dried_white_raspberry",
+  "experience": 0.35,
+  "cookingtime": 100
+}

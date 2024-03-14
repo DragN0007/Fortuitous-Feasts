@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:butternut_squash"
+  },
+  "result": "dffeasts:roasted_butternut_squash",
+  "experience": 0.35,
+  "cookingtime": 100
+}

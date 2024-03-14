@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "dffeasts:lychee"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:lychee_juice"
+  }
+}

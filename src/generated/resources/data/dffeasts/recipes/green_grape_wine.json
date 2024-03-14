@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "dffeasts:green_grape_juice"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:green_grape_wine"
+  }
+}

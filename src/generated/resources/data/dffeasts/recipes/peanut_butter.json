@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:peanuts"
+    },
+    {
+      "item": "dffeasts:peanuts"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:peanut_butter",
+    "count": 4
+  }
+}

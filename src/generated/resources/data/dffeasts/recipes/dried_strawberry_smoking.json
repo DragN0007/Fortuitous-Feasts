@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:strawberry"
+  },
+  "result": "dffeasts:dried_strawberry",
+  "experience": 0.35,
+  "cookingtime": 100
+}

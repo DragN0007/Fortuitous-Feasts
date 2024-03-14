@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "dffeasts:beef_sausage"
+  },
+  "result": "dffeasts:cooked_beef_sausage",
+  "experience": 0.35,
+  "cookingtime": 200
+}

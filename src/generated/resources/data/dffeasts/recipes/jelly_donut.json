@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "tag": "forge:jams"
+    },
+    {
+      "item": "dffeasts:plain_donut"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:jelly_donut"
+  }
+}

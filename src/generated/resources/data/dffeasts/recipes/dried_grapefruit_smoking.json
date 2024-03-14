@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:grapefruit"
+  },
+  "result": "dffeasts:dried_grapefruit",
+  "experience": 0.35,
+  "cookingtime": 100
+}

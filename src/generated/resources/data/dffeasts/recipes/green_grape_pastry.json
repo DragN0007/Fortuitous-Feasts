@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:wheat"
+    },
+    {
+      "tag": "forge:wheat"
+    },
+    {
+      "item": "dffeasts:green_grape_jam"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:green_grape_pastry",
+    "count": 2
+  }
+}

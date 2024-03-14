@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:pasta_campfire_cooking"
+    ]
+  },
+  "criteria": {
+    "has_dough": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dffeasts:dough"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:pasta_campfire_cooking"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dough",
+      "has_the_recipe"
+    ]
+  ]
+}

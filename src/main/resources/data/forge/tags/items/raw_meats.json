@@ -5,6 +5,8 @@
     "minecraft:beef",
     "minecraft:porkchop",
     "minecraft:mutton",
-    "minecraft:rabbit"
+    "minecraft:rabbit",
+
+    "dffeasts:tofu"
   ]
 }

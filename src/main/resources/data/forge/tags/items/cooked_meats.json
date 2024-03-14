@@ -5,6 +5,13 @@
     "minecraft:cooked_beef",
     "minecraft:cooked_porkchop",
     "minecraft:cooked_mutton",
-    "minecraft:cooked_rabbit"
+    "minecraft:cooked_rabbit",
+
+    "dffeasts:cooked_tofu",
+
+    "dffeasts:cooked_beef_sausage",
+    "dffeasts:cooked_chicken_sausage",
+    "dffeasts:cooked_mutton_sausage",
+    "dffeasts:cooked_pork_sausage"
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:brussels_sprouts"
+  },
+  "result": "dffeasts:roasted_brussels_sprouts",
+  "experience": 0.35,
+  "cookingtime": 100
+}

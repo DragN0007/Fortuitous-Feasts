@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:herbs"
+    },
+    {
+      "item": "minecraft:mutton"
+    },
+    {
+      "item": "minecraft:mutton"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:mutton_sausage"
+  }
+}

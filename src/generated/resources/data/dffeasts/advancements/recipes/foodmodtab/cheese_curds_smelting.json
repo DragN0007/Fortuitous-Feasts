@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:cheese_curds_smelting"
+    ]
+  },
+  "criteria": {
+    "has_milk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:milk"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:cheese_curds_smelting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_milk",
+      "has_the_recipe"
+    ]
+  ]
+}

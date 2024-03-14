@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:cooked_chicken_sausage_smoking"
+    ]
+  },
+  "criteria": {
+    "has_chicken_sausage": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dffeasts:chicken_sausage"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:cooked_chicken_sausage_smoking"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chicken_sausage",
+      "has_the_recipe"
+    ]
+  ]
+}

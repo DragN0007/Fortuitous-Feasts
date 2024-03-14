@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:garlic"
+  },
+  "result": "dffeasts:roasted_garlic",
+  "experience": 0.35,
+  "cookingtime": 100
+}

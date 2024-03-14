@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:tofu"
+    ]
+  },
+  "criteria": {
+    "has_soybeans": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dffeasts:soybeans"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:tofu"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_soybeans",
+      "has_the_recipe"
+    ]
+  ]
+}

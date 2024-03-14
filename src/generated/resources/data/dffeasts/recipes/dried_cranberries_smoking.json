@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:cranberries"
+  },
+  "result": "dffeasts:dried_cranberries",
+  "experience": 0.35,
+  "cookingtime": 100
+}

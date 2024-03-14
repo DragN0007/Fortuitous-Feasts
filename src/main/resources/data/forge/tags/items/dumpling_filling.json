@@ -1,0 +1,36 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:carrot",
+    "minecraft:potato",
+    "minecraft:beetroot",
+    "dffeasts:bell_pepper",
+    "dffeasts:brussels_sprouts",
+    "dffeasts:butternut_squash",
+    "dffeasts:chili_pepper",
+    "dffeasts:corn",
+    "dffeasts:cucumber",
+    "dffeasts:celery",
+    "dffeasts:garlic",
+    "dffeasts:green_beans",
+    "dffeasts:jalepeno_pepper",
+    "dffeasts:onion",
+    "dffeasts:radish",
+    "dffeasts:zucchini",
+    "dffeasts:ginger",
+    "dffeasts:kidney_beans",
+    "dffeasts:black_beans",
+    "dffeasts:tomato",
+
+    "minecraft:chicken",
+    "minecraft:beef",
+    "minecraft:porkchop",
+    "minecraft:mutton",
+    "minecraft:rabbit",
+    "dffeasts:tofu",
+    "dffeasts:beef_sausage",
+    "dffeasts:chicken_sausage",
+    "dffeasts:mutton_sausage",
+    "dffeasts:pork_sausage"
+  ]
+}

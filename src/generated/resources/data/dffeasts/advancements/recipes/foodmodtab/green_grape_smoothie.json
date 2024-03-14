@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:green_grape_smoothie"
+    ]
+  },
+  "criteria": {
+    "has_ice_or_snow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:smoothie_ice"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:green_grape_smoothie"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ice_or_snow",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:radish"
+  },
+  "result": "dffeasts:roasted_radish",
+  "experience": 0.35,
+  "cookingtime": 100
+}

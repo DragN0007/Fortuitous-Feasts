@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:mac_n_cheese"
+    },
+    {
+      "item": "dffeasts:pasta"
+    },
+    {
+      "tag": "forge:cooked_sausage"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:sausage_mac"
+  }
+}

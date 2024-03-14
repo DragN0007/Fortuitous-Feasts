@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "dffeasts:butter"
+    },
+    {
+      "item": "dffeasts:red_grapes"
+    },
+    {
+      "item": "dffeasts:red_grapes"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:red_grape_pie"
+  }
+}

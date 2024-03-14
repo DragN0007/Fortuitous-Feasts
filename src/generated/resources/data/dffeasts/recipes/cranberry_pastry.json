@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:wheat"
+    },
+    {
+      "tag": "forge:wheat"
+    },
+    {
+      "item": "dffeasts:cranberry_jam"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:cranberry_pastry",
+    "count": 2
+  }
+}

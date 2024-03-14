@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "dffeasts:butter"
+    },
+    {
+      "item": "dffeasts:lychee"
+    },
+    {
+      "item": "dffeasts:lychee"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:lychee_pie"
+  }
+}

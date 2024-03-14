@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:parmesan_cheese"
+    },
+    {
+      "item": "dffeasts:pasta"
+    },
+    {
+      "item": "dffeasts:tomato_soup"
+    },
+    {
+      "item": "minecraft:cooked_chicken"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:chicken_parm"
+  }
+}

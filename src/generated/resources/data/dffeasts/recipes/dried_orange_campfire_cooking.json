@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "dffeasts:orange"
+  },
+  "result": "dffeasts:dried_orange",
+  "experience": 0.35,
+  "cookingtime": 600
+}

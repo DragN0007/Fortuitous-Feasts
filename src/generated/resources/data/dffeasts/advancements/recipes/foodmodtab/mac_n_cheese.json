@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:mac_n_cheese"
+    ]
+  },
+  "criteria": {
+    "has_pasta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dffeasts:pasta"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:mac_n_cheese"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pasta",
+      "has_the_recipe"
+    ]
+  ]
+}

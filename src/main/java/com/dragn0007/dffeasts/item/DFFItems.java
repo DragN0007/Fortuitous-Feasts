@@ -12,7 +12,6 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
-import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -26,7 +25,18 @@ public class DFFItems {
 
     //TODO; Food
 
+    //Cheese
+    public static final RegistryObject<Item> CHEDDAR_CHEESE = ITEMS.register("cheddar_cheese",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.LUCK, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> MOZZARELLA_CHEESE = ITEMS.register("mozzarella_cheese",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.LUCK, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PARMESAN_CHEESE = ITEMS.register("parmesan_cheese",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.LUCK, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
+
     //Meals
+    public static final RegistryObject<Item> DUMPLINGS = ITEMS.register("dumplings",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.LUCK, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
     public static final RegistryObject<Item> CHICKEN_PARM = ITEMS.register("chicken_parm",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(16).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
     public static final RegistryObject<Item> MAC_N_CHEESE = ITEMS.register("mac_n_cheese",

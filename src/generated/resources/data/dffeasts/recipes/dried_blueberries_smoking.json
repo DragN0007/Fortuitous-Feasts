@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:blueberries"
+  },
+  "result": "dffeasts:dried_blueberries",
+  "experience": 0.35,
+  "cookingtime": 100
+}

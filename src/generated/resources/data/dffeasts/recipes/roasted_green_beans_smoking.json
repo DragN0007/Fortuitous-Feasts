@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:green_beans"
+  },
+  "result": "dffeasts:roasted_green_beans",
+  "experience": 0.35,
+  "cookingtime": 100
+}

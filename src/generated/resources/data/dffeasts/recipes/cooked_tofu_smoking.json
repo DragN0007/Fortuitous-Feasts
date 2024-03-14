@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:tofu"
+  },
+  "result": "dffeasts:cooked_tofu",
+  "experience": 0.35,
+  "cookingtime": 100
+}

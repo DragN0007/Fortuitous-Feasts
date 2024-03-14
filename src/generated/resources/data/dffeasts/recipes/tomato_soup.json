@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:tomato"
+    },
+    {
+      "item": "dffeasts:tomato"
+    },
+    {
+      "tag": "forge:herbs"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:tomato_soup",
+    "count": 4
+  }
+}

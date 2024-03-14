@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:cherries"
+  },
+  "result": "dffeasts:dried_cherries",
+  "experience": 0.35,
+  "cookingtime": 100
+}

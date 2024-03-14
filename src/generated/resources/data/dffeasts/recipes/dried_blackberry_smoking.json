@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:blackberry"
+  },
+  "result": "dffeasts:dried_blackberry",
+  "experience": 0.35,
+  "cookingtime": 100
+}

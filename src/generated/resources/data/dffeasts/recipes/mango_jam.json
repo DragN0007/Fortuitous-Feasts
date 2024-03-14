@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "dffeasts:mango"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:mango_jam"
+  }
+}

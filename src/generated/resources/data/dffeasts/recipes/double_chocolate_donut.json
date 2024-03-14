@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "dffeasts:cocoa_powder"
+    },
+    {
+      "item": "dffeasts:chocolate_donut"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:double_chocolate_donut"
+  }
+}

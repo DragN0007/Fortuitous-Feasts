@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "dffeasts:dough"
+  },
+  "result": "dffeasts:pasta",
+  "experience": 0.35,
+  "cookingtime": 100
+}
