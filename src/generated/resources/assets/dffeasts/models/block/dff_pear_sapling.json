@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "dffeasts:block/dff_pear_sapling"
+  }
+}

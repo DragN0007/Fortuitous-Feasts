@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stripped_acacia_log",
+    "minecraft:stripped_birch_log",
+    "minecraft:stripped_dark_oak_log",
+    "minecraft:stripped_spruce_log",
+    "minecraft:stripped_oak_log",
+    "minecraft:stripped_jungle_log",
+
+    "dffeasts:orange_log",
+    "dffeasts:coconut_log",
+    "dffeasts:mango_log",
+    "dffeasts:orange_log",
+    "dffeasts:avocado_log",
+    "dffeasts:cherry_log",
+    "dffeasts:coconut_log",
+    "dffeasts:grapefruit_log",
+    "dffeasts:kiwi_log",
+    "dffeasts:lychee_log",
+    "dffeasts:pear_log",
+    "dffeasts:pomegranate_log"
+  ]
+}

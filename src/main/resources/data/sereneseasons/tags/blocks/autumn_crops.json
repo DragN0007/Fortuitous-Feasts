@@ -44,8 +44,8 @@
     "dffeasts:kiwi_leaves",
     "dffeasts:pear_leaves",
 
-    "dffeasts:cherry_sapling",
-    "dffeasts:kiwi_sapling",
-    "dffeasts:pear_sapling"
+    "dffeasts:dff_cherry_sapling",
+    "dffeasts:dff_kiwi_sapling",
+    "dffeasts:dff_pear_sapling"
   ]
 }

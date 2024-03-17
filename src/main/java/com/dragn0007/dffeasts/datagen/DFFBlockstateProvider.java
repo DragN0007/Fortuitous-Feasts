@@ -24,8 +24,8 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         slabBlock((SlabBlock) DFFBlocks.ORANGE_SLAB.get(), blockTexture(DFFBlocks.ORANGE_PLANKS.get()), blockTexture(DFFBlocks.ORANGE_PLANKS.get()));
         simpleBlockItem(DFFBlocks.ORANGE_SLAB.get(), models().slab(DFFBlocks.ORANGE_SLAB.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.ORANGE_PLANKS.get()), blockTexture(DFFBlocks.ORANGE_PLANKS.get()), blockTexture(DFFBlocks.ORANGE_PLANKS.get())));
-        simpleBlock(DFFBlocks.ORANGE_SAPLING.get(), models().cross(DFFBlocks.ORANGE_SAPLING.get().getRegistryName().getPath(),
-        blockTexture(DFFBlocks.ORANGE_SAPLING.get())));
+        simpleBlock(DFFBlocks.DFF_ORANGE_SAPLING.get(), models().cross(DFFBlocks.DFF_ORANGE_SAPLING.get().getRegistryName().getPath(),
+        blockTexture(DFFBlocks.DFF_ORANGE_SAPLING.get())));
 
         logBlock(DFFBlocks.COCONUT_LOG.get());
         simpleBlock(DFFBlocks.COCONUT_PLANKS.get());
@@ -37,8 +37,8 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         slabBlock((SlabBlock) DFFBlocks.COCONUT_SLAB.get(), blockTexture(DFFBlocks.COCONUT_PLANKS.get()), blockTexture(DFFBlocks.COCONUT_PLANKS.get()));
         simpleBlockItem(DFFBlocks.COCONUT_SLAB.get(), models().slab(DFFBlocks.COCONUT_SLAB.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.COCONUT_PLANKS.get()), blockTexture(DFFBlocks.COCONUT_PLANKS.get()), blockTexture(DFFBlocks.COCONUT_PLANKS.get())));
-        simpleBlock(DFFBlocks.COCONUT_SAPLING.get(), models().cross(DFFBlocks.COCONUT_SAPLING.get().getRegistryName().getPath(),
-                blockTexture(DFFBlocks.COCONUT_SAPLING.get())));
+        simpleBlock(DFFBlocks.DFF_COCONUT_SAPLING.get(), models().cross(DFFBlocks.DFF_COCONUT_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_COCONUT_SAPLING.get())));
 
         logBlock(DFFBlocks.MANGO_LOG.get());
         simpleBlock(DFFBlocks.MANGO_PLANKS.get());
@@ -50,8 +50,8 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         slabBlock((SlabBlock) DFFBlocks.MANGO_SLAB.get(), blockTexture(DFFBlocks.MANGO_PLANKS.get()), blockTexture(DFFBlocks.MANGO_PLANKS.get()));
         simpleBlockItem(DFFBlocks.MANGO_SLAB.get(), models().slab(DFFBlocks.MANGO_SLAB.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.MANGO_PLANKS.get()), blockTexture(DFFBlocks.MANGO_PLANKS.get()), blockTexture(DFFBlocks.MANGO_PLANKS.get())));
-        simpleBlock(DFFBlocks.MANGO_SAPLING.get(), models().cross(DFFBlocks.MANGO_SAPLING.get().getRegistryName().getPath(),
-                blockTexture(DFFBlocks.MANGO_SAPLING.get())));
+        simpleBlock(DFFBlocks.DFF_MANGO_SAPLING.get(), models().cross(DFFBlocks.DFF_MANGO_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_MANGO_SAPLING.get())));
 
         logBlock(DFFBlocks.GRAPEFRUIT_LOG.get());
         simpleBlock(DFFBlocks.GRAPEFRUIT_PLANKS.get());
@@ -63,8 +63,8 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         slabBlock((SlabBlock) DFFBlocks.GRAPEFRUIT_SLAB.get(), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()));
         simpleBlockItem(DFFBlocks.GRAPEFRUIT_SLAB.get(), models().slab(DFFBlocks.GRAPEFRUIT_SLAB.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get())));
-        simpleBlock(DFFBlocks.GRAPEFRUIT_SAPLING.get(), models().cross(DFFBlocks.GRAPEFRUIT_SAPLING.get().getRegistryName().getPath(),
-                blockTexture(DFFBlocks.GRAPEFRUIT_SAPLING.get())));
+        simpleBlock(DFFBlocks.DFF_GRAPEFRUIT_SAPLING.get(), models().cross(DFFBlocks.DFF_GRAPEFRUIT_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_GRAPEFRUIT_SAPLING.get())));
 
         logBlock(DFFBlocks.AVOCADO_LOG.get());
         simpleBlock(DFFBlocks.AVOCADO_PLANKS.get());
@@ -76,8 +76,8 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         slabBlock((SlabBlock) DFFBlocks.AVOCADO_SLAB.get(), blockTexture(DFFBlocks.AVOCADO_PLANKS.get()), blockTexture(DFFBlocks.AVOCADO_PLANKS.get()));
         simpleBlockItem(DFFBlocks.AVOCADO_SLAB.get(), models().slab(DFFBlocks.AVOCADO_SLAB.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.AVOCADO_PLANKS.get()), blockTexture(DFFBlocks.AVOCADO_PLANKS.get()), blockTexture(DFFBlocks.AVOCADO_PLANKS.get())));
-        simpleBlock(DFFBlocks.AVOCADO_SAPLING.get(), models().cross(DFFBlocks.AVOCADO_SAPLING.get().getRegistryName().getPath(),
-                blockTexture(DFFBlocks.AVOCADO_SAPLING.get())));
+        simpleBlock(DFFBlocks.DFF_AVOCADO_SAPLING.get(), models().cross(DFFBlocks.DFF_AVOCADO_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_AVOCADO_SAPLING.get())));
 
         logBlock(DFFBlocks.KIWI_LOG.get());
         simpleBlock(DFFBlocks.KIWI_PLANKS.get());
@@ -89,8 +89,8 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         slabBlock((SlabBlock) DFFBlocks.KIWI_SLAB.get(), blockTexture(DFFBlocks.KIWI_PLANKS.get()), blockTexture(DFFBlocks.KIWI_PLANKS.get()));
         simpleBlockItem(DFFBlocks.KIWI_SLAB.get(), models().slab(DFFBlocks.KIWI_SLAB.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.KIWI_PLANKS.get()), blockTexture(DFFBlocks.KIWI_PLANKS.get()), blockTexture(DFFBlocks.KIWI_PLANKS.get())));
-        simpleBlock(DFFBlocks.KIWI_SAPLING.get(), models().cross(DFFBlocks.KIWI_SAPLING.get().getRegistryName().getPath(),
-                blockTexture(DFFBlocks.KIWI_SAPLING.get())));
+        simpleBlock(DFFBlocks.DFF_KIWI_SAPLING.get(), models().cross(DFFBlocks.DFF_KIWI_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_KIWI_SAPLING.get())));
 
         logBlock(DFFBlocks.LYCHEE_LOG.get());
         simpleBlock(DFFBlocks.LYCHEE_PLANKS.get());
@@ -102,8 +102,8 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         slabBlock((SlabBlock) DFFBlocks.LYCHEE_SLAB.get(), blockTexture(DFFBlocks.LYCHEE_PLANKS.get()), blockTexture(DFFBlocks.LYCHEE_PLANKS.get()));
         simpleBlockItem(DFFBlocks.LYCHEE_SLAB.get(), models().slab(DFFBlocks.LYCHEE_SLAB.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.LYCHEE_PLANKS.get()), blockTexture(DFFBlocks.LYCHEE_PLANKS.get()), blockTexture(DFFBlocks.LYCHEE_PLANKS.get())));
-        simpleBlock(DFFBlocks.LYCHEE_SAPLING.get(), models().cross(DFFBlocks.LYCHEE_SAPLING.get().getRegistryName().getPath(),
-                blockTexture(DFFBlocks.LYCHEE_SAPLING.get())));
+        simpleBlock(DFFBlocks.DFF_LYCHEE_SAPLING.get(), models().cross(DFFBlocks.DFF_LYCHEE_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_LYCHEE_SAPLING.get())));
 
         logBlock(DFFBlocks.PEAR_LOG.get());
         simpleBlock(DFFBlocks.PEAR_PLANKS.get());
@@ -115,8 +115,8 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         slabBlock((SlabBlock) DFFBlocks.PEAR_SLAB.get(), blockTexture(DFFBlocks.PEAR_PLANKS.get()), blockTexture(DFFBlocks.PEAR_PLANKS.get()));
         simpleBlockItem(DFFBlocks.PEAR_SLAB.get(), models().slab(DFFBlocks.PEAR_SLAB.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.PEAR_PLANKS.get()), blockTexture(DFFBlocks.PEAR_PLANKS.get()), blockTexture(DFFBlocks.PEAR_PLANKS.get())));
-        simpleBlock(DFFBlocks.PEAR_SAPLING.get(), models().cross(DFFBlocks.PEAR_SAPLING.get().getRegistryName().getPath(),
-                blockTexture(DFFBlocks.PEAR_SAPLING.get())));
+        simpleBlock(DFFBlocks.DFF_PEAR_SAPLING.get(), models().cross(DFFBlocks.DFF_PEAR_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_PEAR_SAPLING.get())));
 
         logBlock(DFFBlocks.POMEGRANATE_LOG.get());
         simpleBlock(DFFBlocks.POMEGRANATE_PLANKS.get());
@@ -128,8 +128,8 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         slabBlock((SlabBlock) DFFBlocks.POMEGRANATE_SLAB.get(), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()));
         simpleBlockItem(DFFBlocks.POMEGRANATE_SLAB.get(), models().slab(DFFBlocks.POMEGRANATE_SLAB.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get())));
-        simpleBlock(DFFBlocks.POMEGRANATE_SAPLING.get(), models().cross(DFFBlocks.POMEGRANATE_SAPLING.get().getRegistryName().getPath(),
-                blockTexture(DFFBlocks.POMEGRANATE_SAPLING.get())));
+        simpleBlock(DFFBlocks.DFF_POMEGRANATE_SAPLING.get(), models().cross(DFFBlocks.DFF_POMEGRANATE_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_POMEGRANATE_SAPLING.get())));
 
         logBlock(DFFBlocks.CHERRY_LOG.get());
         simpleBlock(DFFBlocks.CHERRY_PLANKS.get());
@@ -141,8 +141,8 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         slabBlock((SlabBlock) DFFBlocks.CHERRY_SLAB.get(), blockTexture(DFFBlocks.CHERRY_PLANKS.get()), blockTexture(DFFBlocks.CHERRY_PLANKS.get()));
         simpleBlockItem(DFFBlocks.CHERRY_SLAB.get(), models().slab(DFFBlocks.CHERRY_SLAB.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.CHERRY_PLANKS.get()), blockTexture(DFFBlocks.CHERRY_PLANKS.get()), blockTexture(DFFBlocks.CHERRY_PLANKS.get())));
-        simpleBlock(DFFBlocks.CHERRY_SAPLING.get(), models().cross(DFFBlocks.CHERRY_SAPLING.get().getRegistryName().getPath(),
-                blockTexture(DFFBlocks.CHERRY_SAPLING.get())));
+        simpleBlock(DFFBlocks.DFF_CHERRY_SAPLING.get(), models().cross(DFFBlocks.DFF_CHERRY_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_CHERRY_SAPLING.get())));
     }
 
 }

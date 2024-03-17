@@ -24,61 +24,61 @@ public class DFFBlockLootTables extends BlockLoot {
         this.dropSelf(DFFBlocks.ORANGE_PLANKS.get());
         this.dropSelf(DFFBlocks.ORANGE_SLAB.get());
         this.dropSelf(DFFBlocks.ORANGE_STAIRS.get());
-        this.dropOther(DFFBlocks.ORANGE_SAPLING.get(), DFFItems.ORANGE_SEEDS.get());
+        this.dropOther(DFFBlocks.DFF_ORANGE_SAPLING.get(), DFFItems.ORANGE_SEEDS.get());
 
         this.dropSelf(DFFBlocks.COCONUT_LOG.get());
         this.dropSelf(DFFBlocks.COCONUT_PLANKS.get());
         this.dropSelf(DFFBlocks.COCONUT_SLAB.get());
         this.dropSelf(DFFBlocks.COCONUT_STAIRS.get());
-        this.dropOther(DFFBlocks.COCONUT_SAPLING.get(), DFFItems.COCONUT.get());
+        this.dropOther(DFFBlocks.DFF_COCONUT_SAPLING.get(), DFFItems.COCONUT.get());
 
         this.dropSelf(DFFBlocks.GRAPEFRUIT_LOG.get());
         this.dropSelf(DFFBlocks.GRAPEFRUIT_PLANKS.get());
         this.dropSelf(DFFBlocks.GRAPEFRUIT_SLAB.get());
         this.dropSelf(DFFBlocks.GRAPEFRUIT_STAIRS.get());
-        this.dropOther(DFFBlocks.GRAPEFRUIT_SAPLING.get(), DFFItems.GRAPEFRUIT_SEEDS.get());
+        this.dropOther(DFFBlocks.DFF_GRAPEFRUIT_SAPLING.get(), DFFItems.GRAPEFRUIT_SEEDS.get());
 
         this.dropSelf(DFFBlocks.MANGO_LOG.get());
         this.dropSelf(DFFBlocks.MANGO_PLANKS.get());
         this.dropSelf(DFFBlocks.MANGO_SLAB.get());
         this.dropSelf(DFFBlocks.MANGO_STAIRS.get());
-        this.dropOther(DFFBlocks.MANGO_SAPLING.get(), DFFItems.MANGO_SEED.get());
+        this.dropOther(DFFBlocks.DFF_MANGO_SAPLING.get(), DFFItems.MANGO_SEED.get());
 
         this.dropSelf(DFFBlocks.POMEGRANATE_LOG.get());
         this.dropSelf(DFFBlocks.POMEGRANATE_PLANKS.get());
         this.dropSelf(DFFBlocks.POMEGRANATE_SLAB.get());
         this.dropSelf(DFFBlocks.POMEGRANATE_STAIRS.get());
-        this.dropOther(DFFBlocks.POMEGRANATE_SAPLING.get(), DFFItems.POMEGRANATE_SEEDS.get());
+        this.dropOther(DFFBlocks.DFF_POMEGRANATE_SAPLING.get(), DFFItems.POMEGRANATE_SEEDS.get());
 
         this.dropSelf(DFFBlocks.CHERRY_LOG.get());
         this.dropSelf(DFFBlocks.CHERRY_PLANKS.get());
         this.dropSelf(DFFBlocks.CHERRY_SLAB.get());
         this.dropSelf(DFFBlocks.CHERRY_STAIRS.get());
-        this.dropOther(DFFBlocks.CHERRY_SAPLING.get(), DFFItems.CHERRY_PIT.get());
+        this.dropOther(DFFBlocks.DFF_CHERRY_SAPLING.get(), DFFItems.CHERRY_PIT.get());
 
         this.dropSelf(DFFBlocks.LYCHEE_LOG.get());
         this.dropSelf(DFFBlocks.LYCHEE_PLANKS.get());
         this.dropSelf(DFFBlocks.LYCHEE_SLAB.get());
         this.dropSelf(DFFBlocks.LYCHEE_STAIRS.get());
-        this.dropOther(DFFBlocks.LYCHEE_SAPLING.get(), DFFItems.LYCHEE_SEED.get());
+        this.dropOther(DFFBlocks.DFF_LYCHEE_SAPLING.get(), DFFItems.LYCHEE_SEED.get());
 
         this.dropSelf(DFFBlocks.KIWI_LOG.get());
         this.dropSelf(DFFBlocks.KIWI_PLANKS.get());
         this.dropSelf(DFFBlocks.KIWI_SLAB.get());
         this.dropSelf(DFFBlocks.KIWI_STAIRS.get());
-        this.dropOther(DFFBlocks.KIWI_SAPLING.get(), DFFItems.KIWI_SEEDS.get());
+        this.dropOther(DFFBlocks.DFF_KIWI_SAPLING.get(), DFFItems.KIWI_SEEDS.get());
 
         this.dropSelf(DFFBlocks.PEAR_LOG.get());
         this.dropSelf(DFFBlocks.PEAR_PLANKS.get());
         this.dropSelf(DFFBlocks.PEAR_SLAB.get());
         this.dropSelf(DFFBlocks.PEAR_STAIRS.get());
-        this.dropOther(DFFBlocks.PEAR_SAPLING.get(), DFFItems.PEAR_SEEDS.get());
+        this.dropOther(DFFBlocks.DFF_PEAR_SAPLING.get(), DFFItems.PEAR_SEEDS.get());
 
         this.dropSelf(DFFBlocks.AVOCADO_LOG.get());
         this.dropSelf(DFFBlocks.AVOCADO_PLANKS.get());
         this.dropSelf(DFFBlocks.AVOCADO_SLAB.get());
         this.dropSelf(DFFBlocks.AVOCADO_STAIRS.get());
-        this.dropOther(DFFBlocks.AVOCADO_SAPLING.get(), DFFItems.AVOCADO_PIT.get());
+        this.dropOther(DFFBlocks.DFF_AVOCADO_SAPLING.get(), DFFItems.AVOCADO_PIT.get());
 
 
         LootItemCondition.Builder lootitemcondition$builder1 = LootItemBlockStatePropertyCondition.hasBlockStateProperties

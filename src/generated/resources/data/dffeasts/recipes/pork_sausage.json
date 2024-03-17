@@ -5,10 +5,10 @@
       "tag": "forge:herbs"
     },
     {
-      "item": "minecraft:porkchop"
+      "tag": "forge:raw_pork"
     },
     {
-      "item": "minecraft:porkchop"
+      "tag": "forge:raw_pork"
     }
   ],
   "result": {

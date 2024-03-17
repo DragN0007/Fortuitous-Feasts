@@ -34,6 +34,12 @@ public class DFFTags {
         public static final TagKey<Item> COOKED_SAUSAGE = forgeTag("cooked_sausage");
         public static final TagKey<Item> CHEESE = forgeTag("cheese");
 
+        public static final TagKey<Item> RAW_CHICKEN = forgeTag("raw_chicken");
+        public static final TagKey<Item> RAW_PORK = forgeTag("raw_pork");
+        public static final TagKey<Item> RAW_MUTTON = forgeTag("raw_mutton");
+        public static final TagKey<Item> RAW_BEEF = forgeTag("raw_beef");
+        public static final TagKey<Item> SUGAR = forgeTag("sugar");
+
         private static TagKey<Item> tag (String name) {
             return ItemTags.create(new ResourceLocation(DFFeastsMain.MODID, name));
         }

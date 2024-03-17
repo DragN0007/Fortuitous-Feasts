@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:water_bucket",
+    "minecraft:potion",
+    "dffeasts:purified_water"
+  ]
+}

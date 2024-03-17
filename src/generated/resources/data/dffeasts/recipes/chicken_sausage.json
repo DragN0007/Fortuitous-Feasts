@@ -5,10 +5,10 @@
       "tag": "forge:herbs"
     },
     {
-      "item": "minecraft:chicken"
+      "tag": "forge:raw_chicken"
     },
     {
-      "item": "minecraft:chicken"
+      "tag": "forge:raw_chicken"
     }
   ],
   "result": {

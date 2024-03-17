@@ -5,10 +5,10 @@
       "tag": "forge:herbs"
     },
     {
-      "item": "minecraft:mutton"
+      "tag": "forge:raw_mutton"
     },
     {
-      "item": "minecraft:mutton"
+      "tag": "forge:raw_mutton"
     }
   ],
   "result": {
