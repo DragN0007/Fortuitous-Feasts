@@ -255,6 +255,7 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.STRAWBERRY_GLAZED_DONUT.get());
         simpleItem(DFFItems.STRAWBERRY_CHOCOLATE_DONUT.get());
         simpleItem(DFFItems.JELLY_DONUT.get());
+        simpleItem(DFFItems.PEANUT_BUTTER_DONUT.get());
 
 
         simpleItem(DFFItems.BELL_PEPPER.get());

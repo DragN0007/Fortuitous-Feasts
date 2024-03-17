@@ -7,6 +7,11 @@
     "minecraft:mutton",
     "minecraft:rabbit",
 
-    "dffeasts:tofu"
+    "dffeasts:tofu",
+
+    "dffeasts:beef_sausage",
+    "dffeasts:chicken_sausage",
+    "dffeasts:mutton_sausage",
+    "dffeasts:pork_sausage"
   ]
 }

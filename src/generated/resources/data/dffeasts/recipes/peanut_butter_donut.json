@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "dffeasts:peanut_butter"
+    },
+    {
+      "item": "dffeasts:plain_donut"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:peanut_butter_donut"
+  }
+}

@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "dffeasts:dough"
   },
-  "result": "dffeasts:pasta",
+  "result": "minecraft:bread",
   "experience": 0.35,
   "cookingtime": 100
 }

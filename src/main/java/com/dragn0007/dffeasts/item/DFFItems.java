@@ -25,15 +25,6 @@ public class DFFItems {
 
     //TODO; Food
 
-    //Cheese
-    public static final RegistryObject<Item> CHEDDAR_CHEESE = ITEMS.register("cheddar_cheese",
-            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.LUCK, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
-    public static final RegistryObject<Item> MOZZARELLA_CHEESE = ITEMS.register("mozzarella_cheese",
-            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.LUCK, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
-    public static final RegistryObject<Item> PARMESAN_CHEESE = ITEMS.register("parmesan_cheese",
-            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.LUCK, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
-
-
     //Meals
     public static final RegistryObject<Item> DUMPLINGS = ITEMS.register("dumplings",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.LUCK, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
@@ -140,6 +131,8 @@ public class DFFItems {
     public static final RegistryObject<Item> STRAWBERRY_CHOCOLATE_DONUT = ITEMS.register("strawberry_chocolate_donut",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.HEAL, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
     public static final RegistryObject<Item> JELLY_DONUT = ITEMS.register("jelly_donut",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.HEAL, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PEANUT_BUTTER_DONUT = ITEMS.register("peanut_butter_donut",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.HEAL, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Smoothie
@@ -534,6 +527,14 @@ public class DFFItems {
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
     public static final RegistryObject<Item> COOKED_PORK_SAUSAGE = ITEMS.register("cooked_pork_sausage",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
+    //Cheese
+    public static final RegistryObject<Item> CHEDDAR_CHEESE = ITEMS.register("cheddar_cheese",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.LUCK, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> MOZZARELLA_CHEESE = ITEMS.register("mozzarella_cheese",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.LUCK, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PARMESAN_CHEESE = ITEMS.register("parmesan_cheese",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.LUCK, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Wine
     public static final RegistryObject<Item> LYCHEE_WINE = ITEMS.register("lychee_wine",

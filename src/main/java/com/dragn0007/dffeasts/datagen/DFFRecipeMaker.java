@@ -188,7 +188,6 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.SAUSAGE_MAC.get())
                 .requires(DFFItems.MAC_N_CHEESE.get())
-                .requires(DFFItems.PASTA.get())
                 .requires(DFFTags.Items.COOKED_SAUSAGE)
                 .unlockedBy("has_pasta", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFItems.PASTA.get())
@@ -537,6 +536,15 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFItems.CHOCOLATE_DONUT.get())
                 .unlockedBy("has_chocolate_donut", inventoryTrigger(ItemPredicate.Builder.item()
                        .of(DFFItems.CHOCOLATE_DONUT.get())
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PEANUT_BUTTER_DONUT.get())
+                .requires(DFFTags.Items.MILK)
+                .requires(DFFItems.PEANUT_BUTTER.get())
+                .requires(DFFItems.PLAIN_DONUT.get())
+                .unlockedBy("has_donut", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFItems.PLAIN_DONUT.get())
                         .build()))
                 .save(pFinishedRecipeConsumer);
 
@@ -1863,6 +1871,40 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .build()))
                 .save(pFinishedRecipeConsumer);
 
+        ShapelessRecipeBuilder.shapeless(DFFItems.CHEDDAR_CHEESE.get(), 3)
+                .requires(DFFItems.CHEESE_CURDS.get())
+                .requires(DFFItems.CHEESE_CURDS.get())
+                .requires(DFFItems.CILANTRO.get())
+                .unlockedBy("has_cheese_curds", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFItems.CHEESE_CURDS.get())
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PARMESAN_CHEESE.get(), 3)
+                .requires(DFFItems.CHEESE_CURDS.get())
+                .requires(DFFItems.CHEESE_CURDS.get())
+                .requires(DFFItems.ROSEMARY.get())
+                .unlockedBy("has_cheese_curds", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFItems.CHEESE_CURDS.get())
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.MOZZARELLA_CHEESE.get(), 3)
+                .requires(DFFItems.CHEESE_CURDS.get())
+                .requires(DFFItems.CHEESE_CURDS.get())
+                .requires(DFFTags.Items.WATER)
+                .unlockedBy("has_cheese_curds", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFItems.CHEESE_CURDS.get())
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PASTA.get(), 4)
+                .requires(DFFItems.DOUGH.get())
+                .unlockedBy("has_dough", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFItems.DOUGH.get())
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
         SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.TOFU.get()), DFFItems.COOKED_TOFU.get(), 0.35F, 100)
                 .unlockedBy("has_tofu", has(DFFItems.TOFU.get())).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "cooked_tofu_smoking"));
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(DFFItems.TOFU.get()), DFFItems.COOKED_TOFU.get(), 0.35F, 200)
@@ -1870,11 +1912,11 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
         SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.TOFU.get()), DFFItems.COOKED_TOFU.get(), 0.35F, 600)
                 .unlockedBy("has_tofu", has(DFFItems.TOFU.get())).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "cooked_tofu_campfire_cooking"));
 
-        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.DOUGH.get()), DFFItems.PASTA.get(), 0.35F, 100)
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.DOUGH.get()), Items.BREAD, 0.35F, 100)
                 .unlockedBy("has_dough", has(DFFItems.DOUGH.get())).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "pasta_smoking"));
-        SimpleCookingRecipeBuilder.smelting(Ingredient.of(DFFItems.DOUGH.get()), DFFItems.PASTA.get(), 0.35F, 200)
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(DFFItems.DOUGH.get()), Items.BREAD, 0.35F, 200)
                 .unlockedBy("has_dough", has(DFFItems.DOUGH.get())).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "pasta_smelting"));
-        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.DOUGH.get()), DFFItems.PASTA.get(), 0.35F, 600)
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.DOUGH.get()), Items.BREAD, 0.35F, 600)
                 .unlockedBy("has_dough", has(DFFItems.DOUGH.get())).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "pasta_campfire_cooking"));
 
         SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFTags.Items.MILK), DFFItems.CHEESE_CURDS.get(), 0.35F, 100)

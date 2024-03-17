@@ -42,7 +42,7 @@ public class DFFeastsMain
 
         MinecraftForge.EVENT_BUS.register(this);
 
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, DFFeastsCommonConfig.SPEC, "fortuitousfeasts-common.toml");
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, DFFeastsCommonConfig.SPEC, "fortuitous_feasts-common.toml");
     }
 
 
