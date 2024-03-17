@@ -4,6 +4,7 @@ package com.dragn0007.dffeasts.event;
 import com.dragn0007.dffeasts.block.DFFBlocksNoDatagen;
 import com.dragn0007.dffeasts.entity.villager.FeastsFarmer;
 import com.dragn0007.dffeasts.item.DFFItems;
+import com.dragn0007.dffeasts.util.config.DFFeastsCommonConfig;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.ItemStack;
@@ -85,7 +86,7 @@ public class ForgeEvent {
         //TODO; WILD BERRIES -> COINS TRADES (LVL 1)
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.BERRY_PRICE.get());
             int villagerLevel = 1;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -95,7 +96,7 @@ public class ForgeEvent {
 
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.BERRY_PRICE.get());
             int villagerLevel = 1;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -105,7 +106,7 @@ public class ForgeEvent {
 
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.BERRY_PRICE.get());
             int villagerLevel = 1;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -115,7 +116,7 @@ public class ForgeEvent {
 
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.BERRY_PRICE.get());
             int villagerLevel = 1;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -132,7 +133,7 @@ public class ForgeEvent {
             int villagerLevel = 2;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
-                    new ItemStack(DFFItems.CROP_COIN.get(), 6),
+                    new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_BAG_PRICE.get()),
                     stack, 10, 8, 0.05F));
         }
 
@@ -142,7 +143,7 @@ public class ForgeEvent {
             int villagerLevel = 2;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
-                    new ItemStack(DFFItems.CROP_COIN.get(), 6),
+                    new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_BAG_PRICE.get()),
                     stack, 10, 8, 0.05F));
         }
 
@@ -151,7 +152,7 @@ public class ForgeEvent {
         //TODO; CROPS -> COINS TRADES (LVL 3)
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -160,7 +161,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -169,7 +170,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -178,7 +179,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -187,7 +188,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -196,7 +197,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -205,7 +206,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -214,7 +215,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -223,7 +224,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -232,7 +233,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -241,7 +242,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -250,7 +251,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -259,7 +260,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -268,7 +269,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -277,7 +278,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -286,7 +287,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -295,7 +296,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -304,7 +305,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -313,7 +314,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -322,7 +323,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -331,7 +332,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -340,7 +341,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -349,7 +350,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -358,7 +359,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -367,7 +368,7 @@ public class ForgeEvent {
         }
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), 2);
+            ItemStack stack = new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.CROP_PRICE.get());
             int villagerLevel = 3;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
@@ -380,36 +381,27 @@ public class ForgeEvent {
         //TODO; COINS -> VALUABLES TRADES (LVL 4)
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(Items.GOLD_INGOT, 1);
+            ItemStack stack = new ItemStack(Items.IRON_INGOT, 1);
             int villagerLevel = 4;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
-                    new ItemStack(DFFItems.CROP_COIN.get(), 32),
+                    new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.IRON_INGOT_PRICE.get()),
                     stack, 10, 8, 0.05F));
         }
 
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(Items.IRON_INGOT, 1);
+            ItemStack stack = new ItemStack(Items.GOLD_INGOT, 1);
             int villagerLevel = 4;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
-                    new ItemStack(DFFItems.CROP_COIN.get(), 24),
+                    new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.GOLD_INGOT_PRICE.get()),
                     stack, 10, 8, 0.05F));
         }
 
 
 
         //TODO; COINS -> VALUABLES TRADES (LVL 5)
-        if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
-            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
-            ItemStack stack = new ItemStack(Items.DIAMOND, 1);
-            int villagerLevel = 5;
-
-            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
-                    new ItemStack(DFFItems.CROP_COIN.get(), 64),
-                    stack, 10, 8, 0.05F));
-        }
 
         if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
@@ -417,7 +409,17 @@ public class ForgeEvent {
             int villagerLevel = 5;
 
             trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
-                    new ItemStack(DFFItems.CROP_COIN.get(), 48),
+                    new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.EMERALD_PRICE.get()),
+                    stack, 10, 8, 0.05F));
+        }
+
+        if (villagerTradesEvent.getType() == FeastsFarmer.FEASTS_FARMER.get()) {
+            Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = villagerTradesEvent.getTrades();
+            ItemStack stack = new ItemStack(Items.DIAMOND, 1);
+            int villagerLevel = 5;
+
+            trades.get(villagerLevel).add((trader, rand) -> new MerchantOffer(
+                    new ItemStack(DFFItems.CROP_COIN.get(), DFFeastsCommonConfig.DIAMOND_PRICE.get()),
                     stack, 10, 8, 0.05F));
         }
 

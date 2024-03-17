@@ -3,6 +3,7 @@ package com.dragn0007.dffeasts.world.feature;
 
 import com.dragn0007.dffeasts.block.DFFBlocks;
 import com.dragn0007.dffeasts.block.DFFBlocksNoDatagen;
+import com.dragn0007.dffeasts.util.config.DFFeastsCommonConfig;
 import net.minecraft.core.Holder;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
@@ -181,22 +182,44 @@ public class ModConfigFeatures {
     
     
     //Wild Berry
-    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> BLUEBERRY =
-            FeatureUtils.register("blueberry", Feature.FLOWER,
-                    new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_BLUEBERRY =
+            FeatureUtils.register("dff_blueberry", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.BUSH_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                             new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocksNoDatagen.BLUEBERRY_BUSH.get())))));
-    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> BLACKBERRY =
-            FeatureUtils.register("blackberry", Feature.FLOWER,
-                    new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_BLACKBERRY =
+            FeatureUtils.register("dff_blackberry", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.BUSH_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                             new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocksNoDatagen.BLACKBERRY_BUSH.get())))));
-    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> RASPBERRY =
-            FeatureUtils.register("raspberry", Feature.FLOWER,
-                    new RandomPatchConfiguration(10, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_RASPBERRY =
+            FeatureUtils.register("dff_raspberry", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.BUSH_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                             new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocksNoDatagen.RASPBERRY_BUSH.get())))));
-    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> WHITE_RASPBERRY =
-            FeatureUtils.register("white_raspberry", Feature.FLOWER,
-                    new RandomPatchConfiguration(8, 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_WHITE_RASPBERRY =
+            FeatureUtils.register("dff_white_raspberry", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.BUSH_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                             new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocksNoDatagen.WHITE_RASPBERRY_BUSH.get())))));
+
+
+    //Crop
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_ROSEMARY =
+            FeatureUtils.register("dff_rosemary", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.HERB_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_ROSEMARY.get())))));
+
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_OREGANO =
+            FeatureUtils.register("dff_oregano", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.HERB_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_OREGANO.get())))));
+
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_CILANTRO =
+            FeatureUtils.register("dff_cilantro", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.HERB_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_CILANTRO.get())))));
+
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_MINT =
+            FeatureUtils.register("dff_mint", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.HERB_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_MINT.get())))));
 
 
 }

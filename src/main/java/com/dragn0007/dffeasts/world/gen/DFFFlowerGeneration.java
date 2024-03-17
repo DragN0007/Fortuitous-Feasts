@@ -24,29 +24,60 @@ public class DFFFlowerGeneration {
             List<Holder<PlacedFeature>> base =
                     event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
 
-            base.add(ModPlacedFeatures.BLUEBERRY_PLACED);
+            base.add(ModPlacedFeatures.DFF_BLUEBERRY_PLACED);
         }
 
         if (types.contains(BiomeDictionary.Type.FOREST)) {
             List<Holder<PlacedFeature>> base =
                     event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
 
-            base.add(ModPlacedFeatures.BLACKBERRY_PLACED);
+            base.add(ModPlacedFeatures.DFF_BLACKBERRY_PLACED);
         }
 
         if (types.contains(BiomeDictionary.Type.FOREST)) {
             List<Holder<PlacedFeature>> base =
                     event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
 
-            base.add(ModPlacedFeatures.RASPBERRY_PLACED);
+            base.add(ModPlacedFeatures.DFF_RASPBERRY_PLACED);
         }
 
         if (types.contains(BiomeDictionary.Type.FOREST)) {
             List<Holder<PlacedFeature>> base =
                     event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
 
-            base.add(ModPlacedFeatures.WHITE_RASPBERRY_PLACED);
+            base.add(ModPlacedFeatures.DFF_WHITE_RASPBERRY_PLACED);
         }
+
+
+        //CROPS
+        if (types.contains(BiomeDictionary.Type.PLAINS)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.DFF_ROSEMARY_PLACED);
+        }
+
+        if (types.contains(BiomeDictionary.Type.FOREST)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.DFF_OREGANO_PLACED);
+        }
+
+        if (types.contains(BiomeDictionary.Type.HOT)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.DFF_CILANTRO_PLACED);
+        }
+
+        if (types.contains(BiomeDictionary.Type.COLD)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.DFF_MINT_PLACED);
+        }
+
 
     }
 }

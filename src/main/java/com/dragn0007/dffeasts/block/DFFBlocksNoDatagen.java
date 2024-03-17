@@ -12,9 +12,11 @@ import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacer;
 import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacerItem;
 import com.dragn0007.dffeasts.item.DFFItemGroup;
 import com.dragn0007.dffeasts.item.DFFItems;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -76,6 +78,7 @@ public class DFFBlocksNoDatagen {
             () -> new RaspberryBlock(BlockBehaviour.Properties.of(Material.PLANT).randomTicks().noCollission().sound(SoundType.SWEET_BERRY_BUSH)));
     public static final RegistryObject<Block> WHITE_RASPBERRY_BUSH = registerBlockWithoutItem("white_raspberry_bush",
             () -> new WhiteRaspberryBlock(BlockBehaviour.Properties.of(Material.PLANT).randomTicks().noCollission().sound(SoundType.SWEET_BERRY_BUSH)));
+
 
 
 

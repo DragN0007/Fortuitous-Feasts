@@ -9,6 +9,7 @@ import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacerItem;
 import com.dragn0007.dffeasts.item.DFFItemGroup;
 import com.dragn0007.dffeasts.item.DFFItems;
 import com.dragn0007.dffeasts.world.feature.tree.*;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -33,7 +34,15 @@ public class DFFBlocks {
             () -> new PlantBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
     */
 
-
+    //TODO; Wild Herbs
+    public static final RegistryObject<FlowerBlock> WILD_ROSEMARY = registerBlockWithoutItem("wild_rosemary",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<FlowerBlock> WILD_CILANTRO = registerBlockWithoutItem("wild_cilantro",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<FlowerBlock> WILD_OREGANO = registerBlockWithoutItem("wild_oregano",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<FlowerBlock> WILD_MINT = registerBlockWithoutItem("wild_mint",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
 
     //TODO; Crops
     public static final RegistryObject<Block> BELL_PEPPER_PLANT = registerBlockWithoutItem("bell_pepper_plant",
