@@ -247,9 +247,31 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
         ShapelessRecipeBuilder.shapeless(DFFItems.TOMATO_SOUP.get(), 4)
                 .requires(DFFItems.TOMATO.get())
                 .requires(DFFItems.TOMATO.get())
+                .requires(DFFItems.ONION.get())
                 .requires(DFFTags.Items.HERBS)
                 .unlockedBy("has_tomatoes", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFItems.TOMATO.get())
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.AVOCADO_TOAST.get(), 2)
+                .requires(DFFItems.AVOCADO.get())
+                .requires(Items.BREAD)
+                .requires(DFFItems.BUTTER.get())
+                .unlockedBy("has_avocado", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFItems.AVOCADO.get())
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.MERMAID_TOAST.get(), 2)
+                .requires(DFFItems.AVOCADO.get())
+                .requires(Items.BREAD)
+                .requires(DFFItems.BUTTER.get())
+                .requires(Items.BEETROOT)
+                .requires(Items.KELP)
+                .requires(DFFItems.BLUEBERRIES.get())
+                .unlockedBy("has_avocado", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFItems.AVOCADO.get())
                         .build()))
                 .save(pFinishedRecipeConsumer);
 

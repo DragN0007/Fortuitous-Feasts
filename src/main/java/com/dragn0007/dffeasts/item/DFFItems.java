@@ -55,6 +55,10 @@ public class DFFItems {
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DIG_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
     public static final RegistryObject<Item> TOMATO_SOUP = ITEMS.register("tomato_soup",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> AVOCADO_TOAST = ITEMS.register("avocado_toast",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> MERMAID_TOAST = ITEMS.register("mermaid_toast",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.WATER_BREATHING, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Pickled
     public static final RegistryObject<Item> PICKLES = ITEMS.register("pickles",

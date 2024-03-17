@@ -45,6 +45,8 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.SPAGHETTI.get());
         simpleItem(DFFItems.SPAGHETTI_AND_MEATBALLS.get());
         simpleItem(DFFItems.TOMATO_SOUP.get());
+        simpleItem(DFFItems.AVOCADO_TOAST.get());
+        simpleItem(DFFItems.MERMAID_TOAST.get());
 
         simpleItem(DFFItems.PICKLES.get());
         simpleItem(DFFItems.PICKLED_GARLIC.get());

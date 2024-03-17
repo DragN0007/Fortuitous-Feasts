@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:avocado"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "dffeasts:butter"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "dffeasts:blueberries"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:mermaid_toast",
+    "count": 2
+  }
+}
