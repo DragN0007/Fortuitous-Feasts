@@ -12,45 +12,45 @@ import static net.minecraft.data.worldgen.placement.VegetationPlacements.treePla
 public class ModPlacedFeatures {
 
     //TREE
-    public static final Holder<PlacedFeature> ORANGE_PLACED =
-            PlacementUtils.register("orange_placed",
-                    ModConfigFeatures.ORANGE_SPAWN,
+    public static final Holder<PlacedFeature> DFF_ORANGE_PLACED =
+            PlacementUtils.register("dff_orange_placed",
+                    ModConfigFeatures.DFF_ORANGE_SPAWN,
                     treePlacement(PlacementUtils.countExtra(0, 0.01F, 1)));
-    public static final Holder<PlacedFeature> COCONUT_PLACED =
-            PlacementUtils.register("coconut_placed",
-                    ModConfigFeatures.COCONUT_SPAWN,
+    public static final Holder<PlacedFeature> DFF_COCONUT_PLACED =
+            PlacementUtils.register("dff_coconut_placed",
+                    ModConfigFeatures.DFF_COCONUT_SPAWN,
                     treePlacement(PlacementUtils.countExtra(0, 0.01F, 1)));
-    public static final Holder<PlacedFeature> MANGO_PLACED =
-            PlacementUtils.register("mango_placed",
-                    ModConfigFeatures.MANGO_SPAWN,
+    public static final Holder<PlacedFeature> DFF_MANGO_PLACED =
+            PlacementUtils.register("dff_mango_placed",
+                    ModConfigFeatures.DFF_MANGO_SPAWN,
                     treePlacement(PlacementUtils.countExtra(0, 0.01F, 1)));
-    public static final Holder<PlacedFeature> GRAPEFRUIT_PLACED =
-            PlacementUtils.register("grapefruit_placed",
-                    ModConfigFeatures.GRAPEFRUIT_SPAWN,
+    public static final Holder<PlacedFeature> DFF_GRAPEFRUIT_PLACED =
+            PlacementUtils.register("dff_grapefruit_placed",
+                    ModConfigFeatures.DFF_GRAPEFRUIT_SPAWN,
                     treePlacement(PlacementUtils.countExtra(0, 0.01F, 1)));
-    public static final Holder<PlacedFeature> AVOCADO_PLACE =
-            PlacementUtils.register("avocado_placed",
-                    ModConfigFeatures.AVOCADO_SPAWN,
+    public static final Holder<PlacedFeature> DFF_AVOCADO_PLACED =
+            PlacementUtils.register("dff_dff_avocado_placed",
+                    ModConfigFeatures.DFF_AVOCADO_SPAWN,
                     treePlacement(PlacementUtils.countExtra(0, 0.01F, 1)));
-    public static final Holder<PlacedFeature> PEAR_PLACED =
-            PlacementUtils.register("pear_placed",
-                    ModConfigFeatures.PEAR_SPAWN,
+    public static final Holder<PlacedFeature> DFF_PEAR_PLACED =
+            PlacementUtils.register("dff_pear_placed",
+                    ModConfigFeatures.DFF_PEAR_SPAWN,
                     treePlacement(PlacementUtils.countExtra(0, 0.01F, 1)));
-    public static final Holder<PlacedFeature> KIWI_PLACED =
-            PlacementUtils.register("kiwi_placed",
-                    ModConfigFeatures.KIWI_SPAWN,
+    public static final Holder<PlacedFeature> DFF_KIWI_PLACED =
+            PlacementUtils.register("dff_kiwi_placed",
+                    ModConfigFeatures.DFF_KIWI_SPAWN,
                     treePlacement(PlacementUtils.countExtra(0, 0.01F, 1)));
-    public static final Holder<PlacedFeature> CHERRY_PLACED =
-            PlacementUtils.register("cherry_placed",
-                    ModConfigFeatures.CHERRY_SPAWN,
+    public static final Holder<PlacedFeature> DFF_CHERRY_PLACED =
+            PlacementUtils.register("dff_cherry_placed",
+                    ModConfigFeatures.DFF_CHERRY_SPAWN,
                     treePlacement(PlacementUtils.countExtra(0, 0.01F, 1)));
-    public static final Holder<PlacedFeature> POMEGRANATE_PLACED =
-            PlacementUtils.register("pomegranate_placed",
-                    ModConfigFeatures.POMEGRANATE_SPAWN,
+    public static final Holder<PlacedFeature> DFF_POMEGRANATE_PLACED =
+            PlacementUtils.register("dff_pomegranate_placed",
+                    ModConfigFeatures.DFF_POMEGRANATE_SPAWN,
                     treePlacement(PlacementUtils.countExtra(0, 0.01F, 1)));
-    public static final Holder<PlacedFeature> LYCHEE_PLACED =
-            PlacementUtils.register("lychee_placed",
-                    ModConfigFeatures.LYCHEE_SPAWN,
+    public static final Holder<PlacedFeature> DFF_LYCHEE_PLACED =
+            PlacementUtils.register("dff_lychee_placed",
+                    ModConfigFeatures.DFF_LYCHEE_SPAWN,
                     treePlacement(PlacementUtils.countExtra(0, 0.01F, 1)));
 
 

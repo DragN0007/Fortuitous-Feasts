@@ -12,6 +12,6 @@ public class DFFMangoTreeGrower extends AbstractTreeGrower {
     @Nullable
     @Override
     protected Holder<? extends ConfiguredFeature<?, ?>> getConfiguredFeature(Random p_204307_, boolean p_204308_) {
-        return ModConfigFeatures.MANGO;
+        return ModConfigFeatures.DFF_MANGO;
     }
 }

@@ -12,6 +12,6 @@ public class DFFPearTreeGrower extends AbstractTreeGrower {
     @Nullable
     @Override
     protected Holder<? extends ConfiguredFeature<?, ?>> getConfiguredFeature(Random p_204307_, boolean p_204308_) {
-        return ModConfigFeatures.PEAR;
+        return ModConfigFeatures.DFF_PEAR;
     }
 }

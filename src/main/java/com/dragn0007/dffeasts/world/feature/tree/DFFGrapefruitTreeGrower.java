@@ -12,6 +12,6 @@ public class DFFGrapefruitTreeGrower extends AbstractTreeGrower {
     @Nullable
     @Override
     protected Holder<? extends ConfiguredFeature<?, ?>> getConfiguredFeature(Random p_204307_, boolean p_204308_) {
-        return ModConfigFeatures.GRAPEFRUIT;
+        return ModConfigFeatures.DFF_GRAPEFRUIT;
     }
 }

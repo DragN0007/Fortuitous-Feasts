@@ -12,6 +12,6 @@ public class DFFAvocadoTreeGrower extends AbstractTreeGrower {
     @Nullable
     @Override
     protected Holder<? extends ConfiguredFeature<?, ?>> getConfiguredFeature(Random p_204307_, boolean p_204308_) {
-        return ModConfigFeatures.AVOCADO;
+        return ModConfigFeatures.DFF_AVOCADO;
     }
 }
