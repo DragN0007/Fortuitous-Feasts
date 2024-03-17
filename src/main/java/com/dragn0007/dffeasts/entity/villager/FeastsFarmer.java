@@ -2,6 +2,7 @@ package com.dragn0007.dffeasts.entity.villager;
 
 import com.dragn0007.dffeasts.DFFeastsMain;
 import com.dragn0007.dffeasts.block.DFFBlocksNoDatagen;
+import com.dragn0007.dffeasts.util.config.DFFeastsCommonConfig;
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.ai.village.poi.PoiType;
@@ -15,6 +16,8 @@ import net.minecraftforge.registries.RegistryObject;
 import java.lang.reflect.InvocationTargetException;
 
 public class FeastsFarmer {
+    private static boolean enableFeastsFarmerProfession = true;
+
     public static final DeferredRegister<PoiType> POI_TYPES
             = DeferredRegister.create(ForgeRegistries.POI_TYPES, DFFeastsMain.MODID);
     public static final DeferredRegister<VillagerProfession> VILLAGER_PROFESSIONS
@@ -25,15 +28,16 @@ public class FeastsFarmer {
                     PoiType.getBlockStates(DFFBlocksNoDatagen.CROP_BARREL.get()), 1, 1));
 
     public static final RegistryObject<VillagerProfession> FEASTS_FARMER =
-            VILLAGER_PROFESSIONS.register("feasts_farmer",
+            enableFeastsFarmerProfession ? VILLAGER_PROFESSIONS.register("feasts_farmer",
                     () -> new VillagerProfession("feasts_farmer", FEASTS_FARMER_POI.get(),
-                            ImmutableSet.of(), ImmutableSet.of(), SoundEvents.VILLAGER_WORK_FARMER));
-
+                            ImmutableSet.of(), ImmutableSet.of(), SoundEvents.VILLAGER_WORK_FARMER)) : null;
 
     public static void registerPOIs() {
         try {
-            ObfuscationReflectionHelper.findMethod(PoiType.class,
-                    "registerBlockStates", PoiType.class).invoke(null, FEASTS_FARMER_POI.get());
+            if (enableFeastsFarmerProfession) {
+                ObfuscationReflectionHelper.findMethod(PoiType.class,
+                        "registerBlockStates", PoiType.class).invoke(null, FEASTS_FARMER_POI.get());
+            }
         } catch(InvocationTargetException | IllegalAccessException exception) {
             exception.printStackTrace();
         }
@@ -41,6 +45,8 @@ public class FeastsFarmer {
 
     public static void register(IEventBus eventBus) {
         POI_TYPES.register(eventBus);
-        VILLAGER_PROFESSIONS.register(eventBus);
+        if (enableFeastsFarmerProfession && FEASTS_FARMER != null) {
+            VILLAGER_PROFESSIONS.register(eventBus);
+        }
     }
 }

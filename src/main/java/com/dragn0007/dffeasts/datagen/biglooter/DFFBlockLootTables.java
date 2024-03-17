@@ -1,6 +1,7 @@
 package com.dragn0007.dffeasts.datagen.biglooter;
 
 import com.dragn0007.dffeasts.block.DFFBlocks;
+import com.dragn0007.dffeasts.block.DFFBlocksNoDatagen;
 import com.dragn0007.dffeasts.block.crop.BellPepperBlock;
 import com.dragn0007.dffeasts.item.DFFItems;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
@@ -19,6 +20,12 @@ public class DFFBlockLootTables extends BlockLoot {
     @Override
     protected void addTables() {
         this.dropSelf(DFFBlocks.PIXEL_PLACER_CONTAINER.get());
+
+        this.dropOther(DFFBlocks.WILD_ROSEMARY.get(), DFFItems.ROSEMARY.get());
+        this.dropOther(DFFBlocks.WILD_OREGANO.get(), DFFItems.OREGANO.get());
+        this.dropOther(DFFBlocks.WILD_MINT.get(), DFFItems.MINT.get());
+        this.dropOther(DFFBlocks.WILD_CILANTRO.get(), DFFItems.CILANTRO.get());
+
 
         this.dropSelf(DFFBlocks.ORANGE_LOG.get());
         this.dropSelf(DFFBlocks.ORANGE_PLANKS.get());

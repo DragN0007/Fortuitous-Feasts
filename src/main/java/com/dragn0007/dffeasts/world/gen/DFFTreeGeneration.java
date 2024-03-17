@@ -28,14 +28,14 @@ public class DFFTreeGeneration {
             base.add(ModPlacedFeatures.DFF_ORANGE_PLACED);
         }
 
-        if (types.contains(BiomeDictionary.Type.HOT)) {
+        if (types.contains(BiomeDictionary.Type.JUNGLE)) {
             List<Holder<PlacedFeature>> base =
                     event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
 
             base.add(ModPlacedFeatures.DFF_COCONUT_PLACED);
         }
 
-        if (types.contains(BiomeDictionary.Type.HOT)) {
+        if (types.contains(BiomeDictionary.Type.JUNGLE)) {
             List<Holder<PlacedFeature>> base =
                     event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
 
@@ -49,21 +49,21 @@ public class DFFTreeGeneration {
             base.add(ModPlacedFeatures.DFF_GRAPEFRUIT_PLACED);
         }
 
-        if (types.contains(BiomeDictionary.Type.HOT)) {
+        if (types.contains(BiomeDictionary.Type.JUNGLE)) {
             List<Holder<PlacedFeature>> base =
                     event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
 
             base.add(ModPlacedFeatures.DFF_AVOCADO_PLACED);
         }
 
-        if (types.contains(BiomeDictionary.Type.HOT)) {
+        if (types.contains(BiomeDictionary.Type.JUNGLE)) {
             List<Holder<PlacedFeature>> base =
                     event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
 
             base.add(ModPlacedFeatures.DFF_LYCHEE_PLACED);
         }
 
-        if (types.contains(BiomeDictionary.Type.HOT)) {
+        if (types.contains(BiomeDictionary.Type.JUNGLE)) {
             List<Holder<PlacedFeature>> base =
                     event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
 

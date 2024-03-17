@@ -22,6 +22,10 @@ public class DFFeastsEvent {
         ResourceLocation resourceLocation = new ResourceLocation(DFFeastsMain.MODID, "null");
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.PIXEL_PLACER_CONTAINER.get(), RenderType.lineStrip());
 
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_ROSEMARY.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_MINT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_CILANTRO.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_OREGANO.get(), RenderType.cutout());
 
         //Crops
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.BELL_PEPPER_PLANT.get(), RenderType.cutout());
