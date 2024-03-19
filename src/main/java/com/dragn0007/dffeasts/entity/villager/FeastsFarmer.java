@@ -2,7 +2,6 @@ package com.dragn0007.dffeasts.entity.villager;
 
 import com.dragn0007.dffeasts.DFFeastsMain;
 import com.dragn0007.dffeasts.block.DFFBlocksNoDatagen;
-import com.dragn0007.dffeasts.util.config.DFFeastsCommonConfig;
 import com.google.common.collect.ImmutableSet;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.ai.village.poi.PoiType;

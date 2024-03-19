@@ -3,11 +3,8 @@ package com.dragn0007.dffeasts.event;
 import com.dragn0007.dffeasts.DFFeastsMain;
 import com.dragn0007.dffeasts.block.DFFBlocks;
 import com.dragn0007.dffeasts.block.DFFBlocksNoDatagen;
-import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacerEntityRenderer;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -18,14 +15,38 @@ public class DFFeastsEvent {
 
     @SubscribeEvent
     public static void clientSetupEvent(FMLClientSetupEvent event) {
-        //Decor
-        ResourceLocation resourceLocation = new ResourceLocation(DFFeastsMain.MODID, "null");
-        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.PIXEL_PLACER_CONTAINER.get(), RenderType.lineStrip());
 
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_ROSEMARY.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_MINT.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_CILANTRO.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_OREGANO.get(), RenderType.cutout());
+
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_BELL_PEPPER_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_BLACK_BEAN_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_BRUSSELS_SPROUTS_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_CORN_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_CELERY_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_CHILI_PEPPER_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_BUTTERNUT_SQUASH_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_CUCUMBER_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_CRANBERRY_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_GARLIC_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_GINGER_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_GREEN_BEAN_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_PURPLE_GRAPE_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_RED_GRAPE_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_JALEPENO_PEPPER_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_KIDNEY_BEAN_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_ONION_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_PEANUT_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_RADISH_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_RYE_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_SOYBEAN_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_SUGAR_BEET_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_STRAWBERRY_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_TOMATO_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_WHITE_GRAPE_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WILD_ZUCCHINI_PLANT.get(), RenderType.cutout());
 
         //Crops
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.BELL_PEPPER_PLANT.get(), RenderType.cutout());
@@ -88,10 +109,6 @@ public class DFFeastsEvent {
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.LYCHEE_LEAVES.get(), RenderType.cutout());
     }
 
-    @SubscribeEvent
-    public static void entityRendererEvent(EntityRenderersEvent.RegisterRenderers event) {
-        event.registerBlockEntityRenderer(DFFBlocks.PIXEL_PLACER_ENTITY.get(), PixelPlacerEntityRenderer::new);
-    }
 }
 
 

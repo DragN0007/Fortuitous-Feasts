@@ -5,18 +5,13 @@ import com.dragn0007.dffeasts.block.crop.BlackberryBlock;
 import com.dragn0007.dffeasts.block.crop.BlueberryBlock;
 import com.dragn0007.dffeasts.block.crop.RaspberryBlock;
 import com.dragn0007.dffeasts.block.crop.WhiteRaspberryBlock;
-import com.dragn0007.dffeasts.block.custom.AgeableCheeseBlock;
 import com.dragn0007.dffeasts.block.decorvox.CropBag;
 import com.dragn0007.dffeasts.block.leaves.*;
-import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacer;
-import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacerItem;
 import com.dragn0007.dffeasts.item.DFFItemGroup;
 import com.dragn0007.dffeasts.item.DFFItems;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -39,10 +34,6 @@ public class DFFBlocksNoDatagen {
     public static final RegistryObject<Block> CROP_BARREL = registerBlock("crop_barrel",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
 
-
-//    //TODO; CHEESE
-//    public static final RegistryObject<Block> CHEDDAR_CHEESE_BLOCK = registerBlock("cheddar_cheese_block",
-//            () -> new AgeableCheeseBlock(Block.Properties.of(Material.CAKE)));
 
 
 
@@ -94,12 +85,6 @@ public class DFFBlocksNoDatagen {
     protected static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
         DFFItems.ITEMS.register(name, () -> new BlockItem(block.get(),
                 new Item.Properties().tab(DFFItemGroup.DECOR_GROUP)));
-    }
-
-    private static <T extends PixelPlacer>RegistryObject<T> registerPixelPlacer(String name, Supplier<T> block) {
-        RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        DFFItems.ITEMS.register("pixel_placement/" + name, () -> new PixelPlacerItem(toReturn.get(), new Item.Properties().tab(DFFItemGroup.DECOR_GROUP)));
-        return toReturn;
     }
 
     protected static <T extends Block>RegistryObject<T> registerPlantBlock(String name, Supplier<T> block){

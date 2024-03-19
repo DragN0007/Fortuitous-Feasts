@@ -222,6 +222,112 @@ public class ModConfigFeatures {
                             new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_MINT.get())))));
 
 
+
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_BELL_PEPPER =
+            FeatureUtils.register("dff_bell_pepper", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_BELL_PEPPER_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_BLACK_BEAN_PLANT =
+            FeatureUtils.register("dff_black_bean", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_BLACK_BEAN_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_BRUSSELS_SPROUTS =
+            FeatureUtils.register("dff_brussels_sprouts", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_BRUSSELS_SPROUTS_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_CORN_PLANT =
+            FeatureUtils.register("dff_corn", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_CORN_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_CELERY_PLANT =
+            FeatureUtils.register("dff_celery", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_CELERY_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_CHILI_PEPPER_PLANT =
+            FeatureUtils.register("dff_chili_pepper", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_CHILI_PEPPER_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_BUTTERNUT_SQUASH =
+            FeatureUtils.register("dff_butternut_squash", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_BUTTERNUT_SQUASH_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_CUCUMBER =
+            FeatureUtils.register("dff_cucumber", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_CUCUMBER_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_CRANBERRY =
+            FeatureUtils.register("dff_cranberry", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_CRANBERRY_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_GARLIC =
+            FeatureUtils.register("dff_garlic", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_GARLIC_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_GINGER =
+            FeatureUtils.register("dff_ginger", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_GINGER_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_GREEN_BEAN =
+            FeatureUtils.register("dff_green_bean", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_GREEN_BEAN_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_PURPLE_GRAPE =
+            FeatureUtils.register("dff_purple_grape", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_PURPLE_GRAPE_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_RED_GRAPE =
+            FeatureUtils.register("dff_red_grape", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_RED_GRAPE_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_JALEPENO_PEPPER =
+            FeatureUtils.register("dff_jalepeno_pepper", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_JALEPENO_PEPPER_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_KIDNEY_BEAN =
+            FeatureUtils.register("dff_kidney_bean", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_KIDNEY_BEAN_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_ONION =
+            FeatureUtils.register("dff_onion", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_ONION_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_PEANUT =
+            FeatureUtils.register("dff_peanut", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_PEANUT_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_RADISH =
+            FeatureUtils.register("dff_radish", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_RADISH_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_RYE =
+            FeatureUtils.register("dff_rye", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_RYE_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_SOYBEAN =
+            FeatureUtils.register("dff_soybean", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_SOYBEAN_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_SUGAR_BEET =
+            FeatureUtils.register("dff_sugar_beet", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_SUGAR_BEET_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_STRAWBERRY =
+            FeatureUtils.register("dff_strawberry", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_STRAWBERRY_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_TOMATO =
+            FeatureUtils.register("dff_tomato", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_TOMATO_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_WHITE_GRAPE =
+            FeatureUtils.register("dff_white_grape", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_WHITE_GRAPE_PLANT.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> DFF_ZUCCHINI =
+            FeatureUtils.register("dff_zucchini", Feature.FLOWER,
+                    new RandomPatchConfiguration(DFFeastsCommonConfig.CROP_TRIES.get(), 3, 2, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(DFFBlocks.WILD_ZUCCHINI_PLANT.get())))));
+
 }
 
 

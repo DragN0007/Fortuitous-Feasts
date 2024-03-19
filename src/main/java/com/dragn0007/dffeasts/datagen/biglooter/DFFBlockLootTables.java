@@ -1,7 +1,6 @@
 package com.dragn0007.dffeasts.datagen.biglooter;
 
 import com.dragn0007.dffeasts.block.DFFBlocks;
-import com.dragn0007.dffeasts.block.DFFBlocksNoDatagen;
 import com.dragn0007.dffeasts.block.crop.BellPepperBlock;
 import com.dragn0007.dffeasts.item.DFFItems;
 import net.minecraft.advancements.critereon.StatePropertiesPredicate;
@@ -19,12 +18,38 @@ import net.minecraftforge.registries.RegistryObject;
 public class DFFBlockLootTables extends BlockLoot {
     @Override
     protected void addTables() {
-        this.dropSelf(DFFBlocks.PIXEL_PLACER_CONTAINER.get());
 
         this.dropOther(DFFBlocks.WILD_ROSEMARY.get(), DFFItems.ROSEMARY.get());
         this.dropOther(DFFBlocks.WILD_OREGANO.get(), DFFItems.OREGANO.get());
         this.dropOther(DFFBlocks.WILD_MINT.get(), DFFItems.MINT.get());
         this.dropOther(DFFBlocks.WILD_CILANTRO.get(), DFFItems.CILANTRO.get());
+
+        this.dropOther(DFFBlocks.WILD_BELL_PEPPER_PLANT.get(), DFFItems.BELL_PEPPER.get());
+        this.dropOther(DFFBlocks.WILD_BLACK_BEAN_PLANT.get(), DFFItems.BLACK_BEANS.get());
+        this.dropOther(DFFBlocks.WILD_BRUSSELS_SPROUTS_PLANT.get(), DFFItems.BRUSSELS_SPROUTS.get());
+        this.dropOther(DFFBlocks.WILD_CORN_PLANT.get(), DFFItems.CORN.get());
+        this.dropOther(DFFBlocks.WILD_CELERY_PLANT.get(), DFFItems.CELERY.get());
+        this.dropOther(DFFBlocks.WILD_CHILI_PEPPER_PLANT.get(), DFFItems.CHILI_PEPPER.get());
+        this.dropOther(DFFBlocks.WILD_BUTTERNUT_SQUASH_PLANT.get(), DFFItems.BUTTERNUT_SQUASH.get());
+        this.dropOther(DFFBlocks.WILD_CUCUMBER_PLANT.get(), DFFItems.CUCUMBER.get());
+        this.dropOther(DFFBlocks.WILD_CRANBERRY_PLANT.get(), DFFItems.CRANBERRIES.get());
+        this.dropOther(DFFBlocks.WILD_GARLIC_PLANT.get(), DFFItems.GARLIC.get());
+        this.dropOther(DFFBlocks.WILD_GINGER_PLANT.get(), DFFItems.GINGER.get());
+        this.dropOther(DFFBlocks.WILD_GREEN_BEAN_PLANT.get(), DFFItems.GREEN_BEANS.get());
+        this.dropOther(DFFBlocks.WILD_PURPLE_GRAPE_PLANT.get(), DFFItems.PURPLE_GRAPES.get());
+        this.dropOther(DFFBlocks.WILD_RED_GRAPE_PLANT.get(), DFFItems.WHITE_GRAPES.get());
+        this.dropOther(DFFBlocks.WILD_JALEPENO_PEPPER_PLANT.get(), DFFItems.JALEPENO_PEPPER.get());
+        this.dropOther(DFFBlocks.WILD_KIDNEY_BEAN_PLANT.get(), DFFItems.KIDNEY_BEANS.get());
+        this.dropOther(DFFBlocks.WILD_ONION_PLANT.get(), DFFItems.ONION.get());
+        this.dropOther(DFFBlocks.WILD_PEANUT_PLANT.get(), DFFItems.PEANUTS.get());
+        this.dropOther(DFFBlocks.WILD_RADISH_PLANT.get(), DFFItems.RADISH.get());
+        this.dropOther(DFFBlocks.WILD_RYE_PLANT.get(), DFFItems.RYE.get());
+        this.dropOther(DFFBlocks.WILD_SOYBEAN_PLANT.get(), DFFItems.SOYBEANS.get());
+        this.dropOther(DFFBlocks.WILD_SUGAR_BEET_PLANT.get(), DFFItems.SUGAR_BEET.get());
+        this.dropOther(DFFBlocks.WILD_STRAWBERRY_PLANT.get(), DFFItems.STRAWBERRY.get());
+        this.dropOther(DFFBlocks.WILD_TOMATO_PLANT.get(), DFFItems.TOMATO.get());
+        this.dropOther(DFFBlocks.WILD_WHITE_GRAPE_PLANT.get(), DFFItems.WHITE_GRAPES.get());
+        this.dropOther(DFFBlocks.WILD_ZUCCHINI_PLANT.get(), DFFItems.ZUCCHINI.get());
 
 
         this.dropSelf(DFFBlocks.ORANGE_LOG.get());

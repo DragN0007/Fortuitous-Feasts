@@ -2,10 +2,6 @@ package com.dragn0007.dffeasts.block;
 
 import com.dragn0007.dffeasts.DFFeastsMain;
 import com.dragn0007.dffeasts.block.crop.*;
-import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacer;
-import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacerContainer;
-import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacerEntity;
-import com.dragn0007.dffeasts.block.pixel_placement.util.PixelPlacerItem;
 import com.dragn0007.dffeasts.item.DFFItemGroup;
 import com.dragn0007.dffeasts.item.DFFItems;
 import com.dragn0007.dffeasts.world.feature.tree.*;
@@ -106,6 +102,62 @@ public class DFFBlocks {
             () -> new RosemaryBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
     public static final RegistryObject<Block> MINT_PLANT = registerBlockWithoutItem("mint_plant",
             () -> new MintBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noCollission()));
+
+
+    //TODO; Wild Crops
+    public static final RegistryObject<Block> WILD_BELL_PEPPER_PLANT = registerBlockWithoutItem("wild_bell_pepper_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_JALEPENO_PEPPER_PLANT = registerBlockWithoutItem("wild_jalepeno_pepper_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_CHILI_PEPPER_PLANT = registerBlockWithoutItem("wild_chili_pepper_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_CRANBERRY_PLANT = registerBlockWithoutItem("wild_cranberry_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_ONION_PLANT = registerBlockWithoutItem("wild_onion_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_GARLIC_PLANT = registerBlockWithoutItem("wild_garlic_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_RADISH_PLANT = registerBlockWithoutItem("wild_radish_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_TOMATO_PLANT = registerBlockWithoutItem("wild_tomato_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_RED_GRAPE_PLANT = registerBlockWithoutItem("wild_red_grape_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_PURPLE_GRAPE_PLANT = registerBlockWithoutItem("wild_purple_grape_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_WHITE_GRAPE_PLANT = registerBlockWithoutItem("wild_white_grape_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_BLACK_BEAN_PLANT = registerBlockWithoutItem("wild_black_bean_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_BRUSSELS_SPROUTS_PLANT = registerBlockWithoutItem("wild_brussels_sprouts_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_BUTTERNUT_SQUASH_PLANT = registerBlockWithoutItem("wild_butternut_squash_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_CELERY_PLANT = registerBlockWithoutItem("wild_celery_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_CORN_PLANT = registerBlockWithoutItem("wild_corn_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_CUCUMBER_PLANT = registerBlockWithoutItem("wild_cucumber_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_GINGER_PLANT = registerBlockWithoutItem("wild_ginger_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_GREEN_BEAN_PLANT = registerBlockWithoutItem("wild_green_bean_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_KIDNEY_BEAN_PLANT = registerBlockWithoutItem("wild_kidney_bean_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_PEANUT_PLANT = registerBlockWithoutItem("wild_peanut_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_RYE_PLANT = registerBlockWithoutItem("wild_rye_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_SOYBEAN_PLANT = registerBlockWithoutItem("wild_soybean_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_STRAWBERRY_PLANT = registerBlockWithoutItem("wild_strawberry_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_SUGAR_BEET_PLANT = registerBlockWithoutItem("wild_sugar_beet_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+    public static final RegistryObject<Block> WILD_ZUCCHINI_PLANT = registerBlockWithoutItem("wild_zucchini_plant",
+            () -> new FlowerBlock(MobEffects.ABSORPTION, 1, Block.Properties.of(Material.PLANT).sound(SoundType.GRASS).noCollission()));
+
 
 
     //TODO; Trees
@@ -225,9 +277,6 @@ public class DFFBlocks {
 
 
 
-    public static final RegistryObject<PixelPlacerContainer> PIXEL_PLACER_CONTAINER = BLOCKS.register("pixel_placer_container", PixelPlacerContainer::new);
-    public static final RegistryObject<BlockEntityType<PixelPlacerEntity>> PIXEL_PLACER_ENTITY = BLOCK_ENTITIES.register("pixel_placer_container",
-            () -> BlockEntityType.Builder.of(PixelPlacerEntity::new, PIXEL_PLACER_CONTAINER.get()).build(null));
 
     protected static <T extends Block>RegistryObject<T> registerBlockWithoutItem(String name, Supplier<T> block){
         return BLOCKS.register(name, block);
@@ -241,12 +290,6 @@ public class DFFBlocks {
     protected static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
         DFFItems.ITEMS.register(name, () -> new BlockItem(block.get(),
                 new Item.Properties().tab(DFFItemGroup.DECOR_GROUP)));
-    }
-
-    private static <T extends PixelPlacer>RegistryObject<T> registerPixelPlacer(String name, Supplier<T> block) {
-        RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        DFFItems.ITEMS.register("pixel_placement/" + name, () -> new PixelPlacerItem(toReturn.get(), new Item.Properties().tab(DFFItemGroup.DECOR_GROUP)));
-        return toReturn;
     }
 
     protected static <T extends Block>RegistryObject<T> registerPlantBlock(String name, Supplier<T> block){

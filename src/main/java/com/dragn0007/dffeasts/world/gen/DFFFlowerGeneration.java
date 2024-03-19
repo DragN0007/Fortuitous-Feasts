@@ -32,24 +32,12 @@ public class DFFFlowerGeneration {
                     event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
 
             base.add(ModPlacedFeatures.DFF_BLACKBERRY_PLACED);
-        }
-
-        if (types.contains(BiomeDictionary.Type.FOREST)) {
-            List<Holder<PlacedFeature>> base =
-                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
-
             base.add(ModPlacedFeatures.DFF_RASPBERRY_PLACED);
-        }
-
-        if (types.contains(BiomeDictionary.Type.FOREST)) {
-            List<Holder<PlacedFeature>> base =
-                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
-
             base.add(ModPlacedFeatures.DFF_WHITE_RASPBERRY_PLACED);
         }
 
 
-        //CROPS
+        //HERBS
         if (types.contains(BiomeDictionary.Type.PLAINS)) {
             List<Holder<PlacedFeature>> base =
                     event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
@@ -79,5 +67,53 @@ public class DFFFlowerGeneration {
         }
 
 
+
+
+        if (types.contains(BiomeDictionary.Type.HOT)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.DFF_BELL_PEPPER_PLACED);
+            base.add(ModPlacedFeatures.DFF_JALEPENO_PEPPER_PLACED);
+            base.add(ModPlacedFeatures.DFF_GARLIC_PLACED);
+            base.add(ModPlacedFeatures.DFF_GINGER_PLACED);
+            base.add(ModPlacedFeatures.DFF_CHILI_PEPPER_PLANT_PLACED);
+            base.add(ModPlacedFeatures.DFF_BUTTERNUT_SQUASH_PLACED);
+            base.add(ModPlacedFeatures.DFF_CUCUMBER_PLACED);
+            base.add(ModPlacedFeatures.DFF_CRANBERRY_PLACED);
+        }
+
+        if (types.contains(BiomeDictionary.Type.PLAINS)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.DFF_BRUSSELS_SPROUTS_PLACED);
+            base.add(ModPlacedFeatures.DFF_RYE_PLACED);
+            base.add(ModPlacedFeatures.DFF_SOYBEAN_PLACED);
+            base.add(ModPlacedFeatures.DFF_BLACK_BEAN_PLANT_PLACED);
+            base.add(ModPlacedFeatures.DFF_ZUCCHINI_PLACED);
+            base.add(ModPlacedFeatures.DFF_KIDNEY_BEAN_PLACED);
+            base.add(ModPlacedFeatures.DFF_SUGAR_BEET_PLACED);
+        }
+
+        if (types.contains(BiomeDictionary.Type.FOREST)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.DFF_CORN_PLANT_PLACED);
+            base.add(ModPlacedFeatures.DFF_CELERY_PLANT_PLACED);
+            base.add(ModPlacedFeatures.DFF_GREEN_BEAN_PLACED);
+            base.add(ModPlacedFeatures.DFF_PURPLE_GRAPE_PLACED);
+            base.add(ModPlacedFeatures.DFF_RED_GRAPE_PLACED);
+            base.add(ModPlacedFeatures.DFF_ONION_PLACED);
+            base.add(ModPlacedFeatures.DFF_PEANUT_PLACED);
+            base.add(ModPlacedFeatures.DFF_RADISH_PLACED);
+            base.add(ModPlacedFeatures.DFF_STRAWBERRY_PLACED);
+            base.add(ModPlacedFeatures.DFF_TOMATO_PLACED);
+            base.add(ModPlacedFeatures.DFF_WHITE_GRAPE_PLACED);
+        }
+
+
     }
+
 }

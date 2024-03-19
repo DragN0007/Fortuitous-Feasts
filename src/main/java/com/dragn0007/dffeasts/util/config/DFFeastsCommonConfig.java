@@ -1,6 +1,5 @@
 package com.dragn0007.dffeasts.util.config;
 
-import it.unimi.dsi.fastutil.ints.IntPriorityQueue;
 import net.minecraftforge.common.ForgeConfigSpec;
 
 public class DFFeastsCommonConfig {
@@ -10,7 +9,7 @@ public class DFFeastsCommonConfig {
     public static final ForgeConfigSpec.ConfigValue<Float> FRUIT_TREE_TRIES;
     public static final ForgeConfigSpec.ConfigValue<Integer> BUSH_TRIES;
     public static final ForgeConfigSpec.ConfigValue<Integer> HERB_TRIES;
-//    public static final ForgeConfigSpec.ConfigValue<Integer> CROP_TRIES;
+    public static final ForgeConfigSpec.ConfigValue<Integer> CROP_TRIES;
 
 //    public static final ForgeConfigSpec.ConfigValue<Integer> FEASTS_FARMER_BARREL;
 
@@ -26,8 +25,8 @@ public class DFFeastsCommonConfig {
         BUILDER.push("Configs for DragN's Fortuitous Feasts!");
 
 
-        FRUIT_TREE_TRIES = BUILDER.comment("How many times should fruit trees try to spawn in one area? Default is 0.1.")
-                .define("Fruit Tree Tries", 0.1F);
+        FRUIT_TREE_TRIES = BUILDER.comment("How many times should fruit trees try to spawn in one area? Default is 0.01.")
+                .define("Fruit Tree Tries", 0.01F);
 
         BUSH_TRIES = BUILDER.comment("How many times should berry bushes try to spawn in one area? Default is 10.")
                 .define("Berry Bush Tries", 10);
@@ -35,8 +34,8 @@ public class DFFeastsCommonConfig {
         HERB_TRIES = BUILDER.comment("How many times should herbs try to spawn in one area? Default is 6.")
                 .define("Herb Tries", 6);
 
-//        CROP_TRIES = BUILDER.comment("How often should Wild Crops spawn? Default is 0. Change to 6-10 for best natural spawning.")
-//                .define("Wild Crop Tries", 10);
+        CROP_TRIES = BUILDER.comment("How often should Wild Crops spawn? Default is 1. Change to 4-8 for best natural spawning.")
+                .define("Wild Crop Tries", 1);
 
 
 
