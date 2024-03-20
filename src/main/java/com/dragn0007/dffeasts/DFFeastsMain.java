@@ -35,6 +35,7 @@ public class DFFeastsMain
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::setup);
 
+//        EntityTypes.ENTITY_TYPES.register(eventBus);
         DFFItems.register(eventBus);
         DFFBlocks.register(eventBus);
         DFFBlocksNoDatagen.register(eventBus);

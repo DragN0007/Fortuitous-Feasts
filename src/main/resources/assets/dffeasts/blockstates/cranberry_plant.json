@@ -3,6 +3,10 @@
     "age=0": {"model": "dffeasts:block/base/short_plant_base_0" },
     "age=1": {"model": "dffeasts:block/base/short_plant_base_1" },
     "age=2": {"model": "dffeasts:block/crop/cranberry_plant_2" },
-    "age=3": {"model": "dffeasts:block/crop/cranberry_plant_3" }
+    "age=3": {"model": "dffeasts:block/crop/cranberry_plant_3" },
+    "age=4": {"model": "dffeasts:block/crop/cranberry_plant_3" },
+    "age=5": {"model": "dffeasts:block/crop/cranberry_plant_3" },
+    "age=6": {"model": "dffeasts:block/crop/cranberry_plant_3" },
+    "age=7": {"model": "dffeasts:block/crop/cranberry_plant_3" }
   }
 }

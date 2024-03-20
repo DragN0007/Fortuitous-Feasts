@@ -107,8 +107,25 @@ public class DFFeastsEvent {
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.PEAR_LEAVES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.KIWI_LEAVES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.LYCHEE_LEAVES.get(), RenderType.cutout());
+
+
+        //Animals
+//        EntityRenderers.register(EntityTypes.DUCK.get(), DuckRender::new);
     }
 
+    /*
+
+    @SubscribeEvent
+    public static void entityAttrbiuteCreationEvent(EntityAttributeCreationEvent event) {
+
+        event.put(EntityTypes.DUCK.get(), Duck.createAttributes().build());
+        SpawnPlacements.register
+                (EntityTypes.DUCK.get(),
+                        SpawnPlacements.Type.ON_GROUND,
+                        Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Duck::checkAnimalSpawnRules);
+    }
+
+     */
 }
 
 
