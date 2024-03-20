@@ -172,8 +172,16 @@ public class DFFItems {
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Cake
-//    public static final RegistryObject<Item> _CAKE = ITEMS.register("_cake",
-//            () -> new ItemNameBlockItem(DFFBlocks._CAKE.get(), (new Item.Properties().tab(DFFItemGroup.FOOD_GROUP))));
+    public static final RegistryObject<Item> CHOCOLATE_CAKE = ITEMS.register("chocolate_cake",
+            () -> new ItemNameBlockItem(DFFBlocksNoDatagen.CHOCOLATE_CAKE.get(), (new Item.Properties().tab(DFFItemGroup.FOOD_GROUP))));
+    public static final RegistryObject<Item> YELLOW_CHOCOLATE_CAKE = ITEMS.register("yellow_chocolate_cake",
+            () -> new ItemNameBlockItem(DFFBlocksNoDatagen.YELLOW_CHOCOLATE_CAKE.get(), (new Item.Properties().tab(DFFItemGroup.FOOD_GROUP))));
+    public static final RegistryObject<Item> CHERRY_CHOCOLATE_CAKE = ITEMS.register("cherry_chocolate_cake",
+            () -> new ItemNameBlockItem(DFFBlocksNoDatagen.CHERRY_CHOCOLATE_CAKE.get(), (new Item.Properties().tab(DFFItemGroup.FOOD_GROUP))));
+    public static final RegistryObject<Item> RED_VELVET_CAKE = ITEMS.register("red_velvet_cake",
+            () -> new ItemNameBlockItem(DFFBlocksNoDatagen.RED_VELVET_CAKE.get(), (new Item.Properties().tab(DFFItemGroup.FOOD_GROUP))));
+    public static final RegistryObject<Item> WHITE_CAKE = ITEMS.register("white_cake",
+            () -> new ItemNameBlockItem(DFFBlocksNoDatagen.WHITE_CAKE.get(), (new Item.Properties().tab(DFFItemGroup.FOOD_GROUP))));
 
     //Jam
     public static final RegistryObject<Item> LYCHEE_JAM = ITEMS.register("lychee_jam",

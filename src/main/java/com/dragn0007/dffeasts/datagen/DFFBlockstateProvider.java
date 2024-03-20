@@ -14,6 +14,7 @@ public class DFFBlockstateProvider extends BlockStateProvider {
     }
     @Override
     protected void registerStatesAndModels() {
+
         logBlock(DFFBlocks.ORANGE_LOG.get());
         simpleBlock(DFFBlocks.ORANGE_PLANKS.get());
         simpleBlockItem(DFFBlocks.ORANGE_PLANKS.get(), models().cubeAll(DFFBlocks.ORANGE_PLANKS.get().getRegistryName().getPath(),

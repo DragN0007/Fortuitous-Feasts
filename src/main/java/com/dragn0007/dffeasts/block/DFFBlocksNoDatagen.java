@@ -12,6 +12,7 @@ import com.dragn0007.dffeasts.item.DFFItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.CakeBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -35,6 +36,18 @@ public class DFFBlocksNoDatagen {
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(2.5F).sound(SoundType.WOOD)));
 
 
+
+    //TODO; Cakes
+    public static final RegistryObject<Block> CHOCOLATE_CAKE = registerBlockWithoutItem("chocolate_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> YELLOW_CHOCOLATE_CAKE = registerBlockWithoutItem("yellow_chocolate_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> CHERRY_CHOCOLATE_CAKE = registerBlockWithoutItem("cherry_chocolate_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> RED_VELVET_CAKE = registerBlockWithoutItem("red_velvet_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> WHITE_CAKE = registerBlockWithoutItem("white_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
 
 
     //TODO; Trees/ Leaves

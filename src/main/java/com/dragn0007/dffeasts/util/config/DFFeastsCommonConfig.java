@@ -34,7 +34,7 @@ public class DFFeastsCommonConfig {
         HERB_TRIES = BUILDER.comment("How many times should herbs try to spawn in one area? Default is 6.")
                 .define("Herb Tries", 6);
 
-        CROP_TRIES = BUILDER.comment("How often should Wild Crops spawn? Default is 1. Change to 4-8 for best natural spawning.")
+        CROP_TRIES = BUILDER.comment("How often should Wild Crops spawn? Default is 1. Change to 4-8 for best natural spawning. May cause crashing if turned to 0.")
                 .define("Wild Crop Tries", 1);
 
 
