@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "dffeasts:avocado"
+      "tag": "forge:avocado"
     },
     {
       "item": "minecraft:bread"
     },
     {
-      "item": "dffeasts:butter"
+      "tag": "forge:butter"
     },
     {
       "item": "minecraft:beetroot"

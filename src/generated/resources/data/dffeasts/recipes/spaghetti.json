@@ -8,10 +8,10 @@
       "tag": "forge:herbs"
     },
     {
-      "item": "dffeasts:pasta"
+      "tag": "forge:pasta"
     },
     {
-      "item": "dffeasts:garlic"
+      "tag": "forge:garlic"
     }
   ],
   "result": {

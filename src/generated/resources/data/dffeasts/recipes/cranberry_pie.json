@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:sugar"
+      "tag": "forge:sugar"
     },
     {
       "tag": "forge:flour"
     },
     {
-      "item": "dffeasts:butter"
+      "tag": "forge:butter"
     },
     {
       "item": "dffeasts:cranberries"

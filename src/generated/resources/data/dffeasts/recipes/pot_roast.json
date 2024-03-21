@@ -5,13 +5,13 @@
       "tag": "forge:herbs"
     },
     {
-      "item": "minecraft:cooked_beef"
+      "tag": "forge:raw_beef"
     },
     {
       "tag": "forge:vegetables"
     },
     {
-      "item": "dffeasts:garlic"
+      "tag": "forge:garlic"
     }
   ],
   "result": {

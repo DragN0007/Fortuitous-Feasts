@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "dffeasts:tomato"
+      "tag": "forge:tomato"
     },
     {
-      "item": "dffeasts:tomato"
+      "tag": "forge:tomato"
     },
     {
-      "item": "dffeasts:onion"
+      "tag": "forge:onion"
     },
     {
       "tag": "forge:herbs"

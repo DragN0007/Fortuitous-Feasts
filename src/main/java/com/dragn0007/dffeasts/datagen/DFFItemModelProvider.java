@@ -32,6 +32,10 @@ public class DFFItemModelProvider extends ItemModelProvider {
 
 
         simpleItem(DFFItems.CHOCOLATE_CAKE.get());
+        simpleItem(DFFItems.YELLOW_CHOCOLATE_CAKE.get());
+        simpleItem(DFFItems.CHERRY_CHOCOLATE_CAKE.get());
+        simpleItem(DFFItems.RED_VELVET_CAKE.get());
+        simpleItem(DFFItems.WHITE_CAKE.get());
 
         simpleItem(DFFItems.PARMESAN_CHEESE.get());
         simpleItem(DFFItems.CHEDDAR_CHEESE.get());

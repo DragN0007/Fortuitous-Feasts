@@ -1,0 +1,22 @@
+{
+    "textures": {
+        "particle": "dffeasts:block/chocolate_cake_side",
+        "bottom": "dffeasts:block/chocolate_cake_bottom",
+        "top": "dffeasts:block/cherry_chocolate_cake_top",
+        "side": "dffeasts:block/cherry_chocolate_cake_side",
+        "inside": "dffeasts:block/cherry_chocolate_cake_inner"
+    },
+    "elements": [
+        {   "from": [ 9, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

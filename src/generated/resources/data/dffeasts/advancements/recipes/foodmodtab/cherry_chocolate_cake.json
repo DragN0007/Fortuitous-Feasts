@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:cherry_chocolate_cake"
+    ]
+  },
+  "criteria": {
+    "has_chocolate_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dffeasts:chocolate_cake"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:cherry_chocolate_cake"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chocolate_cake",
+      "has_the_recipe"
+    ]
+  ]
+}

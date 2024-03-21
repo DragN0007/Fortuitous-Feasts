@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:chocolate_cake"
+    },
+    {
+      "item": "dffeasts:cherries"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:cherry_chocolate_cake"
+  }
+}

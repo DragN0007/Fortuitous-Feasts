@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "dffeasts:avocado"
-            ]
+            "tag": "forge:avocado"
           }
         ]
       }

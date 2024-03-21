@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "dffeasts:pasta"
-            ]
+            "tag": "forge:pasta"
           }
         ]
       }

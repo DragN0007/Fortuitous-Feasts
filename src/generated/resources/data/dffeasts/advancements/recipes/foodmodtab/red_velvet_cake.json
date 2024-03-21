@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:red_velvet_cake"
+    ]
+  },
+  "criteria": {
+    "has_wheat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:wheat"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:red_velvet_cake"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wheat",
+      "has_the_recipe"
+    ]
+  ]
+}

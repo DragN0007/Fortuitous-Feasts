@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:sugar"
+      "tag": "forge:sugar"
     },
     {
-      "item": "dffeasts:butter"
+      "tag": "forge:butter"
     },
     {
-      "item": "dffeasts:cocoa_powder"
+      "tag": "forge:cocoa"
     },
     {
-      "item": "dffeasts:dough"
+      "tag": "forge:dough"
     }
   ],
   "result": {
