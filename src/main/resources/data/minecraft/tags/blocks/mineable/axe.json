@@ -1,0 +1,44 @@
+{
+  "replace": false,
+  "values": [
+    "dffeasts:orange_planks",
+    "dffeasts:avocado_planks",
+    "dffeasts:cherry_planks",
+    "dffeasts:coconut_planks",
+    "dffeasts:grapefruit_planks",
+    "dffeasts:kiwi_planks",
+    "dffeasts:lychee_planks",
+    "dffeasts:pear_planks",
+    "dffeasts:pomegranate_planks",
+
+    "dffeasts:orange_log",
+    "dffeasts:avocado_log",
+    "dffeasts:cherry_log",
+    "dffeasts:coconut_log",
+    "dffeasts:grapefruit_log",
+    "dffeasts:kiwi_log",
+    "dffeasts:lychee_log",
+    "dffeasts:pear_log",
+    "dffeasts:pomegranate_log",
+
+    "dffeasts:orange_stairs",
+    "dffeasts:avocado_stairs",
+    "dffeasts:cherry_stairs",
+    "dffeasts:coconut_stairs",
+    "dffeasts:grapefruit_stairs",
+    "dffeasts:kiwi_stairs",
+    "dffeasts:lychee_stairs",
+    "dffeasts:pear_stairs",
+    "dffeasts:pomegranate_stairs",
+
+    "dffeasts:orange_slab",
+    "dffeasts:avocado_slab",
+    "dffeasts:cherry_slab",
+    "dffeasts:coconut_slab",
+    "dffeasts:grapefruit_slab",
+    "dffeasts:kiwi_slab",
+    "dffeasts:lychee_slab",
+    "dffeasts:pear_slab",
+    "dffeasts:pomegranate_slab"
+  ]
+}

@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "forge:wheat"
+      "tag": "forge:flour"
     },
     {
-      "tag": "forge:wheat"
+      "tag": "forge:flour"
     },
     {
       "item": "dffeasts:cherry_jam"

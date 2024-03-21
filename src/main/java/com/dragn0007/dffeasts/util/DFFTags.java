@@ -40,6 +40,10 @@ public class DFFTags {
         public static final TagKey<Item> RAW_PORK = forgeTag("raw_pork");
         public static final TagKey<Item> RAW_MUTTON = forgeTag("raw_mutton");
         public static final TagKey<Item> RAW_BEEF = forgeTag("raw_beef");
+        public static final TagKey<Item> COOKED_CHICKEN = forgeTag("cooked_chicken");
+        public static final TagKey<Item> COOKED_PORK = forgeTag("cooked_pork");
+        public static final TagKey<Item> COOKED_MUTTON = forgeTag("cooked_mutton");
+        public static final TagKey<Item> COOKED_BEEF = forgeTag("cooked_beef");
 
         public static final TagKey<Item> SUGAR = forgeTag("sugar");
         public static final TagKey<Item> BUTTER = forgeTag("butter");
@@ -54,6 +58,7 @@ public class DFFTags {
         public static final TagKey<Item> CORN = forgeTag("corn");
         public static final TagKey<Item> BEANS = forgeTag("beans");
         public static final TagKey<Item> GARLIC = forgeTag("garlic");
+        public static final TagKey<Item> SALAD_INGREDIENTS = forgeTag("salad_ingredients");
 
 
 
