@@ -338,6 +338,18 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .build()))
                 .save(pFinishedRecipeConsumer);
 
+        ShapelessRecipeBuilder.shapeless(DFFItems.LASAGNA.get())
+                .requires(DFFItems.TOMATO_SOUP.get())
+                .requires(DFFTags.Items.HERBS)
+                .requires(DFFTags.Items.PASTA)
+                .requires(DFFTags.Items.GARLIC)
+                .requires(DFFTags.Items.COOKED_MEATS)
+                .requires(DFFItems.PARMESAN_CHEESE.get())
+                .unlockedBy("has_pasta", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.PASTA)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
 
 
         //TODO; Wrap

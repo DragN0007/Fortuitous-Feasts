@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:tomato_soup"
+    },
+    {
+      "tag": "forge:herbs"
+    },
+    {
+      "tag": "forge:pasta"
+    },
+    {
+      "tag": "forge:garlic"
+    },
+    {
+      "tag": "forge:cooked_meats"
+    },
+    {
+      "item": "dffeasts:parmesan_cheese"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:lasagna"
+  }
+}

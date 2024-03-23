@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "BAB"
+  ],
+  "key": {
+    "A": {
+      "item": "dffeasts:pear_planks"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dffeasts:pear_fence_gate"
+  }
+}
