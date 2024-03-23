@@ -344,7 +344,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.PASTA)
                 .requires(DFFTags.Items.GARLIC)
                 .requires(DFFTags.Items.COOKED_MEATS)
-                .requires(DFFItems.PARMESAN_CHEESE.get())
+                .requires(DFFTags.Items.CHEESE)
                 .unlockedBy("has_pasta", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.PASTA)
                         .build()))
