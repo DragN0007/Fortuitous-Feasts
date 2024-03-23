@@ -3,6 +3,9 @@ package com.dragn0007.dffeasts.datagen;
 import com.dragn0007.dffeasts.DFFeastsMain;
 import com.dragn0007.dffeasts.block.DFFBlocks;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.FenceBlock;
+import net.minecraft.world.level.block.FenceGateBlock;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.StairBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -26,7 +29,13 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         simpleBlockItem(DFFBlocks.ORANGE_SLAB.get(), models().slab(DFFBlocks.ORANGE_SLAB.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.ORANGE_PLANKS.get()), blockTexture(DFFBlocks.ORANGE_PLANKS.get()), blockTexture(DFFBlocks.ORANGE_PLANKS.get())));
         simpleBlock(DFFBlocks.DFF_ORANGE_SAPLING.get(), models().cross(DFFBlocks.DFF_ORANGE_SAPLING.get().getRegistryName().getPath(),
-        blockTexture(DFFBlocks.DFF_ORANGE_SAPLING.get())));
+                blockTexture(DFFBlocks.DFF_ORANGE_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.ORANGE_FENCE.get(), blockTexture(DFFBlocks.ORANGE_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.ORANGE_FENCE.get(), models().fenceInventory(DFFBlocks.ORANGE_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.ORANGE_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.ORANGE_FENCE_GATE.get(), blockTexture(DFFBlocks.ORANGE_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.ORANGE_FENCE_GATE.get(), models().fenceGate(DFFBlocks.ORANGE_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.ORANGE_PLANKS.get())));
 
         logBlock(DFFBlocks.COCONUT_LOG.get());
         simpleBlock(DFFBlocks.COCONUT_PLANKS.get());
@@ -40,6 +49,12 @@ public class DFFBlockstateProvider extends BlockStateProvider {
                 blockTexture(DFFBlocks.COCONUT_PLANKS.get()), blockTexture(DFFBlocks.COCONUT_PLANKS.get()), blockTexture(DFFBlocks.COCONUT_PLANKS.get())));
         simpleBlock(DFFBlocks.DFF_COCONUT_SAPLING.get(), models().cross(DFFBlocks.DFF_COCONUT_SAPLING.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.DFF_COCONUT_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.COCONUT_FENCE.get(), blockTexture(DFFBlocks.COCONUT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.COCONUT_FENCE.get(), models().fenceInventory(DFFBlocks.COCONUT_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.COCONUT_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.COCONUT_FENCE_GATE.get(), blockTexture(DFFBlocks.COCONUT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.COCONUT_FENCE_GATE.get(), models().fenceGate(DFFBlocks.COCONUT_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.COCONUT_PLANKS.get())));
 
         logBlock(DFFBlocks.MANGO_LOG.get());
         simpleBlock(DFFBlocks.MANGO_PLANKS.get());
@@ -53,6 +68,12 @@ public class DFFBlockstateProvider extends BlockStateProvider {
                 blockTexture(DFFBlocks.MANGO_PLANKS.get()), blockTexture(DFFBlocks.MANGO_PLANKS.get()), blockTexture(DFFBlocks.MANGO_PLANKS.get())));
         simpleBlock(DFFBlocks.DFF_MANGO_SAPLING.get(), models().cross(DFFBlocks.DFF_MANGO_SAPLING.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.DFF_MANGO_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.MANGO_FENCE.get(), blockTexture(DFFBlocks.MANGO_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.MANGO_FENCE.get(), models().fenceInventory(DFFBlocks.MANGO_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.MANGO_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.MANGO_FENCE_GATE.get(), blockTexture(DFFBlocks.MANGO_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.MANGO_FENCE_GATE.get(), models().fenceGate(DFFBlocks.MANGO_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.MANGO_PLANKS.get())));
 
         logBlock(DFFBlocks.GRAPEFRUIT_LOG.get());
         simpleBlock(DFFBlocks.GRAPEFRUIT_PLANKS.get());
@@ -66,6 +87,12 @@ public class DFFBlockstateProvider extends BlockStateProvider {
                 blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get())));
         simpleBlock(DFFBlocks.DFF_GRAPEFRUIT_SAPLING.get(), models().cross(DFFBlocks.DFF_GRAPEFRUIT_SAPLING.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.DFF_GRAPEFRUIT_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.GRAPEFRUIT_FENCE.get(), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.GRAPEFRUIT_FENCE.get(), models().fenceInventory(DFFBlocks.GRAPEFRUIT_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.GRAPEFRUIT_FENCE_GATE.get(), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.GRAPEFRUIT_FENCE_GATE.get(), models().fenceGate(DFFBlocks.GRAPEFRUIT_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get())));
 
         logBlock(DFFBlocks.AVOCADO_LOG.get());
         simpleBlock(DFFBlocks.AVOCADO_PLANKS.get());
@@ -79,6 +106,12 @@ public class DFFBlockstateProvider extends BlockStateProvider {
                 blockTexture(DFFBlocks.AVOCADO_PLANKS.get()), blockTexture(DFFBlocks.AVOCADO_PLANKS.get()), blockTexture(DFFBlocks.AVOCADO_PLANKS.get())));
         simpleBlock(DFFBlocks.DFF_AVOCADO_SAPLING.get(), models().cross(DFFBlocks.DFF_AVOCADO_SAPLING.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.DFF_AVOCADO_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.AVOCADO_FENCE.get(), blockTexture(DFFBlocks.AVOCADO_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.AVOCADO_FENCE.get(), models().fenceInventory(DFFBlocks.AVOCADO_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.AVOCADO_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.AVOCADO_FENCE_GATE.get(), blockTexture(DFFBlocks.AVOCADO_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.AVOCADO_FENCE_GATE.get(), models().fenceGate(DFFBlocks.AVOCADO_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.AVOCADO_PLANKS.get())));
 
         logBlock(DFFBlocks.KIWI_LOG.get());
         simpleBlock(DFFBlocks.KIWI_PLANKS.get());
@@ -92,6 +125,12 @@ public class DFFBlockstateProvider extends BlockStateProvider {
                 blockTexture(DFFBlocks.KIWI_PLANKS.get()), blockTexture(DFFBlocks.KIWI_PLANKS.get()), blockTexture(DFFBlocks.KIWI_PLANKS.get())));
         simpleBlock(DFFBlocks.DFF_KIWI_SAPLING.get(), models().cross(DFFBlocks.DFF_KIWI_SAPLING.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.DFF_KIWI_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.KIWI_FENCE.get(), blockTexture(DFFBlocks.KIWI_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.KIWI_FENCE.get(), models().fenceInventory(DFFBlocks.KIWI_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.KIWI_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.KIWI_FENCE_GATE.get(), blockTexture(DFFBlocks.KIWI_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.KIWI_FENCE_GATE.get(), models().fenceGate(DFFBlocks.KIWI_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.KIWI_PLANKS.get())));
 
         logBlock(DFFBlocks.LYCHEE_LOG.get());
         simpleBlock(DFFBlocks.LYCHEE_PLANKS.get());
@@ -105,6 +144,12 @@ public class DFFBlockstateProvider extends BlockStateProvider {
                 blockTexture(DFFBlocks.LYCHEE_PLANKS.get()), blockTexture(DFFBlocks.LYCHEE_PLANKS.get()), blockTexture(DFFBlocks.LYCHEE_PLANKS.get())));
         simpleBlock(DFFBlocks.DFF_LYCHEE_SAPLING.get(), models().cross(DFFBlocks.DFF_LYCHEE_SAPLING.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.DFF_LYCHEE_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.LYCHEE_FENCE.get(), blockTexture(DFFBlocks.LYCHEE_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.LYCHEE_FENCE.get(), models().fenceInventory(DFFBlocks.LYCHEE_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.LYCHEE_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.LYCHEE_FENCE_GATE.get(), blockTexture(DFFBlocks.LYCHEE_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.LYCHEE_FENCE_GATE.get(), models().fenceGate(DFFBlocks.LYCHEE_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.LYCHEE_PLANKS.get())));
 
         logBlock(DFFBlocks.PEAR_LOG.get());
         simpleBlock(DFFBlocks.PEAR_PLANKS.get());
@@ -118,6 +163,12 @@ public class DFFBlockstateProvider extends BlockStateProvider {
                 blockTexture(DFFBlocks.PEAR_PLANKS.get()), blockTexture(DFFBlocks.PEAR_PLANKS.get()), blockTexture(DFFBlocks.PEAR_PLANKS.get())));
         simpleBlock(DFFBlocks.DFF_PEAR_SAPLING.get(), models().cross(DFFBlocks.DFF_PEAR_SAPLING.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.DFF_PEAR_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.PEAR_FENCE.get(), blockTexture(DFFBlocks.PEAR_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.PEAR_FENCE.get(), models().fenceInventory(DFFBlocks.PEAR_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.PEAR_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.PEAR_FENCE_GATE.get(), blockTexture(DFFBlocks.PEAR_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.PEAR_FENCE_GATE.get(), models().fenceGate(DFFBlocks.PEAR_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.PEAR_PLANKS.get())));
 
         logBlock(DFFBlocks.POMEGRANATE_LOG.get());
         simpleBlock(DFFBlocks.POMEGRANATE_PLANKS.get());
@@ -131,6 +182,12 @@ public class DFFBlockstateProvider extends BlockStateProvider {
                 blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get())));
         simpleBlock(DFFBlocks.DFF_POMEGRANATE_SAPLING.get(), models().cross(DFFBlocks.DFF_POMEGRANATE_SAPLING.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.DFF_POMEGRANATE_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.POMEGRANATE_FENCE.get(), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.POMEGRANATE_FENCE.get(), models().fenceInventory(DFFBlocks.POMEGRANATE_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.POMEGRANATE_FENCE_GATE.get(), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.POMEGRANATE_FENCE_GATE.get(), models().fenceGate(DFFBlocks.POMEGRANATE_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get())));
 
         logBlock(DFFBlocks.CHERRY_LOG.get());
         simpleBlock(DFFBlocks.CHERRY_PLANKS.get());
@@ -144,6 +201,12 @@ public class DFFBlockstateProvider extends BlockStateProvider {
                 blockTexture(DFFBlocks.CHERRY_PLANKS.get()), blockTexture(DFFBlocks.CHERRY_PLANKS.get()), blockTexture(DFFBlocks.CHERRY_PLANKS.get())));
         simpleBlock(DFFBlocks.DFF_CHERRY_SAPLING.get(), models().cross(DFFBlocks.DFF_CHERRY_SAPLING.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.DFF_CHERRY_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.CHERRY_FENCE.get(), blockTexture(DFFBlocks.CHERRY_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.CHERRY_FENCE.get(), models().fenceInventory(DFFBlocks.CHERRY_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.CHERRY_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.CHERRY_FENCE_GATE.get(), blockTexture(DFFBlocks.CHERRY_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.CHERRY_FENCE_GATE.get(), models().fenceGate(DFFBlocks.CHERRY_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.CHERRY_PLANKS.get())));
     }
 
 }

@@ -11,7 +11,7 @@
       "item": "dffeasts:tomato_soup"
     },
     {
-      "item": "minecraft:cooked_chicken"
+      "tag": "forge:cooked_chicken"
     }
   ],
   "result": {

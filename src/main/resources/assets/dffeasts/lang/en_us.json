@@ -393,6 +393,8 @@
   "block.dffeasts.orange_stairs": "Orange Stairs",
   "block.dffeasts.dff_orange_sapling": "Orange Sapling",
   "item.dffeasts.orange_seeds": "Orange Seeds",
+  "block.dffeasts.orange_fence": "Orange Fence",
+  "block.dffeasts.orange_fence_gate": "Orange Fence gate",
 
   "block.dffeasts.mango_log": "Mango Log",
   "block.dffeasts.mango_planks": "Mango Planks",
@@ -400,6 +402,8 @@
   "block.dffeasts.mango_stairs": "Mango Stairs",
   "block.dffeasts.dff_mango_sapling": "Mango Sapling",
   "item.dffeasts.mango_seed": "Mango Seed",
+  "block.dffeasts.mango_fence": "Mango Fence",
+  "block.dffeasts.mango_fence_gate": "Mango Fence gate",
 
   "block.dffeasts.grapefruit_log": "Grapefruit Log",
   "block.dffeasts.grapefruit_planks": "Grapefruit Planks",
@@ -407,12 +411,16 @@
   "block.dffeasts.grapefruit_stairs": "Grapefruit Stairs",
   "block.dffeasts.dff_grapefruit_sapling": "Grapefruit Sapling",
   "item.dffeasts.grapefruit_seeds": "Grapefruit Seeds",
+  "block.dffeasts.grapefruit_fence": "Grapefruit Fence",
+  "block.dffeasts.grapefruit_fence_gate": "Grapefruit Fence gate",
 
   "block.dffeasts.coconut_log": "Coconut Log",
   "block.dffeasts.coconut_planks": "Coconut Planks",
   "block.dffeasts.coconut_slab": "Coconut Slab",
   "block.dffeasts.coconut_stairs": "Coconut Stairs",
   "block.dffeasts.dff_coconut_sapling": "Coconut Sapling",
+  "block.dffeasts.coconut_fence": "Coconut Fence",
+  "block.dffeasts.coconut_fence_gate": "Coconut Fence gate",
 
   "block.dffeasts.avocado_log": "Avocado Log",
   "block.dffeasts.avocado_planks": "Avocado Planks",
@@ -420,6 +428,8 @@
   "block.dffeasts.avocado_stairs": "Avocado Stairs",
   "block.dffeasts.dff_avocado_sapling": "Avocado Sapling",
   "item.dffeasts.avocado_pit": "Avocado Pit",
+  "block.dffeasts.avocado_fence": "Avocado Fence",
+  "block.dffeasts.avocado_fence_gate": "Avocado Fence gate",
 
   "block.dffeasts.pomegranate_log": "Pomegranate Log",
   "block.dffeasts.pomegranate_planks": "Pomegranate Planks",
@@ -427,6 +437,8 @@
   "block.dffeasts.pomegranate_stairs": "Pomegranate Stairs",
   "block.dffeasts.dff_pomegranate_sapling": "Pomegranate Sapling",
   "item.dffeasts.pomegranate_seeds": "Pomegranate Seeds",
+  "block.dffeasts.pomegranate_fence": "Pomegranate Fence",
+  "block.dffeasts.pomegranate_fence_gate": "Pomegranate Fence gate",
 
   "block.dffeasts.pear_log": "Pear Log",
   "block.dffeasts.pear_planks": "Pear Planks",
@@ -434,6 +446,8 @@
   "block.dffeasts.pear_stairs": "Pear Stairs",
   "block.dffeasts.dff_pear_sapling": "Pear Sapling",
   "item.dffeasts.pear_seeds": "Pear Seeds",
+  "block.dffeasts.pear_fence": "Pear Fence",
+  "block.dffeasts.pear_fence_gate": "Pear Fence gate",
 
   "block.dffeasts.cherry_log": "Cherry Log",
   "block.dffeasts.cherry_planks": "Cherry Planks",
@@ -441,6 +455,8 @@
   "block.dffeasts.cherry_stairs": "Cherry Stairs",
   "block.dffeasts.dff_cherry_sapling": "Cherry Sapling",
   "item.dffeasts.cherry_pit": "Cherry Pit",
+  "block.dffeasts.cherry_fence": "Cherry Fence",
+  "block.dffeasts.cherry_fence_gate": "Cherry Fence gate",
 
   "block.dffeasts.kiwi_log": "Kiwi Log",
   "block.dffeasts.kiwi_planks": "Kiwi Planks",
@@ -448,6 +464,8 @@
   "block.dffeasts.kiwi_stairs": "Kiwi Stairs",
   "block.dffeasts.dff_kiwi_sapling": "Kiwi Sapling",
   "item.dffeasts.kiwi_seeds": "Kiwi Seeds",
+  "block.dffeasts.kiwi_fence": "Kiwi Fence",
+  "block.dffeasts.kiwi_fence_gate": "Kiwi Fence gate",
 
   "block.dffeasts.lychee_log": "Lychee Log",
   "block.dffeasts.lychee_planks": "Lychee Planks",
@@ -455,12 +473,16 @@
   "block.dffeasts.lychee_stairs": "Lychee Stairs",
   "block.dffeasts.dff_lychee_sapling": "Lychee Sapling",
   "item.dffeasts.lychee_seed": "Lychee Seed",
+  "block.dffeasts.lychee_fence": "Lychee Fence",
+  "block.dffeasts.lychee_fence_gate": "Lychee Fence gate",
 
   "block.dffeasts.walnut_log": "Walnut Log",
   "block.dffeasts.walnut_planks": "Walnut Planks",
   "block.dffeasts.walnut_slab": "Walnut Slab",
   "block.dffeasts.walnut_stairs": "Walnut Stairs",
   "block.dffeasts.dff_walnut_sapling": "Walnut Sapling",
+  "block.dffeasts.walnut_fence": "Walnut Fence",
+  "block.dffeasts.walnut_fence_gate": "Walnut Fence gate",
 
 
   "block.dffeasts.crop_bag_veggies": "Fortuitous Feasts Veggies Crop Bag",

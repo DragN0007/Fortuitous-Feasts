@@ -171,6 +171,10 @@ public class DFFBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
     public static final RegistryObject<Block> DFF_ORANGE_SAPLING = registerBlockWithoutItem("dff_orange_sapling",
             () -> new SaplingBlock(new DFFOrangeTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> ORANGE_FENCE = registerBlock("orange_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> ORANGE_FENCE_GATE = registerBlock("orange_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<RotatedPillarBlock> COCONUT_LOG = registerBlock("coconut_log",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
@@ -182,6 +186,10 @@ public class DFFBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
     public static final RegistryObject<Block> DFF_COCONUT_SAPLING = registerBlockWithoutItem("dff_coconut_sapling",
             () -> new SaplingBlock(new DFFCoconutTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> COCONUT_FENCE = registerBlock("coconut_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> COCONUT_FENCE_GATE = registerBlock("coconut_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<RotatedPillarBlock> MANGO_LOG = registerBlock("mango_log",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
@@ -193,6 +201,10 @@ public class DFFBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
     public static final RegistryObject<Block> DFF_MANGO_SAPLING = registerBlockWithoutItem("dff_mango_sapling",
             () -> new SaplingBlock(new DFFMangoTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> MANGO_FENCE = registerBlock("mango_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> MANGO_FENCE_GATE = registerBlock("mango_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<RotatedPillarBlock> GRAPEFRUIT_LOG = registerBlock("grapefruit_log",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
@@ -204,6 +216,10 @@ public class DFFBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
     public static final RegistryObject<Block> DFF_GRAPEFRUIT_SAPLING = registerBlockWithoutItem("dff_grapefruit_sapling",
             () -> new SaplingBlock(new DFFGrapefruitTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> GRAPEFRUIT_FENCE = registerBlock("grapefruit_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> GRAPEFRUIT_FENCE_GATE = registerBlock("grapefruit_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<RotatedPillarBlock> AVOCADO_LOG = registerBlock("avocado_log",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
@@ -215,6 +231,10 @@ public class DFFBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
     public static final RegistryObject<Block> DFF_AVOCADO_SAPLING = registerBlockWithoutItem("dff_avocado_sapling",
             () -> new SaplingBlock(new DFFAvocadoTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> AVOCADO_FENCE = registerBlock("avocado_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> AVOCADO_FENCE_GATE = registerBlock("avocado_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<RotatedPillarBlock> POMEGRANATE_LOG = registerBlock("pomegranate_log",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
@@ -226,6 +246,10 @@ public class DFFBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
     public static final RegistryObject<Block> DFF_POMEGRANATE_SAPLING = registerBlockWithoutItem("dff_pomegranate_sapling",
             () -> new SaplingBlock(new DFFPomegranateTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> POMEGRANATE_FENCE = registerBlock("pomegranate_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> POMEGRANATE_FENCE_GATE = registerBlock("pomegranate_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<RotatedPillarBlock> PEAR_LOG = registerBlock("pear_log",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
@@ -237,6 +261,10 @@ public class DFFBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
     public static final RegistryObject<Block> DFF_PEAR_SAPLING = registerBlockWithoutItem("dff_pear_sapling",
             () -> new SaplingBlock(new DFFPearTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> PEAR_FENCE = registerBlock("pear_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> PEAR_FENCE_GATE = registerBlock("pear_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<RotatedPillarBlock> CHERRY_LOG = registerBlock("cherry_log",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
@@ -248,6 +276,10 @@ public class DFFBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
     public static final RegistryObject<Block> DFF_CHERRY_SAPLING = registerBlockWithoutItem("dff_cherry_sapling",
             () -> new SaplingBlock(new DFFCherryTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> CHERRY_FENCE = registerBlock("cherry_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> CHERRY_FENCE_GATE = registerBlock("cherry_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<RotatedPillarBlock> LYCHEE_LOG = registerBlock("lychee_log",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
@@ -259,6 +291,10 @@ public class DFFBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
     public static final RegistryObject<Block> DFF_LYCHEE_SAPLING = registerBlockWithoutItem("dff_lychee_sapling",
             () -> new SaplingBlock(new DFFLycheeTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> LYCHEE_FENCE = registerBlock("lychee_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> LYCHEE_FENCE_GATE = registerBlock("lychee_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<RotatedPillarBlock> KIWI_LOG = registerBlock("kiwi_log",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
@@ -270,6 +306,10 @@ public class DFFBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
     public static final RegistryObject<Block> DFF_KIWI_SAPLING = registerBlockWithoutItem("dff_kiwi_sapling",
             () -> new SaplingBlock(new DFFKiwiTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> KIWI_FENCE = registerBlock("kiwi_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> KIWI_FENCE_GATE = registerBlock("kiwi_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
 
 
     //TODO; Decor

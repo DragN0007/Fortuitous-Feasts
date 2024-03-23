@@ -2030,6 +2030,24 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .of(DFFBlocks.CHERRY_PLANKS.get()).build()))
                 .save(pFinishedRecipeConsumer);
 
+        ShapedRecipeBuilder.shaped(DFFBlocks.CHERRY_FENCE.get(), 3)
+                .define('A', DFFBlocks.CHERRY_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.CHERRY_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.CHERRY_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.CHERRY_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.CHERRY_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
 
         ShapelessRecipeBuilder.shapeless(DFFItems.AVOCADO_PIT.get())
                 .requires(DFFTags.Items.AVOCADO)
@@ -2057,6 +2075,24 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
         ShapedRecipeBuilder.shaped(DFFBlocks.AVOCADO_SLAB.get(), 3)
                 .define('A', DFFBlocks.AVOCADO_PLANKS.get())
                 .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.AVOCADO_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.AVOCADO_FENCE.get(), 3)
+                .define('A', DFFBlocks.AVOCADO_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.AVOCADO_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.AVOCADO_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.AVOCADO_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
                 .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFBlocks.AVOCADO_PLANKS.get()).build()))
                 .save(pFinishedRecipeConsumer);
@@ -2123,6 +2159,24 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .of(DFFBlocks.KIWI_PLANKS.get()).build()))
                 .save(pFinishedRecipeConsumer);
 
+        ShapedRecipeBuilder.shaped(DFFBlocks.KIWI_FENCE.get(), 3)
+                .define('A', DFFBlocks.KIWI_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.KIWI_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.KIWI_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.KIWI_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.KIWI_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
 
         ShapelessRecipeBuilder.shapeless(DFFItems.PEAR_SEEDS.get())
                 .requires(DFFItems.PEAR.get())
@@ -2150,6 +2204,24 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
         ShapedRecipeBuilder.shaped(DFFBlocks.PEAR_SLAB.get(), 3)
                 .define('A', DFFBlocks.PEAR_PLANKS.get())
                 .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.PEAR_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.PEAR_FENCE.get(), 3)
+                .define('A', DFFBlocks.PEAR_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.PEAR_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.PEAR_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.PEAR_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
                 .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFBlocks.PEAR_PLANKS.get()).build()))
                 .save(pFinishedRecipeConsumer);
@@ -2185,6 +2257,24 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .of(DFFBlocks.POMEGRANATE_PLANKS.get()).build()))
                 .save(pFinishedRecipeConsumer);
 
+        ShapedRecipeBuilder.shaped(DFFBlocks.POMEGRANATE_FENCE.get(), 3)
+                .define('A', DFFBlocks.POMEGRANATE_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.POMEGRANATE_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.POMEGRANATE_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.POMEGRANATE_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.POMEGRANATE_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
 
         ShapelessRecipeBuilder.shapeless(DFFItems.ORANGE_SEEDS.get())
                 .requires(DFFItems.ORANGE.get())
@@ -2212,6 +2302,24 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
         ShapedRecipeBuilder.shaped(DFFBlocks.ORANGE_SLAB.get(), 3)
                 .define('A', DFFBlocks.ORANGE_PLANKS.get())
                 .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.ORANGE_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.ORANGE_FENCE.get(), 3)
+                .define('A', DFFBlocks.ORANGE_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.ORANGE_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.ORANGE_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.ORANGE_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
                 .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFBlocks.ORANGE_PLANKS.get()).build()))
                 .save(pFinishedRecipeConsumer);
@@ -2247,6 +2355,24 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .of(DFFBlocks.MANGO_PLANKS.get()).build()))
                 .save(pFinishedRecipeConsumer);
 
+        ShapedRecipeBuilder.shaped(DFFBlocks.MANGO_FENCE.get(), 3)
+                .define('A', DFFBlocks.MANGO_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.MANGO_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.MANGO_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.MANGO_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.MANGO_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
 
         ShapelessRecipeBuilder.shapeless(DFFBlocks.COCONUT_PLANKS.get(), 4)
                 .requires(DFFBlocks.COCONUT_LOG.get())
@@ -2267,6 +2393,24 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
         ShapedRecipeBuilder.shaped(DFFBlocks.COCONUT_SLAB.get(), 3)
                 .define('A', DFFBlocks.COCONUT_PLANKS.get())
                 .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.COCONUT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.COCONUT_FENCE.get(), 3)
+                .define('A', DFFBlocks.COCONUT_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.COCONUT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.COCONUT_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.COCONUT_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
                 .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFBlocks.COCONUT_PLANKS.get()).build()))
                 .save(pFinishedRecipeConsumer);
@@ -2298,6 +2442,24 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
         ShapedRecipeBuilder.shaped(DFFBlocks.GRAPEFRUIT_SLAB.get(), 3)
                 .define('A', DFFBlocks.GRAPEFRUIT_PLANKS.get())
                 .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.GRAPEFRUIT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.GRAPEFRUIT_FENCE.get(), 3)
+                .define('A', DFFBlocks.GRAPEFRUIT_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.GRAPEFRUIT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.GRAPEFRUIT_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.GRAPEFRUIT_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
                 .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFBlocks.GRAPEFRUIT_PLANKS.get()).build()))
                 .save(pFinishedRecipeConsumer);

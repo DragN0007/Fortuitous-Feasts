@@ -9,6 +9,7 @@
     "dffeasts:kiwi_planks",
     "dffeasts:lychee_planks",
     "dffeasts:pear_planks",
+    "dffeasts:mango_planks",
     "dffeasts:pomegranate_planks",
 
     "dffeasts:orange_log",
@@ -19,6 +20,7 @@
     "dffeasts:kiwi_log",
     "dffeasts:lychee_log",
     "dffeasts:pear_log",
+    "dffeasts:mango_log",
     "dffeasts:pomegranate_log",
 
     "dffeasts:orange_stairs",
@@ -29,6 +31,7 @@
     "dffeasts:kiwi_stairs",
     "dffeasts:lychee_stairs",
     "dffeasts:pear_stairs",
+    "dffeasts:mango_stairs",
     "dffeasts:pomegranate_stairs",
 
     "dffeasts:orange_slab",
@@ -39,6 +42,29 @@
     "dffeasts:kiwi_slab",
     "dffeasts:lychee_slab",
     "dffeasts:pear_slab",
-    "dffeasts:pomegranate_slab"
+    "dffeasts:mango_slab",
+    "dffeasts:pomegranate_slab",
+
+    "dffeasts:orange_fence",
+    "dffeasts:avocado_fence",
+    "dffeasts:cherry_fence",
+    "dffeasts:coconut_fence",
+    "dffeasts:grapefruit_fence",
+    "dffeasts:kiwi_fence",
+    "dffeasts:lychee_fence",
+    "dffeasts:pear_fence",
+    "dffeasts:mango_fence",
+    "dffeasts:pomegranate_fence",
+
+    "dffeasts:orange_fence_gate",
+    "dffeasts:avocado_fence_gate",
+    "dffeasts:cherry_fence_gate",
+    "dffeasts:coconut_fence_gate",
+    "dffeasts:grapefruit_fence_gate",
+    "dffeasts:kiwi_fence_gate",
+    "dffeasts:lychee_fence_gate",
+    "dffeasts:pear_fence_gate",
+    "dffeasts:mango_fence_gate",
+    "dffeasts:pomegranate_fence_gate"
   ]
 }
