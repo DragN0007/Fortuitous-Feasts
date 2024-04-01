@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": {
+      "item": "dffeasts:coconut_planks"
+    }
+  },
+  "result": {
+    "item": "dffeasts:coconut_door",
+    "count": 3
+  }
+}

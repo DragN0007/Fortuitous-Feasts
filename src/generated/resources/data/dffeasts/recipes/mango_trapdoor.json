@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "dffeasts:mango_planks"
+    }
+  },
+  "result": {
+    "item": "dffeasts:mango_trapdoor",
+    "count": 2
+  }
+}

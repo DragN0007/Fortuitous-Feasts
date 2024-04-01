@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "dffeasts:pomegranate_planks"
+    }
+  },
+  "result": {
+    "item": "dffeasts:pomegranate_trapdoor",
+    "count": 2
+  }
+}

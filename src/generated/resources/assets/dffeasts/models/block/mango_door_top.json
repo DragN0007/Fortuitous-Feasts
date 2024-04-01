@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "bottom": "dffeasts:block/mango_door_bottom",
+    "top": "dffeasts:block/mango_door_top"
+  }
+}

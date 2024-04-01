@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "tag": "forge:sugar"
+    },
+    {
+      "item": "dffeasts:kiwi_jam"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:kiwi_turnover",
+    "count": 2
+  }
+}

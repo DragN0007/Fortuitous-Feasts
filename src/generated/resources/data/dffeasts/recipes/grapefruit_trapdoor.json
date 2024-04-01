@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "dffeasts:grapefruit_planks"
+    }
+  },
+  "result": {
+    "item": "dffeasts:grapefruit_trapdoor",
+    "count": 2
+  }
+}
