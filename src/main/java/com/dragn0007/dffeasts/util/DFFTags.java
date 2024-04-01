@@ -13,7 +13,7 @@ public class DFFTags {
         public static final TagKey<Item> MILK = forgeTag("milk");
         public static final TagKey<Item> WATER = forgeTag("water");
         public static final TagKey<Item> LEAVES = forgeTag("leaves");
-        public static final TagKey<Item> CROP_ITEM = forgeTag("crop_item");
+        public static final TagKey<Item> CROPS = forgeTag("crops");
         public static final TagKey<Item> PAPERABLE_LOGS = forgeTag("paperable_logs");
         public static final TagKey<Item> SMOOTHIE_ICE = forgeTag("smoothie_ice");
 

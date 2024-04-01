@@ -59,6 +59,8 @@ public class DFFBlockLootTables extends BlockLoot {
         this.dropOther(DFFBlocks.DFF_ORANGE_SAPLING.get(), DFFItems.ORANGE_SEEDS.get());
         this.dropSelf(DFFBlocks.ORANGE_FENCE.get());
         this.dropSelf(DFFBlocks.ORANGE_FENCE_GATE.get());
+        this.add(DFFBlocks.ORANGE_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.ORANGE_TRAPDOOR.get());
 
         this.dropSelf(DFFBlocks.COCONUT_LOG.get());
         this.dropSelf(DFFBlocks.COCONUT_PLANKS.get());
@@ -67,6 +69,8 @@ public class DFFBlockLootTables extends BlockLoot {
         this.dropOther(DFFBlocks.DFF_COCONUT_SAPLING.get(), DFFItems.COCONUT.get());
         this.dropSelf(DFFBlocks.COCONUT_FENCE.get());
         this.dropSelf(DFFBlocks.COCONUT_FENCE_GATE.get());
+        this.add(DFFBlocks.COCONUT_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.COCONUT_TRAPDOOR.get());
 
         this.dropSelf(DFFBlocks.GRAPEFRUIT_LOG.get());
         this.dropSelf(DFFBlocks.GRAPEFRUIT_PLANKS.get());
@@ -75,6 +79,8 @@ public class DFFBlockLootTables extends BlockLoot {
         this.dropOther(DFFBlocks.DFF_GRAPEFRUIT_SAPLING.get(), DFFItems.GRAPEFRUIT_SEEDS.get());
         this.dropSelf(DFFBlocks.GRAPEFRUIT_FENCE.get());
         this.dropSelf(DFFBlocks.GRAPEFRUIT_FENCE_GATE.get());
+        this.add(DFFBlocks.GRAPEFRUIT_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.GRAPEFRUIT_TRAPDOOR.get());
 
         this.dropSelf(DFFBlocks.MANGO_LOG.get());
         this.dropSelf(DFFBlocks.MANGO_PLANKS.get());
@@ -83,6 +89,8 @@ public class DFFBlockLootTables extends BlockLoot {
         this.dropOther(DFFBlocks.DFF_MANGO_SAPLING.get(), DFFItems.MANGO_SEED.get());
         this.dropSelf(DFFBlocks.MANGO_FENCE.get());
         this.dropSelf(DFFBlocks.MANGO_FENCE_GATE.get());
+        this.add(DFFBlocks.MANGO_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.MANGO_TRAPDOOR.get());
 
         this.dropSelf(DFFBlocks.POMEGRANATE_LOG.get());
         this.dropSelf(DFFBlocks.POMEGRANATE_PLANKS.get());
@@ -91,6 +99,8 @@ public class DFFBlockLootTables extends BlockLoot {
         this.dropOther(DFFBlocks.DFF_POMEGRANATE_SAPLING.get(), DFFItems.POMEGRANATE_SEEDS.get());
         this.dropSelf(DFFBlocks.POMEGRANATE_FENCE.get());
         this.dropSelf(DFFBlocks.POMEGRANATE_FENCE_GATE.get());
+        this.add(DFFBlocks.POMEGRANATE_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.POMEGRANATE_TRAPDOOR.get());
 
         this.dropSelf(DFFBlocks.CHERRY_LOG.get());
         this.dropSelf(DFFBlocks.CHERRY_PLANKS.get());
@@ -99,6 +109,8 @@ public class DFFBlockLootTables extends BlockLoot {
         this.dropOther(DFFBlocks.DFF_CHERRY_SAPLING.get(), DFFItems.CHERRY_PIT.get());
         this.dropSelf(DFFBlocks.CHERRY_FENCE.get());
         this.dropSelf(DFFBlocks.CHERRY_FENCE_GATE.get());
+        this.add(DFFBlocks.CHERRY_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.CHERRY_TRAPDOOR.get());
 
         this.dropSelf(DFFBlocks.LYCHEE_LOG.get());
         this.dropSelf(DFFBlocks.LYCHEE_PLANKS.get());
@@ -107,6 +119,8 @@ public class DFFBlockLootTables extends BlockLoot {
         this.dropOther(DFFBlocks.DFF_LYCHEE_SAPLING.get(), DFFItems.LYCHEE_SEED.get());
         this.dropSelf(DFFBlocks.LYCHEE_FENCE.get());
         this.dropSelf(DFFBlocks.LYCHEE_FENCE_GATE.get());
+        this.add(DFFBlocks.LYCHEE_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.LYCHEE_TRAPDOOR.get());
 
         this.dropSelf(DFFBlocks.KIWI_LOG.get());
         this.dropSelf(DFFBlocks.KIWI_PLANKS.get());
@@ -115,6 +129,8 @@ public class DFFBlockLootTables extends BlockLoot {
         this.dropOther(DFFBlocks.DFF_KIWI_SAPLING.get(), DFFItems.KIWI_SEEDS.get());
         this.dropSelf(DFFBlocks.KIWI_FENCE.get());
         this.dropSelf(DFFBlocks.KIWI_FENCE_GATE.get());
+        this.add(DFFBlocks.KIWI_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.KIWI_TRAPDOOR.get());
 
         this.dropSelf(DFFBlocks.PEAR_LOG.get());
         this.dropSelf(DFFBlocks.PEAR_PLANKS.get());
@@ -123,6 +139,8 @@ public class DFFBlockLootTables extends BlockLoot {
         this.dropOther(DFFBlocks.DFF_PEAR_SAPLING.get(), DFFItems.PEAR_SEEDS.get());
         this.dropSelf(DFFBlocks.PEAR_FENCE.get());
         this.dropSelf(DFFBlocks.PEAR_FENCE_GATE.get());
+        this.add(DFFBlocks.PEAR_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.PEAR_TRAPDOOR.get());
 
         this.dropSelf(DFFBlocks.AVOCADO_LOG.get());
         this.dropSelf(DFFBlocks.AVOCADO_PLANKS.get());
@@ -131,6 +149,8 @@ public class DFFBlockLootTables extends BlockLoot {
         this.dropOther(DFFBlocks.DFF_AVOCADO_SAPLING.get(), DFFItems.AVOCADO_PIT.get());
         this.dropSelf(DFFBlocks.AVOCADO_FENCE.get());
         this.dropSelf(DFFBlocks.AVOCADO_FENCE_GATE.get());
+        this.add(DFFBlocks.AVOCADO_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.AVOCADO_TRAPDOOR.get());
 
 
         LootItemCondition.Builder lootitemcondition$builder1 = LootItemBlockStatePropertyCondition.hasBlockStateProperties

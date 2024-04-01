@@ -4,10 +4,7 @@ import com.dragn0007.dffeasts.DFFeastsMain;
 import com.dragn0007.dffeasts.block.DFFBlocks;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.FenceBlock;
-import net.minecraft.world.level.block.FenceGateBlock;
-import net.minecraft.world.level.block.SlabBlock;
-import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
@@ -36,6 +33,9 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         fenceGateBlock((FenceGateBlock) DFFBlocks.ORANGE_FENCE_GATE.get(), blockTexture(DFFBlocks.ORANGE_PLANKS.get()));
         simpleBlockItem(DFFBlocks.ORANGE_FENCE_GATE.get(), models().fenceGate(DFFBlocks.ORANGE_FENCE_GATE.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.ORANGE_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.ORANGE_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/orange_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/orange_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.ORANGE_TRAPDOOR.get(), blockTexture(DFFBlocks.ORANGE_TRAPDOOR.get()), true);
 
         logBlock(DFFBlocks.COCONUT_LOG.get());
         simpleBlock(DFFBlocks.COCONUT_PLANKS.get());
@@ -55,6 +55,9 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         fenceGateBlock((FenceGateBlock) DFFBlocks.COCONUT_FENCE_GATE.get(), blockTexture(DFFBlocks.COCONUT_PLANKS.get()));
         simpleBlockItem(DFFBlocks.COCONUT_FENCE_GATE.get(), models().fenceGate(DFFBlocks.COCONUT_FENCE_GATE.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.COCONUT_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.COCONUT_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/coconut_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/coconut_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.COCONUT_TRAPDOOR.get(), blockTexture(DFFBlocks.COCONUT_TRAPDOOR.get()), true);
 
         logBlock(DFFBlocks.MANGO_LOG.get());
         simpleBlock(DFFBlocks.MANGO_PLANKS.get());
@@ -74,6 +77,9 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         fenceGateBlock((FenceGateBlock) DFFBlocks.MANGO_FENCE_GATE.get(), blockTexture(DFFBlocks.MANGO_PLANKS.get()));
         simpleBlockItem(DFFBlocks.MANGO_FENCE_GATE.get(), models().fenceGate(DFFBlocks.MANGO_FENCE_GATE.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.MANGO_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.MANGO_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/mango_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/mango_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.MANGO_TRAPDOOR.get(), blockTexture(DFFBlocks.MANGO_TRAPDOOR.get()), true);
 
         logBlock(DFFBlocks.GRAPEFRUIT_LOG.get());
         simpleBlock(DFFBlocks.GRAPEFRUIT_PLANKS.get());
@@ -93,6 +99,9 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         fenceGateBlock((FenceGateBlock) DFFBlocks.GRAPEFRUIT_FENCE_GATE.get(), blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get()));
         simpleBlockItem(DFFBlocks.GRAPEFRUIT_FENCE_GATE.get(), models().fenceGate(DFFBlocks.GRAPEFRUIT_FENCE_GATE.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.GRAPEFRUIT_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.GRAPEFRUIT_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/grapefruit_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/grapefruit_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.GRAPEFRUIT_TRAPDOOR.get(), blockTexture(DFFBlocks.GRAPEFRUIT_TRAPDOOR.get()), true);
 
         logBlock(DFFBlocks.AVOCADO_LOG.get());
         simpleBlock(DFFBlocks.AVOCADO_PLANKS.get());
@@ -112,6 +121,9 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         fenceGateBlock((FenceGateBlock) DFFBlocks.AVOCADO_FENCE_GATE.get(), blockTexture(DFFBlocks.AVOCADO_PLANKS.get()));
         simpleBlockItem(DFFBlocks.AVOCADO_FENCE_GATE.get(), models().fenceGate(DFFBlocks.AVOCADO_FENCE_GATE.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.AVOCADO_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.AVOCADO_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/avocado_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/avocado_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.AVOCADO_TRAPDOOR.get(), blockTexture(DFFBlocks.AVOCADO_TRAPDOOR.get()), true);
 
         logBlock(DFFBlocks.KIWI_LOG.get());
         simpleBlock(DFFBlocks.KIWI_PLANKS.get());
@@ -131,6 +143,9 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         fenceGateBlock((FenceGateBlock) DFFBlocks.KIWI_FENCE_GATE.get(), blockTexture(DFFBlocks.KIWI_PLANKS.get()));
         simpleBlockItem(DFFBlocks.KIWI_FENCE_GATE.get(), models().fenceGate(DFFBlocks.KIWI_FENCE_GATE.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.KIWI_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.KIWI_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/kiwi_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/kiwi_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.KIWI_TRAPDOOR.get(), blockTexture(DFFBlocks.KIWI_TRAPDOOR.get()), true);
 
         logBlock(DFFBlocks.LYCHEE_LOG.get());
         simpleBlock(DFFBlocks.LYCHEE_PLANKS.get());
@@ -150,6 +165,9 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         fenceGateBlock((FenceGateBlock) DFFBlocks.LYCHEE_FENCE_GATE.get(), blockTexture(DFFBlocks.LYCHEE_PLANKS.get()));
         simpleBlockItem(DFFBlocks.LYCHEE_FENCE_GATE.get(), models().fenceGate(DFFBlocks.LYCHEE_FENCE_GATE.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.LYCHEE_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.LYCHEE_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/lychee_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/lychee_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.LYCHEE_TRAPDOOR.get(), blockTexture(DFFBlocks.LYCHEE_TRAPDOOR.get()), true);
 
         logBlock(DFFBlocks.PEAR_LOG.get());
         simpleBlock(DFFBlocks.PEAR_PLANKS.get());
@@ -169,6 +187,9 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         fenceGateBlock((FenceGateBlock) DFFBlocks.PEAR_FENCE_GATE.get(), blockTexture(DFFBlocks.PEAR_PLANKS.get()));
         simpleBlockItem(DFFBlocks.PEAR_FENCE_GATE.get(), models().fenceGate(DFFBlocks.PEAR_FENCE_GATE.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.PEAR_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.PEAR_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/pear_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/pear_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.PEAR_TRAPDOOR.get(), blockTexture(DFFBlocks.PEAR_TRAPDOOR.get()), true);
 
         logBlock(DFFBlocks.POMEGRANATE_LOG.get());
         simpleBlock(DFFBlocks.POMEGRANATE_PLANKS.get());
@@ -188,6 +209,9 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         fenceGateBlock((FenceGateBlock) DFFBlocks.POMEGRANATE_FENCE_GATE.get(), blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get()));
         simpleBlockItem(DFFBlocks.POMEGRANATE_FENCE_GATE.get(), models().fenceGate(DFFBlocks.POMEGRANATE_FENCE_GATE.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.POMEGRANATE_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.POMEGRANATE_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/pomegranate_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/pomegranate_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.POMEGRANATE_TRAPDOOR.get(), blockTexture(DFFBlocks.POMEGRANATE_TRAPDOOR.get()), true);
 
         logBlock(DFFBlocks.CHERRY_LOG.get());
         simpleBlock(DFFBlocks.CHERRY_PLANKS.get());
@@ -207,6 +231,9 @@ public class DFFBlockstateProvider extends BlockStateProvider {
         fenceGateBlock((FenceGateBlock) DFFBlocks.CHERRY_FENCE_GATE.get(), blockTexture(DFFBlocks.CHERRY_PLANKS.get()));
         simpleBlockItem(DFFBlocks.CHERRY_FENCE_GATE.get(), models().fenceGate(DFFBlocks.CHERRY_FENCE_GATE.get().getRegistryName().getPath(),
                 blockTexture(DFFBlocks.CHERRY_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.CHERRY_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/cherry_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/cherry_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.CHERRY_TRAPDOOR.get(), blockTexture(DFFBlocks.CHERRY_TRAPDOOR.get()), true);
     }
 
 }

@@ -65,6 +65,28 @@
     "dffeasts:lychee_fence_gate",
     "dffeasts:pear_fence_gate",
     "dffeasts:mango_fence_gate",
-    "dffeasts:pomegranate_fence_gate"
+    "dffeasts:pomegranate_fence_gate",
+
+    "dffeasts:orange_door",
+    "dffeasts:avocado_door",
+    "dffeasts:cherry_door",
+    "dffeasts:coconut_door",
+    "dffeasts:grapefruit_door",
+    "dffeasts:kiwi_door",
+    "dffeasts:lychee_door",
+    "dffeasts:pear_door",
+    "dffeasts:mango_door",
+    "dffeasts:pomegranate_door",
+
+    "dffeasts:orange_trapdoor",
+    "dffeasts:avocado_trapdoor",
+    "dffeasts:cherry_trapdoor",
+    "dffeasts:coconut_trapdoor",
+    "dffeasts:grapefruit_trapdoor",
+    "dffeasts:kiwi_trapdoor",
+    "dffeasts:lychee_trapdoor",
+    "dffeasts:pear_trapdoor",
+    "dffeasts:mango_trapdoor",
+    "dffeasts:pomegranate_trapdoor"
   ]
 }

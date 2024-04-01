@@ -14,7 +14,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 
 
-version = '1.18.2-1.2'
+version = '1.18.2-1.3'
 group = 'com.dragn007.dffeasts'
 archivesBaseName = 'FortuitousFeasts'
 

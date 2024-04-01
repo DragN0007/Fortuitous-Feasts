@@ -9,7 +9,7 @@
       "item": "minecraft:barrel"
     },
     "B": {
-      "tag": "forge:crop_item"
+      "tag": "forge:crops"
     }
   },
   "result": {

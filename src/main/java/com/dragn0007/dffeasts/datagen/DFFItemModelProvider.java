@@ -31,6 +31,24 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.COOKED_TOFU.get());
 
 
+        simpleItem(DFFItems.BLACKBERRY_TURNOVER.get());
+        simpleItem(DFFItems.BLUEBERRY_TURNOVER.get());
+        simpleItem(DFFItems.CRANBERRY_TURNOVER.get());
+        simpleItem(DFFItems.GRAPEFRUIT_TURNOVER.get());
+        simpleItem(DFFItems.ORANGE_TURNOVER.get());
+        simpleItem(DFFItems.PURPLE_GRAPE_TURNOVER.get());
+        simpleItem(DFFItems.RASPBERRY_TURNOVER.get());
+        simpleItem(DFFItems.RED_GRAPE_TURNOVER.get());
+        simpleItem(DFFItems.STRAWBERRY_TURNOVER.get());
+        simpleItem(DFFItems.GREEN_GRAPE_TURNOVER.get());
+        simpleItem(DFFItems.WHITE_RASPBERRY_TURNOVER.get());
+        simpleItem(DFFItems.MANGO_TURNOVER.get());
+        simpleItem(DFFItems.CHERRY_TURNOVER.get());
+        simpleItem(DFFItems.KIWI_TURNOVER.get());
+        simpleItem(DFFItems.LYCHEE_TURNOVER.get());
+        simpleItem(DFFItems.PEAR_TURNOVER.get());
+        simpleItem(DFFItems.POMEGRANATE_TURNOVER.get());
+
         simpleItem(DFFItems.CHOCOLATE_CAKE.get());
         simpleItem(DFFItems.YELLOW_CHOCOLATE_CAKE.get());
         simpleItem(DFFItems.CHERRY_CHOCOLATE_CAKE.get());
