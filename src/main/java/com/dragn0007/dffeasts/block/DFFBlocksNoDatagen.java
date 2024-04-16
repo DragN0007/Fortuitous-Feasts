@@ -48,6 +48,40 @@ public class DFFBlocksNoDatagen {
             () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
     public static final RegistryObject<Block> WHITE_CAKE = registerBlockWithoutItem("white_cake",
             () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> BLACKBERRY_CAKE = registerBlockWithoutItem("blackberry_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> BLUEBERRY_CAKE = registerBlockWithoutItem("blueberry_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> CHERRY_CAKE = registerBlockWithoutItem("cherry_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> CRANBERRY_CAKE = registerBlockWithoutItem("cranberry_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> GRAPEFRUIT_CAKE = registerBlockWithoutItem("grapefruit_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> GREEN_GRAPE_CAKE = registerBlockWithoutItem("green_grape_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> RED_GRAPE_CAKE = registerBlockWithoutItem("red_grape_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> PURPLE_GRAPE_CAKE = registerBlockWithoutItem("purple_grape_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> KIWI_CAKE = registerBlockWithoutItem("kiwi_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> LYCHEE_CAKE = registerBlockWithoutItem("lychee_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> MANGO_CAKE = registerBlockWithoutItem("mango_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> ORANGE_CAKE = registerBlockWithoutItem("orange_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> PEAR_CAKE = registerBlockWithoutItem("pear_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> POMEGRANATE_CAKE = registerBlockWithoutItem("pomegranate_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> RASPBERRY_CAKE = registerBlockWithoutItem("raspberry_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> STRAWBERRY_CAKE = registerBlockWithoutItem("strawberry_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> WHITE_RASPBERRY_CAKE = registerBlockWithoutItem("white_raspberry_cake",
+            () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE).strength(0.5F).sound(SoundType.WOOL)));
 
 
     //TODO; Trees/ Leaves

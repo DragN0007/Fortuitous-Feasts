@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:garlic_parm_wings"
+    ]
+  },
+  "criteria": {
+    "has_chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:raw_chicken"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:garlic_parm_wings"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_chicken",
+      "has_the_recipe"
+    ]
+  ]
+}

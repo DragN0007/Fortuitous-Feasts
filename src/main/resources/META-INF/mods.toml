@@ -4,7 +4,7 @@ license="All Rights Reserved, DragN0007"
 issueTrackerURL="https://discord.gg/jubppqCzXj"
 [[mods]]
 modId="dffeasts"
-version="${1.18.2-1.3}"
+version="${1.18.2-1.4}"
 displayName="DragN's Fortuitous Feasts"
 logoFile="dff.png"
 #credits="DragN0007"

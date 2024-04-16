@@ -1,0 +1,22 @@
+{
+    "textures": {
+        "particle": "dffeasts:block/white_cake_side",
+        "bottom": "dffeasts:block/white_cake_bottom",
+        "top": "dffeasts:block/purple_grape_cake_top",
+        "side": "dffeasts:block/white_cake_side",
+        "inside": "dffeasts:block/purple_grape_cake_inner"
+    },
+    "elements": [
+        {   "from": [ 13, 0, 1 ],
+            "to": [ 15, 8, 15 ],
+            "faces": {
+                "down":  { "texture": "#bottom", "cullface": "down" },
+                "up":    { "texture": "#top" },
+                "north": { "texture": "#side" },
+                "south": { "texture": "#side" },
+                "west":  { "texture": "#inside" },
+                "east":  { "texture": "#side" }
+            }
+        }
+    ]
+}

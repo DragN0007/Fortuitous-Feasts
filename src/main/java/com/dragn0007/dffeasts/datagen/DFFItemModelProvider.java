@@ -31,6 +31,7 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.COOKED_TOFU.get());
 
 
+        simpleItem(DFFItems.APPLE_TURNOVER.get());
         simpleItem(DFFItems.BLACKBERRY_TURNOVER.get());
         simpleItem(DFFItems.BLUEBERRY_TURNOVER.get());
         simpleItem(DFFItems.CRANBERRY_TURNOVER.get());
@@ -54,11 +55,33 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.CHERRY_CHOCOLATE_CAKE.get());
         simpleItem(DFFItems.RED_VELVET_CAKE.get());
         simpleItem(DFFItems.WHITE_CAKE.get());
+        simpleItem(DFFItems.BLACKBERRY_CAKE.get());
+        simpleItem(DFFItems.BLUEBERRY_CAKE.get());
+        simpleItem(DFFItems.CRANBERRY_CAKE.get());
+        simpleItem(DFFItems.GRAPEFRUIT_CAKE.get());
+        simpleItem(DFFItems.ORANGE_CAKE.get());
+        simpleItem(DFFItems.PURPLE_GRAPE_CAKE.get());
+        simpleItem(DFFItems.RASPBERRY_CAKE.get());
+        simpleItem(DFFItems.RED_GRAPE_CAKE.get());
+        simpleItem(DFFItems.STRAWBERRY_CAKE.get());
+        simpleItem(DFFItems.GREEN_GRAPE_CAKE.get());
+        simpleItem(DFFItems.WHITE_RASPBERRY_CAKE.get());
+        simpleItem(DFFItems.MANGO_CAKE.get());
+        simpleItem(DFFItems.CHERRY_CAKE.get());
+        simpleItem(DFFItems.KIWI_CAKE.get());
+        simpleItem(DFFItems.LYCHEE_CAKE.get());
+        simpleItem(DFFItems.PEAR_CAKE.get());
+        simpleItem(DFFItems.POMEGRANATE_CAKE.get());
 
         simpleItem(DFFItems.PARMESAN_CHEESE.get());
         simpleItem(DFFItems.CHEDDAR_CHEESE.get());
         simpleItem(DFFItems.MOZZARELLA_CHEESE.get());
 
+        simpleItem(DFFItems.VEGGIE_PASTA.get());
+        simpleItem(DFFItems.VEGGIE_PLATTER.get());
+        simpleItem(DFFItems.SOUP.get());
+        simpleItem(DFFItems.BLOOMING_ONION.get());
+        simpleItem(DFFItems.GARLIC_PARM_WINGS.get());
         simpleItem(DFFItems.DUMPLINGS.get());
         simpleItem(DFFItems.CHICKEN_PARM.get());
         simpleItem(DFFItems.MAC_N_CHEESE.get());
@@ -106,6 +129,7 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.ROASTED_GREEN_BEANS.get());
         simpleItem(DFFItems.ROASTED_GARLIC.get());
 
+        simpleItem(DFFItems.APPLE_PIE.get());
         simpleItem(DFFItems.BLACKBERRY_PIE.get());
         simpleItem(DFFItems.BLUEBERRY_PIE.get());
         simpleItem(DFFItems.CRANBERRY_PIE.get());
@@ -124,6 +148,7 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.PEAR_PIE.get());
         simpleItem(DFFItems.POMEGRANATE_PIE.get());
 
+        simpleItem(DFFItems.APPLE_JAM.get());
         simpleItem(DFFItems.BLACKBERRY_JAM.get());
         simpleItem(DFFItems.BLUEBERRY_JAM.get());
         simpleItem(DFFItems.CRANBERRY_JAM.get());
@@ -142,6 +167,7 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.PEAR_JAM.get());
         simpleItem(DFFItems.POMEGRANATE_JAM.get());
 
+        simpleItem(DFFItems.APPLE_PASTRY.get());
         simpleItem(DFFItems.BLACKBERRY_PASTRY.get());
         simpleItem(DFFItems.BLUEBERRY_PASTRY.get());
         simpleItem(DFFItems.CRANBERRY_PASTRY.get());
@@ -215,6 +241,7 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.DRIED_PEAR.get());
         simpleItem(DFFItems.DRIED_POMEGRANATE.get());
 
+        simpleItem(DFFItems.APPLE_JUICE.get());
         simpleItem(DFFItems.BLACKBERRY_JUICE.get());
         simpleItem(DFFItems.BLUEBERRY_JUICE.get());
         simpleItem(DFFItems.CRANBERRY_JUICE.get());
@@ -251,6 +278,7 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.PEAR_TEA.get());
         simpleItem(DFFItems.POMEGRANATE_TEA.get());
 
+        simpleItem(DFFItems.APPLE_WINE.get());
         simpleItem(DFFItems.BLACKBERRY_WINE.get());
         simpleItem(DFFItems.BLUEBERRY_WINE.get());
         simpleItem(DFFItems.CRANBERRY_WINE.get());

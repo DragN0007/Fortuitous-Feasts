@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "dffeasts:raspberry_cake"
+    ]
+  },
+  "criteria": {
+    "has_wheat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:flour"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dffeasts:raspberry_cake"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_wheat",
+      "has_the_recipe"
+    ]
+  ]
+}

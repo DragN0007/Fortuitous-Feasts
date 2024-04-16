@@ -5,6 +5,14 @@ import com.dragn0007.dffeasts.block.DFFBlocks;
 import com.dragn0007.dffeasts.block.DFFBlocksNoDatagen;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.core.BlockPos;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.entity.item.ItemEntity;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.CropBlock;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -130,26 +138,6 @@ public class DFFeastsEvent {
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.KIWI_LEAVES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.LYCHEE_LEAVES.get(), RenderType.cutout());
 
-
-        //Animals
-//        EntityRenderers.register(EntityTypes.DUCK.get(), DuckRender::new);
     }
 
-    /*
-
-    @SubscribeEvent
-    public static void entityAttrbiuteCreationEvent(EntityAttributeCreationEvent event) {
-
-        event.put(EntityTypes.DUCK.get(), Duck.createAttributes().build());
-        SpawnPlacements.register
-                (EntityTypes.DUCK.get(),
-                        SpawnPlacements.Type.ON_GROUND,
-                        Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Duck::checkAnimalSpawnRules);
-    }
-
-     */
 }
-
-
-
-

@@ -6,15 +6,27 @@ import com.dragn0007.dffeasts.entity.villager.FeastsFarmer;
 import com.dragn0007.dffeasts.item.DFFItems;
 import com.dragn0007.dffeasts.util.config.DFFeastsCommonConfig;
 import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
+import net.minecraft.core.BlockPos;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.npc.VillagerTrades;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.trading.MerchantOffer;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.CropBlock;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import org.objectweb.asm.Handle;
 
 import java.util.List;
 
@@ -23,60 +35,30 @@ import java.util.List;
 
 public class ForgeEvent {
 
-    @SubscribeEvent(priority = EventPriority.HIGH)
-    public static void registerBiomes(BiomeLoadingEvent event) {
-        switch (event.getCategory()) {
+    //Right-Click Harvest Crops
+    @SubscribeEvent
+    public static void onBlockUse(PlayerInteractEvent.RightClickBlock event) {
+        Level level = event.getWorld();
+        BlockPos pos = event.getPos();
+        BlockState state = level.getBlockState(pos);
+        InteractionHand hand = event.getHand();
+        Player player = event.getPlayer();
+        player.swing(hand);
+        ItemStack itemStack = player.getItemInHand(hand);
 
-            case MESA:
-                break;
+        if(state.getBlock() instanceof CropBlock cropBlock && level instanceof ServerLevel serverLevel) {
+            IntegerProperty property = cropBlock.getAgeProperty();
+            int maxAge = cropBlock.getMaxAge();
 
-            case PLAINS:
-                break;
+            if(itemStack.isEmpty() && state.getValue(property) == maxAge) {
+                level.setBlockAndUpdate(pos, state.setValue(property, 0));
 
-            case SWAMP:
-                break;
+                cropBlock.getDrops(state, serverLevel, pos, null).forEach(stack -> {
+                    serverLevel.addFreshEntity(new ItemEntity(level, pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, stack));
+                });
 
-            case TAIGA:
-                break;
-
-            case EXTREME_HILLS:
-                break;
-
-            case BEACH:
-                break;
-
-            case FOREST:
-                break;
-
-            case RIVER:
-                break;
-
-            case DESERT:
-                break;
-
-            case SAVANNA:
-                break;
-
-            case JUNGLE:
-                break;
-
-            case MOUNTAIN:
-                break;
-
-            case ICY:
-                break;
-
-            case MUSHROOM:
-                break;
-
-            case UNDERGROUND:
-                break;
-
-            case OCEAN:
-                break;
-
-            case NETHER:
-                break;
+                event.setCanceled(true);
+            }
         }
     }
 

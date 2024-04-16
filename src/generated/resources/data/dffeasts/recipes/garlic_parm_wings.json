@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:raw_chicken"
+    },
+    {
+      "tag": "forge:herbs"
+    },
+    {
+      "tag": "forge:garlic"
+    },
+    {
+      "item": "dffeasts:panko"
+    },
+    {
+      "item": "dffeasts:parmesan_cheese"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:garlic_parm_wings"
+  }
+}

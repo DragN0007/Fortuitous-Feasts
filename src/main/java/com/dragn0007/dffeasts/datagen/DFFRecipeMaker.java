@@ -241,6 +241,142 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .of(DFFTags.Items.FLOUR).build()))
                 .save(pFinishedRecipeConsumer);
 
+        ShapelessRecipeBuilder.shapeless(DFFItems.BLACKBERRY_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.BLACKBERRY_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.BLUEBERRY_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.BLUEBERRY_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.CRANBERRY_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.CRANBERRY_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.CHERRY_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.CHERRY_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.STRAWBERRY_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.STRAWBERRY_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.GRAPEFRUIT_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.GRAPEFRUIT_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.POMEGRANATE_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.POMEGRANATE_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.GREEN_GRAPE_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.GREEN_GRAPE_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.KIWI_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.KIWI_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.LYCHEE_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.LYCHEE_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.MANGO_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.MANGO_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.ORANGE_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.ORANGE_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PEAR_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.PEAR_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PURPLE_GRAPE_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.PURPLE_GRAPE_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.RASPBERRY_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.RASPBERRY_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.RED_GRAPE_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.RED_GRAPE_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+
+                .save(pFinishedRecipeConsumer);
+        ShapelessRecipeBuilder.shapeless(DFFItems.WHITE_RASPBERRY_CAKE.get(), 2)
+                .requires(DFFItems.WHITE_CAKE.get())
+                .requires(DFFItems.WHITE_RASPBERRY_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
 
 
 
@@ -504,6 +640,60 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.CHEESE)
                 .unlockedBy("has_pasta", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.PASTA)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.BLOOMING_ONION.get())
+                .requires(DFFTags.Items.ONION)
+                .requires(DFFTags.Items.HERBS)
+                .requires(DFFTags.Items.GARLIC)
+                .requires(DFFTags.Items.DOUGH)
+                .unlockedBy("has_dough", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.DOUGH)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.GARLIC_PARM_WINGS.get())
+                .requires(DFFTags.Items.RAW_CHICKEN)
+                .requires(DFFTags.Items.HERBS)
+                .requires(DFFTags.Items.GARLIC)
+                .requires(DFFItems.PANKO.get())
+                .requires(DFFItems.PARMESAN_CHEESE.get())
+                .unlockedBy("has_chicken", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.RAW_CHICKEN)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.VEGGIE_PLATTER.get())
+                .requires(DFFTags.Items.VEGETABLES)
+                .requires(DFFTags.Items.VEGETABLES)
+                .requires(DFFTags.Items.VEGETABLES)
+                .requires(DFFTags.Items.VEGETABLES)
+                .requires(DFFTags.Items.HERBS)
+                .requires(DFFTags.Items.GARLIC)
+                .unlockedBy("has_veggies", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.VEGETABLES)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.VEGGIE_PASTA.get())
+                .requires(DFFTags.Items.VEGETABLES)
+                .requires(DFFTags.Items.VEGETABLES)
+                .requires(DFFTags.Items.HERBS)
+                .requires(DFFTags.Items.PASTA)
+                .unlockedBy("has_veggies", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.VEGETABLES)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.SOUP.get())
+                .requires(DFFTags.Items.VEGETABLES)
+                .requires(DFFTags.Items.RAW_MEATS)
+                .requires(DFFTags.Items.HERBS)
+                .requires(DFFTags.Items.HERBS)
+                .requires(DFFTags.Items.WATER)
+                .unlockedBy("has_veggies", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.VEGETABLES)
                         .build()))
                 .save(pFinishedRecipeConsumer);
 

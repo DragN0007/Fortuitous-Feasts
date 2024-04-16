@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:white_cake"
+    },
+    {
+      "item": "dffeasts:purple_grape_jam"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:purple_grape_cake",
+    "count": 2
+  }
+}
