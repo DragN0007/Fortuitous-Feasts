@@ -38,6 +38,26 @@
     "dffeasts:cilantro_plant",
     "dffeasts:mint_plant",
 
+
+    "dffeasts:orange_leaves",
+    "dffeasts:coconut_leaves",
+    "dffeasts:mango_leaves",
+    "dffeasts:avocado_leaves",
+    "dffeasts:cherry_leaves",
+    "dffeasts:coconut_leaves",
+    "dffeasts:grapefruit_leaves",
+    "dffeasts:kiwi_leaves",
+    "dffeasts:lychee_leaves",
+    "dffeasts:pear_leaves",
+    "dffeasts:pomegranate_leaves",
+    "dffeasts:banana_leaves",
+    "dffeasts:passionfruit_leaves",
+    "dffeasts:dragonfruit_leaves",
+    "dffeasts:walnut_leaves",
+    "dffeasts:cashew_leaves",
+    "dffeasts:almond_leaves",
+    "dffeasts:olive_leaves",
+
     "dffeasts:dff_orange_sapling",
     "dffeasts:dff_coconut_sapling",
     "dffeasts:dff_mango_sapling",
@@ -48,6 +68,13 @@
     "dffeasts:dff_kiwi_sapling",
     "dffeasts:dff_lychee_sapling",
     "dffeasts:dff_pear_sapling",
-    "dffeasts:dff_pomegranate_sapling"
+    "dffeasts:dff_pomegranate_sapling",
+    "dffeasts:dff_banana_sapling",
+    "dffeasts:dff_passionfruit_sapling",
+    "dffeasts:dff_dragonfruit_sapling",
+    "dffeasts:dff_walnut_sapling",
+    "dffeasts:dff_cashew_sapling",
+    "dffeasts:dff_almond_sapling",
+    "dffeasts:dff_olive_sapling"
   ]
 }

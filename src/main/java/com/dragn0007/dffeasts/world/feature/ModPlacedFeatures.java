@@ -13,6 +13,37 @@ import static net.minecraft.data.worldgen.placement.VegetationPlacements.treePla
 public class ModPlacedFeatures {
 
     //TREE
+    public static final Holder<PlacedFeature> DFF_DRAGONFRUIT_PLACED =
+            PlacementUtils.register("dff_dragonfruit_placed",
+                    ModConfigFeatures.DFF_DRAGONFRUIT_SPAWN,
+                    treePlacement(PlacementUtils.countExtra(0, DFFeastsCommonConfig.FRUIT_TREE_TRIES.get(), 1)));
+    public static final Holder<PlacedFeature> DFF_PASSIONFRUIT_PLACED =
+            PlacementUtils.register("dff_passionfruit_placed",
+                    ModConfigFeatures.DFF_PASSIONFRUIT_SPAWN,
+                    treePlacement(PlacementUtils.countExtra(0, DFFeastsCommonConfig.FRUIT_TREE_TRIES.get(), 1)));
+    public static final Holder<PlacedFeature> DFF_BANANA_PLACED =
+            PlacementUtils.register("dff_banana_placed",
+                    ModConfigFeatures.DFF_BANANA_SPAWN,
+                    treePlacement(PlacementUtils.countExtra(0, DFFeastsCommonConfig.FRUIT_TREE_TRIES.get(), 1)));
+    public static final Holder<PlacedFeature> DFF_WALNUT_PLACED =
+            PlacementUtils.register("dff_walnut_placed",
+                    ModConfigFeatures.DFF_WALNUT_SPAWN,
+                    treePlacement(PlacementUtils.countExtra(0, DFFeastsCommonConfig.FRUIT_TREE_TRIES.get(), 1)));
+    public static final Holder<PlacedFeature> DFF_CASHEW_PLACED =
+            PlacementUtils.register("dff_cashew_placed",
+                    ModConfigFeatures.DFF_CASHEW_SPAWN,
+                    treePlacement(PlacementUtils.countExtra(0, DFFeastsCommonConfig.FRUIT_TREE_TRIES.get(), 1)));
+    public static final Holder<PlacedFeature> DFF_ALMOND_PLACED =
+            PlacementUtils.register("dff_almond_placed",
+                    ModConfigFeatures.DFF_ALMOND_SPAWN,
+                    treePlacement(PlacementUtils.countExtra(0, DFFeastsCommonConfig.FRUIT_TREE_TRIES.get(), 1)));
+    public static final Holder<PlacedFeature> DFF_OLIVE_PLACED =
+            PlacementUtils.register("dff_olive_placed",
+                    ModConfigFeatures.DFF_OLIVE_SPAWN,
+                    treePlacement(PlacementUtils.countExtra(0, DFFeastsCommonConfig.FRUIT_TREE_TRIES.get(), 1)));
+
+
+
     public static final Holder<PlacedFeature> DFF_ORANGE_PLACED =
             PlacementUtils.register("dff_orange_placed",
                     ModConfigFeatures.DFF_ORANGE_SPAWN,

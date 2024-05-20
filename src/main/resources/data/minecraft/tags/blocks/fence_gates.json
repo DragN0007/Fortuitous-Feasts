@@ -10,7 +10,13 @@
     "dffeasts:lychee_fence_gate",
     "dffeasts:pear_fence_gate",
     "dffeasts:mango_fence_gate",
-    "dffeasts:pomegranate_fence_gate"
-
+    "dffeasts:pomegranate_fence_gate",
+    "dffeasts:banana_fence_gate",
+    "dffeasts:dragonfruit_fence_gate",
+    "dffeasts:passionfruit_fence_gate",
+    "dffeasts:cashew_fence_gate",
+    "dffeasts:walnut_fence_gate",
+    "dffeasts:almond_fence_gate",
+    "dffeasts:olive_fence_gate"
   ]
 }

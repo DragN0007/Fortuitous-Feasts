@@ -1,0 +1,7 @@
+{
+	"parent": "dffeasts:block/parent/small_fruit_leaves_parent",
+	"textures": {
+		"fruit": "dffeasts:blocks/walnut",
+		"leaves": "dffeasts:blocks/temperate_base_leaves"
+	}
+}

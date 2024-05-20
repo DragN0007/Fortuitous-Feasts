@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=top": {
+      "model": "dffeasts:block/cashew_slab_top"
+    },
+    "type=bottom": {
+      "model": "dffeasts:block/cashew_slab"
+    },
+    "type=double": {
+      "model": "dffeasts:block/cashew_planks"
+    }
+  }
+}

@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "dffeasts:peanuts"
+      "tag": "forge:nuts"
     },
     {
-      "item": "dffeasts:peanuts"
+      "tag": "forge:nuts"
     }
   ],
   "result": {

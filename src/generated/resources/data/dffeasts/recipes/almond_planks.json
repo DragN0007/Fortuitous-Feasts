@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:almond_log"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:almond_planks",
+    "count": 4
+  }
+}

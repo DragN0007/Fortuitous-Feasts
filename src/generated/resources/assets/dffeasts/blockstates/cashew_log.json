@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dffeasts:block/cashew_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dffeasts:block/cashew_log"
+    },
+    "axis=z": {
+      "model": "dffeasts:block/cashew_log_horizontal",
+      "x": 90
+    }
+  }
+}

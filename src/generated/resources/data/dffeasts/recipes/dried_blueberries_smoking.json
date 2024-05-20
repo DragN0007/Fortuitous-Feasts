@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smoking",
   "ingredient": {
-    "item": "dffeasts:blueberries"
+    "tag": "forge:blueberry"
   },
   "result": "dffeasts:dried_blueberries",
   "experience": 0.35,

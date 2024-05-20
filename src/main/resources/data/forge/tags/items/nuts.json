@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "dffeasts:peanuts"
+    "dffeasts:peanuts",
+    "dffeasts:cashews",
+    "dffeasts:walnut",
+    "dffeasts:almonds"
   ]
 }

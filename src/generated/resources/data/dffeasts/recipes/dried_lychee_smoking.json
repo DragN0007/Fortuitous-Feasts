@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smoking",
   "ingredient": {
-    "item": "dffeasts:lychee"
+    "tag": "forge:lychee"
   },
   "result": "dffeasts:dried_lychee",
   "experience": 0.35,

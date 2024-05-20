@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "dffeasts:pomegranate"
+      "tag": "forge:pomegranate"
     }
   ],
   "result": {

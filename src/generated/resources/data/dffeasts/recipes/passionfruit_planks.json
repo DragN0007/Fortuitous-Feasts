@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:passionfruit_log"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:passionfruit_planks",
+    "count": 4
+  }
+}

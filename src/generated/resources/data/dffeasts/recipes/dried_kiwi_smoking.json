@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smoking",
   "ingredient": {
-    "item": "dffeasts:kiwi"
+    "tag": "forge:kiwi"
   },
   "result": "dffeasts:dried_kiwi",
   "experience": 0.35,

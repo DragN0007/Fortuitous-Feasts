@@ -18,6 +18,43 @@ public class DFFItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
 
+        //Update 1.5
+
+        simpleItem(DFFItems.DRAGONFRUIT_TURNOVER.get());
+        simpleItem(DFFItems.PASSIONFRUIT_TURNOVER.get());
+        simpleItem(DFFItems.PICKLED_OLIVES.get());
+        simpleItem(DFFItems.DRAGONFRUIT_PIE.get());
+        simpleItem(DFFItems.PASSIONFRUIT_PIE.get());
+        simpleItem(DFFItems.DRAGONFRUIT_JAM.get());
+        simpleItem(DFFItems.PASSIONFRUIT_JAM.get());
+        simpleItem(DFFItems.DRAGONFRUIT_PASTRY.get());
+        simpleItem(DFFItems.PASSIONFRUIT_PASTRY.get());
+        simpleItem(DFFItems.DRAGONFRUIT_JUICE.get());
+        simpleItem(DFFItems.PASSIONFRUIT_JUICE.get());
+        simpleItem(DFFItems.DRAGONFRUIT_WINE.get());
+        simpleItem(DFFItems.PASSIONFRUIT_WINE.get());
+        simpleItem(DFFItems.DRAGONFRUIT_SODA.get());
+        simpleItem(DFFItems.PASSIONFRUIT_SODA.get());
+        simpleItem(DFFItems.DRAGONFRUIT_SMOOTHIE.get());
+        simpleItem(DFFItems.PASSIONFRUIT_SMOOTHIE.get());
+        simpleItem(DFFItems.DRAGONFRUIT_TEA.get());
+        simpleItem(DFFItems.PASSIONFRUIT_TEA.get());
+        simpleItem(DFFItems.WALNUT.get());
+        simpleItem(DFFItems.BANANA.get());
+        simpleItem(DFFItems.DRAGONFRUIT.get());
+        simpleItem(DFFItems.PASSIONFRUIT.get());
+        simpleItem(DFFItems.CASHEWS.get());
+        simpleItem(DFFItems.ALMONDS.get());
+        simpleItem(DFFItems.OLIVES.get());
+        simpleItem(DFFItems.BANANA_SEEDS.get());
+        simpleItem(DFFItems.DRAGONFRUIT_SEEDS.get());
+        simpleItem(DFFItems.PASSIONFRUIT_SEEDS.get());
+
+
+
+
+        //1.0
+
         simpleItem(DFFItems.DOUGH.get());
         simpleItem(DFFItems.COCOA_POWDER.get());
         simpleItem(DFFItems.MILK_BOTTLE.get());
@@ -349,7 +386,6 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.PEAR.get());
         simpleItem(DFFItems.POMEGRANATE.get());
         simpleItem(DFFItems.RYE.get());
-//        simpleItem(DFFItems.WALNUT.get());
         simpleItem(DFFItems.ZUCCHINI.get());
         simpleItem(DFFItems.SUGAR_BEET.get());
 

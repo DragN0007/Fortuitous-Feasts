@@ -23,6 +23,612 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
+        //TODO; Update 1.5
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.DRAGONFRUIT_TURNOVER.get(), 2)
+                .requires(DFFTags.Items.DOUGH)
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFItems.DRAGONFRUIT_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PASSIONFRUIT_TURNOVER.get(), 2)
+                .requires(DFFTags.Items.DOUGH)
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFItems.PASSIONFRUIT_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.DRAGONFRUIT_PIE.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.BUTTER)
+                .requires(DFFTags.Items.DRAGONFRUIT)
+                .requires(DFFTags.Items.DRAGONFRUIT)
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PASSIONFRUIT_PIE.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.BUTTER)
+                .requires(DFFTags.Items.PASSIONFRUIT)
+                .requires(DFFTags.Items.PASSIONFRUIT)
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.DRAGONFRUIT_WINE.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFItems.DRAGONFRUIT_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PASSIONFRUIT_WINE.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFItems.PASSIONFRUIT_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.DRAGONFRUIT_SMOOTHIE.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.SMOOTHIE_ICE)
+                .requires(DFFItems.DRAGONFRUIT_JUICE.get())
+                .unlockedBy("has_ice_or_snow", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.SMOOTHIE_ICE)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PASSIONFRUIT_SMOOTHIE.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.SMOOTHIE_ICE)
+                .requires(DFFItems.PASSIONFRUIT_JUICE.get())
+                .unlockedBy("has_ice_or_snow", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.SMOOTHIE_ICE)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.DRAGONFRUIT_TEA.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.LEAVES)
+                .requires(DFFItems.DRAGONFRUIT_JUICE.get())
+                .unlockedBy("has_leaves", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.LEAVES)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PASSIONFRUIT_TEA.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.LEAVES)
+                .requires(DFFItems.PASSIONFRUIT_JUICE.get())
+                .unlockedBy("has_leaves", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.LEAVES)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.DRAGONFRUIT_JAM.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.DRAGONFRUIT)
+                .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.SUGAR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PASSIONFRUIT_JAM.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.PASSIONFRUIT)
+                .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.SUGAR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.DRAGONFRUIT_JUICE.get())
+                .requires(Items.GLASS_BOTTLE)
+                .requires(DFFTags.Items.DRAGONFRUIT)
+                .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GLASS_BOTTLE)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PASSIONFRUIT_JUICE.get())
+                .requires(Items.GLASS_BOTTLE)
+                .requires(DFFTags.Items.PASSIONFRUIT)
+                .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.GLASS_BOTTLE)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.DRAGONFRUIT_PASTRY.get(), 2)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFItems.DRAGONFRUIT_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PASSIONFRUIT_PASTRY.get(), 2)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFItems.PASSIONFRUIT_JAM.get())
+                .unlockedBy("has_wheat", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+
+
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PICKLED_OLIVES.get(), 2)
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.HERBS)
+                .requires(DFFTags.Items.WATER)
+                .requires(DFFTags.Items.GARLIC)
+                .requires(DFFTags.Items.OLIVE)
+                .requires(DFFTags.Items.OLIVE)
+                .unlockedBy("has_herbs", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.HERBS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.DRAGONFRUIT_SEEDS.get())
+                .requires(DFFTags.Items.DRAGONFRUIT)
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFBlocks.DRAGONFRUIT_PLANKS.get(), 4)
+                .requires(DFFBlocks.DRAGONFRUIT_LOG.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.DRAGONFRUIT_STAIRS.get(), 4)
+                .define('A', DFFBlocks.DRAGONFRUIT_PLANKS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.DRAGONFRUIT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.DRAGONFRUIT_SLAB.get(), 3)
+                .define('A', DFFBlocks.DRAGONFRUIT_PLANKS.get())
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.DRAGONFRUIT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.DRAGONFRUIT_FENCE.get(), 3)
+                .define('A', DFFBlocks.DRAGONFRUIT_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.DRAGONFRUIT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.DRAGONFRUIT_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.DRAGONFRUIT_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.DRAGONFRUIT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.DRAGONFRUIT_DOOR.get(), 3)
+                .define('A', DFFBlocks.DRAGONFRUIT_PLANKS.get())
+                .pattern("AA")
+                .pattern("AA")
+                .pattern("AA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.DRAGONFRUIT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.DRAGONFRUIT_TRAPDOOR.get(), 2)
+                .define('A', DFFBlocks.DRAGONFRUIT_PLANKS.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.DRAGONFRUIT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PASSIONFRUIT_SEEDS.get())
+                .requires(DFFTags.Items.PASSIONFRUIT)
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFBlocks.PASSIONFRUIT_PLANKS.get(), 4)
+                .requires(DFFBlocks.PASSIONFRUIT_LOG.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.PASSIONFRUIT_STAIRS.get(), 4)
+                .define('A', DFFBlocks.PASSIONFRUIT_PLANKS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.PASSIONFRUIT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.PASSIONFRUIT_SLAB.get(), 3)
+                .define('A', DFFBlocks.PASSIONFRUIT_PLANKS.get())
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.PASSIONFRUIT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.PASSIONFRUIT_FENCE.get(), 3)
+                .define('A', DFFBlocks.PASSIONFRUIT_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.PASSIONFRUIT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.PASSIONFRUIT_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.PASSIONFRUIT_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.PASSIONFRUIT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.PASSIONFRUIT_DOOR.get(), 3)
+                .define('A', DFFBlocks.PASSIONFRUIT_PLANKS.get())
+                .pattern("AA")
+                .pattern("AA")
+                .pattern("AA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.PASSIONFRUIT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.PASSIONFRUIT_TRAPDOOR.get(), 2)
+                .define('A', DFFBlocks.PASSIONFRUIT_PLANKS.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.PASSIONFRUIT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.BANANA_SEEDS.get())
+                .requires(DFFTags.Items.BANANA)
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFBlocks.BANANA_PLANKS.get(), 4)
+                .requires(DFFBlocks.BANANA_LOG.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.BANANA_STAIRS.get(), 4)
+                .define('A', DFFBlocks.BANANA_PLANKS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.BANANA_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.BANANA_SLAB.get(), 3)
+                .define('A', DFFBlocks.BANANA_PLANKS.get())
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.BANANA_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.BANANA_FENCE.get(), 3)
+                .define('A', DFFBlocks.BANANA_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.BANANA_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.BANANA_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.BANANA_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.BANANA_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.BANANA_DOOR.get(), 3)
+                .define('A', DFFBlocks.BANANA_PLANKS.get())
+                .pattern("AA")
+                .pattern("AA")
+                .pattern("AA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.BANANA_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.BANANA_TRAPDOOR.get(), 2)
+                .define('A', DFFBlocks.BANANA_PLANKS.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.BANANA_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+
+
+        ShapelessRecipeBuilder.shapeless(DFFBlocks.WALNUT_PLANKS.get(), 4)
+                .requires(DFFBlocks.WALNUT_LOG.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.WALNUT_STAIRS.get(), 4)
+                .define('A', DFFBlocks.WALNUT_PLANKS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.WALNUT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.WALNUT_SLAB.get(), 3)
+                .define('A', DFFBlocks.WALNUT_PLANKS.get())
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.WALNUT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.WALNUT_FENCE.get(), 3)
+                .define('A', DFFBlocks.WALNUT_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.WALNUT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.WALNUT_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.WALNUT_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.WALNUT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.WALNUT_DOOR.get(), 3)
+                .define('A', DFFBlocks.WALNUT_PLANKS.get())
+                .pattern("AA")
+                .pattern("AA")
+                .pattern("AA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.WALNUT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.WALNUT_TRAPDOOR.get(), 2)
+                .define('A', DFFBlocks.WALNUT_PLANKS.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.WALNUT_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+
+
+        ShapelessRecipeBuilder.shapeless(DFFBlocks.ALMOND_PLANKS.get(), 4)
+                .requires(DFFBlocks.ALMOND_LOG.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.ALMOND_STAIRS.get(), 4)
+                .define('A', DFFBlocks.ALMOND_PLANKS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.ALMOND_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.ALMOND_SLAB.get(), 3)
+                .define('A', DFFBlocks.ALMOND_PLANKS.get())
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.ALMOND_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.ALMOND_FENCE.get(), 3)
+                .define('A', DFFBlocks.ALMOND_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.ALMOND_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.ALMOND_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.ALMOND_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.ALMOND_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.ALMOND_DOOR.get(), 3)
+                .define('A', DFFBlocks.ALMOND_PLANKS.get())
+                .pattern("AA")
+                .pattern("AA")
+                .pattern("AA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.ALMOND_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.ALMOND_TRAPDOOR.get(), 2)
+                .define('A', DFFBlocks.ALMOND_PLANKS.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.ALMOND_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+
+
+        ShapelessRecipeBuilder.shapeless(DFFBlocks.CASHEW_PLANKS.get(), 4)
+                .requires(DFFBlocks.CASHEW_LOG.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.CASHEW_STAIRS.get(), 4)
+                .define('A', DFFBlocks.CASHEW_PLANKS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.CASHEW_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.CASHEW_SLAB.get(), 3)
+                .define('A', DFFBlocks.CASHEW_PLANKS.get())
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.CASHEW_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.CASHEW_FENCE.get(), 3)
+                .define('A', DFFBlocks.CASHEW_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.CASHEW_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.CASHEW_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.CASHEW_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.CASHEW_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.CASHEW_DOOR.get(), 3)
+                .define('A', DFFBlocks.CASHEW_PLANKS.get())
+                .pattern("AA")
+                .pattern("AA")
+                .pattern("AA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.CASHEW_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.CASHEW_TRAPDOOR.get(), 2)
+                .define('A', DFFBlocks.CASHEW_PLANKS.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.CASHEW_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+
+
+        ShapelessRecipeBuilder.shapeless(DFFBlocks.OLIVE_PLANKS.get(), 4)
+                .requires(DFFBlocks.OLIVE_LOG.get())
+                .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.TREE_FRUITS)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.OLIVE_STAIRS.get(), 4)
+                .define('A', DFFBlocks.OLIVE_PLANKS.get())
+                .pattern("A  ")
+                .pattern("AA ")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.OLIVE_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.OLIVE_SLAB.get(), 3)
+                .define('A', DFFBlocks.OLIVE_PLANKS.get())
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.OLIVE_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.OLIVE_FENCE.get(), 3)
+                .define('A', DFFBlocks.OLIVE_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("ABA")
+                .pattern("ABA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.OLIVE_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.OLIVE_FENCE_GATE.get(), 1)
+                .define('A', DFFBlocks.OLIVE_PLANKS.get())
+                .define('B', Items.STICK)
+                .pattern("BAB")
+                .pattern("BAB")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.OLIVE_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.OLIVE_DOOR.get(), 3)
+                .define('A', DFFBlocks.OLIVE_PLANKS.get())
+                .pattern("AA")
+                .pattern("AA")
+                .pattern("AA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.OLIVE_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapedRecipeBuilder.shaped(DFFBlocks.OLIVE_TRAPDOOR.get(), 2)
+                .define('A', DFFBlocks.OLIVE_PLANKS.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .unlockedBy("has_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFBlocks.OLIVE_PLANKS.get()).build()))
+                .save(pFinishedRecipeConsumer);
+
+
+
+
 
         //TODO; Turnover
         ShapelessRecipeBuilder.shapeless(DFFItems.BLACKBERRY_TURNOVER.get(), 2)
@@ -169,6 +775,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .build()))
 
                 .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(DFFItems.WHITE_RASPBERRY_TURNOVER.get(), 2)
                 .requires(DFFTags.Items.DOUGH)
                 .requires(DFFTags.Items.SUGAR)
@@ -177,6 +784,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .of(DFFTags.Items.FLOUR)
                         .build()))
                 .save(pFinishedRecipeConsumer);
+
+
 
 
 
@@ -209,7 +818,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.CHERRY_CHOCOLATE_CAKE.get())
                 .requires(DFFItems.CHOCOLATE_CAKE.get())
-                .requires(DFFItems.CHERRIES.get())
+                .requires(DFFTags.Items.CHERRY)
                 .unlockedBy("has_chocolate_cake", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFItems.CHOCOLATE_CAKE.get())
                         .build()))
@@ -431,54 +1040,54 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "roasted_zucchini_campfire_cooking"));
 
 
-        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.BLACKBERRY.get()), DFFItems.DRIED_BLACKBERRY.get(), 0.35F, 100)
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFTags.Items.BLACKBERRY), DFFItems.DRIED_BLACKBERRY.get(), 0.35F, 100)
                 .unlockedBy("has_smoker", has(Blocks.SMOKER)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_blackberry_smoking"));
-        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.BLACKBERRY.get()), DFFItems.DRIED_BLACKBERRY.get(), 0.35F, 600)
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFTags.Items.BLACKBERRY), DFFItems.DRIED_BLACKBERRY.get(), 0.35F, 600)
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_blackberry_campfire_cooking"));
 
-        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.BLUEBERRIES.get()), DFFItems.DRIED_BLUEBERRIES.get(), 0.35F, 100)
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFTags.Items.BLUEBERRY), DFFItems.DRIED_BLUEBERRIES.get(), 0.35F, 100)
                 .unlockedBy("has_smoker", has(Blocks.SMOKER)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_blueberries_smoking"));
-        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.BLUEBERRIES.get()), DFFItems.BLUEBERRIES.get(), 0.35F, 600)
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFTags.Items.BLUEBERRY), DFFItems.DRIED_BLUEBERRIES.get(), 0.35F, 600)
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_blueberries_campfire_cooking"));
 
-        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.CHERRIES.get()), DFFItems.DRIED_CHERRIES.get(), 0.35F, 100)
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFTags.Items.CHERRY), DFFItems.DRIED_CHERRIES.get(), 0.35F, 100)
                 .unlockedBy("has_smoker", has(Blocks.SMOKER)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_cherries_smoking"));
-        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.CHERRIES.get()), DFFItems.DRIED_CHERRIES.get(), 0.35F, 600)
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFTags.Items.CHERRY), DFFItems.DRIED_CHERRIES.get(), 0.35F, 600)
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_cherries_campfire_cooking"));
 
-        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.CRANBERRIES.get()), DFFItems.DRIED_CRANBERRIES.get(), 0.35F, 100)
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFTags.Items.CRANBERRY), DFFItems.DRIED_CRANBERRIES.get(), 0.35F, 100)
                 .unlockedBy("has_smoker", has(Blocks.SMOKER)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_cranberries_smoking"));
-        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.CRANBERRIES.get()), DFFItems.DRIED_CRANBERRIES.get(), 0.35F, 600)
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFTags.Items.CRANBERRY), DFFItems.DRIED_CRANBERRIES.get(), 0.35F, 600)
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_cranberries_campfire_cooking"));
 
-        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.GRAPEFRUIT.get()), DFFItems.DRIED_GRAPEFRUIT.get(), 0.35F, 100)
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFTags.Items.GRAPEFRUIT), DFFItems.DRIED_GRAPEFRUIT.get(), 0.35F, 100)
                 .unlockedBy("has_smoker", has(Blocks.SMOKER)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_grapefruit_smoking"));
-        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.GRAPEFRUIT.get()), DFFItems.DRIED_GRAPEFRUIT.get(), 0.35F, 600)
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFTags.Items.GRAPEFRUIT), DFFItems.DRIED_GRAPEFRUIT.get(), 0.35F, 600)
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_grapefruit_campfire_cooking"));
 
-        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.KIWI.get()), DFFItems.DRIED_KIWI.get(), 0.35F, 100)
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFTags.Items.KIWI), DFFItems.DRIED_KIWI.get(), 0.35F, 100)
                 .unlockedBy("has_smoker", has(Blocks.SMOKER)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_kiwi_smoking"));
-        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.KIWI.get()), DFFItems.DRIED_KIWI.get(), 0.35F, 600)
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFTags.Items.KIWI), DFFItems.DRIED_KIWI.get(), 0.35F, 600)
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_kiwi_campfire_cooking"));
 
-        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.LYCHEE.get()), DFFItems.DRIED_LYCHEE.get(), 0.35F, 100)
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFTags.Items.LYCHEE), DFFItems.DRIED_LYCHEE.get(), 0.35F, 100)
                 .unlockedBy("has_smoker", has(Blocks.SMOKER)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_lychee_smoking"));
-        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.LYCHEE.get()), DFFItems.DRIED_LYCHEE.get(), 0.35F, 600)
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFTags.Items.LYCHEE), DFFItems.DRIED_LYCHEE.get(), 0.35F, 600)
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_lychee_campfire_cooking"));
 
-        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.MANGO.get()), DFFItems.DRIED_MANGO.get(), 0.35F, 100)
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFTags.Items.MANGO), DFFItems.DRIED_MANGO.get(), 0.35F, 100)
                 .unlockedBy("has_smoker", has(Blocks.SMOKER)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_mango_smoking"));
-        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.MANGO.get()), DFFItems.DRIED_MANGO.get(), 0.35F, 600)
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFTags.Items.MANGO), DFFItems.DRIED_MANGO.get(), 0.35F, 600)
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_mango_campfire_cooking"));
 
-        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.ORANGE.get()), DFFItems.DRIED_ORANGE.get(), 0.35F, 100)
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFTags.Items.ORANGE), DFFItems.DRIED_ORANGE.get(), 0.35F, 100)
                 .unlockedBy("has_smoker", has(Blocks.SMOKER)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_orange_smoking"));
-        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.ORANGE.get()), DFFItems.DRIED_ORANGE.get(), 0.35F, 600)
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFTags.Items.ORANGE), DFFItems.DRIED_ORANGE.get(), 0.35F, 600)
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_orange_campfire_cooking"));
 
-        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.PEAR.get()), DFFItems.DRIED_PEAR.get(), 0.35F, 100)
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFTags.Items.PEAR), DFFItems.DRIED_PEAR.get(), 0.35F, 100)
                 .unlockedBy("has_smoker", has(Blocks.SMOKER)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_pear_smoking"));
-        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.PEAR.get()), DFFItems.DRIED_PEAR.get(), 0.35F, 600)
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFTags.Items.PEAR), DFFItems.DRIED_PEAR.get(), 0.35F, 600)
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_pear_campfire_cooking"));
 
         SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.WHITE_GRAPES.get()), DFFItems.DRIED_GREEN_GRAPES.get(), 0.35F, 100)
@@ -496,19 +1105,19 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
         SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.RED_GRAPES.get()), DFFItems.DRIED_RED_GRAPES.get(), 0.35F, 600)
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_red_grapes_campfire_cooking"));
 
-        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.RASPBERRY.get()), DFFItems.DRIED_RASPBERRY.get(), 0.35F, 100)
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFTags.Items.RASPBERRY), DFFItems.DRIED_RASPBERRY.get(), 0.35F, 100)
                 .unlockedBy("has_smoker", has(Blocks.SMOKER)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_raspberry_smoking"));
-        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.RASPBERRY.get()), DFFItems.DRIED_RASPBERRY.get(), 0.35F, 600)
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFTags.Items.RASPBERRY), DFFItems.DRIED_RASPBERRY.get(), 0.35F, 600)
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_raspberry_campfire_cooking"));
 
-        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.WHITE_RASPBERRY.get()), DFFItems.DRIED_WHITE_RASPBERRY.get(), 0.35F, 100)
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFTags.Items.WHITERASPBERRY), DFFItems.DRIED_WHITE_RASPBERRY.get(), 0.35F, 100)
                 .unlockedBy("has_smoker", has(Blocks.SMOKER)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_white_raspberry_smoking"));
-        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.WHITE_RASPBERRY.get()), DFFItems.DRIED_WHITE_RASPBERRY.get(), 0.35F, 600)
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFTags.Items.WHITERASPBERRY), DFFItems.DRIED_WHITE_RASPBERRY.get(), 0.35F, 600)
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_white_raspberry_campfire_cooking"));
 
-        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFItems.STRAWBERRY.get()), DFFItems.DRIED_STRAWBERRY.get(), 0.35F, 100)
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(DFFTags.Items.STRAWBERRY), DFFItems.DRIED_STRAWBERRY.get(), 0.35F, 100)
                 .unlockedBy("has_smoker", has(Blocks.SMOKER)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_strawberry_smoking"));
-        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFItems.STRAWBERRY.get()), DFFItems.DRIED_STRAWBERRY.get(), 0.35F, 600)
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(DFFTags.Items.STRAWBERRY), DFFItems.DRIED_STRAWBERRY.get(), 0.35F, 600)
                 .unlockedBy("has_campfire", has(Blocks.CAMPFIRE)).save(pFinishedRecipeConsumer, new ResourceLocation("dffeasts", "dried_strawberry_campfire_cooking"));
 
 
@@ -593,10 +1202,10 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .save(pFinishedRecipeConsumer);
 
         ShapelessRecipeBuilder.shapeless(DFFItems.PEANUT_BUTTER.get(), 4)
-                .requires(DFFItems.PEANUTS.get())
-                .requires(DFFItems.PEANUTS.get())
-                .unlockedBy("has_peanuts", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(DFFItems.PEANUTS.get())
+                .requires(DFFTags.Items.NUTS)
+                .requires(DFFTags.Items.NUTS)
+                .unlockedBy("has_nuts", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.NUTS)
                         .build()))
                 .save(pFinishedRecipeConsumer);
 
@@ -625,7 +1234,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.BUTTER)
                 .requires(Items.BEETROOT)
                 .requires(Items.KELP)
-                .requires(DFFItems.BLUEBERRIES.get())
+                .requires(DFFTags.Items.BLUEBERRY)
                 .unlockedBy("has_avocado", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.AVOCADO)
                         .build()))
@@ -824,7 +1433,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.HERBS)
                 .requires(DFFTags.Items.WATER)
                 .requires(DFFTags.Items.GARLIC)
-                .requires(DFFItems.RADISH.get())
+                .requires(DFFTags.Items.RADISH)
                 .unlockedBy("has_herbs", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.HERBS)
                         .build()))
@@ -835,7 +1444,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.HERBS)
                 .requires(DFFTags.Items.WATER)
                 .requires(DFFTags.Items.GARLIC)
-                .requires(DFFTags.Items.PEPPERS)
+                .requires(DFFTags.Items.PEPPER)
                 .unlockedBy("has_herbs", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.HERBS)
                         .build()))
@@ -846,7 +1455,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.HERBS)
                 .requires(DFFTags.Items.WATER)
                 .requires(DFFTags.Items.GARLIC)
-                .requires(DFFItems.GINGER.get())
+                .requires(DFFTags.Items.GINGER)
                 .unlockedBy("has_herbs", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.HERBS)
                         .build()))
@@ -862,6 +1471,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .of(DFFTags.Items.HERBS)
                         .build()))
                 .save(pFinishedRecipeConsumer);
+
+
 
 
 
@@ -980,8 +1591,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.BUTTER)
-                .requires(DFFItems.BLACKBERRY.get())
-                .requires(DFFItems.BLACKBERRY.get())
+                .requires(DFFTags.Items.BLACKBERRY)
+                .requires(DFFTags.Items.BLACKBERRY)
                 .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.FLOUR)
                         .build()))
@@ -991,8 +1602,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.BUTTER)
-                .requires(DFFItems.BLUEBERRIES.get())
-                .requires(DFFItems.BLUEBERRIES.get())
+                .requires(DFFTags.Items.BLUEBERRY)
+                .requires(DFFTags.Items.BLUEBERRY)
                 .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.FLOUR)
                         .build()))
@@ -1002,8 +1613,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.BUTTER)
-                .requires(DFFItems.CRANBERRIES.get())
-                .requires(DFFItems.CRANBERRIES.get())
+                .requires(DFFTags.Items.CRANBERRY)
+                .requires(DFFTags.Items.CRANBERRY)
                 .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.FLOUR)
                         .build()))
@@ -1013,8 +1624,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.BUTTER)
-                .requires(DFFItems.CHERRIES.get())
-                .requires(DFFItems.CHERRIES.get())
+                .requires(DFFTags.Items.CHERRY)
+                .requires(DFFTags.Items.CHERRY)
                 .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.FLOUR)
                         .build()))
@@ -1024,8 +1635,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.BUTTER)
-                .requires(DFFItems.STRAWBERRY.get())
-                .requires(DFFItems.STRAWBERRY.get())
+                .requires(DFFTags.Items.STRAWBERRY)
+                .requires(DFFTags.Items.STRAWBERRY)
                 .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.FLOUR)
                         .build()))
@@ -1035,8 +1646,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.BUTTER)
-                .requires(DFFItems.GRAPEFRUIT.get())
-                .requires(DFFItems.GRAPEFRUIT.get())
+                .requires(DFFTags.Items.GRAPEFRUIT)
+                .requires(DFFTags.Items.GRAPEFRUIT)
                 .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.FLOUR)
                         .build()))
@@ -1046,8 +1657,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.BUTTER)
-                .requires(DFFItems.POMEGRANATE.get())
-                .requires(DFFItems.POMEGRANATE.get())
+                .requires(DFFTags.Items.POMEGRANATE)
+                .requires(DFFTags.Items.POMEGRANATE)
                 .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.FLOUR)
                         .build()))
@@ -1068,8 +1679,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.BUTTER)
-                .requires(DFFItems.KIWI.get())
-                .requires(DFFItems.KIWI.get())
+                .requires(DFFTags.Items.KIWI)
+                .requires(DFFTags.Items.KIWI)
                 .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.FLOUR)
                         .build()))
@@ -1079,8 +1690,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.BUTTER)
-                .requires(DFFItems.LYCHEE.get())
-                .requires(DFFItems.LYCHEE.get())
+                .requires(DFFTags.Items.LYCHEE)
+                .requires(DFFTags.Items.LYCHEE)
                 .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.FLOUR)
                         .build()))
@@ -1090,8 +1701,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.BUTTER)
-                .requires(DFFItems.MANGO.get())
-                .requires(DFFItems.MANGO.get())
+                .requires(DFFTags.Items.MANGO)
+                .requires(DFFTags.Items.MANGO)
                 .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.FLOUR)
                         .build()))
@@ -1101,8 +1712,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.BUTTER)
-                .requires(DFFItems.ORANGE.get())
-                .requires(DFFItems.ORANGE.get())
+                .requires(DFFTags.Items.ORANGE)
+                .requires(DFFTags.Items.ORANGE)
                 .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.FLOUR)
                         .build()))
@@ -1112,8 +1723,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.BUTTER)
-                .requires(DFFItems.PEAR.get())
-                .requires(DFFItems.PEAR.get())
+                .requires(DFFTags.Items.PEAR)
+                .requires(DFFTags.Items.PEAR)
                 .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.FLOUR)
                         .build()))
@@ -1134,8 +1745,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.BUTTER)
-                .requires(DFFItems.RASPBERRY.get())
-                .requires(DFFItems.RASPBERRY.get())
+                .requires(DFFTags.Items.RASPBERRY)
+                .requires(DFFTags.Items.RASPBERRY)
                 .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.FLOUR)
                         .build()))
@@ -1152,16 +1763,19 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .build()))
 
                 .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(DFFItems.WHITE_RASPBERRY_PIE.get())
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.BUTTER)
-                .requires(DFFItems.WHITE_RASPBERRY.get())
-                .requires(DFFItems.WHITE_RASPBERRY.get())
+                .requires(DFFTags.Items.WHITERASPBERRY)
+                .requires(DFFTags.Items.WHITERASPBERRY)
                 .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.FLOUR)
                         .build()))
                 .save(pFinishedRecipeConsumer);
+
+
 
 
 
@@ -1310,6 +1924,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .build()))
 
                 .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(DFFItems.WHITE_RASPBERRY_SMOOTHIE.get())
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.SMOOTHIE_ICE)
@@ -1318,6 +1933,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .of(DFFTags.Items.SMOOTHIE_ICE)
                         .build()))
                 .save(pFinishedRecipeConsumer);
+
+
 
 
 
@@ -1482,6 +2099,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .build()))
 
                 .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(DFFItems.WHITE_RASPBERRY_WINE.get())
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.FLOUR)
@@ -1491,6 +2109,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .of(DFFTags.Items.FLOUR)
                         .build()))
                 .save(pFinishedRecipeConsumer);
+
+
 
 
 
@@ -1639,6 +2259,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .build()))
 
                 .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(DFFItems.WHITE_RASPBERRY_TEA.get())
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.LEAVES)
@@ -1650,10 +2271,12 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
 
 
+
+
         //TODO; Jam
         ShapelessRecipeBuilder.shapeless(DFFItems.BLACKBERRY_JAM.get())
                 .requires(DFFTags.Items.SUGAR)
-                .requires(DFFItems.BLACKBERRY.get())
+                .requires(DFFTags.Items.BLACKBERRY)
                 .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.SUGAR)
                         .build()))
@@ -1661,7 +2284,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.BLUEBERRY_JAM.get())
                 .requires(DFFTags.Items.SUGAR)
-                .requires(DFFItems.BLUEBERRIES.get())
+                .requires(DFFTags.Items.BLUEBERRY)
                 .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.SUGAR)
                         .build()))
@@ -1669,7 +2292,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.CRANBERRY_JAM.get())
                 .requires(DFFTags.Items.SUGAR)
-                .requires(DFFItems.CRANBERRIES.get())
+                .requires(DFFTags.Items.CRANBERRY)
                 .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.SUGAR)
                         .build()))
@@ -1677,7 +2300,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.CHERRY_JAM.get())
                 .requires(DFFTags.Items.SUGAR)
-                .requires(DFFItems.CHERRIES.get())
+                .requires(DFFTags.Items.CHERRY)
                 .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.SUGAR)
                         .build()))
@@ -1685,7 +2308,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.STRAWBERRY_JAM.get())
                 .requires(DFFTags.Items.SUGAR)
-                .requires(DFFItems.STRAWBERRY.get())
+                .requires(DFFTags.Items.STRAWBERRY)
                 .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.SUGAR)
                         .build()))
@@ -1693,7 +2316,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.GRAPEFRUIT_JAM.get())
                 .requires(DFFTags.Items.SUGAR)
-                .requires(DFFItems.GRAPEFRUIT.get())
+                .requires(DFFTags.Items.GRAPEFRUIT)
                 .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.SUGAR)
                         .build()))
@@ -1702,7 +2325,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
         ShapelessRecipeBuilder.shapeless(DFFItems.POMEGRANATE_JAM.get())
                 .requires(DFFTags.Items.SUGAR)
 
-                .requires(DFFItems.POMEGRANATE.get())
+                .requires(DFFTags.Items.POMEGRANATE)
                 .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.SUGAR)
                         .build()))
@@ -1717,7 +2340,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.KIWI_JAM.get())
                 .requires(DFFTags.Items.SUGAR)
-                .requires(DFFItems.KIWI.get())
+                .requires(DFFTags.Items.KIWI)
                 .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.SUGAR)
                         .build()))
@@ -1725,7 +2348,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.LYCHEE_JAM.get())
                 .requires(DFFTags.Items.SUGAR)
-                .requires(DFFItems.LYCHEE.get())
+                .requires(DFFTags.Items.LYCHEE)
                 .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.SUGAR)
                         .build()))
@@ -1733,7 +2356,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.MANGO_JAM.get())
                 .requires(DFFTags.Items.SUGAR)
-                .requires(DFFItems.MANGO.get())
+                .requires(DFFTags.Items.MANGO)
                 .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.SUGAR)
                         .build()))
@@ -1741,7 +2364,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.ORANGE_JAM.get())
                 .requires(DFFTags.Items.SUGAR)
-                .requires(DFFItems.ORANGE.get())
+                .requires(DFFTags.Items.ORANGE)
                 .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.SUGAR)
                         .build()))
@@ -1749,7 +2372,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.PEAR_JAM.get())
                 .requires(DFFTags.Items.SUGAR)
-                .requires(DFFItems.PEAR.get())
+                .requires(DFFTags.Items.PEAR)
                 .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.SUGAR)
                         .build()))
@@ -1765,7 +2388,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.RASPBERRY_JAM.get())
                 .requires(DFFTags.Items.SUGAR)
-                .requires(DFFItems.RASPBERRY.get())
+                .requires(DFFTags.Items.RASPBERRY)
                 .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.SUGAR)
                         .build()))
@@ -1779,9 +2402,10 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .build()))
 
                 .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(DFFItems.WHITE_RASPBERRY_JAM.get())
                 .requires(DFFTags.Items.SUGAR)
-                .requires(DFFItems.WHITE_RASPBERRY.get())
+                .requires(DFFTags.Items.WHITERASPBERRY)
                 .unlockedBy("has_sugar", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.SUGAR)
                         .build()))
@@ -1789,10 +2413,12 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
 
 
+
+
         //TODO; Juice
         ShapelessRecipeBuilder.shapeless(DFFItems.BLACKBERRY_JUICE.get())
                 .requires(Items.GLASS_BOTTLE)
-                .requires(DFFItems.BLACKBERRY.get())
+                .requires(DFFTags.Items.BLACKBERRY)
                 .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.GLASS_BOTTLE)
                         .build()))
@@ -1800,7 +2426,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.BLUEBERRY_JUICE.get())
                  .requires(Items.GLASS_BOTTLE)
-                .requires(DFFItems.BLUEBERRIES.get())
+                .requires(DFFTags.Items.BLUEBERRY)
                 .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.GLASS_BOTTLE)
                         .build()))
@@ -1808,7 +2434,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.CRANBERRY_JUICE.get())
                  .requires(Items.GLASS_BOTTLE)
-                .requires(DFFItems.CRANBERRIES.get())
+                .requires(DFFTags.Items.CRANBERRY)
                 .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.GLASS_BOTTLE)
                         .build()))
@@ -1816,7 +2442,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.CHERRY_JUICE.get())
                  .requires(Items.GLASS_BOTTLE)
-                .requires(DFFItems.CHERRIES.get())
+                .requires(DFFTags.Items.CHERRY)
                 .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.GLASS_BOTTLE)
                         .build()))
@@ -1824,7 +2450,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.STRAWBERRY_JUICE.get())
                  .requires(Items.GLASS_BOTTLE)
-                .requires(DFFItems.STRAWBERRY.get())
+                .requires(DFFTags.Items.STRAWBERRY)
                 .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.GLASS_BOTTLE)
                         .build()))
@@ -1832,7 +2458,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.GRAPEFRUIT_JUICE.get())
                  .requires(Items.GLASS_BOTTLE)
-                .requires(DFFItems.GRAPEFRUIT.get())
+                .requires(DFFTags.Items.GRAPEFRUIT)
                 .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.GLASS_BOTTLE)
                         .build()))
@@ -1841,7 +2467,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
         ShapelessRecipeBuilder.shapeless(DFFItems.POMEGRANATE_JUICE.get())
                  .requires(Items.GLASS_BOTTLE)
 
-                .requires(DFFItems.POMEGRANATE.get())
+                .requires(DFFTags.Items.POMEGRANATE)
                 .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.GLASS_BOTTLE)
                         .build()))
@@ -1856,7 +2482,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.KIWI_JUICE.get())
                  .requires(Items.GLASS_BOTTLE)
-                .requires(DFFItems.KIWI.get())
+                .requires(DFFTags.Items.KIWI)
                 .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.GLASS_BOTTLE)
                         .build()))
@@ -1864,7 +2490,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.LYCHEE_JUICE.get())
                  .requires(Items.GLASS_BOTTLE)
-                .requires(DFFItems.LYCHEE.get())
+                .requires(DFFTags.Items.LYCHEE)
                 .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.GLASS_BOTTLE)
                         .build()))
@@ -1872,7 +2498,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.MANGO_JUICE.get())
                  .requires(Items.GLASS_BOTTLE)
-                .requires(DFFItems.MANGO.get())
+                .requires(DFFTags.Items.MANGO)
                 .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.GLASS_BOTTLE)
                         .build()))
@@ -1880,7 +2506,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.ORANGE_JUICE.get())
                  .requires(Items.GLASS_BOTTLE)
-                .requires(DFFItems.ORANGE.get())
+                .requires(DFFTags.Items.ORANGE)
                 .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.GLASS_BOTTLE)
                         .build()))
@@ -1888,7 +2514,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.PEAR_JUICE.get())
                  .requires(Items.GLASS_BOTTLE)
-                .requires(DFFItems.PEAR.get())
+                .requires(DFFTags.Items.PEAR)
                 .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.GLASS_BOTTLE)
                         .build()))
@@ -1904,7 +2530,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.RASPBERRY_JUICE.get())
                  .requires(Items.GLASS_BOTTLE)
-                .requires(DFFItems.RASPBERRY.get())
+                .requires(DFFTags.Items.RASPBERRY)
                 .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.GLASS_BOTTLE)
                         .build()))
@@ -1918,13 +2544,16 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .build()))
 
                 .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(DFFItems.WHITE_RASPBERRY_JUICE.get())
                  .requires(Items.GLASS_BOTTLE)
-                .requires(DFFItems.WHITE_RASPBERRY.get())
+                .requires(DFFTags.Items.WHITERASPBERRY)
                 .unlockedBy("has_bottle", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.GLASS_BOTTLE)
                         .build()))
                 .save(pFinishedRecipeConsumer);
+
+
 
 
 
@@ -2073,10 +2702,38 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .build()))
 
                 .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(DFFItems.WHITE_RASPBERRY_SODA.get())
                 .requires(DFFTags.Items.SUGAR)
                 .requires(DFFTags.Items.HERBS)
                 .requires(DFFItems.WHITE_RASPBERRY_JUICE.get())
+                .unlockedBy("has_water", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.WATER)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.GINGER_SODA.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.HERBS)
+                .requires(DFFItems.GINGER.get())
+                .unlockedBy("has_water", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.WATER)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.DRAGONFRUIT_SODA.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.HERBS)
+                .requires(DFFItems.DRAGONFRUIT_JUICE.get())
+                .unlockedBy("has_water", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.WATER)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PASSIONFRUIT_SODA.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.HERBS)
+                .requires(DFFItems.PASSIONFRUIT_JUICE.get())
                 .unlockedBy("has_water", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.WATER)
                         .build()))
@@ -2229,6 +2886,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .build()))
 
                 .save(pFinishedRecipeConsumer);
+
         ShapelessRecipeBuilder.shapeless(DFFItems.WHITE_RASPBERRY_PASTRY.get(), 2)
                 .requires(DFFTags.Items.FLOUR)
                 .requires(DFFTags.Items.FLOUR)
@@ -2237,6 +2895,8 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                         .of(DFFTags.Items.FLOUR)
                         .build()))
                 .save(pFinishedRecipeConsumer);
+
+
 
 
 
@@ -2286,9 +2946,9 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .save(pFinishedRecipeConsumer);
 
         ShapelessRecipeBuilder.shapeless(DFFItems.TOFU.get(), 3)
-                .requires(DFFTags.Items.SOYBEANS)
-                .requires(DFFTags.Items.SOYBEANS)
-                .requires(DFFTags.Items.SOYBEANS)
+                .requires(DFFTags.Items.SOYBEAN)
+                .requires(DFFTags.Items.SOYBEAN)
+                .requires(DFFTags.Items.SOYBEAN)
                 .unlockedBy("has_soybeans", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFItems.SOYBEANS.get())
                         .build()))
@@ -2360,7 +3020,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
         //TODO; Wood
         ShapelessRecipeBuilder.shapeless(DFFItems.CHERRY_PIT.get())
-                .requires(DFFItems.CHERRIES.get())
+                .requires(DFFTags.Items.CHERRY)
                 .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.TREE_FRUITS)
                         .build()))
@@ -2492,7 +3152,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.LYCHEE_SEED.get())
-                .requires(DFFItems.LYCHEE.get())
+                .requires(DFFTags.Items.LYCHEE)
                 .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.TREE_FRUITS)
                         .build()))
@@ -2540,7 +3200,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.KIWI_SEEDS.get())
-                .requires(DFFItems.KIWI.get())
+                .requires(DFFTags.Items.KIWI)
                 .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.TREE_FRUITS)
                         .build()))
@@ -2606,7 +3266,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.PEAR_SEEDS.get())
-                .requires(DFFItems.PEAR.get())
+                .requires(DFFTags.Items.PEAR)
                 .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.TREE_FRUITS)
                         .build()))
@@ -2672,7 +3332,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.POMEGRANATE_SEEDS.get())
-                .requires(DFFItems.POMEGRANATE.get())
+                .requires(DFFTags.Items.POMEGRANATE)
                 .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.TREE_FRUITS)
                         .build()))
@@ -2738,7 +3398,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.ORANGE_SEEDS.get())
-                .requires(DFFItems.ORANGE.get())
+                .requires(DFFTags.Items.ORANGE)
                 .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.TREE_FRUITS)
                         .build()))
@@ -2804,7 +3464,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.MANGO_SEED.get())
-                .requires(DFFItems.MANGO.get())
+                .requires(DFFTags.Items.MANGO)
                 .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.TREE_FRUITS)
                         .build()))
@@ -2929,7 +3589,7 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
 
         ShapelessRecipeBuilder.shapeless(DFFItems.GRAPEFRUIT_SEEDS.get())
-                .requires(DFFItems.GRAPEFRUIT.get())
+                .requires(DFFTags.Items.GRAPEFRUIT)
                 .unlockedBy("has_seedable_fruit", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(DFFTags.Items.TREE_FRUITS)
                         .build()))
@@ -2995,6 +3655,9 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
 
 
 
+
+
+
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(Items.ROTTEN_FLESH), Items.LEATHER, 0.35F, 200)
                 .unlockedBy("has_rotten_flesh", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.ROTTEN_FLESH).build()))
@@ -3009,9 +3672,9 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
                 .save(pFinishedRecipeConsumer);
 
         ShapelessRecipeBuilder.shapeless(Items.SUGAR, 4)
-                .requires(DFFItems.SUGAR_BEET.get())
+                .requires(DFFTags.Items.SUGARBEET)
                 .unlockedBy("has_sugar_beet", inventoryTrigger(ItemPredicate.Builder.item()
-                        .of(DFFItems.SUGAR_BEET.get())
+                        .of(DFFTags.Items.SUGARBEET)
                         .build()))
                 .save(pFinishedRecipeConsumer);
 

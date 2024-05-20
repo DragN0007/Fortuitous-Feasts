@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smoking",
   "ingredient": {
-    "item": "dffeasts:mango"
+    "tag": "forge:mango"
   },
   "result": "dffeasts:dried_mango",
   "experience": 0.35,

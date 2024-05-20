@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smoking",
   "ingredient": {
-    "item": "dffeasts:grapefruit"
+    "tag": "forge:grapefruit"
   },
   "result": "dffeasts:dried_grapefruit",
   "experience": 0.35,

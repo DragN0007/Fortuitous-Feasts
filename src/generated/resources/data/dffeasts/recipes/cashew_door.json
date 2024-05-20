@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": {
+      "item": "dffeasts:cashew_planks"
+    }
+  },
+  "result": {
+    "item": "dffeasts:cashew_door",
+    "count": 3
+  }
+}

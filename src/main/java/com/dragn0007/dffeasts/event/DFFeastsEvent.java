@@ -103,6 +103,13 @@ public class DFFeastsEvent {
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.DFF_PEAR_SAPLING.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.DFF_KIWI_SAPLING.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.DFF_LYCHEE_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.DFF_BANANA_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.DFF_DRAGONFRUIT_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.DFF_PASSIONFRUIT_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.DFF_CASHEW_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.DFF_ALMOND_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.DFF_WALNUT_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.DFF_OLIVE_SAPLING.get(), RenderType.cutout());
 
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.ORANGE_DOOR.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.MANGO_DOOR.get(), RenderType.cutout());
@@ -114,6 +121,13 @@ public class DFFeastsEvent {
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.PEAR_DOOR.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.KIWI_DOOR.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.LYCHEE_DOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.BANANA_DOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.DRAGONFRUIT_DOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.PASSIONFRUIT_DOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.CASHEW_DOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.ALMOND_DOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WALNUT_DOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.OLIVE_DOOR.get(), RenderType.cutout());
 
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.ORANGE_TRAPDOOR.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.MANGO_TRAPDOOR.get(), RenderType.cutout());
@@ -125,6 +139,13 @@ public class DFFeastsEvent {
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.PEAR_TRAPDOOR.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.KIWI_TRAPDOOR.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocks.LYCHEE_TRAPDOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.BANANA_TRAPDOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.DRAGONFRUIT_TRAPDOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.PASSIONFRUIT_TRAPDOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.CASHEW_TRAPDOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.ALMOND_TRAPDOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.WALNUT_TRAPDOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocks.OLIVE_TRAPDOOR.get(), RenderType.cutout());
 
         //Leaves
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.ORANGE_LEAVES.get(), RenderType.cutout());
@@ -137,6 +158,13 @@ public class DFFeastsEvent {
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.PEAR_LEAVES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.KIWI_LEAVES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.LYCHEE_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.BANANA_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.DRAGONFRUIT_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.PASSIONFRUIT_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.CASHEW_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.ALMOND_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.WALNUT_LEAVES.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(DFFBlocksNoDatagen.OLIVE_LEAVES.get(), RenderType.cutout());
 
     }
 

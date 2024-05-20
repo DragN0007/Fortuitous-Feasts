@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smoking",
   "ingredient": {
-    "item": "dffeasts:pear"
+    "tag": "forge:pear"
   },
   "result": "dffeasts:dried_pear",
   "experience": 0.35,

@@ -74,8 +74,8 @@
   "item.dffeasts.mac_n_cheese": "Mac n Cheese",
   "item.dffeasts.sausage_mac": "Sausage Mac",
   "item.dffeasts.pot_roast": "Pot Roast",
-  "item.dffeasts.peanut_butter": "Peanut Butter",
-  "item.dffeasts.peanut_butter_jelly": "Peanut Butter & Jelly Sandwich",
+  "item.dffeasts.peanut_butter": "Nut Butter",
+  "item.dffeasts.peanut_butter_jelly": "Nut Butter & Jelly Sandwich",
   "item.dffeasts.spaghetti": "Spaghetti",
   "item.dffeasts.spaghetti_and_meatballs": "Spaghetti & Meatballs",
   "item.dffeasts.tomato_soup": "Tomato Soup",
@@ -89,6 +89,7 @@
   "item.dffeasts.pickled_ginger": "Pickled Ginger",
   "item.dffeasts.pickled_radish": "Pickled Radish",
   "item.dffeasts.pickled_peppers": "Pickled Peppers",
+  "item.dffeasts.pickled_olives": "Pickled Olives",
 
   "item.dffeasts.meat_wrap": "Meat Wrap",
   "item.dffeasts.meat_cheese_wrap": "Meat & Cheese Wrap",
@@ -135,6 +136,8 @@
   "item.dffeasts.strawberry_pie": "Strawberry Pie",
   "item.dffeasts.green_grape_pie": "White Grape Pie",
   "item.dffeasts.white_raspberry_pie": "White Raspberry Pie",
+  "item.dffeasts.dragonfruit_pie": "Dragonfruit Pie",
+  "item.dffeasts.passionfruit_pie": "Passionfruit Pie",
 
   "item.dffeasts.apple_jam": "Apple Jam",
   "item.dffeasts.blackberry_jam": "Blackberry Jam",
@@ -154,6 +157,8 @@
   "item.dffeasts.strawberry_jam": "Strawberry Jam",
   "item.dffeasts.green_grape_jam": "White Grape Jam",
   "item.dffeasts.white_raspberry_jam": "White Raspberry Jam",
+  "item.dffeasts.dragonfruit_jam": "Dragonfruit Jam",
+  "item.dffeasts.passionfruit_jam": "Passionfruit Jam",
 
   "item.dffeasts.apple_pastry": "Apple Pastry",
   "item.dffeasts.blackberry_pastry": "Blackberry Pastry",
@@ -173,6 +178,8 @@
   "item.dffeasts.strawberry_pastry": "Strawberry Pastry",
   "item.dffeasts.green_grape_pastry": "White Grape Pastry",
   "item.dffeasts.white_raspberry_pastry": "White Raspberry Pastry",
+  "item.dffeasts.dragonfruit_pastry": "Dragonfruit Pastry",
+  "item.dffeasts.passionfruit_pastry": "Passionfruit Pastry",
 
   "item.dffeasts.blackberry_smoothie": "Blackberry Smoothie",
   "item.dffeasts.blueberry_smoothie": "Blueberry Smoothie",
@@ -191,6 +198,8 @@
   "item.dffeasts.strawberry_smoothie": "Strawberry Smoothie",
   "item.dffeasts.green_grape_smoothie": "White Grape Smoothie",
   "item.dffeasts.white_raspberry_smoothie": "White Raspberry Smoothie",
+  "item.dffeasts.dragonfruit_smoothie": "Dragonfruit Smoothie",
+  "item.dffeasts.passionfruit_smoothie": "Passionfruit Smoothie",
 
   "item.dffeasts.apple_turnover": "Apple Turnover",
   "item.dffeasts.blackberry_turnover": "Blackberry Turnover",
@@ -210,6 +219,8 @@
   "item.dffeasts.strawberry_turnover": "Strawberry Turnover",
   "item.dffeasts.green_grape_turnover": "White Grape Turnover",
   "item.dffeasts.white_raspberry_turnover": "White Raspberry Turnover",
+  "item.dffeasts.dragonfruit_turnover": "Dragonfruit Turnover",
+  "item.dffeasts.passionfruit_turnover": "Passionfruit Turnover",
 
   "item.dffeasts.dried_blackberry": "Dried Blackberry",
   "item.dffeasts.dried_blueberries": "Dried Blueberries",
@@ -247,6 +258,8 @@
   "item.dffeasts.strawberry_juice": "Strawberry Juice",
   "item.dffeasts.green_grape_juice": "White Grape Juice",
   "item.dffeasts.white_raspberry_juice": "White Raspberry Juice",
+  "item.dffeasts.dragonfruit_juice": "Dragonfruit Juice",
+  "item.dffeasts.passionfruit_juice": "Passionfruit Juice",
 
   "item.dffeasts.blackberry_soda": "Blackberry Soda",
   "item.dffeasts.blueberry_soda": "Blueberry Soda",
@@ -266,6 +279,8 @@
   "item.dffeasts.green_grape_soda": "White Grape Soda",
   "item.dffeasts.white_raspberry_soda": "White Raspberry Soda",
   "item.dffeasts.ginger_soda": "Ginger Soda",
+  "item.dffeasts.dragonfruit_soda": "Dragonfruit Soda",
+  "item.dffeasts.passionfruit_soda": "Passionfruit Soda",
 
   "item.dffeasts.blackberry_tea": "Blackberry Tea",
   "item.dffeasts.blueberry_tea": "Blueberry Tea",
@@ -284,6 +299,8 @@
   "item.dffeasts.strawberry_tea": "Strawberry Tea",
   "item.dffeasts.green_grape_tea": "White Grape Tea",
   "item.dffeasts.white_raspberry_tea": "White Raspberry Tea",
+  "item.dffeasts.dragonfruit_tea": "Dragonfruit Tea",
+  "item.dffeasts.passionfruit_tea": "Passionfruit Tea",
 
   "item.dffeasts.apple_wine": "Apple Wine",
   "item.dffeasts.blackberry_wine": "Blackberry Wine",
@@ -303,6 +320,8 @@
   "item.dffeasts.strawberry_wine": "Strawberry Wine",
   "item.dffeasts.green_grape_wine": "White Grape Wine",
   "item.dffeasts.white_raspberry_wine": "White Raspberry Wine",
+  "item.dffeasts.dragonfruit_wine": "Dragonfruit Wine",
+  "item.dffeasts.passionfruit_wine": "Passionfruit Wine",
 
   "item.dffeasts.plain_donut": "Donut",
   "item.dffeasts.chocolate_donut": "Chocolate Donut",
@@ -365,6 +384,12 @@
   "item.dffeasts.kidney_beans": "Kidney Beans",
   "item.dffeasts.soybeans": "Soybeans",
   "item.dffeasts.sugar_beet": "Sugar Beet",
+  "item.dffeasts.banana": "Banana",
+  "item.dffeasts.dragonfruit": "Dragonfruit",
+  "item.dffeasts.passionfruit": "Passionfruit",
+  "item.dffeasts.cashews": "Cashews",
+  "item.dffeasts.almonds": "Almonds",
+  "item.dffeasts.olives": "Olives",
 
   "block.dffeasts.bell_pepper_plant": "Bell Pepper Plant",
   "block.dffeasts.jalepeno_pepper_plant": "Jalepeño Pepper Plant",
@@ -401,6 +426,7 @@
   "block.dffeasts.kidney_bean_plant": "Kidney Bean Plant",
   "block.dffeasts.soybean_plant": "Soybean Plant",
   "block.dffeasts.sugar_beet_plant": "Sugar Beet Plant",
+
 
   "block.dffeasts.wild_bell_pepper_plant": "Wild Bell Pepper Plant",
   "block.dffeasts.wild_jalepeno_pepper_plant": "Wild Jalepeño Pepper Plant",
@@ -448,7 +474,14 @@
   "block.dffeasts.kiwi_leaves": "Kiwi Leaves",
   "block.dffeasts.pear_leaves": "Pear Leaves",
   "block.dffeasts.pomegranate_leaves": "Pomegranate Leaves",
+
   "block.dffeasts.walnut_leaves": "Walnut Leaves",
+  "block.dffeasts.banana_leaves": "Banana Leaves",
+  "block.dffeasts.dragonfruit_leaves": "Dragonfruit Leaves",
+  "block.dffeasts.passionfruit_leaves": "Passionfruit Leaves",
+  "block.dffeasts.cashew_leaves": "Cashew Leaves",
+  "block.dffeasts.almond_leaves": "Almond Leaves",
+  "block.dffeasts.olive_leaves": "Olive Leaves",
 
 
   "block.dffeasts.orange_log": "Orange Log",
@@ -560,6 +593,8 @@
   "block.dffeasts.lychee_door": "Lychee Door",
   "block.dffeasts.lychee_trapdoor": "Lychee Trapdoor",
 
+
+
   "block.dffeasts.walnut_log": "Walnut Log",
   "block.dffeasts.walnut_planks": "Walnut Planks",
   "block.dffeasts.walnut_slab": "Walnut Slab",
@@ -569,6 +604,69 @@
   "block.dffeasts.walnut_fence_gate": "Walnut Fence Gate",
   "block.dffeasts.walnut_door": "Walnut Door",
   "block.dffeasts.walnut_trapdoor": "Walnut Trapdoor",
+
+  "block.dffeasts.banana_log": "Banana Log",
+  "block.dffeasts.banana_planks": "Banana Planks",
+  "block.dffeasts.banana_slab": "Banana Slab",
+  "block.dffeasts.banana_stairs": "Banana Stairs",
+  "block.dffeasts.dff_banana_sapling": "Banana Sapling",
+  "item.dffeasts.banana_seeds": "Banana Seeds",
+  "block.dffeasts.banana_fence": "Banana Fence",
+  "block.dffeasts.banana_fence_gate": "Banana Fence Gate",
+  "block.dffeasts.banana_door": "Banana Door",
+  "block.dffeasts.banana_trapdoor": "Banana Trapdoor",
+
+  "block.dffeasts.dragonfruit_log": "Dragonfruit Log",
+  "block.dffeasts.dragonfruit_planks": "Dragonfruit Planks",
+  "block.dffeasts.dragonfruit_slab": "Dragonfruit Slab",
+  "block.dffeasts.dragonfruit_stairs": "Dragonfruit Stairs",
+  "block.dffeasts.dff_dragonfruit_sapling": "Dragonfruit Sapling",
+  "item.dffeasts.dragonfruit_seeds": "Dragonfruit Seeds",
+  "block.dffeasts.dragonfruit_fence": "Dragonfruit Fence",
+  "block.dffeasts.dragonfruit_fence_gate": "Dragonfruit Fence Gate",
+  "block.dffeasts.dragonfruit_door": "Dragonfruit Door",
+  "block.dffeasts.dragonfruit_trapdoor": "Dragonfruit Trapdoor",
+
+  "block.dffeasts.passionfruit_log": "Passionfruit Log",
+  "block.dffeasts.passionfruit_planks": "Passionfruit Planks",
+  "block.dffeasts.passionfruit_slab": "Passionfruit Slab",
+  "block.dffeasts.passionfruit_stairs": "Passionfruit Stairs",
+  "block.dffeasts.dff_passionfruit_sapling": "Passionfruit Sapling",
+  "item.dffeasts.passionfruit_seeds": "Passionfruit Seeds",
+  "block.dffeasts.passionfruit_fence": "Passionfruit Fence",
+  "block.dffeasts.passionfruit_fence_gate": "Passionfruit Fence Gate",
+  "block.dffeasts.passionfruit_door": "Passionfruit Door",
+  "block.dffeasts.passionfruit_trapdoor": "Passionfruit Trapdoor",
+
+  "block.dffeasts.cashew_log": "Cashew Log",
+  "block.dffeasts.cashew_planks": "Cashew Planks",
+  "block.dffeasts.cashew_slab": "Cashew Slab",
+  "block.dffeasts.cashew_stairs": "Cashew Stairs",
+  "block.dffeasts.dff_cashew_sapling": "Cashew Sapling",
+  "block.dffeasts.cashew_fence": "Cashew Fence",
+  "block.dffeasts.cashew_fence_gate": "Cashew Fence Gate",
+  "block.dffeasts.cashew_door": "Cashew Door",
+  "block.dffeasts.cashew_trapdoor": "Cashew Trapdoor",
+
+  "block.dffeasts.almond_log": "Almond Log",
+  "block.dffeasts.almond_planks": "Almond Planks",
+  "block.dffeasts.almond_slab": "Almond Slab",
+  "block.dffeasts.almond_stairs": "Almond Stairs",
+  "block.dffeasts.dff_almond_sapling": "Almond Sapling",
+  "block.dffeasts.almond_fence": "Almond Fence",
+  "block.dffeasts.almond_fence_gate": "Almond Fence Gate",
+  "block.dffeasts.almond_door": "Almond Door",
+  "block.dffeasts.almond_trapdoor": "Almond Trapdoor",
+
+  "block.dffeasts.olive_log": "Olive Log",
+  "block.dffeasts.olive_planks": "Olive Planks",
+  "block.dffeasts.olive_slab": "Olive Slab",
+  "block.dffeasts.olive_stairs": "Olive Stairs",
+  "block.dffeasts.dff_olive_sapling": "Olive Sapling",
+  "block.dffeasts.olive_fence": "Olive Fence",
+  "block.dffeasts.olive_fence_gate": "Olive Fence Gate",
+  "block.dffeasts.olive_door": "Olive Door",
+  "block.dffeasts.olive_trapdoor": "Olive Trapdoor",
 
 
   "block.dffeasts.crop_bag_veggies": "Fortuitous Feasts Veggies Crop Bag",

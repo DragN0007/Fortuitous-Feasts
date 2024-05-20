@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:sugar"
+    },
+    {
+      "tag": "forge:passionfruit"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:passionfruit_jam"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:campfire_cooking",
   "ingredient": {
-    "item": "dffeasts:raspberry"
+    "tag": "forge:raspberry"
   },
   "result": "dffeasts:dried_raspberry",
   "experience": 0.35,

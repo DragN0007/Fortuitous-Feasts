@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "dffeasts:olive_planks"
+    }
+  },
+  "result": {
+    "item": "dffeasts:olive_trapdoor",
+    "count": 2
+  }
+}

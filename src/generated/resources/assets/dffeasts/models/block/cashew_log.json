@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "dffeasts:block/cashew_log",
+    "end": "dffeasts:block/cashew_log_top"
+  }
+}

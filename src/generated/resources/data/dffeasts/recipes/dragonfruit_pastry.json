@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "dffeasts:dragonfruit_jam"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:dragonfruit_pastry",
+    "count": 2
+  }
+}

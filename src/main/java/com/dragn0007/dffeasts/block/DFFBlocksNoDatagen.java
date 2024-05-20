@@ -105,6 +105,20 @@ public class DFFBlocksNoDatagen {
             () -> new PearLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
     public static final RegistryObject<Block> POMEGRANATE_LEAVES = registerBlock("pomegranate_leaves",
             () -> new PomegranateLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> BANANA_LEAVES = registerBlock("banana_leaves",
+            () -> new BananaLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> DRAGONFRUIT_LEAVES = registerBlock("dragonfruit_leaves",
+            () -> new DragonfruitLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> PASSIONFRUIT_LEAVES = registerBlock("passionfruit_leaves",
+            () -> new PassionfruitLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> CASHEW_LEAVES = registerBlock("cashew_leaves",
+            () -> new CashewLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> ALMOND_LEAVES = registerBlock("almond_leaves",
+            () -> new AlmondLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> WALNUT_LEAVES = registerBlock("walnut_leaves",
+            () -> new WalnutLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
+    public static final RegistryObject<Block> OLIVE_LEAVES = registerBlock("olive_leaves",
+            () -> new OliveLeaves(Block.Properties.of(Material.LEAVES).strength(0.1F).randomTicks().sound(SoundType.GRASS).noOcclusion()));
 
 
     //TODO; Bushes

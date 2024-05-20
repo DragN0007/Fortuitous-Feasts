@@ -16,6 +16,165 @@ public class DFFBlockstateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
 
+        //Update 1.5
+        logBlock(DFFBlocks.BANANA_LOG.get());
+        simpleBlock(DFFBlocks.BANANA_PLANKS.get());
+        simpleBlockItem(DFFBlocks.BANANA_PLANKS.get(), models().cubeAll(DFFBlocks.BANANA_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.BANANA_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.BANANA_STAIRS.get(), blockTexture(DFFBlocks.BANANA_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.BANANA_STAIRS.get(), models().stairs(DFFBlocks.BANANA_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.BANANA_PLANKS.get()), blockTexture(DFFBlocks.BANANA_PLANKS.get()), blockTexture(DFFBlocks.BANANA_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.BANANA_SLAB.get(), blockTexture(DFFBlocks.BANANA_PLANKS.get()), blockTexture(DFFBlocks.BANANA_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.BANANA_SLAB.get(), models().slab(DFFBlocks.BANANA_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.BANANA_PLANKS.get()), blockTexture(DFFBlocks.BANANA_PLANKS.get()), blockTexture(DFFBlocks.BANANA_PLANKS.get())));
+        simpleBlock(DFFBlocks.DFF_BANANA_SAPLING.get(), models().cross(DFFBlocks.DFF_BANANA_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_BANANA_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.BANANA_FENCE.get(), blockTexture(DFFBlocks.BANANA_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.BANANA_FENCE.get(), models().fenceInventory(DFFBlocks.BANANA_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.BANANA_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.BANANA_FENCE_GATE.get(), blockTexture(DFFBlocks.BANANA_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.BANANA_FENCE_GATE.get(), models().fenceGate(DFFBlocks.BANANA_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.BANANA_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.BANANA_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/banana_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/banana_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.BANANA_TRAPDOOR.get(), blockTexture(DFFBlocks.BANANA_TRAPDOOR.get()), true);
+
+        logBlock(DFFBlocks.ALMOND_LOG.get());
+        simpleBlock(DFFBlocks.ALMOND_PLANKS.get());
+        simpleBlockItem(DFFBlocks.ALMOND_PLANKS.get(), models().cubeAll(DFFBlocks.ALMOND_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.ALMOND_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.ALMOND_STAIRS.get(), blockTexture(DFFBlocks.ALMOND_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.ALMOND_STAIRS.get(), models().stairs(DFFBlocks.ALMOND_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.ALMOND_PLANKS.get()), blockTexture(DFFBlocks.ALMOND_PLANKS.get()), blockTexture(DFFBlocks.ALMOND_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.ALMOND_SLAB.get(), blockTexture(DFFBlocks.ALMOND_PLANKS.get()), blockTexture(DFFBlocks.ALMOND_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.ALMOND_SLAB.get(), models().slab(DFFBlocks.ALMOND_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.ALMOND_PLANKS.get()), blockTexture(DFFBlocks.ALMOND_PLANKS.get()), blockTexture(DFFBlocks.ALMOND_PLANKS.get())));
+        simpleBlock(DFFBlocks.DFF_ALMOND_SAPLING.get(), models().cross(DFFBlocks.DFF_ALMOND_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_ALMOND_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.ALMOND_FENCE.get(), blockTexture(DFFBlocks.ALMOND_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.ALMOND_FENCE.get(), models().fenceInventory(DFFBlocks.ALMOND_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.ALMOND_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.ALMOND_FENCE_GATE.get(), blockTexture(DFFBlocks.ALMOND_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.ALMOND_FENCE_GATE.get(), models().fenceGate(DFFBlocks.ALMOND_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.ALMOND_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.ALMOND_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/almond_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/almond_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.ALMOND_TRAPDOOR.get(), blockTexture(DFFBlocks.ALMOND_TRAPDOOR.get()), true);
+
+        logBlock(DFFBlocks.DRAGONFRUIT_LOG.get());
+        simpleBlock(DFFBlocks.DRAGONFRUIT_PLANKS.get());
+        simpleBlockItem(DFFBlocks.DRAGONFRUIT_PLANKS.get(), models().cubeAll(DFFBlocks.DRAGONFRUIT_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DRAGONFRUIT_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.DRAGONFRUIT_STAIRS.get(), blockTexture(DFFBlocks.DRAGONFRUIT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.DRAGONFRUIT_STAIRS.get(), models().stairs(DFFBlocks.DRAGONFRUIT_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DRAGONFRUIT_PLANKS.get()), blockTexture(DFFBlocks.DRAGONFRUIT_PLANKS.get()), blockTexture(DFFBlocks.DRAGONFRUIT_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.DRAGONFRUIT_SLAB.get(), blockTexture(DFFBlocks.DRAGONFRUIT_PLANKS.get()), blockTexture(DFFBlocks.DRAGONFRUIT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.DRAGONFRUIT_SLAB.get(), models().slab(DFFBlocks.DRAGONFRUIT_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DRAGONFRUIT_PLANKS.get()), blockTexture(DFFBlocks.DRAGONFRUIT_PLANKS.get()), blockTexture(DFFBlocks.DRAGONFRUIT_PLANKS.get())));
+        simpleBlock(DFFBlocks.DFF_DRAGONFRUIT_SAPLING.get(), models().cross(DFFBlocks.DFF_DRAGONFRUIT_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_DRAGONFRUIT_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.DRAGONFRUIT_FENCE.get(), blockTexture(DFFBlocks.DRAGONFRUIT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.DRAGONFRUIT_FENCE.get(), models().fenceInventory(DFFBlocks.DRAGONFRUIT_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DRAGONFRUIT_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.DRAGONFRUIT_FENCE_GATE.get(), blockTexture(DFFBlocks.DRAGONFRUIT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.DRAGONFRUIT_FENCE_GATE.get(), models().fenceGate(DFFBlocks.DRAGONFRUIT_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DRAGONFRUIT_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.DRAGONFRUIT_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/dragonfruit_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/dragonfruit_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.DRAGONFRUIT_TRAPDOOR.get(), blockTexture(DFFBlocks.DRAGONFRUIT_TRAPDOOR.get()), true);
+
+        logBlock(DFFBlocks.PASSIONFRUIT_LOG.get());
+        simpleBlock(DFFBlocks.PASSIONFRUIT_PLANKS.get());
+        simpleBlockItem(DFFBlocks.PASSIONFRUIT_PLANKS.get(), models().cubeAll(DFFBlocks.PASSIONFRUIT_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.PASSIONFRUIT_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.PASSIONFRUIT_STAIRS.get(), blockTexture(DFFBlocks.PASSIONFRUIT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.PASSIONFRUIT_STAIRS.get(), models().stairs(DFFBlocks.PASSIONFRUIT_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.PASSIONFRUIT_PLANKS.get()), blockTexture(DFFBlocks.PASSIONFRUIT_PLANKS.get()), blockTexture(DFFBlocks.PASSIONFRUIT_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.PASSIONFRUIT_SLAB.get(), blockTexture(DFFBlocks.PASSIONFRUIT_PLANKS.get()), blockTexture(DFFBlocks.PASSIONFRUIT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.PASSIONFRUIT_SLAB.get(), models().slab(DFFBlocks.PASSIONFRUIT_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.PASSIONFRUIT_PLANKS.get()), blockTexture(DFFBlocks.PASSIONFRUIT_PLANKS.get()), blockTexture(DFFBlocks.PASSIONFRUIT_PLANKS.get())));
+        simpleBlock(DFFBlocks.DFF_PASSIONFRUIT_SAPLING.get(), models().cross(DFFBlocks.DFF_PASSIONFRUIT_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_PASSIONFRUIT_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.PASSIONFRUIT_FENCE.get(), blockTexture(DFFBlocks.PASSIONFRUIT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.PASSIONFRUIT_FENCE.get(), models().fenceInventory(DFFBlocks.PASSIONFRUIT_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.PASSIONFRUIT_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.PASSIONFRUIT_FENCE_GATE.get(), blockTexture(DFFBlocks.PASSIONFRUIT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.PASSIONFRUIT_FENCE_GATE.get(), models().fenceGate(DFFBlocks.PASSIONFRUIT_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.PASSIONFRUIT_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.PASSIONFRUIT_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/passionfruit_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/passionfruit_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.PASSIONFRUIT_TRAPDOOR.get(), blockTexture(DFFBlocks.PASSIONFRUIT_TRAPDOOR.get()), true);
+
+        logBlock(DFFBlocks.WALNUT_LOG.get());
+        simpleBlock(DFFBlocks.WALNUT_PLANKS.get());
+        simpleBlockItem(DFFBlocks.WALNUT_PLANKS.get(), models().cubeAll(DFFBlocks.WALNUT_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.WALNUT_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.WALNUT_STAIRS.get(), blockTexture(DFFBlocks.WALNUT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.WALNUT_STAIRS.get(), models().stairs(DFFBlocks.WALNUT_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.WALNUT_PLANKS.get()), blockTexture(DFFBlocks.WALNUT_PLANKS.get()), blockTexture(DFFBlocks.WALNUT_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.WALNUT_SLAB.get(), blockTexture(DFFBlocks.WALNUT_PLANKS.get()), blockTexture(DFFBlocks.WALNUT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.WALNUT_SLAB.get(), models().slab(DFFBlocks.WALNUT_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.WALNUT_PLANKS.get()), blockTexture(DFFBlocks.WALNUT_PLANKS.get()), blockTexture(DFFBlocks.WALNUT_PLANKS.get())));
+        simpleBlock(DFFBlocks.DFF_WALNUT_SAPLING.get(), models().cross(DFFBlocks.DFF_WALNUT_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_WALNUT_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.WALNUT_FENCE.get(), blockTexture(DFFBlocks.WALNUT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.WALNUT_FENCE.get(), models().fenceInventory(DFFBlocks.WALNUT_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.WALNUT_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.WALNUT_FENCE_GATE.get(), blockTexture(DFFBlocks.WALNUT_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.WALNUT_FENCE_GATE.get(), models().fenceGate(DFFBlocks.WALNUT_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.WALNUT_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.WALNUT_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/walnut_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/walnut_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.WALNUT_TRAPDOOR.get(), blockTexture(DFFBlocks.WALNUT_TRAPDOOR.get()), true);
+
+        logBlock(DFFBlocks.OLIVE_LOG.get());
+        simpleBlock(DFFBlocks.OLIVE_PLANKS.get());
+        simpleBlockItem(DFFBlocks.OLIVE_PLANKS.get(), models().cubeAll(DFFBlocks.OLIVE_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.OLIVE_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.OLIVE_STAIRS.get(), blockTexture(DFFBlocks.OLIVE_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.OLIVE_STAIRS.get(), models().stairs(DFFBlocks.OLIVE_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.OLIVE_PLANKS.get()), blockTexture(DFFBlocks.OLIVE_PLANKS.get()), blockTexture(DFFBlocks.OLIVE_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.OLIVE_SLAB.get(), blockTexture(DFFBlocks.OLIVE_PLANKS.get()), blockTexture(DFFBlocks.OLIVE_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.OLIVE_SLAB.get(), models().slab(DFFBlocks.OLIVE_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.OLIVE_PLANKS.get()), blockTexture(DFFBlocks.OLIVE_PLANKS.get()), blockTexture(DFFBlocks.OLIVE_PLANKS.get())));
+        simpleBlock(DFFBlocks.DFF_OLIVE_SAPLING.get(), models().cross(DFFBlocks.DFF_OLIVE_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_OLIVE_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.OLIVE_FENCE.get(), blockTexture(DFFBlocks.OLIVE_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.OLIVE_FENCE.get(), models().fenceInventory(DFFBlocks.OLIVE_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.OLIVE_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.OLIVE_FENCE_GATE.get(), blockTexture(DFFBlocks.OLIVE_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.OLIVE_FENCE_GATE.get(), models().fenceGate(DFFBlocks.OLIVE_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.OLIVE_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.OLIVE_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/olive_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/olive_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.OLIVE_TRAPDOOR.get(), blockTexture(DFFBlocks.OLIVE_TRAPDOOR.get()), true);
+
+        logBlock(DFFBlocks.CASHEW_LOG.get());
+        simpleBlock(DFFBlocks.CASHEW_PLANKS.get());
+        simpleBlockItem(DFFBlocks.CASHEW_PLANKS.get(), models().cubeAll(DFFBlocks.CASHEW_PLANKS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.CASHEW_PLANKS.get())));
+        stairsBlock((StairBlock) DFFBlocks.CASHEW_STAIRS.get(), blockTexture(DFFBlocks.CASHEW_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.CASHEW_STAIRS.get(), models().stairs(DFFBlocks.CASHEW_STAIRS.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.CASHEW_PLANKS.get()), blockTexture(DFFBlocks.CASHEW_PLANKS.get()), blockTexture(DFFBlocks.CASHEW_PLANKS.get())));
+        slabBlock((SlabBlock) DFFBlocks.CASHEW_SLAB.get(), blockTexture(DFFBlocks.CASHEW_PLANKS.get()), blockTexture(DFFBlocks.CASHEW_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.CASHEW_SLAB.get(), models().slab(DFFBlocks.CASHEW_SLAB.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.CASHEW_PLANKS.get()), blockTexture(DFFBlocks.CASHEW_PLANKS.get()), blockTexture(DFFBlocks.CASHEW_PLANKS.get())));
+        simpleBlock(DFFBlocks.DFF_CASHEW_SAPLING.get(), models().cross(DFFBlocks.DFF_CASHEW_SAPLING.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.DFF_CASHEW_SAPLING.get())));
+        fenceBlock((FenceBlock) DFFBlocks.CASHEW_FENCE.get(), blockTexture(DFFBlocks.CASHEW_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.CASHEW_FENCE.get(), models().fenceInventory(DFFBlocks.CASHEW_FENCE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.CASHEW_PLANKS.get())));
+        fenceGateBlock((FenceGateBlock) DFFBlocks.CASHEW_FENCE_GATE.get(), blockTexture(DFFBlocks.CASHEW_PLANKS.get()));
+        simpleBlockItem(DFFBlocks.CASHEW_FENCE_GATE.get(), models().fenceGate(DFFBlocks.CASHEW_FENCE_GATE.get().getRegistryName().getPath(),
+                blockTexture(DFFBlocks.CASHEW_PLANKS.get())));
+        doorBlock((DoorBlock) DFFBlocks.CASHEW_DOOR.get(), new ResourceLocation(DFFeastsMain.MODID, "block/cashew_door_bottom"),
+                new ResourceLocation(DFFeastsMain.MODID, "block/cashew_door_top"));
+        trapdoorBlock((TrapDoorBlock) DFFBlocks.CASHEW_TRAPDOOR.get(), blockTexture(DFFBlocks.CASHEW_TRAPDOOR.get()), true);
+
+
+
+
+        //1.0
         logBlock(DFFBlocks.ORANGE_LOG.get());
         simpleBlock(DFFBlocks.ORANGE_PLANKS.get());
         simpleBlockItem(DFFBlocks.ORANGE_PLANKS.get(), models().cubeAll(DFFBlocks.ORANGE_PLANKS.get().getRegistryName().getPath(),

@@ -97,6 +97,14 @@ public class DFFeastsMain
         ComposterBlock.COMPOSTABLES.put(DFFItems.WHITE_GRAPES.get(), 0.5F);
         ComposterBlock.COMPOSTABLES.put(DFFItems.WHITE_RASPBERRY.get(), 0.5F);
         ComposterBlock.COMPOSTABLES.put(DFFItems.ZUCCHINI.get(), 0.5F);
+        ComposterBlock.COMPOSTABLES.put(DFFItems.DRAGONFRUIT.get(), 0.5F);
+        ComposterBlock.COMPOSTABLES.put(DFFItems.PASSIONFRUIT.get(), 0.5F);
+        ComposterBlock.COMPOSTABLES.put(DFFItems.BANANA.get(), 0.5F);
+        ComposterBlock.COMPOSTABLES.put(DFFItems.OLIVES.get(), 0.5F);
+        ComposterBlock.COMPOSTABLES.put(DFFItems.ALMONDS.get(), 0.5F);
+        ComposterBlock.COMPOSTABLES.put(DFFItems.WALNUT.get(), 0.5F);
+        ComposterBlock.COMPOSTABLES.put(DFFItems.CASHEWS.get(), 0.5F);
+
 
         ComposterBlock.COMPOSTABLES.put(DFFItems.ORANGE_SEEDS.get(), 0.2F);
         ComposterBlock.COMPOSTABLES.put(DFFItems.POMEGRANATE_SEEDS.get(), 0.2F);
@@ -107,6 +115,9 @@ public class DFFeastsMain
         ComposterBlock.COMPOSTABLES.put(DFFItems.KIWI_SEEDS.get(), 0.2F);
         ComposterBlock.COMPOSTABLES.put(DFFItems.PEAR_SEEDS.get(), 0.2F);
         ComposterBlock.COMPOSTABLES.put(DFFItems.LYCHEE_SEED.get(), 0.2F);
+        ComposterBlock.COMPOSTABLES.put(DFFItems.BANANA_SEEDS.get(), 0.2F);
+        ComposterBlock.COMPOSTABLES.put(DFFItems.DRAGONFRUIT_SEEDS.get(), 0.2F);
+        ComposterBlock.COMPOSTABLES.put(DFFItems.PASSIONFRUIT_SEEDS.get(), 0.2F);
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)

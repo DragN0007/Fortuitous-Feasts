@@ -25,6 +25,115 @@ import java.util.List;
 
 public class ModConfigFeatures {
 
+    //1.5
+
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> DFF_DRAGONFRUIT = FeatureUtils.register("dff_dragonfruit",Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+            BlockStateProvider.simple(DFFBlocks.DRAGONFRUIT_LOG.get()),
+            new StraightTrunkPlacer(2, 0, 2),
+            BlockStateProvider.simple(DFFBlocksNoDatagen.DRAGONFRUIT_LEAVES.get()),
+            new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 1),
+            new TwoLayersFeatureSize(1, 0, 2)).ignoreVines().build());
+    public static final Holder<PlacedFeature> DFF_DRAGONFRUIT_CHECKED =
+            PlacementUtils.register("dff_dragonfruit_checked",
+                    DFF_DRAGONFRUIT, PlacementUtils.filteredByBlockSurvival(DFFBlocksNoDatagen.DRAGONFRUIT_LEAVES.get()));
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> DFF_DRAGONFRUIT_SPAWN =
+            FeatureUtils.register("dff_dragonfruit_spawn", Feature.RANDOM_SELECTOR,
+                    new RandomFeatureConfiguration(List.of(
+                            new WeightedPlacedFeature(DFF_DRAGONFRUIT_CHECKED, 0.33333334F)), DFF_DRAGONFRUIT_CHECKED));
+
+
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> DFF_PASSIONFRUIT = FeatureUtils.register("dff_passionfruit",Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+            BlockStateProvider.simple(DFFBlocks.PASSIONFRUIT_LOG.get()),
+            new StraightTrunkPlacer(2, 0, 2),
+            BlockStateProvider.simple(DFFBlocksNoDatagen.PASSIONFRUIT_LEAVES.get()),
+            new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 1),
+            new TwoLayersFeatureSize(1, 0, 2)).ignoreVines().build());
+    public static final Holder<PlacedFeature> DFF_PASSIONFRUIT_CHECKED =
+            PlacementUtils.register("dff_passionfruit_checked",
+                    DFF_PASSIONFRUIT, PlacementUtils.filteredByBlockSurvival(DFFBlocksNoDatagen.PASSIONFRUIT_LEAVES.get()));
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> DFF_PASSIONFRUIT_SPAWN =
+            FeatureUtils.register("dff_passionfruit_spawn", Feature.RANDOM_SELECTOR,
+                    new RandomFeatureConfiguration(List.of(
+                            new WeightedPlacedFeature(DFF_PASSIONFRUIT_CHECKED, 0.33333334F)), DFF_PASSIONFRUIT_CHECKED));
+
+
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> DFF_BANANA = FeatureUtils.register("dff_banana",Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+            BlockStateProvider.simple(DFFBlocks.BANANA_LOG.get()),
+            new StraightTrunkPlacer(2, 0, 2),
+            BlockStateProvider.simple(DFFBlocksNoDatagen.BANANA_LEAVES.get()),
+            new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 1),
+            new TwoLayersFeatureSize(1, 0, 2)).ignoreVines().build());
+    public static final Holder<PlacedFeature> DFF_BANANA_CHECKED =
+            PlacementUtils.register("dff_banana_checked",
+                    DFF_BANANA, PlacementUtils.filteredByBlockSurvival(DFFBlocksNoDatagen.BANANA_LEAVES.get()));
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> DFF_BANANA_SPAWN =
+            FeatureUtils.register("dff_banana_spawn", Feature.RANDOM_SELECTOR,
+                    new RandomFeatureConfiguration(List.of(
+                            new WeightedPlacedFeature(DFF_BANANA_CHECKED, 0.33333334F)), DFF_BANANA_CHECKED));
+
+
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> DFF_WALNUT = FeatureUtils.register("dff_walnut",Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+            BlockStateProvider.simple(DFFBlocks.WALNUT_LOG.get()),
+            new StraightTrunkPlacer(2, 0, 2),
+            BlockStateProvider.simple(DFFBlocksNoDatagen.WALNUT_LEAVES.get()),
+            new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 1),
+            new TwoLayersFeatureSize(1, 0, 2)).ignoreVines().build());
+    public static final Holder<PlacedFeature> DFF_WALNUT_CHECKED =
+            PlacementUtils.register("dff_walnut_checked",
+                    DFF_WALNUT, PlacementUtils.filteredByBlockSurvival(DFFBlocksNoDatagen.WALNUT_LEAVES.get()));
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> DFF_WALNUT_SPAWN =
+            FeatureUtils.register("dff_walnut_spawn", Feature.RANDOM_SELECTOR,
+                    new RandomFeatureConfiguration(List.of(
+                            new WeightedPlacedFeature(DFF_WALNUT_CHECKED, 0.33333334F)), DFF_WALNUT_CHECKED));
+
+
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> DFF_CASHEW = FeatureUtils.register("dff_cashew",Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+            BlockStateProvider.simple(DFFBlocks.CASHEW_LOG.get()),
+            new StraightTrunkPlacer(2, 0, 2),
+            BlockStateProvider.simple(DFFBlocksNoDatagen.CASHEW_LEAVES.get()),
+            new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 1),
+            new TwoLayersFeatureSize(1, 0, 2)).ignoreVines().build());
+    public static final Holder<PlacedFeature> DFF_CASHEW_CHECKED =
+            PlacementUtils.register("dff_cashew_checked",
+                    DFF_CASHEW, PlacementUtils.filteredByBlockSurvival(DFFBlocksNoDatagen.CASHEW_LEAVES.get()));
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> DFF_CASHEW_SPAWN =
+            FeatureUtils.register("dff_cashew_spawn", Feature.RANDOM_SELECTOR,
+                    new RandomFeatureConfiguration(List.of(
+                            new WeightedPlacedFeature(DFF_CASHEW_CHECKED, 0.33333334F)), DFF_CASHEW_CHECKED));
+
+
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> DFF_ALMOND = FeatureUtils.register("dff_almond",Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+            BlockStateProvider.simple(DFFBlocks.ALMOND_LOG.get()),
+            new StraightTrunkPlacer(2, 0, 2),
+            BlockStateProvider.simple(DFFBlocksNoDatagen.ALMOND_LEAVES.get()),
+            new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 1),
+            new TwoLayersFeatureSize(1, 0, 2)).ignoreVines().build());
+    public static final Holder<PlacedFeature> DFF_ALMOND_CHECKED =
+            PlacementUtils.register("dff_almond_checked",
+                    DFF_ALMOND, PlacementUtils.filteredByBlockSurvival(DFFBlocksNoDatagen.ALMOND_LEAVES.get()));
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> DFF_ALMOND_SPAWN =
+            FeatureUtils.register("dff_almond_spawn", Feature.RANDOM_SELECTOR,
+                    new RandomFeatureConfiguration(List.of(
+                            new WeightedPlacedFeature(DFF_ALMOND_CHECKED, 0.33333334F)), DFF_ALMOND_CHECKED));
+
+
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> DFF_OLIVE = FeatureUtils.register("dff_olive",Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+            BlockStateProvider.simple(DFFBlocks.OLIVE_LOG.get()),
+            new StraightTrunkPlacer(2, 0, 2),
+            BlockStateProvider.simple(DFFBlocksNoDatagen.OLIVE_LEAVES.get()),
+            new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 1),
+            new TwoLayersFeatureSize(1, 0, 2)).ignoreVines().build());
+    public static final Holder<PlacedFeature> DFF_OLIVE_CHECKED =
+            PlacementUtils.register("dff_olive_checked",
+                    DFF_OLIVE, PlacementUtils.filteredByBlockSurvival(DFFBlocksNoDatagen.OLIVE_LEAVES.get()));
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> DFF_OLIVE_SPAWN =
+            FeatureUtils.register("dff_olive_spawn", Feature.RANDOM_SELECTOR,
+                    new RandomFeatureConfiguration(List.of(
+                            new WeightedPlacedFeature(DFF_OLIVE_CHECKED, 0.33333334F)), DFF_OLIVE_CHECKED));
+
+
+
+
 
     //Orange
     public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> DFF_ORANGE = FeatureUtils.register("dff_orange",Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(

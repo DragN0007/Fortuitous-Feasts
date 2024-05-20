@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "dffeasts:almond_planks"
+    }
+  },
+  "result": {
+    "item": "dffeasts:almond_trapdoor",
+    "count": 2
+  }
+}

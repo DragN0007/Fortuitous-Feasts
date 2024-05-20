@@ -152,7 +152,79 @@ public class DFFBlockLootTables extends BlockLoot {
         this.add(DFFBlocks.AVOCADO_DOOR.get(), BlockLoot::createDoorTable);
         this.dropSelf(DFFBlocks.AVOCADO_TRAPDOOR.get());
 
+        //Update 1.5
+        this.dropSelf(DFFBlocks.BANANA_LOG.get());
+        this.dropSelf(DFFBlocks.BANANA_PLANKS.get());
+        this.dropSelf(DFFBlocks.BANANA_SLAB.get());
+        this.dropSelf(DFFBlocks.BANANA_STAIRS.get());
+        this.dropOther(DFFBlocks.DFF_BANANA_SAPLING.get(), DFFItems.BANANA_SEEDS.get());
+        this.dropSelf(DFFBlocks.BANANA_FENCE.get());
+        this.dropSelf(DFFBlocks.BANANA_FENCE_GATE.get());
+        this.add(DFFBlocks.BANANA_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.BANANA_TRAPDOOR.get());
 
+        this.dropSelf(DFFBlocks.DRAGONFRUIT_LOG.get());
+        this.dropSelf(DFFBlocks.DRAGONFRUIT_PLANKS.get());
+        this.dropSelf(DFFBlocks.DRAGONFRUIT_SLAB.get());
+        this.dropSelf(DFFBlocks.DRAGONFRUIT_STAIRS.get());
+        this.dropOther(DFFBlocks.DFF_DRAGONFRUIT_SAPLING.get(), DFFItems.DRAGONFRUIT_SEEDS.get());
+        this.dropSelf(DFFBlocks.DRAGONFRUIT_FENCE.get());
+        this.dropSelf(DFFBlocks.DRAGONFRUIT_FENCE_GATE.get());
+        this.add(DFFBlocks.DRAGONFRUIT_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.DRAGONFRUIT_TRAPDOOR.get());
+
+        this.dropSelf(DFFBlocks.PASSIONFRUIT_LOG.get());
+        this.dropSelf(DFFBlocks.PASSIONFRUIT_PLANKS.get());
+        this.dropSelf(DFFBlocks.PASSIONFRUIT_SLAB.get());
+        this.dropSelf(DFFBlocks.PASSIONFRUIT_STAIRS.get());
+        this.dropOther(DFFBlocks.DFF_PASSIONFRUIT_SAPLING.get(), DFFItems.PASSIONFRUIT_SEEDS.get());
+        this.dropSelf(DFFBlocks.PASSIONFRUIT_FENCE.get());
+        this.dropSelf(DFFBlocks.PASSIONFRUIT_FENCE_GATE.get());
+        this.add(DFFBlocks.PASSIONFRUIT_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.PASSIONFRUIT_TRAPDOOR.get());
+
+        this.dropSelf(DFFBlocks.CASHEW_LOG.get());
+        this.dropSelf(DFFBlocks.CASHEW_PLANKS.get());
+        this.dropSelf(DFFBlocks.CASHEW_SLAB.get());
+        this.dropSelf(DFFBlocks.CASHEW_STAIRS.get());
+        this.dropOther(DFFBlocks.DFF_CASHEW_SAPLING.get(), DFFItems.CASHEWS.get());
+        this.dropSelf(DFFBlocks.CASHEW_FENCE.get());
+        this.dropSelf(DFFBlocks.CASHEW_FENCE_GATE.get());
+        this.add(DFFBlocks.CASHEW_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.CASHEW_TRAPDOOR.get());
+
+        this.dropSelf(DFFBlocks.WALNUT_LOG.get());
+        this.dropSelf(DFFBlocks.WALNUT_PLANKS.get());
+        this.dropSelf(DFFBlocks.WALNUT_SLAB.get());
+        this.dropSelf(DFFBlocks.WALNUT_STAIRS.get());
+        this.dropOther(DFFBlocks.DFF_WALNUT_SAPLING.get(), DFFItems.WALNUT.get());
+        this.dropSelf(DFFBlocks.WALNUT_FENCE.get());
+        this.dropSelf(DFFBlocks.WALNUT_FENCE_GATE.get());
+        this.add(DFFBlocks.WALNUT_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.WALNUT_TRAPDOOR.get());
+
+        this.dropSelf(DFFBlocks.ALMOND_LOG.get());
+        this.dropSelf(DFFBlocks.ALMOND_PLANKS.get());
+        this.dropSelf(DFFBlocks.ALMOND_SLAB.get());
+        this.dropSelf(DFFBlocks.ALMOND_STAIRS.get());
+        this.dropOther(DFFBlocks.DFF_ALMOND_SAPLING.get(), DFFItems.ALMONDS.get());
+        this.dropSelf(DFFBlocks.ALMOND_FENCE.get());
+        this.dropSelf(DFFBlocks.ALMOND_FENCE_GATE.get());
+        this.add(DFFBlocks.ALMOND_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.ALMOND_TRAPDOOR.get());
+
+        this.dropSelf(DFFBlocks.OLIVE_LOG.get());
+        this.dropSelf(DFFBlocks.OLIVE_PLANKS.get());
+        this.dropSelf(DFFBlocks.OLIVE_SLAB.get());
+        this.dropSelf(DFFBlocks.OLIVE_STAIRS.get());
+        this.dropOther(DFFBlocks.DFF_OLIVE_SAPLING.get(), DFFItems.OLIVES.get());
+        this.dropSelf(DFFBlocks.OLIVE_FENCE.get());
+        this.dropSelf(DFFBlocks.OLIVE_FENCE_GATE.get());
+        this.add(DFFBlocks.OLIVE_DOOR.get(), BlockLoot::createDoorTable);
+        this.dropSelf(DFFBlocks.OLIVE_TRAPDOOR.get());
+
+
+        //1.0
         LootItemCondition.Builder lootitemcondition$builder1 = LootItemBlockStatePropertyCondition.hasBlockStateProperties
                 (DFFBlocks.BELL_PEPPER_PLANT.get())  .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty
                 (BellPepperBlock.AGE, 3));    this.add

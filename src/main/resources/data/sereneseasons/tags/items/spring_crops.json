@@ -28,17 +28,6 @@
     "dffeasts:cilantro",
     "dffeasts:mint",
 
-    "dffeasts:orange_leaves",
-    "dffeasts:coconut_leaves",
-    "dffeasts:mango_leaves",
-    "dffeasts:avocado_leaves",
-    "dffeasts:cherry_leaves",
-    "dffeasts:coconut_leaves",
-    "dffeasts:grapefruit_leaves",
-    "dffeasts:kiwi_leaves",
-    "dffeasts:lychee_leaves",
-    "dffeasts:pear_leaves",
-
     "dffeasts:orange_seeds",
     "dffeasts:coconut",
     "dffeasts:mango_seed",
@@ -47,6 +36,10 @@
     "dffeasts:grapefruit_seeds",
     "dffeasts:kiwi_seeds",
     "dffeasts:lychee_seed",
-    "dffeasts:pear_seeds"
+    "dffeasts:pear_seeds",
+    "dffeasts:walnut",
+    "dffeasts:cashews",
+    "dffeasts:almonds",
+    "dffeasts:olives"
   ]
 }

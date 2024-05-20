@@ -74,6 +74,8 @@ public class DFFItems {
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
     public static final RegistryObject<Item> PICKLED_RADISH = ITEMS.register("pickled_radish",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PICKLED_OLIVES = ITEMS.register("pickled_olives",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Wrap
     public static final RegistryObject<Item> MEAT_CHEESE_WRAP = ITEMS.register("meat_cheese_wrap",
@@ -121,6 +123,10 @@ public class DFFItems {
     public static final RegistryObject<Item> GREEN_GRAPE_PIE = ITEMS.register("green_grape_pie",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
     public static final RegistryObject<Item> KIWI_PIE = ITEMS.register("kiwi_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRAGONFRUIT_PIE = ITEMS.register("dragonfruit_pie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PASSIONFRUIT_PIE = ITEMS.register("passionfruit_pie",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(12).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Donut
@@ -184,6 +190,10 @@ public class DFFItems {
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
     public static final RegistryObject<Item> KIWI_SMOOTHIE = ITEMS.register("kiwi_smoothie",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRAGONFRUIT_SMOOTHIE = ITEMS.register("dragonfruit_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PASSIONFRUIT_SMOOTHIE = ITEMS.register("passionfruit_smoothie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.REGENERATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Cake
     public static final RegistryObject<Item> CHOCOLATE_CAKE = ITEMS.register("chocolate_cake",
@@ -232,6 +242,7 @@ public class DFFItems {
             () -> new ItemNameBlockItem(DFFBlocksNoDatagen.KIWI_CAKE.get(), (new Item.Properties().tab(DFFItemGroup.FOOD_GROUP))));
 
 
+
     //Jam
     public static final RegistryObject<Item> APPLE_JAM = ITEMS.register("apple_jam",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
@@ -268,6 +279,10 @@ public class DFFItems {
     public static final RegistryObject<Item> GREEN_GRAPE_JAM = ITEMS.register("green_grape_jam",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
     public static final RegistryObject<Item> KIWI_JAM = ITEMS.register("kiwi_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRAGONFRUIT_JAM = ITEMS.register("dragonfruit_jam",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PASSIONFRUIT_JAM = ITEMS.register("passionfruit_jam",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Soda
@@ -307,6 +322,10 @@ public class DFFItems {
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
     public static final RegistryObject<Item> GINGER_SODA = ITEMS.register("ginger_soda",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRAGONFRUIT_SODA = ITEMS.register("dragonfruit_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PASSIONFRUIT_SODA = ITEMS.register("passionfruit_soda",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Pastry
     public static final RegistryObject<Item> APPLE_PASTRY = ITEMS.register("apple_pastry",
@@ -344,6 +363,10 @@ public class DFFItems {
     public static final RegistryObject<Item> GREEN_GRAPE_PASTRY = ITEMS.register("green_grape_pastry",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
     public static final RegistryObject<Item> KIWI_PASTRY = ITEMS.register("kiwi_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRAGONFRUIT_PASTRY = ITEMS.register("dragonfruit_pastry",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PASSIONFRUIT_PASTRY = ITEMS.register("passionfruit_pastry",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Juice
@@ -455,6 +478,18 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
             ));
+    public static final RegistryObject<Item> DRAGONFRUIT_JUICE = ITEMS.register("dragonfruit_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> PASSIONFRUIT_JUICE = ITEMS.register("passionfruit_juice",
+            () -> new JuiceItem(
+                    new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false)
+            ));
 
     //Turnover
     public static final RegistryObject<Item> APPLE_TURNOVER = ITEMS.register("apple_turnover",
@@ -492,6 +527,10 @@ public class DFFItems {
     public static final RegistryObject<Item> GREEN_GRAPE_TURNOVER = ITEMS.register("green_grape_turnover",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(9).saturationMod(1).effect(new MobEffectInstance(MobEffects.ABSORPTION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
     public static final RegistryObject<Item> KIWI_TURNOVER = ITEMS.register("kiwi_turnover",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(9).saturationMod(1).effect(new MobEffectInstance(MobEffects.ABSORPTION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DRAGONFRUIT_TURNOVER = ITEMS.register("dragonfruit_turnover",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(9).saturationMod(1).effect(new MobEffectInstance(MobEffects.ABSORPTION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PASSIONFRUIT_TURNOVER = ITEMS.register("passionfruit_turnover",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(9).saturationMod(1).effect(new MobEffectInstance(MobEffects.ABSORPTION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Tea
@@ -608,6 +647,20 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
             ));
     public static final RegistryObject<Item> KIWI_TEA = ITEMS.register("kiwi_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> DRAGONFRUIT_TEA = ITEMS.register("dragonfruit_tea",
+            () -> new TeaItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 0, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 0, true, false)
+            ));
+    public static final RegistryObject<Item> PASSIONFRUIT_TEA = ITEMS.register("passionfruit_tea",
             () -> new TeaItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 0, true, false),
@@ -804,6 +857,24 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
+    public static final RegistryObject<Item> DRAGONFRUIT_WINE = ITEMS.register("dragonfruit_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> PASSIONFRUIT_WINE = ITEMS.register("passionfruit_wine",
+            () -> new WineItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
 
     //Roasted Veggie
     public static final RegistryObject<Item> ROASTED_BRUSSELS_SPROUTS = ITEMS.register("roasted_brussels_sprouts",
@@ -972,10 +1043,24 @@ public class DFFItems {
             () -> new ItemNameBlockItem(DFFBlocks.SUGAR_BEET_PLANT.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
     public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",
             () -> new ItemNameBlockItem(DFFBlocks.TOMATO_PLANT.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
-//    public static final RegistryObject<Item> WALNUT = ITEMS.register("walnut",
-//            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP)));
     public static final RegistryObject<Item> ZUCCHINI = ITEMS.register("zucchini",
             () -> new ItemNameBlockItem(DFFBlocks.ZUCCHINI_PLANT.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> BANANA = ITEMS.register("banana",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP)));
+    public static final RegistryObject<Item> DRAGONFRUIT = ITEMS.register("dragonfruit",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP)));
+    public static final RegistryObject<Item> PASSIONFRUIT = ITEMS.register("passionfruit",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP)));
+    public static final RegistryObject<Item> CASHEWS = ITEMS.register("cashews",
+            () -> new ItemNameBlockItem(DFFBlocks.DFF_CASHEW_SAPLING.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> OLIVES = ITEMS.register("olives",
+            () -> new ItemNameBlockItem(DFFBlocks.DFF_OLIVE_SAPLING.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> WALNUT = ITEMS.register("walnut",
+            () -> new ItemNameBlockItem(DFFBlocks.DFF_WALNUT_SAPLING.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> ALMONDS = ITEMS.register("almonds",
+            () -> new ItemNameBlockItem(DFFBlocks.DFF_ALMOND_SAPLING.get(), (new Item.Properties().food(new FoodProperties.Builder().nutrition(3).saturationMod(1).build()).tab(DFFItemGroup.CROP_GROUP))));
+
+
 
     // Herbs
     public static final RegistryObject<Item> CILANTRO = ITEMS.register("cilantro",
@@ -1012,6 +1097,12 @@ public class DFFItems {
             () -> new ItemNameBlockItem(DFFBlocks.DFF_CHERRY_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
     public static final RegistryObject<Item> POMEGRANATE_SEEDS = ITEMS.register("pomegranate_seeds",
             () -> new ItemNameBlockItem(DFFBlocks.DFF_POMEGRANATE_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> BANANA_SEEDS = ITEMS.register("banana_seeds",
+            () -> new ItemNameBlockItem(DFFBlocks.DFF_BANANA_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> DRAGONFRUIT_SEEDS = ITEMS.register("dragonfruit_seeds",
+            () -> new ItemNameBlockItem(DFFBlocks.DFF_DRAGONFRUIT_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
+    public static final RegistryObject<Item> PASSIONFRUIT_SEEDS = ITEMS.register("passionfruit_seeds",
+            () -> new ItemNameBlockItem(DFFBlocks.DFF_PASSIONFRUIT_SAPLING.get(), (new Item.Properties().tab(DFFItemGroup.CROP_GROUP))));
 
 
     public static final RegistryObject<Item> CROP_COIN = ITEMS.register("crop_coin",

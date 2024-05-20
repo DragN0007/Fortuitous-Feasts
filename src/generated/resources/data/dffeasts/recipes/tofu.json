@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "forge:soybeans"
+      "tag": "forge:soybean"
     },
     {
-      "tag": "forge:soybeans"
+      "tag": "forge:soybean"
     },
     {
-      "tag": "forge:soybeans"
+      "tag": "forge:soybean"
     }
   ],
   "result": {

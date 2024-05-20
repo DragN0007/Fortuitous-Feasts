@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:sugar"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:butter"
+    },
+    {
+      "tag": "forge:dragonfruit"
+    },
+    {
+      "tag": "forge:dragonfruit"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:dragonfruit_pie"
+  }
+}

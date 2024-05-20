@@ -5,7 +5,7 @@
       "item": "minecraft:glass_bottle"
     },
     {
-      "item": "dffeasts:raspberry"
+      "tag": "forge:raspberry"
     }
   ],
   "result": {

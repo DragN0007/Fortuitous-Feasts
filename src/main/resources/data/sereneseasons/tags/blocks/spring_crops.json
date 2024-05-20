@@ -38,6 +38,10 @@
     "dffeasts:kiwi_leaves",
     "dffeasts:lychee_leaves",
     "dffeasts:pear_leaves",
+    "dffeasts:walnut_leaves",
+    "dffeasts:cashew_leaves",
+    "dffeasts:almond_leaves",
+    "dffeasts:olive_leaves",
 
     "dffeasts:dff_orange_sapling",
     "dffeasts:dff_coconut_sapling",
@@ -48,6 +52,10 @@
     "dffeasts:dff_grapefruit_sapling",
     "dffeasts:dff_kiwi_sapling",
     "dffeasts:dff_lychee_sapling",
-    "dffeasts:dff_pear_sapling"
+    "dffeasts:dff_pear_sapling",
+    "dffeasts:dff_walnut_sapling",
+    "dffeasts:dff_cashew_sapling",
+    "dffeasts:dff_almond_sapling",
+    "dffeasts:dff_olive_sapling"
   ]
 }

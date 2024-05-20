@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smoking",
   "ingredient": {
-    "item": "dffeasts:cherries"
+    "tag": "forge:cherry"
   },
   "result": "dffeasts:dried_cherries",
   "experience": 0.35,

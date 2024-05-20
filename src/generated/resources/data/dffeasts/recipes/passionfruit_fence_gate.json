@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "BAB"
+  ],
+  "key": {
+    "A": {
+      "item": "dffeasts:passionfruit_planks"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dffeasts:passionfruit_fence_gate"
+  }
+}

@@ -6,14 +6,12 @@
     ]
   },
   "criteria": {
-    "has_peanuts": {
+    "has_nuts": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "dffeasts:peanuts"
-            ]
+            "tag": "forge:nuts"
           }
         ]
       }
@@ -27,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_peanuts",
+      "has_nuts",
       "has_the_recipe"
     ]
   ]

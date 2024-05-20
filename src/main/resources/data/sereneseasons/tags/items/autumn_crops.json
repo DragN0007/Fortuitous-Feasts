@@ -40,12 +40,12 @@
     "dffeasts:cilantro",
     "dffeasts:mint",
 
-    "dffeasts:cherry_leaves",
-    "dffeasts:kiwi_leaves",
-    "dffeasts:pear_leaves",
-
     "dffeasts:cherry_pit",
     "dffeasts:kiwi_seeds",
-    "dffeasts:pear_seeds"
+    "dffeasts:pear_seeds",
+    "dffeasts:walnut",
+    "dffeasts:cashews",
+    "dffeasts:almonds",
+    "dffeasts:olives"
   ]
 }

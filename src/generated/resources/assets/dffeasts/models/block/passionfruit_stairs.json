@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "side": "dffeasts:block/passionfruit_planks",
+    "bottom": "dffeasts:block/passionfruit_planks",
+    "top": "dffeasts:block/passionfruit_planks"
+  }
+}

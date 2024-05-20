@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "dffeasts:block/tree/tropical_base_leaves"
+    },
+    "age=1": {
+      "model": "dffeasts:block/tree/tropical_base_leaves"
+    },
+    "age=2": {
+      "model": "dffeasts:block/tree/tropical_base_leaves"
+    },
+    "age=3": {
+      "model": "dffeasts:block/tree/dragonfruit_leaves"
+    }
+  }
+}

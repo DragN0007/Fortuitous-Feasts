@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:banana_log"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:banana_planks",
+    "count": 4
+  }
+}

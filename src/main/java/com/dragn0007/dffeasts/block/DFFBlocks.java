@@ -2,6 +2,7 @@ package com.dragn0007.dffeasts.block;
 
 import com.dragn0007.dffeasts.DFFeastsMain;
 import com.dragn0007.dffeasts.block.crop.*;
+import com.dragn0007.dffeasts.block.leaves.AlmondLeaves;
 import com.dragn0007.dffeasts.item.DFFItemGroup;
 import com.dragn0007.dffeasts.item.DFFItems;
 import com.dragn0007.dffeasts.world.feature.tree.*;
@@ -349,6 +350,142 @@ public class DFFBlocks {
     public static final RegistryObject<Block> KIWI_DOOR = registerBlock("kiwi_door",
             () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
     public static final RegistryObject<Block> KIWI_TRAPDOOR = registerBlock("kiwi_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+
+
+
+    //Update 1.5
+    public static final RegistryObject<RotatedPillarBlock> BANANA_LOG = registerBlock("banana_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> BANANA_PLANKS = registerBlock("banana_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> BANANA_STAIRS = registerBlock("banana_stairs",
+            () -> new StairBlock(BANANA_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> BANANA_SLAB = registerBlock("banana_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> DFF_BANANA_SAPLING = registerBlockWithoutItem("dff_banana_sapling",
+            () -> new SaplingBlock(new DFFBananaTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> BANANA_FENCE = registerBlock("banana_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> BANANA_FENCE_GATE = registerBlock("banana_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> BANANA_DOOR = registerBlock("banana_door",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> BANANA_TRAPDOOR = registerBlock("banana_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+
+    public static final RegistryObject<RotatedPillarBlock> DRAGONFRUIT_LOG = registerBlock("dragonfruit_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> DRAGONFRUIT_PLANKS = registerBlock("dragonfruit_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> DRAGONFRUIT_STAIRS = registerBlock("dragonfruit_stairs",
+            () -> new StairBlock(DRAGONFRUIT_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> DRAGONFRUIT_SLAB = registerBlock("dragonfruit_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> DFF_DRAGONFRUIT_SAPLING = registerBlockWithoutItem("dff_dragonfruit_sapling",
+            () -> new SaplingBlock(new DFFDragonfruitTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> DRAGONFRUIT_FENCE = registerBlock("dragonfruit_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> DRAGONFRUIT_FENCE_GATE = registerBlock("dragonfruit_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> DRAGONFRUIT_DOOR = registerBlock("dragonfruit_door",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> DRAGONFRUIT_TRAPDOOR = registerBlock("dragonfruit_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+
+    public static final RegistryObject<RotatedPillarBlock> PASSIONFRUIT_LOG = registerBlock("passionfruit_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> PASSIONFRUIT_PLANKS = registerBlock("passionfruit_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> PASSIONFRUIT_STAIRS = registerBlock("passionfruit_stairs",
+            () -> new StairBlock(PASSIONFRUIT_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> PASSIONFRUIT_SLAB = registerBlock("passionfruit_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> DFF_PASSIONFRUIT_SAPLING = registerBlockWithoutItem("dff_passionfruit_sapling",
+            () -> new SaplingBlock(new DFFPassionfruitTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> PASSIONFRUIT_FENCE = registerBlock("passionfruit_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> PASSIONFRUIT_FENCE_GATE = registerBlock("passionfruit_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> PASSIONFRUIT_DOOR = registerBlock("passionfruit_door",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> PASSIONFRUIT_TRAPDOOR = registerBlock("passionfruit_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+
+    public static final RegistryObject<RotatedPillarBlock> WALNUT_LOG = registerBlock("walnut_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> WALNUT_PLANKS = registerBlock("walnut_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> WALNUT_STAIRS = registerBlock("walnut_stairs",
+            () -> new StairBlock(WALNUT_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> WALNUT_SLAB = registerBlock("walnut_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> DFF_WALNUT_SAPLING = registerBlockWithoutItem("dff_walnut_sapling",
+            () -> new SaplingBlock(new DFFWalnutTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> WALNUT_FENCE = registerBlock("walnut_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> WALNUT_FENCE_GATE = registerBlock("walnut_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> WALNUT_DOOR = registerBlock("walnut_door",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> WALNUT_TRAPDOOR = registerBlock("walnut_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+
+    public static final RegistryObject<RotatedPillarBlock> ALMOND_LOG = registerBlock("almond_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> ALMOND_PLANKS = registerBlock("almond_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> ALMOND_STAIRS = registerBlock("almond_stairs",
+            () -> new StairBlock(ALMOND_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> ALMOND_SLAB = registerBlock("almond_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> DFF_ALMOND_SAPLING = registerBlockWithoutItem("dff_almond_sapling",
+            () -> new SaplingBlock(new DFFAlmondTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> ALMOND_FENCE = registerBlock("almond_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> ALMOND_FENCE_GATE = registerBlock("almond_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> ALMOND_DOOR = registerBlock("almond_door",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> ALMOND_TRAPDOOR = registerBlock("almond_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+
+    public static final RegistryObject<RotatedPillarBlock> CASHEW_LOG = registerBlock("cashew_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> CASHEW_PLANKS = registerBlock("cashew_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> CASHEW_STAIRS = registerBlock("cashew_stairs",
+            () -> new StairBlock(CASHEW_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> CASHEW_SLAB = registerBlock("cashew_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> DFF_CASHEW_SAPLING = registerBlockWithoutItem("dff_cashew_sapling",
+            () -> new SaplingBlock(new DFFCashewTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> CASHEW_FENCE = registerBlock("cashew_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> CASHEW_FENCE_GATE = registerBlock("cashew_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> CASHEW_DOOR = registerBlock("cashew_door",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> CASHEW_TRAPDOOR = registerBlock("cashew_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+
+    public static final RegistryObject<RotatedPillarBlock> OLIVE_LOG = registerBlock("olive_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)));
+    public static final RegistryObject<Block> OLIVE_PLANKS = registerBlock("olive_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> OLIVE_STAIRS = registerBlock("olive_stairs",
+            () -> new StairBlock(OLIVE_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> OLIVE_SLAB = registerBlock("olive_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F)));
+    public static final RegistryObject<Block> DFF_OLIVE_SAPLING = registerBlockWithoutItem("dff_olive_sapling",
+            () -> new SaplingBlock(new DFFOliveTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> OLIVE_FENCE = registerBlock("olive_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> OLIVE_FENCE_GATE = registerBlock("olive_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> OLIVE_DOOR = registerBlock("olive_door",
+            () -> new DoorBlock(Block.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
+    public static final RegistryObject<Block> OLIVE_TRAPDOOR = registerBlock("olive_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(3.0F).sound(SoundType.WOOD).noOcclusion()));
 
 

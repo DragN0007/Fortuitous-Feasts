@@ -27,6 +27,8 @@ public class DFFTreeGeneration {
 
             base.add(ModPlacedFeatures.DFF_ORANGE_PLACED);
             base.add(ModPlacedFeatures.DFF_GRAPEFRUIT_PLACED);
+            base.add(ModPlacedFeatures.DFF_PASSIONFRUIT_PLACED);
+            base.add(ModPlacedFeatures.DFF_BANANA_PLACED);
         }
 
         if (types.contains(BiomeDictionary.Type.JUNGLE)) {
@@ -38,6 +40,7 @@ public class DFFTreeGeneration {
             base.add(ModPlacedFeatures.DFF_POMEGRANATE_PLACED);
             base.add(ModPlacedFeatures.DFF_MANGO_PLACED);
             base.add(ModPlacedFeatures.DFF_COCONUT_PLACED);
+            base.add(ModPlacedFeatures.DFF_DRAGONFRUIT_PLACED);
         }
 
         if (types.contains(BiomeDictionary.Type.PLAINS)) {
@@ -47,6 +50,10 @@ public class DFFTreeGeneration {
             base.add(ModPlacedFeatures.DFF_KIWI_PLACED);
             base.add(ModPlacedFeatures.DFF_CHERRY_PLACED);
             base.add(ModPlacedFeatures.DFF_PEAR_PLACED);
+            base.add(ModPlacedFeatures.DFF_WALNUT_PLACED);
+            base.add(ModPlacedFeatures.DFF_CASHEW_PLACED);
+            base.add(ModPlacedFeatures.DFF_ALMOND_PLACED);
+            base.add(ModPlacedFeatures.DFF_OLIVE_PLACED);
         }
 
 

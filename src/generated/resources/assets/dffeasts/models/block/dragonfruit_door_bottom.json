@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom",
+  "textures": {
+    "bottom": "dffeasts:block/dragonfruit_door_bottom",
+    "top": "dffeasts:block/dragonfruit_door_top"
+  }
+}

@@ -5,7 +5,7 @@
       "item": "minecraft:glass_bottle"
     },
     {
-      "item": "dffeasts:pomegranate"
+      "tag": "forge:pomegranate"
     }
   ],
   "result": {

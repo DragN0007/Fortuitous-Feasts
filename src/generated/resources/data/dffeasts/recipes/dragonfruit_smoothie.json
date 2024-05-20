@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:sugar"
+    },
+    {
+      "tag": "forge:smoothie_ice"
+    },
+    {
+      "item": "dffeasts:dragonfruit_juice"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:dragonfruit_smoothie"
+  }
+}

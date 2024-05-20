@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dffeasts:cashew_log"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:cashew_planks",
+    "count": 4
+  }
+}
