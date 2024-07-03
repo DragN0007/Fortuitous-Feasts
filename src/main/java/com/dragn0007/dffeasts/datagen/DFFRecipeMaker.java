@@ -23,6 +23,220 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
+        //TODO; Update 1.6
+        ShapelessRecipeBuilder.shapeless(DFFItems.BLACKBERRY_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.BLACKBERRY_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.BLUEBERRY_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.BLUEBERRY_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.CRANBERRY_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.CRANBERRY_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.CHERRY_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.CHERRY_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.STRAWBERRY_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.STRAWBERRY_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.GRAPEFRUIT_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.GRAPEFRUIT_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.POMEGRANATE_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.POMEGRANATE_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.GREEN_GRAPE_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.GREEN_GRAPE_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.KIWI_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.KIWI_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.LYCHEE_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.LYCHEE_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.MANGO_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.MANGO_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.ORANGE_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.ORANGE_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PEAR_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.PEAR_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PURPLE_GRAPE_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.PURPLE_GRAPE_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.RASPBERRY_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.RASPBERRY_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.RED_GRAPE_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.RED_GRAPE_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.WHITE_RASPBERRY_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.WHITE_RASPBERRY_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.DRAGONFRUIT_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.DRAGONFRUIT_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PASSIONFRUIT_BEER.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFItems.PASSIONFRUIT_JUICE.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+
+
+
         //TODO; Update 1.5
 
         ShapelessRecipeBuilder.shapeless(DFFItems.DRAGONFRUIT_TURNOVER.get(), 2)
@@ -3661,6 +3875,15 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(Items.ROTTEN_FLESH), Items.LEATHER, 0.35F, 200)
                 .unlockedBy("has_rotten_flesh", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(Items.ROTTEN_FLESH).build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(Items.BREAD, 1)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFTags.Items.RYE)
+                .requires(DFFTags.Items.RYE)
+                .unlockedBy("has_rye", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.RYE)
+                        .build()))
                 .save(pFinishedRecipeConsumer);
 
         ShapelessRecipeBuilder.shapeless(Items.PAPER, 12)

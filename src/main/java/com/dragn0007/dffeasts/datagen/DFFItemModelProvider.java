@@ -18,6 +18,30 @@ public class DFFItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
 
+        //Update 1.6
+        simpleItem(DFFItems.APPLE_BEER.get());
+        simpleItem(DFFItems.BLACKBERRY_BEER.get());
+        simpleItem(DFFItems.BLUEBERRY_BEER.get());
+        simpleItem(DFFItems.CRANBERRY_BEER.get());
+        simpleItem(DFFItems.GRAPEFRUIT_BEER.get());
+        simpleItem(DFFItems.ORANGE_BEER.get());
+        simpleItem(DFFItems.PURPLE_GRAPE_BEER.get());
+        simpleItem(DFFItems.RASPBERRY_BEER.get());
+        simpleItem(DFFItems.RED_GRAPE_BEER.get());
+        simpleItem(DFFItems.STRAWBERRY_BEER.get());
+        simpleItem(DFFItems.GREEN_GRAPE_BEER.get());
+        simpleItem(DFFItems.WHITE_RASPBERRY_BEER.get());
+        simpleItem(DFFItems.MANGO_BEER.get());
+        simpleItem(DFFItems.CHERRY_BEER.get());
+        simpleItem(DFFItems.KIWI_BEER.get());
+        simpleItem(DFFItems.LYCHEE_BEER.get());
+        simpleItem(DFFItems.PEAR_BEER.get());
+        simpleItem(DFFItems.POMEGRANATE_BEER.get());
+        simpleItem(DFFItems.DRAGONFRUIT_BEER.get());
+        simpleItem(DFFItems.PASSIONFRUIT_BEER.get());
+
+
+
         //Update 1.5
 
         simpleItem(DFFItems.DRAGONFRUIT_TURNOVER.get());

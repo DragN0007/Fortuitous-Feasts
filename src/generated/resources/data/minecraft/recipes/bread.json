@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:rye"
+    },
+    {
+      "tag": "forge:rye"
+    },
+    {
+      "tag": "forge:rye"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bread"
+  }
+}

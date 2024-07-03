@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:sugar"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:rye"
+    },
+    {
+      "item": "dffeasts:kiwi_juice"
+    }
+  ],
+  "result": {
+    "item": "dffeasts:kiwi_beer"
+  }
+}

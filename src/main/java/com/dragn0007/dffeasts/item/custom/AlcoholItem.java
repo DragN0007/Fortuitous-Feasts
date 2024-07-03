@@ -15,11 +15,11 @@ import net.minecraft.world.item.ItemUtils;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
 
-public class WineItem extends Item {
+public class AlcoholItem extends Item {
 
     public MobEffectInstance[] effectInstances;
 
-    public WineItem(MobEffectInstance... effectInstances) {
+    public AlcoholItem(MobEffectInstance... effectInstances) {
         super(new Properties().food(new FoodProperties.Builder().nutrition(5).saturationMod(1).build()).tab(DFFItemGroup.FOOD_GROUP));
         this.effectInstances = effectInstances;
     }

@@ -6,7 +6,7 @@ import com.dragn0007.dffeasts.block.DFFBlocks;
 import com.dragn0007.dffeasts.block.DFFBlocksNoDatagen;
 import com.dragn0007.dffeasts.item.custom.JuiceItem;
 import com.dragn0007.dffeasts.item.custom.TeaItem;
-import com.dragn0007.dffeasts.item.custom.WineItem;
+import com.dragn0007.dffeasts.item.custom.AlcoholItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -696,7 +696,7 @@ public class DFFItems {
 
     //Wine
     public static final RegistryObject<Item> APPLE_WINE = ITEMS.register("apple_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -705,7 +705,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> LYCHEE_WINE = ITEMS.register("lychee_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -714,7 +714,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> MANGO_WINE = ITEMS.register("mango_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -723,7 +723,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> ORANGE_WINE = ITEMS.register("orange_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -732,7 +732,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> PEAR_WINE = ITEMS.register("pear_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -741,7 +741,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> POMEGRANATE_WINE = ITEMS.register("pomegranate_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -750,7 +750,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> RASPBERRY_WINE = ITEMS.register("raspberry_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -759,7 +759,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> RED_GRAPE_WINE = ITEMS.register("red_grape_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -768,7 +768,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> PURPLE_GRAPE_WINE = ITEMS.register("purple_grape_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -777,7 +777,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> STRAWBERRY_WINE = ITEMS.register("strawberry_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -786,7 +786,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> WHITE_RASPBERRY_WINE = ITEMS.register("white_raspberry_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -795,7 +795,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> BLACKBERRY_WINE = ITEMS.register("blackberry_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -804,7 +804,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> BLUEBERRY_WINE = ITEMS.register("blueberry_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -813,7 +813,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> CHERRY_WINE = ITEMS.register("cherry_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -822,7 +822,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> CRANBERRY_WINE = ITEMS.register("cranberry_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -831,7 +831,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> GRAPEFRUIT_WINE = ITEMS.register("grapefruit_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -840,7 +840,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> GREEN_GRAPE_WINE = ITEMS.register("green_grape_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -849,7 +849,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> KIWI_WINE = ITEMS.register("kiwi_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -858,7 +858,7 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> DRAGONFRUIT_WINE = ITEMS.register("dragonfruit_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
@@ -867,12 +867,194 @@ public class DFFItems {
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
     public static final RegistryObject<Item> PASSIONFRUIT_WINE = ITEMS.register("passionfruit_wine",
-            () -> new WineItem(
+            () -> new AlcoholItem(
                     new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
                     new MobEffectInstance(MobEffects.REGENERATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 2880, 1, true, false),
                     new MobEffectInstance(MobEffects.DIG_SPEED, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+
+    //Beer
+    public static final RegistryObject<Item> APPLE_BEER = ITEMS.register("apple_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> LYCHEE_BEER = ITEMS.register("lychee_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> MANGO_BEER = ITEMS.register("mango_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> ORANGE_BEER = ITEMS.register("orange_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> PEAR_BEER = ITEMS.register("pear_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> POMEGRANATE_BEER = ITEMS.register("pomegranate_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> RASPBERRY_BEER = ITEMS.register("raspberry_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> RED_GRAPE_BEER = ITEMS.register("red_grape_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> PURPLE_GRAPE_BEER = ITEMS.register("purple_grape_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> STRAWBERRY_BEER = ITEMS.register("strawberry_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> WHITE_RASPBERRY_BEER = ITEMS.register("white_raspberry_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> BLACKBERRY_BEER = ITEMS.register("blackberry_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> BLUEBERRY_BEER = ITEMS.register("blueberry_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> CHERRY_BEER = ITEMS.register("cherry_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> CRANBERRY_BEER = ITEMS.register("cranberry_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> GRAPEFRUIT_BEER = ITEMS.register("grapefruit_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> GREEN_GRAPE_BEER = ITEMS.register("green_grape_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> KIWI_BEER = ITEMS.register("kiwi_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> DRAGONFRUIT_BEER = ITEMS.register("dragonfruit_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
+            ));
+    public static final RegistryObject<Item> PASSIONFRUIT_BEER = ITEMS.register("passionfruit_beer",
+            () -> new AlcoholItem(
+                    new MobEffectInstance(MobEffects.LUCK, 2880, 1,true, false),
+                    new MobEffectInstance(MobEffects.ABSORPTION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.SATURATION, 2880, 1, true, false),
+                    new MobEffectInstance(MobEffects.HERO_OF_THE_VILLAGE, 500, 1, true, false),
+                    new MobEffectInstance(MobEffects.NIGHT_VISION, 500, 1, true, false),
                     new MobEffectInstance(MobEffects.CONFUSION, 500, 0, true, false)
             ));
 
