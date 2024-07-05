@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dffeasts:grapefruit_leaves"
+          "name": "dffeasts:walnut_leaves"
         }
       ],
       "conditions": [
@@ -27,7 +27,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dffeasts:grapefruit"
+          "name": "dffeasts:walnut"
         }
       ],
       "functions": [
@@ -52,7 +52,7 @@
       "conditions": [
         {
           "condition": "minecraft:block_state_property",
-          "block": "dffeasts:grapefruit_leaves",
+          "block": "dffeasts:walnut_leaves",
           "properties": {
             "age": "3"
           }
@@ -65,7 +65,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dffeasts:grapefruit"
+          "name": "dffeasts:walnut"
         }
       ],
       "functions": [
@@ -90,7 +90,7 @@
       "conditions": [
         {
           "condition": "minecraft:block_state_property",
-          "block": "dffeasts:grapefruit_leaves",
+          "block": "dffeasts:walnut_leaves",
           "properties": {
             "age": "2"
           }
