@@ -37,7 +37,7 @@ public class DFFBlockLootTables extends BlockLoot {
         this.dropOther(DFFBlocks.WILD_GINGER_PLANT.get(), DFFItems.GINGER.get());
         this.dropOther(DFFBlocks.WILD_GREEN_BEAN_PLANT.get(), DFFItems.GREEN_BEANS.get());
         this.dropOther(DFFBlocks.WILD_PURPLE_GRAPE_PLANT.get(), DFFItems.PURPLE_GRAPES.get());
-        this.dropOther(DFFBlocks.WILD_RED_GRAPE_PLANT.get(), DFFItems.WHITE_GRAPES.get());
+        this.dropOther(DFFBlocks.WILD_RED_GRAPE_PLANT.get(), DFFItems.RED_GRAPES.get());
         this.dropOther(DFFBlocks.WILD_JALEPENO_PEPPER_PLANT.get(), DFFItems.JALEPENO_PEPPER.get());
         this.dropOther(DFFBlocks.WILD_KIDNEY_BEAN_PLANT.get(), DFFItems.KIDNEY_BEANS.get());
         this.dropOther(DFFBlocks.WILD_ONION_PLANT.get(), DFFItems.ONION.get());
