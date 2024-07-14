@@ -25,6 +25,22 @@ public class DFFItems {
 
     //TODO; Food
 
+    //Cookies
+    public static final RegistryObject<Item> CHOCOLATE_CHIP_COOKIE = ITEMS.register("chocolate_chip_cookie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(7).saturationMod(1).effect(new MobEffectInstance(MobEffects.DIG_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CRANBERRY_COOKIE = ITEMS.register("cranberry_cookie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(1).effect(new MobEffectInstance(MobEffects.DIG_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> DOUBLE_CHOCOLATE_CHIP_COOKIE = ITEMS.register("double_chocolate_chip_cookie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(9).saturationMod(1).effect(new MobEffectInstance(MobEffects.DIG_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> ICED_SUGAR_COOKIE = ITEMS.register("iced_sugar_cookie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(1).effect(new MobEffectInstance(MobEffects.DIG_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> PEANUT_BUTTER_COOKIE = ITEMS.register("peanut_butter_cookie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(9).saturationMod(1).effect(new MobEffectInstance(MobEffects.DIG_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> STRAWBERRY_CHEESECAKE_COOKIE = ITEMS.register("strawberry_cheesecake_cookie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(9).saturationMod(1).effect(new MobEffectInstance(MobEffects.DIG_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> SUGAR_COOKIE = ITEMS.register("sugar_cookie",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DIG_SPEED, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+
     //Meals
     public static final RegistryObject<Item> BLOOMING_ONION = ITEMS.register("blooming_onion",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));

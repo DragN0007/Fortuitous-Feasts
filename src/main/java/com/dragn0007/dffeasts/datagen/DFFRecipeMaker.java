@@ -23,6 +23,81 @@ public class DFFRecipeMaker extends RecipeProvider implements IConditionBuilder 
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> pFinishedRecipeConsumer) {
 
+        //TODO; Update 1.7
+        ShapelessRecipeBuilder.shapeless(DFFItems.CHOCOLATE_CHIP_COOKIE.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.COCOA)
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.CRANBERRY_COOKIE.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFItems.DRIED_CRANBERRIES.get())
+                .requires(DFFItems.DRIED_CRANBERRIES.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.DOUBLE_CHOCOLATE_CHIP_COOKIE.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.COCOA)
+                .requires(DFFTags.Items.COCOA)
+                .requires(DFFTags.Items.MILK)
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.ICED_SUGAR_COOKIE.get())
+                .requires(DFFItems.SUGAR_COOKIE.get())
+                .requires(DFFTags.Items.MILK)
+                .unlockedBy("has_sugar_cookie", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFItems.SUGAR_COOKIE.get())
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.PEANUT_BUTTER_COOKIE.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFItems.PEANUT_BUTTER.get())
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.STRAWBERRY_CHEESECAKE_COOKIE.get())
+                .requires(DFFItems.SUGAR_COOKIE.get())
+                .requires(DFFTags.Items.MILK)
+                .requires(DFFTags.Items.BUTTER)
+                .requires(DFFItems.STRAWBERRY_JAM.get())
+                .unlockedBy("has_sugar_cookie", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFItems.SUGAR_COOKIE.get())
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+        ShapelessRecipeBuilder.shapeless(DFFItems.SUGAR_COOKIE.get())
+                .requires(DFFTags.Items.SUGAR)
+                .requires(DFFTags.Items.FLOUR)
+                .requires(DFFTags.Items.FLOUR)
+                .unlockedBy("has_flour", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(DFFTags.Items.FLOUR)
+                        .build()))
+                .save(pFinishedRecipeConsumer);
+
+
+
+
+
         //TODO; Update 1.6
         ShapelessRecipeBuilder.shapeless(DFFItems.BLACKBERRY_BEER.get())
                 .requires(DFFTags.Items.SUGAR)

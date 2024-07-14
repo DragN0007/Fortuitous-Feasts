@@ -18,6 +18,15 @@ public class DFFItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
 
+        //Update 1.7
+        simpleItem(DFFItems.CHOCOLATE_CHIP_COOKIE.get());
+        simpleItem(DFFItems.CRANBERRY_COOKIE.get());
+        simpleItem(DFFItems.DOUBLE_CHOCOLATE_CHIP_COOKIE.get());
+        simpleItem(DFFItems.ICED_SUGAR_COOKIE.get());
+        simpleItem(DFFItems.PEANUT_BUTTER_COOKIE.get());
+        simpleItem(DFFItems.STRAWBERRY_CHEESECAKE_COOKIE.get());
+        simpleItem(DFFItems.SUGAR_COOKIE.get());
+
         //Update 1.6
         simpleItem(DFFItems.APPLE_BEER.get());
         simpleItem(DFFItems.BLACKBERRY_BEER.get());
