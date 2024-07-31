@@ -27,6 +27,15 @@ public class DFFItemModelProvider extends ItemModelProvider {
         simpleItem(DFFItems.STRAWBERRY_CHEESECAKE_COOKIE.get());
         simpleItem(DFFItems.SUGAR_COOKIE.get());
 
+        simpleItem(DFFItems.WHITE_BREAD.get());
+        simpleItem(DFFItems.BANANA_BREAD.get());
+        simpleItem(DFFItems.BLUEBERRY_BREAD.get());
+        simpleItem(DFFItems.CRANBERRY_BREAD.get());
+        simpleItem(DFFItems.RYE_BREAD.get());
+        simpleItem(DFFItems.NUT_BREAD.get());
+
+
+
         //Update 1.6
         simpleItem(DFFItems.APPLE_BEER.get());
         simpleItem(DFFItems.BLACKBERRY_BEER.get());
@@ -52,7 +61,6 @@ public class DFFItemModelProvider extends ItemModelProvider {
 
 
         //Update 1.5
-
         simpleItem(DFFItems.DRAGONFRUIT_TURNOVER.get());
         simpleItem(DFFItems.PASSIONFRUIT_TURNOVER.get());
         simpleItem(DFFItems.PICKLED_OLIVES.get());

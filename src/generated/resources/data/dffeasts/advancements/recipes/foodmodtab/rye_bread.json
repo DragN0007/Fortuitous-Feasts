@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:bread"
+      "dffeasts:rye_bread"
     ]
   },
   "criteria": {
-    "has_flour": {
+    "has_rye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "forge:flour"
+            "tag": "forge:rye"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:bread"
+        "recipe": "dffeasts:rye_bread"
       }
     }
   },
   "requirements": [
     [
-      "has_flour",
+      "has_rye",
       "has_the_recipe"
     ]
   ]

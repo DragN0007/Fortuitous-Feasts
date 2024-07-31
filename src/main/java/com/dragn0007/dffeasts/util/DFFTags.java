@@ -1,7 +1,6 @@
 package com.dragn0007.dffeasts.util;
 
 import com.dragn0007.dffeasts.DFFeastsMain;
-import com.dragn0007.dffeasts.item.DFFItems;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;

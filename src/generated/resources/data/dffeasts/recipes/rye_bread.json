@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "forge:flour"
+      "tag": "forge:rye"
     },
     {
-      "tag": "forge:flour"
+      "tag": "forge:rye"
     },
     {
-      "tag": "forge:flour"
+      "tag": "forge:rye"
     }
   ],
   "result": {
-    "item": "minecraft:bread"
+    "item": "dffeasts:rye_bread"
   }
 }

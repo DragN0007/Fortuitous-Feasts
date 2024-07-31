@@ -2,16 +2,19 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "tag": "forge:flour"
+      "tag": "forge:sugar"
     },
     {
       "tag": "forge:flour"
     },
     {
       "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:nuts"
     }
   ],
   "result": {
-    "item": "minecraft:bread"
+    "item": "dffeasts:nut_bread"
   }
 }

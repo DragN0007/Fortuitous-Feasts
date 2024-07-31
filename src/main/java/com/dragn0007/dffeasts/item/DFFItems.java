@@ -4,9 +4,9 @@ package com.dragn0007.dffeasts.item;
 import com.dragn0007.dffeasts.DFFeastsMain;
 import com.dragn0007.dffeasts.block.DFFBlocks;
 import com.dragn0007.dffeasts.block.DFFBlocksNoDatagen;
+import com.dragn0007.dffeasts.item.custom.AlcoholItem;
 import com.dragn0007.dffeasts.item.custom.JuiceItem;
 import com.dragn0007.dffeasts.item.custom.TeaItem;
-import com.dragn0007.dffeasts.item.custom.AlcoholItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -24,6 +24,20 @@ public class DFFItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, DFFeastsMain.MODID);
 
     //TODO; Food
+
+    //Bread
+    public static final RegistryObject<Item> WHITE_BREAD = ITEMS.register("white_bread",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> RYE_BREAD = ITEMS.register("rye_bread",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(6).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> BANANA_BREAD = ITEMS.register("banana_bread",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> BLUEBERRY_BREAD = ITEMS.register("blueberry_bread",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> CRANBERRY_BREAD = ITEMS.register("cranberry_bread",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(8).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
+    public static final RegistryObject<Item> NUT_BREAD = ITEMS.register("nut_bread",
+            () -> new Item(new Item.Properties().food(new FoodProperties.Builder().nutrition(9).saturationMod(1).effect(new MobEffectInstance(MobEffects.SATURATION, 600, 0), 0.8F).build()).tab(DFFItemGroup.FOOD_GROUP)));
 
     //Cookies
     public static final RegistryObject<Item> CHOCOLATE_CHIP_COOKIE = ITEMS.register("chocolate_chip_cookie",
